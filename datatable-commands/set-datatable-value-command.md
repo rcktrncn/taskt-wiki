@@ -22,8 +22,8 @@ Use this command when you want to set the DataTable value.
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
-- [Optional - Please Specify the Index of the Row](#param_3)
-- [Please Specify the Value to Set](#param_4)
+- [Please Specify the Value to Set](#param_3)
+- [Optional - Please Specify the Index of the Row](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -33,8 +33,7 @@ Use this command when you want to set the DataTable value.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Value</dt><dd>DataTable Variable</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
+<dt>Instance Type</dt><dd>DataTable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -126,6 +125,36 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Please Specify the Value to Set
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Specify **Hello** |
+| <strong>123</strong> | Specify **123** |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Index of the Row
 
 
@@ -146,36 +175,6 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>-1</strong> | Specify Last Row Index |
 | <strong>1</strong> | Specify **1** for Row Index |
 | <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
-### Please Specify the Value to Set
-
-
-<dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>Hello</strong> | Specify **Hello** |
-| <strong>123</strong> | Specify **123** |
-| <strong>{vValue}</strong> | Specify Value of Variable **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -212,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

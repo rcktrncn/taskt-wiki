@@ -19,14 +19,14 @@ Use this command when you want to convert DataTable Row to DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name to Converted](#param_0)
+- [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Specify the Index of the Row](#param_1)
 - [Please Select the New DataTable Variable Name](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name to Converted
+### Please Select the DataTable Variable Name
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableRowToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

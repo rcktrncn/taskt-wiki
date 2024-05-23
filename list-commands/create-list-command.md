@@ -19,12 +19,42 @@ Use this command when you want to create new List.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
-- [Please Specify the List Values](#param_1)
+- [Please Specify the List Values](#param_0)
+- [Please Select the List Variable Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
+### Please Specify the List Values
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Set **1** |
+| <strong>ABC</strong> | Set **ABC** |
+| <strong>{vValue}</strong> | Set Value of Variable **vValue** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+prev / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
+<a id="param_1"></a>
 ### Please Select the List Variable Name
 
 
@@ -47,36 +77,6 @@ Use this command when you want to create new List.
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-prev / [list](#param_list) / [next](#param_1)
-
-
-</div>
-
-
-<a id="param_1"></a>
-### Please Specify the List Values
-
-
-<dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>1</strong> | Set **1** |
-| <strong>ABC</strong> | Set **ABC** |
-| <strong>{vValue}</strong> | Set Value of Variable **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

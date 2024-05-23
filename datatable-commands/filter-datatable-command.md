@@ -20,7 +20,7 @@ Use this command when you want to get specific rows of a DataTable.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the DataTable Variable Name](#param_0)
-- [Please indicate the output DataTable Variable Name](#param_1)
+- [Please Select the New DataTable Variable Name](#param_1)
 - [Please indicate tuples to filter by.](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
@@ -32,11 +32,21 @@ Use this command when you want to get specific rows of a DataTable.
 <dl>
 <dt>What to input</dt><dd>Enter the DataTable name you would like to filter through.</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
-<dt>Sample Usage</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -49,18 +59,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the output DataTable Variable Name
+### Please Select the New DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a unique DataTable name for future reference.</dd>
+<dt>What to input</dt><dd>Enter or Select the New DataTable Variable Name</dd>
 <dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>newData or {vNewData}</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vNewDataTable or {vNewDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vNewDataTable</strong> | Specify Variable Name **vNewDataTable** |
+| <strong>{vNewDataTable}</strong> | Specify Variable Name **vNewDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -119,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

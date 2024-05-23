@@ -22,14 +22,16 @@ Use this command when you want to send keystroke inputs to a window.
 - [Please Select the Window Name](#param_0)
 - [Please Specify the Text or Keys to Send.](#param_1)
 - [Optional - Please Select the Text is Encrypted or Not](#param_2)
-- [Optional - Please Select the Compare Method for the Window Name](#param_3)
-- [Optional - Please Select the Match Method for the Window Name](#param_4)
-- [Optional - Please Specify the Window Index](#param_5)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_6)
-- [Optional - Please Specify the Wait Time after Keys Enter (ms)](#param_7)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
-- [Optional - Please Specify the Comment Field](#param_10)
+- [Optional - Please Select the Use Paste from Clipboard](#param_3)
+- [Optional - Please Select the Compare Method for the Window Name](#param_4)
+- [Optional - Please Select the Match Method for the Window Name](#param_5)
+- [Optional - Please Specify the Window Index](#param_6)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [Optional - Please Specify the Wait Time after Keys Enter (ms)](#param_8)
+- [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_9)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
+- [Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
@@ -122,6 +124,30 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Use Paste from Clipboard
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd>When entering keys in combination with the Ctrl key, etc., It will NOT work correctly.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Select the Compare Method for the Window Name
 
 
@@ -138,13 +164,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_5"></a>
 ### Optional - Please Select the Match Method for the Window Name
 
 
@@ -170,13 +196,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Window Index
 
 
@@ -200,13 +226,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
@@ -230,13 +256,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Wait Time after Keys Enter (ms)
 
 
@@ -264,13 +290,36 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
 
 
 </div>
 
 
-<a id="param_8"></a>
+<a id="param_9"></a>
+### Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
+
+
+</div>
+
+
+<a id="param_10"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -296,13 +345,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
 
 
 </div>
 
 
-<a id="param_9"></a>
+<a id="param_11"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -328,13 +377,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / [next](#param_10)
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
 
 
 </div>
 
 
-<a id="param_10"></a>
+<a id="param_12"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -350,7 +399,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_10) / [list](#param_list) / next
+[prev](#param_12) / [list](#param_list) / next
 
 
 </div>
@@ -359,7 +408,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

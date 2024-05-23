@@ -27,7 +27,8 @@ Use this command when you want to get Range values as DataTable.
 - [Optional - Please Specify the End Row Index](#param_5)
 - [Please Select the DataTable Variable Name](#param_6)
 - [Optional - Please Select the Value Type](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
@@ -288,6 +289,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
+### Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -303,7 +327,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -312,7 +336,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRangeValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

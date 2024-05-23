@@ -19,80 +19,14 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Specify the Index of the Row](#param_1)
-- [Please Select the Dictionary Variable Name](#param_2)
-- [Optional - Please Select the When Dictionary Key does not Exists](#param_3)
+- [Please Select the Dictionary Variable Name](#param_0)
+- [Optional - Please Select the When Dictionary Key does not Exists](#param_1)
+- [Please Select the DataTable Variable Name](#param_2)
+- [Optional - Please Specify the Index of the Row](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Value</dt><dd>DataTable Variable</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
-| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-prev / [list](#param_list) / [next](#param_1)
-
-
-</div>
-
-
-<a id="param_1"></a>
-### Optional - Please Specify the Index of the Row
-
-
-<dl>
-<dt>What to input</dt><dd>Index of the Row</dd>
-<dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
-<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
-<strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>0</strong> | Specify First Row Index |
-| <strong>-1</strong> | Specify Last Row Index |
-| <strong>1</strong> | Specify **1** for Row Index |
-| <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
-
-
-</div>
-
-
-<a id="param_2"></a>
 ### Please Select the Dictionary Variable Name
 
 
@@ -120,13 +54,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+prev / [list](#param_list) / [next](#param_1)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_1"></a>
 ### Optional - Please Select the When Dictionary Key does not Exists
 
 
@@ -145,6 +79,72 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>Ignore</strong> | Do not Set a Value |
 | <strong>Error</strong> | Rise a Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
+### Please Select the DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Specify the Index of the Row
+
+
+<dl>
+<dt>What to input</dt><dd>Index of the Row</dd>
+<dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
+<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify First Row Index |
+| <strong>-1</strong> | Specify Last Row Index |
+| <strong>1</strong> | Specify **1** for Row Index |
+| <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -181,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableRowValuesByDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

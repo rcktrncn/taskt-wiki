@@ -155,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear WebElement</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exists</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get WebElement Position</strong> or  <strong>Get WebElement Size</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear Text</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exists</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get WebElement Position</strong> or  <strong>Get WebElement Size</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -271,7 +271,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserWebElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

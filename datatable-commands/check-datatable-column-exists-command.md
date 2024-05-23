@@ -20,9 +20,10 @@ Use this command when you want to check the column name existance.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
-- [Please Specify the Name of Column](#param_1)
-- [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Select the Column type](#param_1)
+- [Please Specify the Name or Index of the Column](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -59,16 +60,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Name of Column
+### Optional - Please Select the Column type
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>name or {vColName}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Column Name</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Column Name</strong></dd>
 </dl>
 
 
@@ -77,8 +76,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>name</strong> | Specify **name** for Column Name to be Checked |
-| <strong>{vColName}</strong> | Specify Value of Variable **vColName** for Column Name to be Checked |
+| <strong>Column Name</strong> | Specify the Column Name like **Name** |
+| <strong>Index</strong> | Specify the Column Index like **0** or **1** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -91,6 +90,40 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Please Specify the Name or Index of the Column
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>id or 0 or -1 or {vColumn}</dd>
+<dt>Remarks</dt><dd>If <strong>-1</strong> is specified for Column Index, it means the last column.</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Column Name |
+| <strong>0</strong> | Specify **0** for Column Index |
+| <strong>-1</strong> | Specify Last Column Index |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Name or Index |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Please Select the Variable Name to Store Result
 
 
@@ -118,13 +151,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -140,7 +173,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -149,7 +182,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckDataTableColumnExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

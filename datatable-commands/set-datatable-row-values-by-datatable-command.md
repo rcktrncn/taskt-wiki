@@ -19,22 +19,21 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name to be Setted](#param_0)
-- [Optional - Please Specify the  Row Index to be Setted](#param_1)
-- [Please Select the DataTable Variable Name to Set](#param_2)
-- [Optional - Please Specify the  Row Index to Set](#param_3)
-- [Optional - Please Select the When DataTable Column does not Exists](#param_4)
+- [Please Select the DataTable Variable Name to Set](#param_0)
+- [Optional - Please Specify the Row Index to Set](#param_1)
+- [Optional - Please Select the When DataTable Column does not Exists](#param_2)
+- [Please Select the DataTable Variable Name to be Setted](#param_3)
+- [Optional - Please Specify the Index of the Row](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name to be Setted
+### Please Select the DataTable Variable Name to Set
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Value</dt><dd>DataTable Variable</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
+<dt>Instance Type</dt><dd>DataTable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -62,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the  Row Index to be Setted
+### Optional - Please Specify the Row Index to Set
 
 
 <dl>
@@ -94,12 +93,43 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the DataTable Variable Name to Set
+### Optional - Please Select the When DataTable Column does not Exists
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Do not add a Column |
+| <strong>Error</strong> | Rise a Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Please Select the DataTable Variable Name to be Setted
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -120,14 +150,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_3"></a>
-### Optional - Please Specify the  Row Index to Set
+<a id="param_4"></a>
+### Optional - Please Specify the Index of the Row
 
 
 <dl>
@@ -147,36 +177,6 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>-1</strong> | Specify Last Row Index |
 | <strong>1</strong> | Specify **1** for Row Index |
 | <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
-### Optional - Please Select the When DataTable Column does not Exists
-
-
-<dl>
-<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>Ignore</strong> | Do not add a Column |
-| <strong>Error</strong> | Rise a Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -213,7 +213,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableRowValuesByDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

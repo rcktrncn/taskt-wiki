@@ -19,24 +19,35 @@ Use this command when you want to Delete a specific Row.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
+- [Please Select the DataTable Variable Name](#param_0)
 - [Please indicate tuples to delete column rows](#param_1)
 - [Please select overwrite option](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Please Select the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the name of your DataTable</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
-<dt>Sample Usage</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -118,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SearchAndDeleteDataTableRowsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

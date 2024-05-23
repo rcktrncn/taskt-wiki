@@ -63,7 +63,6 @@
 |DataTable Action|[Filter DataTable Column By Row Value](/datatable-commands/filter-datatable-column-by-row-value-command.md)|This command allows you to Filter Columns by reference to Row values.|
 |DataTable Action|[Filter DataTable Row By Column Value](/datatable-commands/filter-datatable-row-by-column-value-command.md)|This command allows you to Filter Rows by reference to Column values.|
 |DataTable Action|[Get DataTable Value](/datatable-commands/get-datatable-value-command.md)|This command allows you to get the DataTable value|
-|DataTable Action|[Load DataTable](/datatable-commands/load-datatable-command.md)|This command gets a range of cells and applies them against a dataset|
 |DataTable Action|[Replace DataTable Column Value](/datatable-commands/replace-datatable-column-value-command.md)|This command allows you to Replace Column values.|
 |DataTable Action|[Replace DataTable Row Value](/datatable-commands/replace-datatable-row-value-command.md)|This command allows you to Replace Row values.|
 |DataTable Action|[Replace DataTable Value](/datatable-commands/replace-datatable-value-command.md)|This command allows you to Replace values.|
@@ -105,7 +104,6 @@
 |Dictionary Action|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
 |Dictionary Action|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
 |Dictionary Action|[Filter Dictionary](/dictionary-commands/filter-dictionary-command.md)|This command allows you to filter Dictionary value.|
-|Dictionary Action|[Load Dictionary](/dictionary-commands/load-dictionary-command.md)|This command Reads a Config file and stores it into a Dictionary.|
 |Dictionary Action|[Replace Dictionary](/dictionary-commands/replace-dictionary-command.md)|This command allows you to relace Dictionary value.|
 |Dictionary Item|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
 |Dictionary Item|[Get Dictionary Value](/dictionary-commands/get-dictionary-value-command.md)|This command allows you to get value in Dictionary|
@@ -166,6 +164,8 @@
 |Column|[Set Column Values From Dictionary](/excel-commands/set-column-values-from-dictionary-command.md)|This command set Column values from Ditionary.|
 |Column|[Set Column Values From List](/excel-commands/set-column-values-from-list-command.md)|This command set Column values from List.|
 |File/Book|[Add Workbook](/excel-commands/add-workbook-command.md)|This command adds a new Excel Workbook.|
+|File/Book|[Create DataTable From Excel File](/excel-commands/create-datatable-from-excel-file-command.md)|This command Open a File and Get Cell Values as a DataTable|
+|File/Book|[Create Dictionary From Excel File](/excel-commands/create-dictionary-from-excel-file-command.md)|This command Open a File and Get Cell Values as a Dictionary|
 |File/Book|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
 |File/Book|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
 |File/Book|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
@@ -329,10 +329,8 @@
 |Clipboard|[Set Clipboard Text](/misc-commands/set-clipboard-text-command.md)|This command allows you to set text to the clipboard.|
 |Network/Internet|[Ping](/misc-commands/ping-command.md)|This command allows you to add an in-line comment to the script.|
 |Network/Internet|[Send SMTP Email](/misc-commands/send-smtp-email-command.md)|This command allows you to send email using SMTP protocol.|
-|Other|[Comment](/misc-commands/comment-command.md)|This command allows you to add an in-line comment to the script.|
 |Other|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
 |Other|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
-|Other|[Sequence](/misc-commands/sequence-command.md)|Command that groups multiple actions|
 ### NLG Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -367,6 +365,11 @@
 | ---                | ---           | ---                   |
 ||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
+### Script Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[Comment](/script-commands/comment-command.md)|This command allows you to add an in-line comment to the script.|
+||[Sequence](/script-commands/sequence-command.md)|Command that groups multiple actions|
 ### StopWatch Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -529,4 +532,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM

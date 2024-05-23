@@ -19,7 +19,7 @@ Use this command when you want to convert DataTable Column to DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name to Converted](#param_0)
+- [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
 - [Please Select the New DataTable Variable Name](#param_3)
@@ -27,7 +27,7 @@ Use this command when you want to convert DataTable Column to DataTable.
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name to Converted
+### Please Select the DataTable Variable Name
 
 
 <dl>
@@ -182,7 +182,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help

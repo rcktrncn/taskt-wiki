@@ -27,9 +27,10 @@ Use this command when you want to send advanced keystroke inputs to a window.
 - [Optional - Please Select the Match Method for the Window Name](#param_5)
 - [Optional - Please Specify the Window Index](#param_6)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
-- [Optional - Please Specify the Comment Field](#param_10)
+- [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_8)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
@@ -261,6 +262,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
+### Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -286,13 +310,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
 
 
 </div>
 
 
-<a id="param_9"></a>
+<a id="param_10"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -318,13 +342,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / [next](#param_10)
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
 
 
 </div>
 
 
-<a id="param_10"></a>
+<a id="param_11"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -340,7 +364,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_10) / [list](#param_list) / next
+[prev](#param_11) / [list](#param_list) / next
 
 
 </div>
@@ -349,7 +373,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/07/24 09:15 PM
+This page was generated on 05/23/24 07:13 PM
 
 
 ## Help
