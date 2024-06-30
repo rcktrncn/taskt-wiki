@@ -1,9 +1,9 @@
 <!--TITLE: Show HTML Input Dialog Command -->
-<!-- SUBTITLE: a command in the Dialog/Message Commands group. -->
+<!-- SUBTITLE: a command in the Dialog/Message group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Dialog/Message Commands &gt; Show HTML Input Dialog
+Dialog/Message &gt; Show HTML Input Dialog
 
 
 # Show HTML Input Dialog Command
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowHTMLInputDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

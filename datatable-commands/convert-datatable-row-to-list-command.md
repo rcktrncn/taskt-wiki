@@ -1,9 +1,9 @@
 <!--TITLE: Convert DataTable Row To List Command -->
-<!-- SUBTITLE: a command in the DataTable Commands group. -->
+<!-- SUBTITLE: a command in the DataTable group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DataTable Commands &gt; Convert Row &gt; Convert DataTable Row To List
+DataTable &gt; Convert Row &gt; Convert DataTable Row To List
 
 
 # Convert DataTable Row To List Command
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableRowToListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

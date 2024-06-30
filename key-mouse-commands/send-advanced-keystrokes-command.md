@@ -1,9 +1,9 @@
 <!--TITLE: Send Advanced Keystrokes Command -->
-<!-- SUBTITLE: a command in the Key/Mouse Commands group. -->
+<!-- SUBTITLE: a command in the Key/Mouse group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Key/Mouse Commands &gt; Key &gt; Send Advanced Keystrokes
+Key/Mouse &gt; Key &gt; Send Advanced Keystrokes
 
 
 # Send Advanced Keystrokes Command
@@ -373,7 +373,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

@@ -1,9 +1,9 @@
 <!--TITLE: Rename File Command -->
-<!-- SUBTITLE: a command in the File Operation Commands group. -->
+<!-- SUBTITLE: a command in the File Operation group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-File Operation Commands &gt; Rename File
+File Operation &gt; Rename File
 
 
 # Rename File Command
@@ -303,7 +303,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

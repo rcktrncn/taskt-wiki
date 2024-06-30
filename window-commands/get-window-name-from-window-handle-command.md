@@ -1,9 +1,9 @@
 <!--TITLE: Get Window Name From Window Handle Command -->
-<!-- SUBTITLE: a command in the Window Commands group. -->
+<!-- SUBTITLE: a command in the Window group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Window Commands &gt; Get From Window Handle &gt; Get Window Name From Window Handle
+Window &gt; Get From Window Handle &gt; Get Window Name From Window Handle
 
 
 # Get Window Name From Window Handle Command
@@ -148,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowNameFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

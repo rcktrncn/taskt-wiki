@@ -1,9 +1,9 @@
 <!--TITLE: Get Dictionary Keys List Command -->
-<!-- SUBTITLE: a command in the Dictionary Commands group. -->
+<!-- SUBTITLE: a command in the Dictionary group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Dictionary Commands &gt; Dictionary Key &gt; Get Dictionary Keys List
+Dictionary &gt; Dictionary Key &gt; Get Dictionary Keys List
 
 
 # Get Dictionary Keys List Command
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryKeysListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

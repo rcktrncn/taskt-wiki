@@ -1,9 +1,9 @@
 <!--TITLE: Replace DataTable Row Value Command -->
-<!-- SUBTITLE: a command in the DataTable Commands group. -->
+<!-- SUBTITLE: a command in the DataTable group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DataTable Commands &gt; DataTable Action &gt; Replace DataTable Row Value
+DataTable &gt; DataTable Action &gt; Replace DataTable Row Value
 
 
 # Replace DataTable Row Value Command
@@ -229,7 +229,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDataTableRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

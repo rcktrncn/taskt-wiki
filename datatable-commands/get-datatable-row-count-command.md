@@ -1,9 +1,9 @@
 <!--TITLE: Get DataTable Row Count Command -->
-<!-- SUBTITLE: a command in the DataTable Commands group. -->
+<!-- SUBTITLE: a command in the DataTable group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DataTable Commands &gt; Row Action &gt; Get DataTable Row Count
+DataTable &gt; Row Action &gt; Get DataTable Row Count
 
 
 # Get DataTable Row Count Command
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDataTableRowCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

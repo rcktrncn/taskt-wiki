@@ -1,9 +1,9 @@
 <!--TITLE: Send SMTP Email Command -->
-<!-- SUBTITLE: a command in the Misc Commands group. -->
+<!-- SUBTITLE: a command in the Misc group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Misc Commands &gt; Network/Internet &gt; Send SMTP Email
+Misc &gt; Network/Internet &gt; Send SMTP Email
 
 
 # Send SMTP Email Command
@@ -302,7 +302,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SMTPSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

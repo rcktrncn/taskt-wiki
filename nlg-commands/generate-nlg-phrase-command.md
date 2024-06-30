@@ -1,9 +1,9 @@
 <!--TITLE: Generate NLG Phrase Command -->
-<!-- SUBTITLE: a command in the NLG Commands group. -->
+<!-- SUBTITLE: a command in the NLG group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-NLG Commands &gt; Generate NLG Phrase
+NLG &gt; Generate NLG Phrase
 
 
 # Generate NLG Phrase Command
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: NLGGenerateNLGPhraseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

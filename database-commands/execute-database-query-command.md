@@ -1,9 +1,9 @@
 <!--TITLE: Execute Database Query Command -->
-<!-- SUBTITLE: a command in the Database Commands group. -->
+<!-- SUBTITLE: a command in the Database group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Database Commands &gt; Execute Database Query
+Database &gt; Execute Database Query
 
 
 # Execute Database Query Command
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DatabaseExecuteQueryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

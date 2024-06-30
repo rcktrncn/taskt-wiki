@@ -1,13 +1,13 @@
 <!--TITLE: Automation Commands -->
 <!-- SUBTITLE: an overview of available commands in taskt. -->
 ## Automation Commands
-### API Commands
+### API
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Execute DLL](/api-commands/execute-dll-command.md)|This command processes an HTML source object|
 ||[Execute REST API](/api-commands/execute-rest-api-command.md)|This command allows you to show a message to the user.|
 ||[Send HTTP Request](/api-commands/send-http-request-command.md)|This command downloads the HTML source of a web page for parsing|
-### Application/Script Commands
+### Application/Script
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Application|[Start Application](/application-script-commands/start-application-command.md)|This command allows you to start a program or a process.|
@@ -19,14 +19,14 @@
 |Windows Script File|[Run Batch Script File](/application-script-commands/run-batch-script-file-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
 |Windows Script File|[Run CSharp Code](/application-script-commands/run-csharp-code-command.md)|This command allows you to run C# code from the input|
 |Windows Script File|[Run PowerShell Script File](/application-script-commands/run-powershell-script-file-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
-### Color Commands
+### Color
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Convert Color](/color-commands/convert-color-command.md)|This command allows you to get convert Color Value.|
 ||[Create Color](/color-commands/create-color-command.md)|This command allows you to create Color.|
 ||[Create Color From Excel Color](/color-commands/create-color-from-excel-color-command.md)|This command allows you to create Color from Excel Color.|
 ||[Create Color From HEX](/color-commands/create-color-from-hex-command.md)|This command allows you to create Color from HEX.|
-### Data Commands
+### Data
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
@@ -34,12 +34,12 @@
 ||[Get HTML Text By XPath](/data-commands/get-html-text-by-xpath-command.md)|This command processes an HTML source object|
 ||[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
 ||[PDF Extraction](/data-commands/pdf-extraction-command.md)||
-### Database Commands
+### Database
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Define Database Connection](/database-commands/define-database-connection-command.md)|This command allows you to define a connection to an OLEDB data source|
 ||[Execute Database Query](/database-commands/execute-database-query-command.md)|This command allows you to perform a database query and apply the result to a dataset|
-### DataTable Commands
+### DataTable
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Column Action|[Add DataTable Column](/datatable-commands/add-datatable-column-command.md)|This command allows you to add a column to a DataTable|
@@ -76,7 +76,7 @@
 |Row Action|[Search And Delete DataTable Rows](/datatable-commands/search-and-delete-datatable-rows-command.md)|This command allows you Delete specified DataTable Rows.|
 |Row Action|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
 |Row Action|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
-### DateTime Commands
+### DateTime
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Calculate DateTime](/datetime-commands/calculate-datetime-command.md)|This command allows you to Calculate DateTime. Add Day, Minute, etc.|
@@ -86,7 +86,7 @@
 ||[Create DateTime From Text](/datetime-commands/create-datetime-from-text-command.md)|This command allows you to create DateTime from Text.|
 ||[Format DateTime](/datetime-commands/format-datetime-command.md)|This command allows you to Format DateTime Text.|
 ||[Get DateTime Differences](/datetime-commands/get-datetime-differences-command.md)|This command allows you to Get 2 DateTime Differences.|
-### Dialog/Message Commands
+### Dialog/Message
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Show File Dialog](/dialog-message-commands/show-file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
@@ -94,7 +94,7 @@
 ||[Show HTML Input Dialog](/dialog-message-commands/show-html-input-dialog-command.md)|Allows the entry of data into a web-enabled form|
 ||[Show Message](/dialog-message-commands/show-message-command.md)|This command allows you to show a message to the user.|
 ||[Show User Input Dialog](/dialog-message-commands/show-user-input-dialog-command.md)|Sends keystrokes to a targeted window|
-### Dictionary Commands
+### Dictionary
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
@@ -112,7 +112,7 @@
 |Dictionary Key|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
 |Dictionary Key|[Get Dictionary Key From Value](/dictionary-commands/get-dictionary-key-from-value-command.md)|This command allows you to get Dictionary key Name from Value|
 |Dictionary Key|[Get Dictionary Keys List](/dictionary-commands/get-dictionary-keys-list-command.md)|This command allows you to get Keys List in Dictionary|
-### EMail Commands
+### EMail
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Get Addresses As DataTable](/email-commands/get-addresses-as-datatable-command.md)|This command allows you to get Addresses from EMail.|
@@ -127,7 +127,7 @@
 ||[Save EMail](/email-commands/save-email-command.md)|This command allows you to Save EMail.|
 ||[Save EMail Attachments](/email-commands/save-email-attachments-command.md)|This command allows you to save EMail Attachments.|
 ||[Send EMail](/email-commands/send-email-command.md)|This command allows you to send EMail using SMTP protocol.|
-### Engine Commands
+### Engine
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Error Handling](/engine-commands/error-handling-command.md)|This command specifies what to do  after an error is encountered.|
@@ -137,7 +137,7 @@
 ||[Set Engine Preference](/engine-commands/set-engine-preference-command.md)|This command allows you to set preferences for engine behavior.|
 ||[Show Engine Context](/engine-commands/show-engine-context-command.md)|This command allows you to show a message to the user.|
 ||[Upload BotStore Data](/engine-commands/upload-botstore-data-command.md)|This command allows you to upload data to a local tasktServer bot store|
-### Error Handling Commands
+### Error Handling
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Catch Exception](/error-handling-commands/catch-exception-command.md)|This command allows you to define actions that should occur after encountering an error.|
@@ -145,7 +145,7 @@
 ||[Finally](/error-handling-commands/finally-command.md)|This command specifies execution that should occur whether or not an error occured|
 ||[Throw Exception](/error-handling-commands/throw-exception-command.md)|This command allows you to throw an exception error.|
 ||[Try](/error-handling-commands/try-command.md)|This command allows embedding commands and will automatically move to the 'catch' handler|
-### Excel Commands
+### Excel
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Cell|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
@@ -197,7 +197,7 @@
 |Worksheet|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
 |Worksheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
 |Worksheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
-### File Operation Commands
+### File Operation
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
@@ -210,7 +210,7 @@
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
-### Folder Operation Commands
+### Folder Operation
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existence of folder paths from a specified location|
@@ -222,7 +222,7 @@
 ||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
 ||[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
-### IE Browser Commands
+### IE Browser
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Close Browser](/ie-browser-commands/close-browser-command.md)|This command allows you to close the associated IE web browser|
@@ -230,20 +230,20 @@
 ||[Element Action](/ie-browser-commands/element-action-command.md)|This command allows you to manipulate (get or set) elements within the HTML document of the associated IE web browser.  Features an assisting element capture form|
 ||[Find Browser](/ie-browser-commands/find-browser-command.md)|This command allows you to find and attach to an existing IE web browser session.|
 ||[Navigate to URL](/ie-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a IE web browser session to a given URL or resource.|
-### If Commands
+### If
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Begin If](/if-commands/begin-if-command.md)|This command allows you to evaluate a logical statement to determine if the statement is true.|
 ||[Begin Multi If](/if-commands/begin-multi-if-command.md)|This command allows you to evaluate a logical statement to determine if the statement is true.|
 ||[Else](/if-commands/else-command.md)|This command declares the seperation between the actions based on the 'true' or 'false' condition.|
 ||[End If](/if-commands/end-if-command.md)|This command signifies the exit point of If actions.  Required for all Begin Ifs.|
-### Image Commands
+### Image
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Execute OCR](/image-commands/execute-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
 ||[Image Recognition](/image-commands/image-recognition-command.md)|This command attempts to find an existing image on screen.|
 ||[Take Screenshot](/image-commands/take-screenshot-command.md)|This command takes a screenshot and saves it to a location|
-### JSON Commands
+### JSON
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Action|[Add JSON Array Item](/json-commands/add-json-array-item-command.md)|This command allows you to add item to JSON Array.|
@@ -252,16 +252,19 @@
 |Action|[Insert JSON Array Item](/json-commands/insert-json-array-item-command.md)|This command allows you to insert item to JSON Array.|
 |Action|[Insert JSON Object Property](/json-commands/insert-json-object-property-command.md)|This command allows you to add property to JSON Object.|
 |Action|[Remove JSON Array Item](/json-commands/remove-json-array-item-command.md)|This command allows you to remove item to JSON Array.|
-|Action|[Remove JSON Property](/json-commands/remove-json-property-command.md)|This command allows you to remove a property in JSON|
+|Action|[Remove JSON Object Property](/json-commands/remove-json-object-property-command.md)|This command allows you to remove a property in JSON|
 |Convert|[Convert JSON To DataTable](/json-commands/convert-json-to-datatable-command.md)|This command allows you to convert JSON to DataTable.|
 |Convert|[Convert JSON To Dictionary](/json-commands/convert-json-to-dictionary-command.md)|This command allows you to convert JSON to Dictionary.|
 |Convert|[Convert JSON To List](/json-commands/convert-json-to-list-command.md)|This command allows you to convert JSON Array into a List.|
-|Convert|[Parse JSON Array](/json-commands/parse-json-array-command.md)|This command allows you to parse a JSON Array into a list.|
 |File|[Read JSON File](/json-commands/read-json-file-command.md)|This command reads JSON data into a variable|
+|Get/Set|[Get JSON Value From JSON Array](/json-commands/get-json-value-from-json-array-command.md)|This command allows you to parse a JSON object into a list.|
+|Get/Set|[Get JSON Value From JSON Object](/json-commands/get-json-value-from-json-object-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Get JSON Value List](/json-commands/get-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Get Multi JSON Value List](/json-commands/get-multi-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Set JSON Value](/json-commands/set-json-value-command.md)|This command allows you to set value in JSON.|
-### Key/Mouse Commands
+|Get/Set|[Set JSON Value Of JSON Object](/json-commands/set-json-value-of-json-object-command.md)|This command allows you to parse a JSON object into a list.|
+|Get/Set|[Set JSON Value Of JSON Object](/json-commands/set-json-value-of-json-object-command.md)|This command allows you to parse a JSON object into a list.|
+### Key/Mouse
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Key|[Enter Keys](/key-mouse-commands/enter-keys-command.md)|Sends keystrokes to a targeted window|
@@ -269,7 +272,7 @@
 |Key|[Send Advanced Keystrokes](/key-mouse-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
 |Mouse|[Click Mouse](/key-mouse-commands/click-mouse-command.md)|Simulates mouse clicks.|
 |Mouse|[Move Mouse](/key-mouse-commands/move-mouse-command.md)|Simulates mouse movements|
-### List Commands
+### List
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Convert|[Convert List To DataTable](/list-commands/convert-list-to-datatable-command.md)|This command convert a List to a DataTable.|
@@ -296,18 +299,18 @@
 |Other|[Get List Index](/list-commands/get-list-index-command.md)|This command allows you to get List Index.|
 |Other|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |Other|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
-### Loop Commands
+### Loop
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Begin Loop](/loop-commands/begin-loop-command.md)|This command allows you to evaluate a logical statement to determine if the statement is true. The following actions will repeat continuously until that statement becomes false|
 ||[Begin Multi Loop](/loop-commands/begin-multi-loop-command.md)|This command allows you to evaluate a logical statement to determine if the statement is true. The following actions will repeat continuously until that statement becomes false|
 ||[End Loop](/loop-commands/end-loop-command.md)|This command signifies the exit point of looped (repeated) actions.  Required for all loops.|
 ||[Exit Loop](/loop-commands/exit-loop-command.md)|This command signifies the current loop should exit and resume work past the point of the current loop.|
+||[Loop Complex Data Types](/loop-commands/loop-complex-data-types-command.md)|This command allows you to Repeat actions on the values held by List, Dictioanry, and other data. This command must have a following 'End Loop' command.|
 ||[Loop Continuously](/loop-commands/loop-continuously-command.md)|This command allows you to repeat actions continuously.  Any 'Begin Loop' command must have a following 'End Loop' command.|
-||[Loop List](/loop-commands/loop-list-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 ||[Loop Number Of Times](/loop-commands/loop-number-of-times-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 ||[Next Loop](/loop-commands/next-loop-command.md)|This command enables user to break and exit from the current loop|
-### Math Commands
+### Math
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Get Absolute](/math-commands/get-absolute-command.md)|This command allows you to get abs.|
@@ -321,7 +324,7 @@
 ||[Get Sin](/math-commands/get-sin-command.md)|This command allows you to get sin.|
 ||[Get Square Root](/math-commands/get-square-root-command.md)|This command allows you to get Square Root.|
 ||[Get Tan](/math-commands/get-tan-command.md)|This command allows you to get tan.|
-### Misc Commands
+### Misc
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Clipboard|[Clear Clipboard Text](/misc-commands/clear-clipboard-text-command.md)|This command allows you to clear text to the clipboard.|
@@ -331,13 +334,13 @@
 |Network/Internet|[Send SMTP Email](/misc-commands/send-smtp-email-command.md)|This command allows you to send email using SMTP protocol.|
 |Other|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
 |Other|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
-### NLG Commands
+### NLG
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Create NLG Instance](/nlg-commands/create-nlg-instance-command.md)|This command pauses the script for a set amount of time specified in milliseconds.|
 ||[Generate NLG Phrase](/nlg-commands/generate-nlg-phrase-command.md)|This command pauses the script for a set amount of time specified in milliseconds.|
 ||[Set NLG Parameter](/nlg-commands/set-nlg-parameter-command.md)|This command allows you to define a NLG parameter|
-### Numerical Commands
+### Numerical
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Create Numerical Variable](/numerical-commands/create-numerical-variable-command.md)|This command allows you to create Number Variable.|
@@ -347,7 +350,7 @@
 ||[Math Calculation](/numerical-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
 ||[Random Number](/numerical-commands/random-number-command.md)|This command allows you to get Random Number.|
 ||[Round Number](/numerical-commands/round-number-command.md)|This command allows you to Round up, down, or round off numbers.|
-### Outlook Commands
+### Outlook
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Delete Outlook Emails](/outlook-commands/delete-outlook-emails-command.md)|This command allows you to delete emails with outlook|
@@ -356,32 +359,32 @@
 ||[Move/Copy Outlook Emails](/outlook-commands/move-copy-outlook-emails-command.md)|This command allows you to move/copy emails with outlook|
 ||[Reply To Outlook Emails](/outlook-commands/reply-to-outlook-emails-command.md)|This command allows you to reply to emails with outlook|
 ||[Send Outlook Email](/outlook-commands/send-outlook-email-command.md)|This command allows you to send emails with outlook|
-### Regex Commands
+### Regex
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Get Regex Matches](/regex-commands/get-regex-matches-command.md)|This command allows you to loop through an Excel Dataset|
-### Remote Commands
+### Remote
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
-### Script Commands
+### Script
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Comment](/script-commands/comment-command.md)|This command allows you to add an in-line comment to the script.|
 ||[Sequence](/script-commands/sequence-command.md)|Command that groups multiple actions|
-### StopWatch Commands
+### StopWatch
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[StopWatch](/stopwatch-commands/stopwatch-command.md)|This command allows you to stop a program or a process.|
-### System Commands
+### System
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Get Environment Variable](/system-commands/get-environment-variable-command.md)|This command allows you to exclusively select a system/environment variable|
 ||[Get OS Variable](/system-commands/get-os-variable-command.md)|This command allows you to exclusively select a system/environment variable|
 ||[Launch Remote Desktop](/system-commands/launch-remote-desktop-command.md)|This command allows you to stop a program or a process.|
 ||[System Action](/system-commands/system-action-command.md)|This command allows you to perform an account action|
-### Text Commands
+### Text
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Action|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to concatenate text to Text Variable.|
@@ -398,7 +401,7 @@
 |Check/Get|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
 |File|[Read Text File](/text-commands/read-text-file-command.md)|This command allows you to read text file into a variable|
 |File|[Write Text File](/text-commands/write-text-file-command.md)|This command writes specified data to a text file|
-### UIAutomation Commands
+### UIAutomation
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From UIElement|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
@@ -430,7 +433,7 @@
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
 |UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 |UIElement Action|[UIElement Action By XPath](/uiautomation-commands/uielement-action-by-xpath-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
-### Variable Commands
+### Variable
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check Variable Exists](/variable-commands/check-variable-exists-command.md)|This command allows you to check variable existance.|
@@ -439,7 +442,7 @@
 ||[New Variable](/variable-commands/new-variable-command.md)|This command allows you to explicitly add a variable if you are not using **Set Variable* with the setting **Create Missing Variables** at runtime.|
 ||[Set Variable Index](/variable-commands/set-variable-index-command.md)|This command allows you to modify variables.|
 ||[Set Variable Value](/variable-commands/set-variable-value-command.md)|This command allows you to modify variables.|
-### Web Browser Commands
+### Web Browser
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From WebElement|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
@@ -482,7 +485,7 @@
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
 |WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
-### Window Commands
+### Window
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
@@ -509,7 +512,7 @@
 |Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
 |Window State|[Get Window Size](/window-commands/get-window-size-command.md)|This command returns window size.|
 |Window State|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
-### Word Commands
+### Word
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Add Document](/word-commands/add-document-command.md)|This command adds a new Word Document.|
@@ -532,4 +535,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM

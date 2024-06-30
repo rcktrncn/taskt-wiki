@@ -1,9 +1,9 @@
 <!--TITLE: Run PowerShell Script File Command -->
-<!-- SUBTITLE: a command in the Application/Script Commands group. -->
+<!-- SUBTITLE: a command in the Application/Script group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Application/Script Commands &gt; Windows Script File &gt; Run PowerShell Script File
+Application/Script &gt; Windows Script File &gt; Run PowerShell Script File
 
 
 # Run PowerShell Script File Command
@@ -204,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

@@ -1,9 +1,9 @@
 <!--TITLE: Begin Multi Loop Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. -->
+<!-- SUBTITLE: a command in the Loop group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Loop Commands &gt; Begin Multi Loop
+Loop &gt; Begin Multi Loop
 
 
 # Begin Multi Loop Command
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginMultiLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

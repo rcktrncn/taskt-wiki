@@ -1,9 +1,9 @@
 <!--TITLE: Try Command -->
-<!-- SUBTITLE: a command in the Error Handling Commands group. -->
+<!-- SUBTITLE: a command in the Error Handling group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Error Handling Commands &gt; Try
+Error Handling &gt; Try
 
 
 # Try Command
@@ -47,7 +47,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: TryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

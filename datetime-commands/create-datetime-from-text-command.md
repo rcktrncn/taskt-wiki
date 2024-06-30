@@ -1,9 +1,9 @@
 <!--TITLE: Create DateTime From Text Command -->
-<!-- SUBTITLE: a command in the DateTime Commands group. -->
+<!-- SUBTITLE: a command in the DateTime group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DateTime Commands &gt; Create DateTime From Text
+DateTime &gt; Create DateTime From Text
 
 
 # Create DateTime From Text Command
@@ -115,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

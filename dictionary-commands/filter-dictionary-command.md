@@ -1,9 +1,9 @@
 <!--TITLE: Filter Dictionary Command -->
-<!-- SUBTITLE: a command in the Dictionary Commands group. -->
+<!-- SUBTITLE: a command in the Dictionary group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Dictionary Commands &gt; Dictionary Action &gt; Filter Dictionary
+Dictionary &gt; Dictionary Action &gt; Filter Dictionary
 
 
 # Filter Dictionary Command
@@ -201,7 +201,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

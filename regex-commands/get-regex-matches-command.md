@@ -1,9 +1,9 @@
 <!--TITLE: Get Regex Matches Command -->
-<!-- SUBTITLE: a command in the Regex Commands group. -->
+<!-- SUBTITLE: a command in the Regex group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Regex Commands &gt; Get Regex Matches
+Regex &gt; Get Regex Matches
 
 
 # Get Regex Matches Command
@@ -147,7 +147,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetRegexMatchesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

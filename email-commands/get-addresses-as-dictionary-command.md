@@ -1,9 +1,9 @@
 <!--TITLE: Get Addresses As Dictionary Command -->
-<!-- SUBTITLE: a command in the EMail Commands group. -->
+<!-- SUBTITLE: a command in the EMail group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Get Addresses As Dictionary
+EMail &gt; Get Addresses As Dictionary
 
 
 # Get Addresses As Dictionary Command
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitGetAddressesAsDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

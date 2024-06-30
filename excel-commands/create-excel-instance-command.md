@@ -1,9 +1,9 @@
 <!--TITLE: Create Excel Instance Command -->
-<!-- SUBTITLE: a command in the Excel Commands group. -->
+<!-- SUBTITLE: a command in the Excel group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Instance &gt; Create Excel Instance
+Excel &gt; Instance &gt; Create Excel Instance
 
 
 # Create Excel Instance Command
@@ -115,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateExcelInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

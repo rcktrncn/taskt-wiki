@@ -1,9 +1,9 @@
 <!--TITLE: Open Workbook Command -->
-<!-- SUBTITLE: a command in the Excel Commands group. -->
+<!-- SUBTITLE: a command in the Excel group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; File/Book &gt; Open Workbook
+Excel &gt; File/Book &gt; Open Workbook
 
 
 # Open Workbook Command
@@ -211,7 +211,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

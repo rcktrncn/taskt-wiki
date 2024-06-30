@@ -1,9 +1,9 @@
 <!--TITLE: Get WebElements Values As DataTable Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group. -->
+<!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Scraping &gt; Get WebElements Values As DataTable
+Web Browser &gt; Scraping &gt; Get WebElements Values As DataTable
 
 
 # Get WebElements Values As DataTable Command
@@ -240,7 +240,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebElementsValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

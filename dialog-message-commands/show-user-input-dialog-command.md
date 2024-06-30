@@ -1,9 +1,9 @@
 <!--TITLE: Show User Input Dialog Command -->
-<!-- SUBTITLE: a command in the Dialog/Message Commands group. -->
+<!-- SUBTITLE: a command in the Dialog/Message group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Dialog/Message Commands &gt; Show User Input Dialog
+Dialog/Message &gt; Show User Input Dialog
 
 
 # Show User Input Dialog Command
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowUserInputDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

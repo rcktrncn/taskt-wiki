@@ -1,9 +1,9 @@
 <!--TITLE: Navigate to URL Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group. -->
+<!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Navigate &gt; Navigate to URL
+Web Browser &gt; Navigate &gt; Navigate to URL
 
 
 # Navigate to URL Command
@@ -147,7 +147,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateURLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

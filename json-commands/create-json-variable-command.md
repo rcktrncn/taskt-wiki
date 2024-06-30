@@ -1,9 +1,9 @@
 <!--TITLE: Create JSON Variable Command -->
-<!-- SUBTITLE: a command in the JSON Commands group. -->
+<!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-JSON Commands &gt; Action &gt; Create JSON Variable
+JSON &gt; Action &gt; Create JSON Variable
 
 
 # Create JSON Variable Command
@@ -21,7 +21,8 @@ This command allows you to create JSON Variable.
 ## Command Parameters
 - [Please Select the JSON Variable Name](#param_0)
 - [Please Specify the JSON Value](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Select the Value Type to Add](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
@@ -63,8 +64,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; } or [ 1, 2, &quot;Hello&quot; ] or {vJSONValue}</dd>
+<dt>What to input</dt><dd>Enter or Select the Value</dd>
+<dt>Sample Usage</dt><dd>Hello or 1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -74,9 +75,11 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; }</strong> | Specify JSON Object |
-| <strong>[ 1, 2, &quot;Hello&quot; ]</strong> | Specify JSON Array |
-| <strong>{vJSONValue}</strong> | Specify Value of Variable **vJSONValue** for JSON Value |
+| <strong>Hello</strong> | Add Text **Hello** |
+| <strong>1</strong> | Add Number **Hello** |
+| <strong>{vValue}</strong> | Add Value of Variable **vValue** |
+| <strong>{ &quot;id&quot;: 1, &quot;value&quot;: &quot;Hello&quot; }</strong> | Add JSON Object |
+| <strong>[ 1, 2, &quot;Hello&quot; ]</strong> | Add JSON Array |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -89,6 +92,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Select the Value Type to Add
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Auto</strong> or  <strong>Object</strong> or  <strong>Array</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Auto</strong> | Automatically determines the Value Type |
+| <strong>Object</strong> | Specify JSON Object for Value Type |
+| <strong>Array</strong> | Specify Array Object for Value Type |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -104,7 +138,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
@@ -113,7 +147,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateJSONVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

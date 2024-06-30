@@ -1,9 +1,9 @@
 <!--TITLE: Set JSON Value Command -->
-<!-- SUBTITLE: a command in the JSON Commands group. -->
+<!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-JSON Commands &gt; Get/Set &gt; Set JSON Value
+JSON &gt; Get/Set &gt; Set JSON Value
 
 
 # Set JSON Value Command
@@ -20,9 +20,9 @@ This command allows you to set value in JSON.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the JSON Variable Name](#param_0)
-- [Please Specify the JSON Extractor (JSONPath)](#param_1)
-- [Please Specify the Value to Set](#param_2)
-- [Optional - Please Select the Value Type to Set](#param_3)
+- [Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
+- [Please Specify the Value to Add](#param_2)
+- [Optional - Please Select the Value Type to Add](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -61,16 +61,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the JSON Extractor (JSONPath)
+### Optional - Please Specify the JSON Extractor (JSONPath)
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd>$.id or $..id or {vPath} or $.names[0]</dd>
-<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath</dd>
+<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
+<strong>Optional</strong><br>Default Value is <strong>$</strong></dd>
 </dl>
 
 
@@ -95,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Value to Set
+### Please Specify the Value to Add
 
 
 <dl>
@@ -127,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Value Type to Set
+### Optional - Please Select the Value Type to Add
 
 
 <dl>
@@ -185,7 +183,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetJSONValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

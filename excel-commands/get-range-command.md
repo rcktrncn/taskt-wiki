@@ -1,9 +1,9 @@
 <!--TITLE: Get Range Command -->
-<!-- SUBTITLE: a command in the Excel Commands group. -->
+<!-- SUBTITLE: a command in the Excel group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Range &gt; Get Range
+Excel &gt; Range &gt; Get Range
 
 
 # Get Range Command
@@ -151,7 +151,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRangeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

@@ -1,9 +1,9 @@
 <!--TITLE: Get HTML Text By XPath Command -->
-<!-- SUBTITLE: a command in the Data Commands group. -->
+<!-- SUBTITLE: a command in the Data group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Data Commands &gt; Get HTML Text By XPath
+Data &gt; Get HTML Text By XPath
 
 
 # Get HTML Text By XPath Command
@@ -142,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: HTMLGetHTMLTextByXPath
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

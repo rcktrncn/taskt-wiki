@@ -1,9 +1,9 @@
 <!--TITLE: Get Folders Command -->
-<!-- SUBTITLE: a command in the Folder Operation Commands group. -->
+<!-- SUBTITLE: a command in the Folder Operation group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Folder Operation Commands &gt; Get Folders
+Folder Operation &gt; Get Folders
 
 
 # Get Folders Command
@@ -208,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFoldersCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

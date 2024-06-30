@@ -1,9 +1,9 @@
 <!--TITLE: Get Variable Type Command -->
-<!-- SUBTITLE: a command in the Variable Commands group. -->
+<!-- SUBTITLE: a command in the Variable group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Variable Commands &gt; Get Variable Type
+Variable &gt; Get Variable Type
 
 
 # Get Variable Type Command
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetVariableTypeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

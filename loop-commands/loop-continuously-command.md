@@ -1,9 +1,9 @@
 <!--TITLE: Loop Continuously Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. -->
+<!-- SUBTITLE: a command in the Loop group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Loop Commands &gt; Loop Continuously
+Loop &gt; Loop Continuously
 
 
 # Loop Continuously Command
@@ -19,10 +19,42 @@ Use this command when you want to perform a series of commands an endless amount
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Optional - Please Specify the Comment Field](#param_0)
+- [Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_0)
+- [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
+### Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+prev / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
+<a id="param_1"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -38,7 +70,7 @@ Use this command when you want to perform a series of commands an endless amount
 <div style="font-size: 90%; text-align: center">
 
 
-prev / [list](#param_list) / [next](#param_1)
+[prev](#param_1) / [list](#param_list) / next
 
 
 </div>
@@ -47,7 +79,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginContinousLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

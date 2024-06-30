@@ -1,9 +1,9 @@
 <!--TITLE: Convert JSON To Dictionary Command -->
-<!-- SUBTITLE: a command in the JSON Commands group. -->
+<!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-JSON Commands &gt; Convert &gt; Convert JSON To Dictionary
+JSON &gt; Convert &gt; Convert JSON To Dictionary
 
 
 # Convert JSON To Dictionary Command
@@ -20,8 +20,9 @@ Use this command when you want to convert JSON to Dictionary
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the JSON Variable Name or JSON Value](#param_0)
-- [Please Select the Dictionary Variable Name](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
+- [Please Select the Dictionary Variable Name](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
@@ -60,6 +61,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Specify the JSON Extractor (JSONPath)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
+<dt>Sample Usage</dt><dd>$.id or $..id or {vPath}</dd>
+<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
+<strong>Optional</strong><br>Default Value is <strong>$</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>$.id</strong> | Specify **id** for Root child node |
+| <strong>$..id</strong> | Specify Anywhere **id** |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for JSON Extractor |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Please Select the Dictionary Variable Name
 
 
@@ -87,13 +119,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -109,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
@@ -118,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertJSONToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

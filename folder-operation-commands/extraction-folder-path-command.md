@@ -1,9 +1,9 @@
 <!--TITLE: Extraction Folder Path Command -->
-<!-- SUBTITLE: a command in the Folder Operation Commands group. -->
+<!-- SUBTITLE: a command in the Folder Operation group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Folder Operation Commands &gt; Extraction Folder Path
+Folder Operation &gt; Extraction Folder Path
 
 
 # Extraction Folder Path Command
@@ -143,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExtractionFolderPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

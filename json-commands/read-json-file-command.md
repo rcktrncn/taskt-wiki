@@ -1,9 +1,9 @@
 <!--TITLE: Read JSON File Command -->
-<!-- SUBTITLE: a command in the JSON Commands group. -->
+<!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-JSON Commands &gt; File &gt; Read JSON File
+JSON &gt; File &gt; Read JSON File
 
 
 # Read JSON File Command
@@ -151,7 +151,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReadJSONFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

@@ -1,9 +1,9 @@
 <!--TITLE: Date Calculation Command -->
-<!-- SUBTITLE: a command in the Data Commands group. -->
+<!-- SUBTITLE: a command in the Data group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Data Commands &gt; Date Calculation
+Data &gt; Date Calculation
 
 
 # Date Calculation Command
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DateCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

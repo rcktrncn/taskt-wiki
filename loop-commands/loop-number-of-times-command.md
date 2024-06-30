@@ -1,9 +1,9 @@
 <!--TITLE: Loop Number Of Times Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. -->
+<!-- SUBTITLE: a command in the Loop group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Loop Commands &gt; Loop Number Of Times
+Loop &gt; Loop Number Of Times
 
 
 # Loop Number Of Times Command
@@ -19,22 +19,34 @@ Use this command when you want to perform a series of commands a specified amoun
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter how many times to perform the loop (ex. 5, {vNum})](#param_0)
-- [Please Specify the Optional - Define Start Index (Default: 0)](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Please Specify the How Many Times to perform the Loop](#param_0)
+- [Optional - Please Specify the Define Start Value](#param_1)
+- [Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is 'Start Value + 1')](#param_2)
+- [Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Enter how many times to perform the loop (ex. 5, {vNum})
+### Please Specify the How Many Times to perform the Loop
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the amount of times you would like to perform the encased commands.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>5 or {vNum}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>5</strong> | Specify **5** for Loop Times |
+| <strong>{vNum}</strong> | Specify Value of Variable **vNum** for Loop Times |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -47,16 +59,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Optional - Define Start Index (Default: 0)
+### Optional - Please Specify the Define Start Value
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the starting index of the loop.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter the Starting Value of the loop.</dd>
+<dt>Sample Usage</dt><dd>5 or {vStart}</dd>
+<dt>Remarks</dt><dd>If Start Value is <strong>0</strong> and Loop Times is <strong>5</strong>, it Loops <strong>5</strong> times.
+If Start Value is <strong>1</strong> and Loop Times is <strong>5</strong>, it Loops <strong>4</strong> times.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>5</strong> | Specify **5** for Start Value |
+| <strong>{vStart}</strong> | Specify Value of Variable **vStart** for Start Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,6 +90,68 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is 'Start Value + 1')
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -84,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -93,7 +176,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginNumberOfTimesLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

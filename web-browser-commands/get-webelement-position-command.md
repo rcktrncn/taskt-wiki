@@ -1,9 +1,9 @@
 <!--TITLE: Get WebElement Position Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group. -->
+<!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Get From WebElement &gt; Get WebElement Position
+Web Browser &gt; Get From WebElement &gt; Get WebElement Position
 
 
 # Get WebElement Position Command
@@ -170,7 +170,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumWebElementPositionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

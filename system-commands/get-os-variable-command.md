@@ -1,9 +1,9 @@
 <!--TITLE: Get OS Variable Command -->
-<!-- SUBTITLE: a command in the System Commands group. -->
+<!-- SUBTITLE: a command in the System group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-System Commands &gt; Get OS Variable
+System &gt; Get OS Variable
 
 
 # Get OS Variable Command
@@ -108,7 +108,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetOSVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

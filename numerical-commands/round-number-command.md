@@ -1,9 +1,9 @@
 <!--TITLE: Round Number Command -->
-<!-- SUBTITLE: a command in the Numerical Commands group. -->
+<!-- SUBTITLE: a command in the Numerical group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Numerical Commands &gt; Round Number
+Numerical &gt; Round Number
 
 
 # Round Number Command
@@ -143,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RoundNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

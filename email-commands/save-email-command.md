@@ -1,9 +1,9 @@
 <!--TITLE: Save EMail Command -->
-<!-- SUBTITLE: a command in the EMail Commands group. -->
+<!-- SUBTITLE: a command in the EMail group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Save EMail
+EMail &gt; Save EMail
 
 
 # Save EMail Command
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSaveEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

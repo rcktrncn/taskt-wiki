@@ -1,9 +1,9 @@
 <!--TITLE: Execute Script Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group. -->
+<!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Web Browser Actions &gt; Execute Script
+Web Browser &gt; Web Browser Actions &gt; Execute Script
 
 
 # Execute Script Command
@@ -243,7 +243,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserExecuteScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

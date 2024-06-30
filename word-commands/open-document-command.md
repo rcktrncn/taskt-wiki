@@ -1,9 +1,9 @@
 <!--TITLE: Open Document Command -->
-<!-- SUBTITLE: a command in the Word Commands group. -->
+<!-- SUBTITLE: a command in the Word group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Word Commands &gt; Open Document
+Word &gt; Open Document
 
 
 # Open Document Command
@@ -149,7 +149,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: WordOpenDocumentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

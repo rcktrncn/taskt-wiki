@@ -1,9 +1,9 @@
 <!--TITLE: Get List Item Command -->
-<!-- SUBTITLE: a command in the List Commands group. -->
+<!-- SUBTITLE: a command in the List group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-List Commands &gt; List Item &gt; Get List Item
+List &gt; List Item &gt; Get List Item
 
 
 # Get List Item Command
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

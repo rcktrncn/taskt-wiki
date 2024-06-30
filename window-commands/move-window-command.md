@@ -1,9 +1,9 @@
 <!--TITLE: Move Window Command -->
-<!-- SUBTITLE: a command in the Window Commands group. -->
+<!-- SUBTITLE: a command in the Window group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Window Commands &gt; Window Actions &gt; Move Window
+Window &gt; Window Actions &gt; Move Window
 
 
 # Move Window Command
@@ -342,7 +342,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help

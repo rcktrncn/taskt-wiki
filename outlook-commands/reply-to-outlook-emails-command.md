@@ -1,9 +1,9 @@
 <!--TITLE: Reply To Outlook Emails Command -->
-<!-- SUBTITLE: a command in the Outlook Commands group. -->
+<!-- SUBTITLE: a command in the Outlook group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Outlook Commands &gt; Reply To Outlook Emails
+Outlook &gt; Reply To Outlook Emails
 
 
 # Reply To Outlook Emails Command
@@ -187,7 +187,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: OutlookReplyToEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/23/24 07:13 PM
+This page was generated on 06/30/24 02:45 PM
 
 
 ## Help
