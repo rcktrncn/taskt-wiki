@@ -1,41 +1,42 @@
-<!--TITLE: Get Sin Command -->
-<!-- SUBTITLE: a command in the Math group. -->
+<!--TITLE: Get JSON Value Command -->
+<!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Math &gt; Get Sin
+JSON &gt; Get/Set &gt; Get JSON Value
 
 
-# Get Sin Command
+# Get JSON Value Command
 
 
 ## What does this command do?
-This command allows you to get sin.
+This command allows you to Get JSON Value.
 
 
 ## When would I want to use this command?
-Use this command when you want to get sin.
+Use this command when you want to Get JSON Value
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Numerical Value](#param_0)
-- [Optional - Please Select the Angle Value Type](#param_1)
-- [Please Select the Numerical Variable Name to Store Result](#param_2)
+- [Please Select the JSON Variable Name or JSON Value](#param_0)
+- [Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the Numerical Value
+### Please Select the JSON Variable Name or JSON Value
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>What to input</dt><dd>Enter or Select the JSON Value or JSON Variable Name</dd>
+<dt>Instance Type</dt><dd>JSON</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
+<dt>Sample Usage</dt><dd>{ &quot;id&quot;: 3, &quot;value&quot;: &quot;Hello&quot; } or [ 1, 2, &quot;Hello&quot; ] or {vJSON}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -45,8 +46,9 @@ Use this command when you want to get sin.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>1</strong> | Specify **1** for Value |
-| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
+| <strong>{ &quot;id&quot;: 3, &quot;value&quot;: &quot;Hello&quot; }</strong> | Specify the JSON Object Text |
+| <strong>[ 1, 2, &quot;Hello&quot; ]</strong> | Specify the JSON Array Text |
+| <strong>{vJSON}</strong> | Specify Value of Variable **vJSON** for JSON |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -59,17 +61,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Angle Value Type
+### Optional - Please Specify the JSON Extractor (JSONPath)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Angle Value Type</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Radian</strong> or  <strong>Degree</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Radian</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
+<dt>Sample Usage</dt><dd>$.id or $..id or {vPath}</dd>
+<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
+<strong>Optional</strong><br>Default Value is <strong>$</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>$.id</strong> | Specify **id** for Root child node |
+| <strong>$..id</strong> | Specify Anywhere **id** |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for JSON Extractor |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -82,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Numerical Variable Name to Store Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -92,7 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vNum or {vNum}</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -102,8 +112,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vNum</strong> | Specify Variable Name **vNum** |
-| <strong>{vNum}</strong> | Specify Variable Name **vNum** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -138,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: GetSinCommand
+Automation Class Name: GetJSONValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 07/06/24 04:08 PM
 

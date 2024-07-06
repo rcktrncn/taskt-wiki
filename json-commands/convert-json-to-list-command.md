@@ -10,7 +10,7 @@ JSON &gt; Convert &gt; Convert JSON To List
 
 
 ## What does this command do?
-This command allows you to convert JSON Array into a List.
+This command allows you to convert JSON to List.
 
 
 ## When would I want to use this command?
@@ -150,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertJSONToListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/30/24 02:45 PM
+This page was generated on 07/06/24 04:08 PM
 
 
 ## Help

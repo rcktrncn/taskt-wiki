@@ -10,11 +10,11 @@ JSON &gt; Get/Set &gt; Set JSON Value Of JSON Object
 
 
 ## What does this command do?
-This command allows you to parse a JSON object into a list.
+This command allows you to Set Value in JSON Object
 
 
 ## When would I want to use this command?
-Use this command when you want to extract data from a JSON object
+Use this command when you want to Set Value in JSON Object
 
 
 <a id="param_list"></a>
@@ -215,7 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetJSONValueOfJSONObjectCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/30/24 02:45 PM
+This page was generated on 07/06/24 04:08 PM
 
 
 ## Help

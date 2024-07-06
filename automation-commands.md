@@ -255,15 +255,16 @@
 |Action|[Remove JSON Object Property](/json-commands/remove-json-object-property-command.md)|This command allows you to remove a property in JSON|
 |Convert|[Convert JSON To DataTable](/json-commands/convert-json-to-datatable-command.md)|This command allows you to convert JSON to DataTable.|
 |Convert|[Convert JSON To Dictionary](/json-commands/convert-json-to-dictionary-command.md)|This command allows you to convert JSON to Dictionary.|
-|Convert|[Convert JSON To List](/json-commands/convert-json-to-list-command.md)|This command allows you to convert JSON Array into a List.|
+|Convert|[Convert JSON To List](/json-commands/convert-json-to-list-command.md)|This command allows you to convert JSON to List.|
 |File|[Read JSON File](/json-commands/read-json-file-command.md)|This command reads JSON data into a variable|
-|Get/Set|[Get JSON Value From JSON Array](/json-commands/get-json-value-from-json-array-command.md)|This command allows you to parse a JSON object into a list.|
-|Get/Set|[Get JSON Value From JSON Object](/json-commands/get-json-value-from-json-object-command.md)|This command allows you to parse a JSON object into a list.|
+|Get/Set|[Get JSON Value](/json-commands/get-json-value-command.md)|This command allows you to Get JSON Value.|
+|Get/Set|[Get JSON Value From JSON Array](/json-commands/get-json-value-from-json-array-command.md)|This command allows you to Get JSON Value From JSON Array|
+|Get/Set|[Get JSON Value From JSON Object](/json-commands/get-json-value-from-json-object-command.md)|This command allows you to Get JSON Value From JSON Object|
 |Get/Set|[Get JSON Value List](/json-commands/get-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Get Multi JSON Value List](/json-commands/get-multi-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Set JSON Value](/json-commands/set-json-value-command.md)|This command allows you to set value in JSON.|
-|Get/Set|[Set JSON Value Of JSON Object](/json-commands/set-json-value-of-json-object-command.md)|This command allows you to parse a JSON object into a list.|
-|Get/Set|[Set JSON Value Of JSON Object](/json-commands/set-json-value-of-json-object-command.md)|This command allows you to parse a JSON object into a list.|
+|Get/Set|[Set JSON Value Of JSON Array](/json-commands/set-json-value-of-json-array-command.md)|This command allows you to Set Value in JSON Array|
+|Get/Set|[Set JSON Value Of JSON Object](/json-commands/set-json-value-of-json-object-command.md)|This command allows you to Set Value in JSON Object|
 ### Key/Mouse
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -535,4 +536,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 06/30/24 02:45 PM
+This page was generated on 07/06/24 04:08 PM

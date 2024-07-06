@@ -1,31 +1,30 @@
-<!--TITLE: Insert JSON Object Property Command -->
+<!--TITLE: Set JSON Value Of JSON Array Command -->
 <!-- SUBTITLE: a command in the JSON group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-JSON &gt; Action &gt; Insert JSON Object Property
+JSON &gt; Get/Set &gt; Set JSON Value Of JSON Array
 
 
-# Insert JSON Object Property Command
+# Set JSON Value Of JSON Array Command
 
 
 ## What does this command do?
-This command allows you to add property to JSON Object.
+This command allows you to Set Value in JSON Array
 
 
 ## When would I want to use this command?
-
+Use this command when you want to Set Value in JSON Array
 
 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the JSON Variable Name](#param_0)
 - [Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
-- [Optional - Please Specify the Property Name of Insert Position](#param_2)
-- [Please Specify the Property Name](#param_3)
-- [Please Specify the Value to Insert](#param_4)
-- [Optional - Please Select the Value Type to Add](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Please Specify the Array Index](#param_2)
+- [Please Specify the Value to Set](#param_3)
+- [Optional - Please Select the Value Type to Add](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -94,13 +93,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Property Name of Insert Position
+### Please Specify the Array Index
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Property Name</dd>
-<dt>Sample Usage</dt><dd>Name or {vName}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -109,8 +111,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Name</strong> | Specify **Name** for Property Name |
-| <strong>{vName}</strong> | Specify Value of Variable **vName** for Property Name |
+| <strong>0</strong> | Specify the First Index |
+| <strong>1</strong> | Specify **1** for Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -123,39 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Property Name
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Property Name</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>Name or {vName}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>Name</strong> | Specify **Name** for Property Name |
-| <strong>{vName}</strong> | Specify Value of Variable **vName** for Property Name |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
-### Please Specify the Value to Insert
+### Please Specify the Value to Set
 
 
 <dl>
@@ -180,13 +151,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_4"></a>
 ### Optional - Please Select the Value Type to Add
 
 
@@ -214,13 +185,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -236,14 +207,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: InsertJSONObjectPropertyCommand
+Automation Class Name: SetJSONValueOfJSONArrayCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 07/06/24 04:08 PM
 
