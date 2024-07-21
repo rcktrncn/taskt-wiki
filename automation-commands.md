@@ -260,7 +260,8 @@
 |Get/Set|[Get JSON Value](/json-commands/get-json-value-command.md)|This command allows you to Get JSON Value.|
 |Get/Set|[Get JSON Value From JSON Array](/json-commands/get-json-value-from-json-array-command.md)|This command allows you to Get JSON Value From JSON Array|
 |Get/Set|[Get JSON Value From JSON Object](/json-commands/get-json-value-from-json-object-command.md)|This command allows you to Get JSON Value From JSON Object|
-|Get/Set|[Get JSON Value List](/json-commands/get-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
+|Get/Set|[Get JSON Values As Dictionary](/json-commands/get-json-values-as-dictionary-command.md)|This command allows you to Get JSON Values From JSON and Result Values is Dictionary.|
+|Get/Set|[Get JSON Values As List](/json-commands/get-json-values-as-list-command.md)|This command allows you to Get JSON Values From JSON and Result Values is List.|
 |Get/Set|[Get Multi JSON Value List](/json-commands/get-multi-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Set JSON Value](/json-commands/set-json-value-command.md)|This command allows you to set value in JSON.|
 |Get/Set|[Set JSON Value Of JSON Array](/json-commands/set-json-value-of-json-array-command.md)|This command allows you to Set Value in JSON Array|
@@ -309,6 +310,13 @@
 ||[Exit Loop](/loop-commands/exit-loop-command.md)|This command signifies the current loop should exit and resume work past the point of the current loop.|
 ||[Loop Complex Data Types](/loop-commands/loop-complex-data-types-command.md)|This command allows you to Repeat actions on the values held by List, Dictioanry, and other data. This command must have a following 'End Loop' command.|
 ||[Loop Continuously](/loop-commands/loop-continuously-command.md)|This command allows you to repeat actions continuously.  Any 'Begin Loop' command must have a following 'End Loop' command.|
+||[Loop For DataTable](/loop-commands/loop-for-datatable-command.md)|This command allows you to Repeat actions on the values held by DataTable. This command must have a following 'End Loop' command.|
+||[Loop For DataTable Column As DataTable](/loop-commands/loop-for-datatable-column-as-datatable-command.md)|This command allows you to Repeat actions on the values held by DataTable. This command must have a following 'End Loop' command.|
+||[Loop For DataTable Column As List](/loop-commands/loop-for-datatable-column-as-list-command.md)|This command allows you to Repeat actions on the values held by DataTable. This command must have a following 'End Loop' command.|
+||[Loop For DataTable Row As DataTable](/loop-commands/loop-for-datatable-row-as-datatable-command.md)|This command allows you to Repeat actions on the values held by DataTable. This command must have a following 'End Loop' command.|
+||[Loop For DataTable Row As Dictionary](/loop-commands/loop-for-datatable-row-as-dictionary-command.md)|This command allows you to Repeat actions on the values held by DataTable. This command must have a following 'End Loop' command.|
+||[Loop For Dictionary](/loop-commands/loop-for-dictionary-command.md)|This command allows you to Repeat actions on the values held by Dictionary. This command must have a following 'End Loop' command.|
+||[Loop For List](/loop-commands/loop-for-list-command.md)|This command allows you to Repeat actions on the values held by List. This command must have a following 'End Loop' command.|
 ||[Loop Number Of Times](/loop-commands/loop-number-of-times-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 ||[Next Loop](/loop-commands/next-loop-command.md)|This command enables user to break and exit from the current loop|
 ### Math
@@ -536,4 +544,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 07/06/24 04:08 PM
+This page was generated on 07/21/24 04:19 PM

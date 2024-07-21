@@ -34,7 +34,7 @@ Use this command when you want to change the engine behavior.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Enable Automatic Calculations</strong> or  <strong>Disable Automatic Calculations</strong> or  <strong>Start Variable Marker</strong> or  <strong>End Variable Marker</strong> or  <strong>Engine Delay</strong> or  <strong>Current Window Keyword</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Enable Automatic Calculations</strong> or  <strong>Disable Automatic Calculations</strong> or  <strong>Start Variable Marker</strong> or  <strong>End Variable Marker</strong> or  <strong>Engine Delay</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetEnginePreferenceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/06/24 04:08 PM
+This page was generated on 07/21/24 04:19 PM
 
 
 ## Help

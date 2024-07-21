@@ -29,7 +29,8 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
 - [Optional - Please Specify the Web Browser Binary Path](#param_6)
 - [Optional - Please Specify the Web Driver Binary Path](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [Optional - Please Select the Use Headless](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
@@ -269,6 +270,30 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_8"></a>
+### Optional - Please Select the Use Headless
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd>Headless mode does not show WebBrowser window<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -284,7 +309,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -293,7 +318,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/06/24 04:08 PM
+This page was generated on 07/21/24 04:19 PM
 
 
 ## Help
