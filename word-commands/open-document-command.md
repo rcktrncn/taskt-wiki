@@ -149,7 +149,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: WordOpenDocumentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/21/24 04:19 PM
+This page was generated on 07/28/24 04:21 PM
 
 
 ## Help
