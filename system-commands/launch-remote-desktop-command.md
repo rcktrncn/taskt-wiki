@@ -22,9 +22,11 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 - [Please Specify the Machine Name](#param_0)
 - [Please Specify the User Name](#param_1)
 - [Please Specify the Password](#param_2)
-- [Optional - Please Specify the Width of the RDP Window](#param_3)
-- [Optional - Please Specify the Height of the RDP Window](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Select the Support CredSSP](#param_3)
+- [Optional - Please Specify the Width of the RDP Window](#param_4)
+- [Optional - Please Specify the Height of the RDP Window](#param_5)
+- [Optional - Please Select the Keyboard Hook Mode](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -121,6 +123,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Support CredSSP
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Width of the RDP Window
 
 
@@ -147,13 +172,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Height of the RDP Window
 
 
@@ -180,13 +205,44 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
+### Optional - Please Select the Keyboard Hook Mode
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Client Computer</strong> or  <strong>Remote Server</strong> or  <strong>Remote Server Only When Full-Screen</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Remote Server Only When Full-Screen</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| Client Computer | Windows key and its combination shortcuts work only on the client computer |
+| Remote Server | Windows key and its combination shortcuts work only on the remote server |
+| Remote Server Only When Full-Screen | Windows key and its combination shortcuts work only on the client computer. Remote Desktop cannot be made full screen. |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -202,7 +258,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -211,7 +267,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: LaunchRemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/28/24 04:21 PM
+This page was generated on 08/04/24 04:59 PM
 
 
 ## Help
