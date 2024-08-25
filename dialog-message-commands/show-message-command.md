@@ -21,7 +21,9 @@ Use this command when you want to present or display a value on screen to the us
 ## Command Parameters
 - [Please Specify the Message to be Displayed](#param_0)
 - [Optional - Please Specify the Close After X (Seconds) - 0 to Bypass](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Specify the Font Name](#param_2)
+- [Optional - Please Specify the Font Size](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -85,6 +87,63 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Specify the Font Name
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>MS Gothic</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>MS Gothic</strong> | Specify MS Gothic |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Specify the Font Size
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>12 or {vFont}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>12</strong> | Specify **12** for Font Size |
+| <strong>{vFont}</strong> | Specify Variable Name **vFont** for Font Size |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -100,7 +159,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -109,7 +168,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/04/24 04:59 PM
+This page was generated on 08/25/24 04:17 PM
 
 
 ## Help

@@ -18,6 +18,7 @@
 |taskt Script File|[Unload Script File](/application-script-commands/unload-script-file-command.md)|This command runs tasks.|
 |Windows Script File|[Run Batch Script File](/application-script-commands/run-batch-script-file-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
 |Windows Script File|[Run CSharp Code](/application-script-commands/run-csharp-code-command.md)|This command allows you to run C# code from the input|
+|Windows Script File|[Run JavaScript File](/application-script-commands/run-javascript-file-command.md)|This command allows you to execute JavaScript.|
 |Windows Script File|[Run PowerShell Script File](/application-script-commands/run-powershell-script-file-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
 ### Color
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -47,18 +48,22 @@
 |Column Action|[Delete DataTable Column](/datatable-commands/delete-datatable-column-command.md)|This command allows you to delete a column to a DataTable|
 |Column Action|[Get DataTable Column Count](/datatable-commands/get-datatable-column-count-command.md)|This command allows you to get the column count of a DataTable|
 |Column Action|[Get DataTable Column List](/datatable-commands/get-datatable-column-list-command.md)|This command allows you to get the column name List of a DataTable|
+|Column Action|[Join DataTable Column As Text](/datatable-commands/join-datatable-column-as-text-command.md)|This command allows you to Join DataTable Column Values as Text|
 |Column Action|[Set DataTable Column Values By DataTable](/datatable-commands/set-datatable-column-values-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
 |Column Action|[Set DataTable Column Values By List](/datatable-commands/set-datatable-column-values-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
 |Convert|[Convert DataTable To JSON](/datatable-commands/convert-datatable-to-json-command.md)|This command allows you to convert DataTable to JSON|
 |Convert|[Convert DataTable To Text](/datatable-commands/convert-datatable-to-text-command.md)|This command allows you to Convert DataTable to Text.|
+|Convert|[Convert DataTable To Visualized Text](/datatable-commands/convert-datatable-to-visualized-text-command.md)|This command allows you to Convert DataTable to Visualized Text.|
 |Convert Column|[Convert DataTable Column To DataTable](/datatable-commands/convert-datatable-column-to-datatable-command.md)|This command allows you to convert DataTable Column to DataTable|
 |Convert Column|[Convert DataTable Column To Dictionary](/datatable-commands/convert-datatable-column-to-dictionary-command.md)|This command allows you to convert DataTable Column to Dictionary|
 |Convert Column|[Convert DataTable Column To JSON](/datatable-commands/convert-datatable-column-to-json-command.md)|This command allows you to convert DataTable Column to JSON|
 |Convert Column|[Convert DataTable Column To List](/datatable-commands/convert-datatable-column-to-list-command.md)|This command allows you to convert DataTable Column to List|
+|Convert Column|[Convert DataTable Column To Text](/datatable-commands/convert-datatable-column-to-text-command.md)|This command allows you to convert DataTable Column to Text|
 |Convert Row|[Convert DataTable Row To DataTable](/datatable-commands/convert-datatable-row-to-datatable-command.md)|This command allows you to convert DataTable Row to DataTable|
 |Convert Row|[Convert DataTable Row To Dictionary](/datatable-commands/convert-datatable-row-to-dictionary-command.md)|This command allows you to convert DataTable Row to Dictionary|
 |Convert Row|[Convert DataTable Row To JSON](/datatable-commands/convert-datatable-row-to-json-command.md)|This command allows you to convert DataTable Row to JSON|
 |Convert Row|[Convert DataTable Row To List](/datatable-commands/convert-datatable-row-to-list-command.md)|This command allows you to convert DataTable Row to List|
+|Convert Row|[Convert DataTable Row To Text](/datatable-commands/convert-datatable-row-to-text-command.md)|This command allows you to convert DataTable Row to Text.|
 |DataTable Action|[Copy DataTable](/datatable-commands/copy-datatable-command.md)|This command allows you to copy a DataTable|
 |DataTable Action|[Create DataTable](/datatable-commands/create-datatable-command.md)|This command created a DataTable with the column names provided|
 |DataTable Action|[Filter DataTable Column By Row Value](/datatable-commands/filter-datatable-column-by-row-value-command.md)|This command allows you to Filter Columns by reference to Row values.|
@@ -69,12 +74,15 @@
 |DataTable Action|[Replace DataTable Value](/datatable-commands/replace-datatable-value-command.md)|This command allows you to Replace values.|
 |DataTable Action|[Set DataTable Value](/datatable-commands/set-datatable-value-command.md)|This command allows you to set the DataTable value|
 |File|[Export DataTable As Text File](/datatable-commands/export-datatable-as-text-file-command.md)|This command allows you to Export DataTable as Text File.|
+|File|[Export DataTable Column As Text File](/datatable-commands/export-datatable-column-as-text-file-command.md)|This command allows you to Export DataTable Column as Text File|
+|File|[Export DataTable Row As Text File](/datatable-commands/export-datatable-row-as-text-file-command.md)|This command allows you to Export DataTable Row as Text File.|
 |Other|[Filter DataTable](/datatable-commands/filter-datatable-command.md)|This command allows you filter a DataTable into a new Datatable|
 |Row Action|[Add DataTable Row](/datatable-commands/add-datatable-row-command.md)|This command allows you to add a row to a DataTable|
 |Row Action|[Add DataTable Row By Dictionary](/datatable-commands/add-datatable-row-by-dictionary-command.md)|This command allows you to add a DataTable Row to a DataTable by a Dictionary|
 |Row Action|[Add DataTable Rows By DataTable](/datatable-commands/add-datatable-rows-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |Row Action|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |Row Action|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
+|Row Action|[Join DataTable Row As Text](/datatable-commands/join-datatable-row-as-text-command.md)|This command allows you to join DataTable Row Values as Text|
 |Row Action|[Search And Delete DataTable Rows](/datatable-commands/search-and-delete-datatable-rows-command.md)|This command allows you Delete specified DataTable Rows.|
 |Row Action|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
 |Row Action|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
@@ -103,6 +111,7 @@
 |Convert|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
 |Convert|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Convert|[Covnert Dictionary To Text](/dictionary-commands/covnert-dictionary-to-text-command.md)|This command allows you to Covnert Dictionary to Text.|
+|Convert|[Covnert Dictionary To Visualized Text](/dictionary-commands/covnert-dictionary-to-visualized-text-command.md)|This command allows you to Covnert Dictionary to Visualized Text.|
 |Dictionary Action|[Concatenate Dictionary](/dictionary-commands/concatenate-dictionary-command.md)|This command allows you to concatenate two Dictionaries.|
 |Dictionary Action|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
 |Dictionary Action|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
@@ -110,6 +119,7 @@
 |Dictionary Action|[Replace Dictionary](/dictionary-commands/replace-dictionary-command.md)|This command allows you to relace Dictionary value.|
 |Dictionary Item|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
 |Dictionary Item|[Get Dictionary Value](/dictionary-commands/get-dictionary-value-command.md)|This command allows you to get value in Dictionary|
+|Dictionary Item|[Join Dictionary Values As Text](/dictionary-commands/join-dictionary-values-as-text-command.md)|This command allows you to join Dictionary Values|
 |Dictionary Item|[Remove Dictionary Item](/dictionary-commands/remove-dictionary-item-command.md)|This command allows you to remove item in Dictionary|
 |Dictionary Item|[Set Dictionary Value](/dictionary-commands/set-dictionary-value-command.md)|This command allows you to set value in Dictionary|
 |Dictionary Key|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
@@ -264,6 +274,7 @@
 |Get/Set|[Get JSON Value](/json-commands/get-json-value-command.md)|This command allows you to Get JSON Value.|
 |Get/Set|[Get JSON Value From JSON Array](/json-commands/get-json-value-from-json-array-command.md)|This command allows you to Get JSON Value From JSON Array|
 |Get/Set|[Get JSON Value From JSON Object](/json-commands/get-json-value-from-json-object-command.md)|This command allows you to Get JSON Value From JSON Object|
+|Get/Set|[Get JSON Values As DataTable](/json-commands/get-json-values-as-datatable-command.md)|This command allows you to Get JSON Values From JSON and Result Values is DataTable.|
 |Get/Set|[Get JSON Values As Dictionary](/json-commands/get-json-values-as-dictionary-command.md)|This command allows you to Get JSON Values From JSON and Result Values is Dictionary.|
 |Get/Set|[Get JSON Values As List](/json-commands/get-json-values-as-list-command.md)|This command allows you to Get JSON Values From JSON and Result Values is List.|
 |Get/Set|[Get Multi JSON Value List](/json-commands/get-multi-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
@@ -285,6 +296,7 @@
 |Convert|[Convert List To Dictionary](/list-commands/convert-list-to-dictionary-command.md)|This command convert a List to Dictionary.|
 |Convert|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |Convert|[Convert List To Text](/list-commands/convert-list-to-text-command.md)|This command allows you to Convert List to Text.|
+|Convert|[Convert List To Visualized Text](/list-commands/convert-list-to-visualized-text-command.md)|This command allows you to Convert List to Visualized Text.|
 |Convert|[Join List Values As Text](/list-commands/join-list-values-as-text-command.md)|This command allows you to Join List Values. This Result is Text value.|
 |File|[Export List As Text File](/list-commands/export-list-as-text-file-command.md)|This command allows you to Export List as Text File.|
 |List Actions|[Concatenate Lists](/list-commands/concatenate-lists-command.md)|This command allows you to concatenate 2 lists.|
@@ -551,4 +563,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/04/24 04:59 PM
+This page was generated on 08/25/24 04:17 PM

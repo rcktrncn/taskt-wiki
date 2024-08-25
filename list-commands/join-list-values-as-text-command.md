@@ -22,8 +22,8 @@ Use this command when you want to Join List Values. This Result is Text value.
 - [Please Select the List Variable Name](#param_0)
 - [Please Specify the Separator of List Values](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Specify the Text before List Values](#param_3)
-- [Optional - Please Specify the Text after List Values](#param_4)
+- [Optional - Please Specify the Text before Values](#param_3)
+- [Optional - Please Specify the Text after Values](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -128,7 +128,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Text before List Values
+### Optional - Please Specify the Text before Values
 
 
 <dl>
@@ -143,8 +143,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| &quot; | Specify " for Text before List Values |
-| {vText} | Specify Value of Variable vText for Text before List Values |
+| &quot; | Specify " for Text before Values |
+| {vText} | Specify Value of Variable vText for Text before Values |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -157,7 +157,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Text after List Values
+### Optional - Please Specify the Text after Values
 
 
 <dl>
@@ -172,8 +172,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| &quot; | Specify " for Text after List Values |
-| {vText} | Specify Value of Variable vText for Text after List Values |
+| &quot; | Specify " for Text after Values |
+| {vText} | Specify Value of Variable vText for Text after Values |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -210,7 +210,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: JoinListValuesAsTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/04/24 04:59 PM
+This page was generated on 08/25/24 04:17 PM
 
 
 ## Help
