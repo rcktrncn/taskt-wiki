@@ -255,6 +255,9 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Execute OCR](/image-commands/execute-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
+||[Execute Tesseract OCR](/image-commands/execute-tesseract-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
+||[Find Pixel Colour](/image-commands/find-pixel-colour-command.md)|This command searches current screen for a pixel of a certain colour inside a rectangle.|
+||[Get Pixel Colour](/image-commands/get-pixel-colour-command.md)|This command gets a pixel at x,y coordinates from current screen.|
 ||[Image Recognition](/image-commands/image-recognition-command.md)|This command attempts to find an existing image on screen.|
 ||[Take Screenshot](/image-commands/take-screenshot-command.md)|This command takes a screenshot and saves it to a location|
 ### JSON
@@ -563,4 +566,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/25/24 04:17 PM
+This page was generated on 09/29/24 05:08 PM

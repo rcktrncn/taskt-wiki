@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Hex</strong> or  <strong>CSS RGB</strong> or  <strong>CSS RGBA</strong> or  <strong>Excel Color</strong> or  <strong>Red</strong> or  <strong>Green</strong> or  <strong>Blue</strong> or  <strong>Alpha</strong> or  <strong>HSL</strong> or  <strong>CMYK</strong> or  <strong>RGBA Dictionary</strong> or  <strong>RGBA DataTable</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Hex</strong> or  <strong>CSS RGB</strong> or  <strong>CSS RGBA</strong> or  <strong>Excel Color</strong> or  <strong>Red</strong> or  <strong>Green</strong> or  <strong>Blue</strong> or  <strong>Alpha</strong> or  <strong>HSL</strong> or  <strong>CMYK</strong> or  <strong>RGBA Dictionary</strong> or  <strong>RGBA DataTable</strong> or  <strong>ARGB Number</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -82,6 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 |Excel Color|Convert to Excel Color Value like **25312**|||
 |RGBA Dictionary|Convert to Dictionary. Key names are R, G, B, A.|||
 |RGBA DataTable|Convert to DataTable. Column names are R, G, B, A.|||
+|ARGB Number|Convert to Int32. Call ToARGB() method.|||
 
 
 <div style="font-size: 90%; text-align: center">
@@ -152,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/25/24 04:17 PM
+This page was generated on 09/29/24 05:08 PM
 
 
 ## Help
