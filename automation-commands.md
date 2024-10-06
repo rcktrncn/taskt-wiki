@@ -25,6 +25,7 @@
 | ---                | ---           | ---                   |
 ||[Convert Color](/color-commands/convert-color-command.md)|This command allows you to get convert Color Value.|
 ||[Create Color](/color-commands/create-color-command.md)|This command allows you to create Color.|
+||[Create Color From ARGB Number](/color-commands/create-color-from-argb-number-command.md)|This command allows you to create Color from ARGB Number.|
 ||[Create Color From Excel Color](/color-commands/create-color-from-excel-color-command.md)|This command allows you to create Color from Excel Color.|
 ||[Create Color From HEX](/color-commands/create-color-from-hex-command.md)|This command allows you to create Color from HEX.|
 ### Data
@@ -566,4 +567,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 09/29/24 05:08 PM
+This page was generated on 10/06/24 05:33 PM

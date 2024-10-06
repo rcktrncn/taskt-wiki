@@ -1,42 +1,42 @@
-<!--TITLE: Append DataTable Command -->
-<!-- SUBTITLE: a command in the Word group. -->
+<!--TITLE: Create Color From ARGB Number Command -->
+<!-- SUBTITLE: a command in the Color group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Word &gt; Append DataTable
+Color &gt; Create Color From ARGB Number
 
 
-# Append DataTable Command
+# Create Color From ARGB Number Command
 
 
 ## What does this command do?
-This command appends a datatable to a word document.
+This command allows you to create Color from ARGB Number.
 
 
 ## When would I want to use this command?
-Use this command when you want to append a datatable to a specific document.
+Use this command when you want to create Color from ARGB Number.
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Word Instance Name](#param_0)
-- [Please Select the DataTable Variable Name](#param_1)
+- [Please Select the Color Variable Name](#param_0)
+- [Please Specify the Color ARGB Number Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Word Instance Name
+### Please Select the Color Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Word Instance Name</dd>
-<dt>Instance Type</dt><dd>Word</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Color Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAWord or {vInstance}</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd>vColor or {vColor}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -45,8 +45,8 @@ Use this command when you want to append a datatable to a specific document.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>RPAWord</strong> | Specify **RPAWord** for Word Instance |
-| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Word Instance |
+| <strong>vColor</strong> | Specify Value of Variable **vColor** |
+| <strong>{vColor}</strong> | Specify Value of Variable **vColor** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -59,16 +59,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the DataTable Variable Name
+### Please Specify the Color ARGB Number Value
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>1234 or {vARGB}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -78,8 +77,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
-| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>1234</strong> | Specify ARGB Number Value **1234** |
+| <strong>{vARGB}</strong> | Specify Value of Variable **vARGB** for ARGB Number Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -114,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: WordAppendDataTableCommand
+Automation Class Name: CreateColorFromARGBNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 10/06/24 05:33 PM
 
