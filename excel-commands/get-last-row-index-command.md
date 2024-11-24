@@ -24,7 +24,8 @@ Use this command to determine how many rows have been used in the Excel Workbook
 - [Optional - Please Specify the Column Location or Index](#param_2)
 - [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Select the Value Type](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Select the Use Fast Method To Cell](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
@@ -185,6 +186,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Optional - Please Select the Use Fast Method To Cell
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -200,7 +224,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -209,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetLastRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/06/24 05:33 PM
+This page was generated on 11/24/24 12:06 PM
 
 
 ## Help

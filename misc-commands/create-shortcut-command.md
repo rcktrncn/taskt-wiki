@@ -34,7 +34,7 @@ Use this command when you want to create shortcut file
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>**C:\temp\target.txt or **C:\temp\ or **http://example.com or **{vPath}</dd>
+<dt>Sample Usage</dt><dd>C:\temp\target.txt or <em>C:\temp</em> or http://example.com or {vPath}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -44,10 +44,10 @@ Use this command when you want to create shortcut file
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| **C:\temp\target.txt | Specify **C:\temp\target.txt for Target File |
-| **C:\temp\ | Specify **C:\temp\ for Target Folder |
-| **http://example.com | Specify **http://example.com for Target URL |
-| **{vPath} | Specify Value of Variable **vPath for Target File, Folder, or URL |
+| <strong>C:\temp\target.txt</strong> | Specify **C:\temp\target.txt** for Target File |
+| *<em>C:\temp*</em> | Specify **C:\temp\** for Target Folder |
+| <strong>http://example.com</strong> | Specify **http://example.com** for Target URL |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for Target File, Folder, or URL |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -141,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateShortcutCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/06/24 05:33 PM
+This page was generated on 11/24/24 12:06 PM
 
 
 ## Help

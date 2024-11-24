@@ -132,7 +132,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -234,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/06/24 05:33 PM
+This page was generated on 11/24/24 12:06 PM
 
 
 ## Help

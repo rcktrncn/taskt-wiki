@@ -187,8 +187,8 @@
 |Instance|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
 |Instance|[Close Excel Instance](/excel-commands/close-excel-instance-command.md)|This command allows you to close Excel instance.|
 |Instance|[Create Excel Instance](/excel-commands/create-excel-instance-command.md)|This command opens the Excel Instance.|
-|Other|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
-|Other|[Run Macro](/excel-commands/run-macro-command.md)|This command runs a macro.|
+|Other|[Get Excel Information](/excel-commands/get-excel-information-command.md)|This command allows you to get current sheet name.|
+|Other|[Run Excel Macro](/excel-commands/run-excel-macro-command.md)|This command runs a macro.|
 |Range|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Range|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
 |Range|[Get Range Values As DataTable](/excel-commands/get-range-values-as-datatable-command.md)|This command get Range values as DataTable.|
@@ -209,7 +209,7 @@
 |Worksheet|[Copy Worksheet](/excel-commands/copy-worksheet-command.md)|This command copy a Excel Worksheet.|
 |Worksheet|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
 |Worksheet|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
-|Worksheet|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
+|Worksheet|[Get Worksheet Information](/excel-commands/get-worksheet-information-command.md)|This command allows you to get a sheet info.|
 |Worksheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
 |Worksheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
 ### File Operation
@@ -324,6 +324,11 @@
 |Other|[Get List Index](/list-commands/get-list-index-command.md)|This command allows you to get List Index.|
 |Other|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |Other|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
+### LocalListener
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[Call LocalListener API](/locallistener-commands/call-locallistener-api-command.md)|This command allows you to make API calls to taskt has LocalListener enabled|
+||[Remote API](/locallistener-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ### Loop
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -395,11 +400,6 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Get Regex Matches](/regex-commands/get-regex-matches-command.md)|This command allows you to loop through an Excel Dataset|
-### Remote
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
-||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
 ### Script
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -445,8 +445,8 @@
 |Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
 |Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
-|Search UIElement|[Check UIElement Exist](/uiautomation-commands/check-uielement-exist-command.md)|This command allows you to to check UIElement existence.|
-|Search UIElement|[Check UIElement Exist By XPath](/uiautomation-commands/check-uielement-exist-by-xpath-command.md)|This command allows you to check UIElement existence.|
+|Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
+|Search UIElement|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
 |Search UIElement|[Search Parent UIElement](/uiautomation-commands/search-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
 |Search UIElement|[Search UIElement From Table UIElement](/uiautomation-commands/search-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
@@ -486,10 +486,10 @@
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Instance|[Get Web Browser Info](/web-browser-commands/get-web-browser-info-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
+|Instance|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
-|Navigate|[Navigate to URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
+|Navigate|[Navigate To URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
 |Scraping|[Get A WebElement Values As DataTable](/web-browser-commands/get-a-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for a WebElement As DataTable.|
 |Scraping|[Get A WebElement Values As Dictionary](/web-browser-commands/get-a-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for a WebElement As Dictionary.|
 |Scraping|[Get A WebElement Values As List](/web-browser-commands/get-a-webelement-values-as-list-command.md)|This command allows you to get Attributes value for a WebElement As List.|
@@ -567,4 +567,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 10/06/24 05:33 PM
+This page was generated on 11/24/24 12:06 PM

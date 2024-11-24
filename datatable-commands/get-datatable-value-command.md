@@ -22,8 +22,8 @@ Use this command when you want to get the DataTable value.
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
-- [Please Select the Variable Name to Store Result](#param_3)
-- [Optional - Please Specify the Index of the Row](#param_4)
+- [Optional - Please Specify the Index of the Row](#param_3)
+- [Please Select the Variable Name to Store Result](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -125,6 +125,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Specify the Index of the Row
+
+
+<dl>
+<dt>What to input</dt><dd>Index of the Row</dd>
+<dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
+<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify First Row Index |
+| <strong>-1</strong> | Specify Last Row Index |
+| <strong>1</strong> | Specify **1** for Row Index |
+| <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Please Select the Variable Name to Store Result
 
 
@@ -147,38 +179,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vResult</strong> | Specify Variable Name **vResult** |
 | <strong>{vResult}</strong> | Specify Variable Name **vResult** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
-### Optional - Please Specify the Index of the Row
-
-
-<dl>
-<dt>What to input</dt><dd>Index of the Row</dd>
-<dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
-<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
-<strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>0</strong> | Specify First Row Index |
-| <strong>-1</strong> | Specify Last Row Index |
-| <strong>1</strong> | Specify **1** for Row Index |
-| <strong>{vRowIndex}</strong> | Specify Value of Variable **vRowIndex** for Row Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -215,7 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/06/24 05:33 PM
+This page was generated on 11/24/24 12:06 PM
 
 
 ## Help
