@@ -21,8 +21,8 @@ This command allows you to Repeat actions on the values held by DataTable. This 
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Select the List Variable Name](#param_1)
-- [Optional - Please Select the Variable Name to Store Column Index](#param_2)
-- [Optional - Please Select the Variable Name to Store Column Name](#param_3)
+- [Optional - Please Select the Variable Name to Store Column Index (Readonly)](#param_2)
+- [Optional - Please Select the Variable Name to Store Column Name (Readonly)](#param_3)
 - [Optional - Please Select the Reverse Loop](#param_4)
 - [Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')](#param_5)
 - [Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_6)
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Store Column Index
+### Optional - Please Select the Variable Name to Store Column Index (Readonly)
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Variable Name to Store Column Name
+### Optional - Please Select the Variable Name to Store Column Name (Readonly)
 
 
 <dl>
@@ -265,7 +265,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForDataTableColumnAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

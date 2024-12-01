@@ -314,6 +314,7 @@
 |List Item|[Check List Item Exists](/list-commands/check-list-item-exists-command.md)|This command allows you want to check list has a value you specify|
 |List Item|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
 |List Item|[Get List Item](/list-commands/get-list-item-command.md)|This command allows you to get an item from a List|
+|List Item|[Remove List Item](/list-commands/remove-list-item-command.md)|This command allows you to Remove an item from a List|
 |List Item|[Set List Item](/list-commands/set-list-item-command.md)|This command allows you want to set an item in a List|
 |Math|[Get Average From List](/list-commands/get-average-from-list-command.md)|This command allows you to get average value from a list.|
 |Math|[Get Max From List](/list-commands/get-max-from-list-command.md)|This command allows you to get max value from a list.|
@@ -429,8 +430,12 @@
 |Action|[Split Text](/text-commands/split-text-command.md)|This command allows you to split a Text|
 |Action|[Substring Text](/text-commands/substring-text-command.md)|This command allows you to trim a Text|
 |Check/Get|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a Text|
+|Check/Get|[Count Word In Text](/text-commands/count-word-in-text-command.md)|This command allows you to Count the Number of Words In Text|
+|Check/Get|[Get Index Of](/text-commands/get-index-of-command.md)|This command allows you to the First Position of the Specified Text|
+|Check/Get|[Get Last Index Of](/text-commands/get-last-index-of-command.md)|This command allows you to the Last Position of the Specified Text|
+|Check/Get|[Get Nth Index Of](/text-commands/get-nth-index-of-command.md)|This command allows you to the nth position of the Specified Text|
+|Check/Get|[Get Text Length](/text-commands/get-text-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
 |Check/Get|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a Text or Variable.|
-|Check/Get|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
 |File|[Read Text File](/text-commands/read-text-file-command.md)|This command allows you to read text file into a variable|
 |File|[Write Text File](/text-commands/write-text-file-command.md)|This command writes specified data to a text file|
 ### UIAutomation
@@ -567,4 +572,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM

@@ -20,10 +20,10 @@ This command allows you to Repeat actions on the values held by DataTable. This 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Select the Variable Name to Store DataTable Value](#param_1)
-- [Optional - Please Select the Variable Name to Store Row Index](#param_2)
+- [Optional - Please Select the Variable Name to Store DataTable Value (Readonly)](#param_1)
+- [Optional - Please Select the Variable Name to Store Row Index (Readonly)](#param_2)
 - [Optional - Please Select the Variable Name to Store Column Index](#param_3)
-- [Optional - Please Select the Variable Name to Store Column Name](#param_4)
+- [Optional - Please Select the Variable Name to Store Column Name (Readonly)](#param_4)
 - [Optional - Please Select the Loop Priority](#param_5)
 - [Optional - Please Select the Row Reverse Loop](#param_6)
 - [Optional - Please Select the Column Reverse Loop](#param_7)
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Variable Name to Store DataTable Value
+### Optional - Please Select the Variable Name to Store DataTable Value (Readonly)
 
 
 <dl>
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Store Row Index
+### Optional - Please Select the Variable Name to Store Row Index (Readonly)
 
 
 <dl>
@@ -159,7 +159,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Column Name
+### Optional - Please Select the Variable Name to Store Column Name (Readonly)
 
 
 <dl>
@@ -345,7 +345,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

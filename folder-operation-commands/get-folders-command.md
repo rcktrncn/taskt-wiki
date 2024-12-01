@@ -21,10 +21,12 @@ Use this command to return a list of folder directories from a specific location
 ## Command Parameters
 - [Please Specify the Folder Path](#param_0)
 - [Optional - Please Specify the Folder Name to Filter](#param_1)
-- [Optional - Please Select the Folder Name Search Method](#param_2)
-- [Please Select the List Variable Name](#param_3)
-- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Select the Folder Name Compare Method](#param_2)
+- [Optional - Please Select the Case Sensitive](#param_3)
+- [Optional - Please Select the Trim Before Compare](#param_4)
+- [Please Select the List Variable Name](#param_5)
+- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -90,13 +92,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Folder Name Search Method
+### Optional - Please Select the Folder Name Compare Method
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong> or  <strong>Not Contains</strong> or  <strong>Not Starts with</strong> or  <strong>Not Ends with</strong> or  <strong>Not Match</strong> or  <strong>Not Empty</strong> or  <strong>Is a Number</strong> or  <strong>Is a Boolean</strong> or  <strong>Is a Boolean Loose</strong> or  <strong>Is Empty</strong> or  <strong>Is Not a Number</strong> or  <strong>Is Not a Boolean</strong> or  <strong>Is Not a Boolean Loose</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
@@ -106,7 +108,22 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| GeneralPropertyControls | v_ComboBox |
+| <strong>Contains</strong> | It's like Comparing whether to Contains **hello**. |
+| <strong>Starts with</strong> | It's like Comparing whether to Starts With **hello**. |
+| <strong>Ends with</strong> | It's like Comparing whether to Ends With **hello**. |
+| <strong>Exact match</strong> | It's like Comparing whether an Exact matche to **hello**. |
+| <strong>Not Contains</strong> | It's like Comparing whether to Not Contains **hello**. |
+| <strong>Not Starts with</strong> | It's like Comparing whether to Not Starts With **hello**. |
+| <strong>Not Ends with</strong> | It's like Comparing whether to Not Ends With **hello**. |
+| <strong>Not Match</strong> | It's like Comparing whether an Not Matche to **hello**. |
+| <strong>Not Empty</strong> | This determines not empty text. |
+| <strong>Is a Number</strong> | This determines whether a number. |
+| <strong>Is a Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
+| <strong>Is a Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
+| <strong>Is Empty</strong> | This determines empty text. |
+| <strong>Is Not a Number</strong> | This determines whether it is **Not** a number. |
+| <strong>Is Not a Boolean</strong> | This determines whether it is **Not** a boolean, such as **True** or **False**. |
+| <strong>Is Not a Boolean Loose</strong> | This determines whether it is **Not** a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -119,6 +136,68 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Case Sensitive
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Yes</strong> | Comparison Method is Case Sensitive |
+| <strong>No</strong> | Comparison Method is NOT Case Sensitive |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Select the Trim Before Compare
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Trim</strong> or  <strong>Trim Start</strong> or  <strong>Trim End</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Trim</strong> | Remove White Space at the Start and End of Text |
+| <strong>Trim Start</strong> | Remove White Space at the Start of Text |
+| <strong>Trim End</strong> | Remove White Space at the End of Text |
+| <strong>No</strong> | Not Trim |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Please Select the List Variable Name
 
 
@@ -146,13 +225,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Wait Time for the Folder to Exist (sec)
 
 
@@ -177,13 +256,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -199,7 +278,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -208,7 +287,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFoldersCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

@@ -22,7 +22,8 @@ Use this command when you want to split a single Text or variable into multiple 
 - [Please Specify the Text Value](#param_0)
 - [Please Specify the Delimiter](#param_1)
 - [Please Select the List Variable Name](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Select the Remove Empty Item](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -65,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>, or [crLF] or [chars] or {vChar}</dd>
+<dt>Sample Usage</dt><dd>, or {Char.NewLine} or {TextSplit.Charactor} or {vChar}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -76,8 +77,8 @@ prev / [list](#param_list) / [next](#param_1)
 | Value | Means |
 |---|---|
 | <strong>,</strong> | Specify **,** for Delimiter |
-| <strong>[crLF]</strong> | Specify **Line Break** for Delimiter |
-| <strong>[chars]</strong> | Split by one character |
+| <strong>{Char.NewLine}</strong> | Specify **Line Break** for Delimiter |
+| <strong>{TextSplit.Charactor}</strong> | Split by one character |
 | <strong>{vChar}</strong> | Specify Value of Variable **vChar** for Delimiter |
 | <strong>{Char.Space}</strong> | Split by **Space**. Please specify **Disable Auto Calculation** before this command. |
 
@@ -126,6 +127,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Remove Empty Item
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -141,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -150,7 +174,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SplitTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

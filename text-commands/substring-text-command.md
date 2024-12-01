@@ -23,7 +23,8 @@ Use this command when you want to select a subset of text or variable
 - [Please Specify the Start Position](#param_1)
 - [Optional - Please Specify the Extract Length](#param_2)
 - [Please Select the Variable Name to Store Result](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the When Specified Invalid Position](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -65,9 +66,8 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Start Position</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-<li>Less than Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>0 or 1 or {vStart}</dd>
+<dt>Sample Usage</dt><dd>0 or 1 or -1 or {vStart}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -79,6 +79,7 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>0</strong> | Specify **First Charactor** for Start Position |
 | <strong>1</strong> | Specify **1** for Start Position |
+| <strong>-1</strong> | Specify **Last Charactor** for Start Position |
 | <strong>{vStart}</strong> | Specify Value of Variable **vStart** for Start Position |
 
 
@@ -156,6 +157,36 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the When Specified Invalid Position
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Rise A Error</strong> or  <strong>Get Empty Text</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Get Empty Text</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| Rise A Error | Rise A Error |
+| Get Empty Text | Get Empty Text |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -171,7 +202,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -180,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SubstringTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

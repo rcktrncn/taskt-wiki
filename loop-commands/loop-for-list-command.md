@@ -20,8 +20,8 @@ This command allows you to Repeat actions on the values held by List. This comma
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the List Variable Name](#param_0)
-- [Optional - Please Select the Variable Name to Store List Value](#param_1)
-- [Optional - Please Select the Variable Name to Store List Index](#param_2)
+- [Optional - Please Select the Variable Name to Store List Value (Readonly)](#param_1)
+- [Optional - Please Select the Variable Name to Store List Index (Readonly)](#param_2)
 - [Optional - Please Select the Reverse Loop](#param_3)
 - [Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')](#param_4)
 - [Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_5)
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Variable Name to Store List Value
+### Optional - Please Select the Variable Name to Store List Value (Readonly)
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Store List Index
+### Optional - Please Select the Variable Name to Store List Index (Readonly)
 
 
 <dl>
@@ -234,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help

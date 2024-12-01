@@ -31,7 +31,8 @@ Use this command when you want to send keystroke inputs to a window.
 - [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_9)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
-- [Optional - Please Specify the Comment Field](#param_12)
+- [Optional - Please Select the Clear Clipboard After Paste](#param_12)
+- [Optional - Please Specify the Comment Field](#param_13)
 
 
 <a id="param_0"></a>
@@ -384,6 +385,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_12"></a>
+### Optional - Please Select the Clear Clipboard After Paste
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_12) / [list](#param_list) / [next](#param_13)
+
+
+</div>
+
+
+<a id="param_13"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -399,7 +423,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_12) / [list](#param_list) / next
+[prev](#param_13) / [list](#param_list) / next
 
 
 </div>
@@ -408,7 +432,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/24 12:06 PM
+This page was generated on 12/01/24 05:57 PM
 
 
 ## Help
