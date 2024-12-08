@@ -10,11 +10,11 @@ DateTime &gt; Format DateTime
 
 
 ## What does this command do?
-This command allows you to Format DateTime Text.
+This command allows you to Format DateTime.
 
 
 ## When would I want to use this command?
-Use this command when you want to Format DateTime Text.
+Use this command when you want to Format DateTime.
 
 
 <a id="param_list"></a>
@@ -150,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/01/24 05:57 PM
+This page was generated on 12/08/24 08:03 PM
 
 
 ## Help

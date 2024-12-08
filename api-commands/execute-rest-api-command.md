@@ -20,13 +20,15 @@ Use this command when you want to present or display a value on screen to the us
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Base URL](#param_0)
-- [Please Specify the Endpoint](#param_1)
-- [Please Select the Method Type](#param_2)
-- [Please Specify the Advanced REST Parameters](#param_3)
+- [Optional - Please Specify the Port](#param_1)
+- [Please Specify the Endpoint](#param_2)
+- [Please Select the Method Type](#param_3)
 - [Please Specify the Basic REST Parameters](#param_4)
 - [Please Select the Variable Name to Store Result](#param_5)
-- [Please Select the Format Type](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Please Specify the Advanced REST Parameters](#param_6)
+- [Please Select the Format Type](#param_7)
+- [Optional - Please Specify the Timeout (sec)](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
@@ -38,7 +40,7 @@ Use this command when you want to present or display a value on screen to the us
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>https://example.com or {vURL}</dd>
+<dt>Sample Usage</dt><dd>https://example.com or 192.168.1.2 or {vURL}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -49,6 +51,7 @@ Use this command when you want to present or display a value on screen to the us
 | Value | Means |
 |---|---|
 | <strong>https://example.com</strong> | URL |
+| <strong>192.168.1.2</strong> | URL |
 | <strong>{vURL}</strong> | Specify Value of Variable **vURL** for URL |
 
 
@@ -62,6 +65,35 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Specify the Port
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Port</dd>
+<dt>Sample Usage</dt><dd>8080 or {vPort}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>8080</strong> | URL |
+| <strong>{vPort}</strong> | Specify Value of Variable **vPort** for URL |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Please Specify the Endpoint
 
 
@@ -87,13 +119,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
 ### Please Select the Method Type
 
 
@@ -103,29 +135,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>GET</strong> or  <strong>POST</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
-### Please Specify the Advanced REST Parameters
-
-
-<dl>
-<dt>What to input</dt><dd>Specify a list of advanced parameters.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>GET</strong> or  <strong>POST</strong> or  <strong>PUT</strong> or  <strong>DELETE</strong> or  <strong>PATCH</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -198,6 +208,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
+### Please Specify the Advanced REST Parameters
+
+
+<dl>
+<dt>What to input</dt><dd>Specify a list of advanced parameters.</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Please Select the Format Type
 
 
@@ -207,7 +239,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Json</strong> or  <strong>Xml</strong> or  <strong>None</strong></dd>
+<dt>Sample Usage</dt><dd><strong>JSON</strong> or  <strong>XML</strong> or  <strong>None</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -223,13 +255,42 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
+### Optional - Please Specify the Timeout (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Timeout</dd>
+<dt>Sample Usage</dt><dd>30 or {vTime}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>30</strong> | Specify **30** for Timeout |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Timeout |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -245,7 +306,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -254,7 +315,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: HTTPExecuteRESTAPICommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/01/24 05:57 PM
+This page was generated on 12/08/24 08:03 PM
 
 
 ## Help

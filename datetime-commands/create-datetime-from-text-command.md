@@ -20,7 +20,7 @@ Use this command when you want to create DateTime from Text.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the DateTime Variable Name](#param_0)
-- [Please Specify the Text Value](#param_1)
+- [Please Specify the DateTime Text](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
@@ -59,11 +59,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Text Value
+### Please Specify the DateTime Text
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -115,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/01/24 05:57 PM
+This page was generated on 12/08/24 08:03 PM
 
 
 ## Help

@@ -75,8 +75,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Get First List Item |
-| <strong>-1</strong> | Get Last List Item |
+| <strong>0</strong> | Specify First List Item |
+| <strong>-1</strong> | Specify Last List Item |
 | <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
@@ -114,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RemoveListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/01/24 05:57 PM
+This page was generated on 12/08/24 08:03 PM
 
 
 ## Help

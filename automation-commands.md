@@ -91,11 +91,19 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Calculate DateTime](/datetime-commands/calculate-datetime-command.md)|This command allows you to Calculate DateTime. Add Day, Minute, etc.|
+||[Calculate DateTime By Excel Serial](/datetime-commands/calculate-datetime-by-excel-serial-command.md)|This command allows you to Calculate DateTime By Excel Serial. Add Day, Minute, etc.|
+||[Calculate DateTime By Text](/datetime-commands/calculate-datetime-by-text-command.md)|This command allows you to Calculate DateTime By Text. Add Day, Minute, etc.|
+||[Calculate DateTime By Unix Time](/datetime-commands/calculate-datetime-by-unix-time-command.md)|This command allows you to Calculate DateTime By Unix Time. Add Day, Minute, etc.|
 ||[Convert DateTime To Excel Serial](/datetime-commands/convert-datetime-to-excel-serial-command.md)|This command allows you to Convert DateTime To Excel Serial Value.|
+||[Convert DateTime To Unix Time](/datetime-commands/convert-datetime-to-unix-time-command.md)|This command allows you to Convert DateTime To Unix Time.|
 ||[Create DateTime](/datetime-commands/create-datetime-command.md)|This command allows you to create DateTime.|
 ||[Create DateTime From Excel Serial](/datetime-commands/create-datetime-from-excel-serial-command.md)|This command allows you to create DateTime from Excel Serial Value.|
 ||[Create DateTime From Text](/datetime-commands/create-datetime-from-text-command.md)|This command allows you to create DateTime from Text.|
-||[Format DateTime](/datetime-commands/format-datetime-command.md)|This command allows you to Format DateTime Text.|
+||[Create DateTime From Unix Time](/datetime-commands/create-datetime-from-unix-time-command.md)|This command allows you to create DateTime from Unix Time.|
+||[Format DateTime](/datetime-commands/format-datetime-command.md)|This command allows you to Format DateTime.|
+||[Format DateTime By Excel Serial](/datetime-commands/format-datetime-by-excel-serial-command.md)|This command allows you to Format DateTime By Excel Serial.|
+||[Format DateTime By Text](/datetime-commands/format-datetime-by-text-command.md)|This command allows you to Format DateTime By Text.|
+||[Format DateTime By Unix Time](/datetime-commands/format-datetime-by-unix-time-command.md)|This command allows you to Format DateTime By Unix Time.|
 ||[Get DateTime Differences](/datetime-commands/get-datetime-differences-command.md)|This command allows you to Get 2 DateTime Differences.|
 ### Dialog/Message
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -572,4 +580,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/01/24 05:57 PM
+This page was generated on 12/08/24 08:03 PM
