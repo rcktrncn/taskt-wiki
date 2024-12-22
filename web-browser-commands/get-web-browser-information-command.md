@@ -10,11 +10,11 @@ Web Browser &gt; Instance &gt; Get Web Browser Information
 
 
 ## What does this command do?
-This command allows you to navigate a Selenium web browser session to a given URL or resource.
+This command allows you to Get Web Browser Information.
 
 
 ## When would I want to use this command?
-Use this command when you want to navigate an existing Selenium instance to a known URL or web resource
+Use this command when you want to Get Web Browser Information.
 
 
 <a id="param_list"></a>
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Window Title</strong> or  <strong>Window URL</strong> or  <strong>Current Handle ID</strong> or  <strong>HTML Page Source</strong> or  <strong>Handle ID List</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Window Title</strong> or  <strong>Window URL</strong> or  <strong>Current Handle</strong> or  <strong>HTML Page Source</strong> or  <strong>Handles JSON Array</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebBrowserInformationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/24 08:03 PM
+This page was generated on 12/22/24 08:42 PM
 
 
 ## Help

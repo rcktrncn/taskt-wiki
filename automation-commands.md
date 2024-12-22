@@ -228,8 +228,8 @@
 ||[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 ||[Extract Zip File](/file-operation-commands/extract-zip-file-command.md)|This command extracts files from a compressed file|
 ||[Extraction File Path](/file-operation-commands/extraction-file-path-command.md)|This command allows you to extract from file path.|
-||[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
-||[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
+||[Get File Information](/file-operation-commands/get-file-information-command.md)|This command returns a list of file paths from a specified location|
+||[Get Files Path As List](/file-operation-commands/get-files-path-as-list-command.md)|This command returns a list of file paths from a specified location|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
@@ -241,7 +241,7 @@
 ||[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
-||[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
+||[Get Folders Path As List](/folder-operation-commands/get-folders-path-as-list-command.md)|This command returns a list of folder directories from a specified location|
 ||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
 ||[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
@@ -499,7 +499,7 @@
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Instance|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
+|Instance|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to Get Web Browser Information.|
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Navigate|[Navigate To URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
@@ -521,15 +521,27 @@
 |Web Browser Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
 |Web Browser Actions|[Resize Web Browser](/web-browser-commands/resize-web-browser-command.md)|This command allows you to change web browser window size.|
 |Web Browser Actions|[Switch Web Browser Frame](/web-browser-commands/switch-web-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Web Browser Actions|[Switch Web Browser Window](/web-browser-commands/switch-web-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Web Browser Actions|[Switch Web Browser Window And Tab](/web-browser-commands/switch-web-browser-window-and-tab-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Actions|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
 |WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
 |WebElement Action|[Scroll To WebElement](/web-browser-commands/scroll-to-webelement-command.md)|This command allows you to Scroll to WebElement.|
 |WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
+|WebElement Action|[Send Special Keystrokes To WebElement](/web-browser-commands/send-special-keystrokes-to-webelement-command.md)|This command allows you to Send Special Keystrokes in WebElement.|
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
 |WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
+|Window/Tab|[Get Window And Tab Count](/web-browser-commands/get-window-and-tab-count-command.md)|This command allows you to Get Number of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab Handles As JSON](/web-browser-commands/get-window-and-tab-handles-as-json-command.md)|This command allows you to Get Web Browser Handles of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab Handles As List](/web-browser-commands/get-window-and-tab-handles-as-list-command.md)|This command allows you to Get Web Browser Handles of Windows and Tabs As List.|
+|Window/Tab|[Get Window And Tab Informations As DataTable](/web-browser-commands/get-window-and-tab-informations-as-datatable-command.md)|This command allows you to Get Handle, Title, and URL of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab Informations As JSON](/web-browser-commands/get-window-and-tab-informations-as-json-command.md)|This command allows you to Get Web Browser Informations of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab Titles As Dictionary](/web-browser-commands/get-window-and-tab-titles-as-dictionary-command.md)|This command allows you to Get Page Titles of Windows and Tabs As Dictionary.|
+|Window/Tab|[Get Window And Tab Titles As JSON](/web-browser-commands/get-window-and-tab-titles-as-json-command.md)|This command allows you to Get Web Browser Titles of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab Titles As List](/web-browser-commands/get-window-and-tab-titles-as-list-command.md)|This command allows you to Get Page Titles of Windows and Tabs As List.|
+|Window/Tab|[Get Window And Tab URLs As Dictionary](/web-browser-commands/get-window-and-tab-urls-as-dictionary-command.md)|This command allows you to Get Page URLs of Windows and Tabs As Dictionary.|
+|Window/Tab|[Get Window And Tab URLs As JSON](/web-browser-commands/get-window-and-tab-urls-as-json-command.md)|This command allows you to Get Web Browser URLs of Windows and Tabs.|
+|Window/Tab|[Get Window And Tab URLs As List](/web-browser-commands/get-window-and-tab-urls-as-list-command.md)|This command allows you to Get Page URLs of Windows and Tabs As List.|
 ### Window
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -580,4 +592,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/08/24 08:03 PM
+This page was generated on 12/22/24 08:42 PM
