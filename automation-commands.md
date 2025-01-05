@@ -230,6 +230,8 @@
 ||[Extraction File Path](/file-operation-commands/extraction-file-path-command.md)|This command allows you to extract from file path.|
 ||[Get File Information](/file-operation-commands/get-file-information-command.md)|This command returns a list of file paths from a specified location|
 ||[Get Files Path As List](/file-operation-commands/get-files-path-as-list-command.md)|This command returns a list of file paths from a specified location|
+||[Get Last Existent Numbered File Path](/file-operation-commands/get-last-existent-numbered-file-path-command.md)|This command allows you to get a last Numbered File Path that Exists.|
+||[Get Non Existent File Path](/file-operation-commands/get-non-existent-file-path-command.md)|This command allows you to get a File Path that do not Exist.|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
@@ -242,6 +244,7 @@
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
 ||[Get Folders Path As List](/folder-operation-commands/get-folders-path-as-list-command.md)|This command returns a list of folder directories from a specified location|
+||[Get Special Folder Path](/folder-operation-commands/get-special-folder-path-command.md)|This command allows you to Get Special Folder Path, like Documents, etc.|
 ||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
 ||[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
@@ -592,4 +595,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/22/24 08:42 PM
+This page was generated on 01/05/25 06:04 PM

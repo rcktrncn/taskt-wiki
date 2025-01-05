@@ -24,7 +24,7 @@ Use this command to move a folder to a new destination.
 - [Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_2)
 - [Optional - Please Select the Delete Folder when it already Exists](#param_3)
 - [Optional - Please Specify the Wait Time for the Target Folder to Exist (sec)](#param_4)
-- [Optional - Please Select the Variable Name to Store Folder Path After Move](#param_5)
+- [Optional - Please Select the Variable Name to Store Folder Path Before Move](#param_5)
 - [Optional - Please Select the Variable Name to Store Folder Path After Move](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
@@ -173,7 +173,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Variable Name to Store Folder Path After Move
+### Optional - Please Select the Variable Name to Store Folder Path Before Move
 
 
 <dl>
@@ -259,7 +259,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/22/24 08:42 PM
+This page was generated on 01/05/25 06:04 PM
 
 
 ## Help

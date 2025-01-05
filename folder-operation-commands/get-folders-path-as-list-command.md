@@ -111,12 +111,14 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>Contains</strong> | It's like Comparing whether to Contains **hello**. |
 | <strong>Starts with</strong> | It's like Comparing whether to Starts With **hello**. |
 | <strong>Ends with</strong> | It's like Comparing whether to Ends With **hello**. |
-| <strong>Exact match</strong> | It's like Comparing whether an Exact matche to **hello**. |
+| <strong>Exact match</strong> | It's like Comparing whether an Exact match to **hello**. |
 | <strong>Not Contains</strong> | It's like Comparing whether to Not Contains **hello**. |
 | <strong>Not Starts with</strong> | It's like Comparing whether to Not Starts With **hello**. |
 | <strong>Not Ends with</strong> | It's like Comparing whether to Not Ends With **hello**. |
 | <strong>Not Match</strong> | It's like Comparing whether an Not Matche to **hello**. |
 | <strong>Not Empty</strong> | This determines not empty text. |
+| <strong>Wildcard</strong> | Check for Wildcard match. |
+| <strong>Not Wildcard</strong> | Check for Wildcard Not match. |
 | <strong>Is a Number</strong> | This determines whether a number. |
 | <strong>Is a Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
 | <strong>Is a Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
@@ -287,7 +289,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFoldersPathAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/22/24 08:42 PM
+This page was generated on 01/05/25 06:04 PM
 
 
 ## Help

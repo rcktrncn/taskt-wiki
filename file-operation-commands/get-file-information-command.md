@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>File size</strong> or  <strong>Readonly file</strong> or  <strong>Hidden file</strong> or  <strong>Creation time</strong> or  <strong>Last write time</strong> or  <strong>Last access time</strong></dd>
+<dt>Sample Usage</dt><dd><strong>File Size</strong> or  <strong>File Size (KB)</strong> or  <strong>File Size (MB)</strong> or  <strong>File Size (GB)</strong> or  <strong>Readonly File</strong> or  <strong>Hidden File</strong> or  <strong>Creation Time</strong> or  <strong>Last Write Time</strong> or  <strong>Last Access Time</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -208,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFileInformationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/22/24 08:42 PM
+This page was generated on 01/05/25 06:04 PM
 
 
 ## Help
