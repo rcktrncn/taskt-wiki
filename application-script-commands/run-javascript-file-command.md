@@ -19,14 +19,15 @@ This command allows you to execute JavaScript.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the JavaScript File](#param_0)
-- [Optional - Please Specify the Argument](#param_1)
-- [Optional - Please Select the Variable Name to Recieve Result Value](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Please Specify the JavaScript File Path](#param_0)
+- [Optional - Please Specify the Arguments](#param_1)
+- [Optional - Please Select the Variable Name to Receive the Output](#param_2)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the JavaScript File
+### Please Specify the JavaScript File Path
 
 
 <dl>
@@ -60,14 +61,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Argument
+### Optional - Please Specify the Arguments
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Argument</dd>
-<dt>Sample Usage</dt><dd>0 or {vValue}</dd>
-<dt>Remarks</dt><dd>The value of the argument can be obtained with 'arguments[0]' in code.<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the Arguments</dd>
+<dt>Sample Usage</dt><dd>1 or Hello or 1 2 3 or {vArgs}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -76,8 +76,10 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specify **0** for Argument |
-| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Argument |
+| <strong>1</strong> | Specify **1** for Arguments |
+| <strong>Hello</strong> | Specify **Hello** for Arguments |
+| <strong>1 2 3</strong> | Specify **1 2 3** for Arguments |
+| <strong>{vArgs}</strong> | Specify Value of Variable **vArgs** for Arguments |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -90,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Recieve Result Value
+### Optional - Please Select the Variable Name to Receive the Output
 
 
 <dl>
@@ -121,6 +123,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -136,7 +169,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -145,7 +178,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunJavaScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

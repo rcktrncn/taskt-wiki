@@ -167,7 +167,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExportListAsTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

@@ -24,8 +24,8 @@ Use this command to move a file to a new destination.
 - [Optional - Please Select the Create Folder When Destination Folder does not Exist](#param_2)
 - [Optional - Please Select the Delete File if it already Exists](#param_3)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_4)
-- [Optional - Please Select the Variable Name to Store File Path Before Move](#param_5)
-- [Optional - Please Select the Variable Name to Store File Path After Move](#param_6)
+- [Optional - Please Select the Variable Name to Store File Path Before Command](#param_5)
+- [Optional - Please Select the Variable Name to Store File Path After Command](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
 
@@ -176,7 +176,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Variable Name to Store File Path Before Move
+### Optional - Please Select the Variable Name to Store File Path Before Command
 
 
 <dl>
@@ -207,7 +207,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Variable Name to Store File Path After Move
+### Optional - Please Select the Variable Name to Store File Path After Command
 
 
 <dl>
@@ -262,7 +262,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

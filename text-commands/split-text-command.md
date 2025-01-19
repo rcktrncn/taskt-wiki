@@ -174,7 +174,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SplitTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

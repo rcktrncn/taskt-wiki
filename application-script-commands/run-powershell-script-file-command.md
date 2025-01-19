@@ -19,7 +19,7 @@ Use this command when you want to run a powershell script and wait for it to clo
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Powershell Script File](#param_0)
+- [Please Specify the Powershell Script File Path](#param_0)
 - [Optional - Please Specify the Arguments](#param_1)
 - [Optional - Please Select the Convert Variables before Execution](#param_2)
 - [Optional - Please Select the Variable Name to Receive the Output](#param_3)
@@ -28,7 +28,7 @@ Use this command when you want to run a powershell script and wait for it to clo
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Powershell Script File
+### Please Specify the Powershell Script File Path
 
 
 <dl>
@@ -204,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

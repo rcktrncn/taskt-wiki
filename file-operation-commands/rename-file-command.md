@@ -21,12 +21,12 @@ Use this command to rename an existing file.
 ## Command Parameters
 - [Please Specify the File Path](#param_0)
 - [Please Specify the New File Name](#param_1)
-- [Optional - Please Select the Value](#param_2)
-- [Optional - Please Specify the New File Extention](#param_3)
+- [Optional - Please Select the Extension Option](#param_2)
+- [Optional - Please Specify the New File Extension](#param_3)
 - [Optional - Please Select the When File Name Same After the Change](#param_4)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
-- [Optional - Please Select the Variable Name to Store File Path Before Rename](#param_6)
-- [Optional - Please Select the Variable Name to Store File Path After Rename](#param_7)
+- [Optional - Please Select the Variable Name to Store File Path Before Command](#param_6)
+- [Optional - Please Select the Variable Name to Store File Path After Command](#param_7)
 - [Optional - Please Specify the Comment Field](#param_8)
 
 
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Value
+### Optional - Please Select the Extension Option
 
 
 <dl>
@@ -108,7 +108,7 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
-#### Addtional Info about &quot;Optional - Please Select the Value&quot;
+#### Addtional Info about &quot;Optional - Please Select the Extension Option&quot;
 | Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
 | ---             | ---           | ---          | ---       |
 |Auto|If the New File Name does not contain an Extension and Not specified New Extension, it will automatically be given the extension of the path before the Rename.|||
@@ -127,11 +127,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the New File Extention
+### Optional - Please Specify the New File Extension
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the New File Extention</dd>
+<dt>What to input</dt><dd>Enter or Select the New File Extension</dd>
 <dt>Sample Usage</dt><dd>txt or {vExtension}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -217,7 +217,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Variable Name to Store File Path Before Rename
+### Optional - Please Select the Variable Name to Store File Path Before Command
 
 
 <dl>
@@ -248,14 +248,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store File Path After Rename
+### Optional - Please Select the Variable Name to Store File Path After Command
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -265,8 +265,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+| <strong>vPath</strong> | Specify Variable Name **vPath** |
+| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -303,7 +303,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

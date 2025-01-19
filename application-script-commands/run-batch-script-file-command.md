@@ -19,13 +19,15 @@ Use this command when you want to run a script (such as vbScript, javascript, or
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Batch Script File](#param_0)
-- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Please Specify the Batch Script File Path](#param_0)
+- [Optional - Please Specify the Arguments](#param_1)
+- [Optional - Please Select the Variable Name to Receive the Output](#param_2)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Batch Script File
+### Please Specify the Batch Script File Path
 
 
 <dl>
@@ -63,6 +65,68 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Specify the Arguments
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Arguments</dd>
+<dt>Sample Usage</dt><dd>1 or Hello or 1 2 3 or {vArgs}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Arguments |
+| <strong>Hello</strong> | Specify **Hello** for Arguments |
+| <strong>1 2 3</strong> | Specify **1 2 3** for Arguments |
+| <strong>{vArgs}</strong> | Specify Value of Variable **vArgs** for Arguments |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
+### Optional - Please Select the Variable Name to Receive the Output
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
@@ -87,13 +151,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -109,7 +173,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -118,7 +182,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunBatchScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

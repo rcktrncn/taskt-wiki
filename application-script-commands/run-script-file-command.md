@@ -19,7 +19,7 @@ Use this command when you want to run another task.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Script File](#param_0)
+- [Please Specify the Script File Path](#param_0)
 - [Optional - Please Select the I want to assign Variables on Startup](#param_1)
 - [Please Specify the Assign Variables](#param_2)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_3)
@@ -27,7 +27,7 @@ Use this command when you want to run another task.
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Script File
+### Please Specify the Script File Path
 
 
 <dl>
@@ -161,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help

@@ -19,13 +19,13 @@ Use this command when you want to load a task but not immediately execute it.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Script File. After, Use 'Run Script File' with the Same Path to Execute.](#param_0)
+- [Please Specify the Script File Path. After, Use 'Run Script File' with the Same Path to Execute.](#param_0)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Script File. After, Use 'Run Script File' with the Same Path to Execute.
+### Please Specify the Script File Path. After, Use 'Run Script File' with the Same Path to Execute.
 
 
 <dl>
@@ -114,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: LoadScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/05/25 06:04 PM
+This page was generated on 01/19/25 05:55 PM
 
 
 ## Help
