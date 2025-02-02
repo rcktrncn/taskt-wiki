@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Folder is not Found.<br><br>
-<strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
 
 
@@ -145,7 +145,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WaitForFolderToExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/19/25 05:55 PM
+This page was generated on 02/02/25 06:16 PM
 
 
 ## Help

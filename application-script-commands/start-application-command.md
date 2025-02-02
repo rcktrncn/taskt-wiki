@@ -19,7 +19,7 @@ Use this command to start applications by entering their name such as 'chrome.ex
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Application or Application Name](#param_0)
+- [Please Specify the Application Path or Application Name](#param_0)
 - [Optional - Please Specify the Arguments](#param_1)
 - [Optional - Please Select the Wait for the Application to Complete](#param_2)
 - [Optional - Please Select the Variable Name to Store Application Process Name](#param_3)
@@ -27,15 +27,16 @@ Use this command to start applications by entering their name such as 'chrome.ex
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
 - [Optional - Please Specify the Wait Time until Application Starts (ms)](#param_6)
 - [Optional - Please Specify the Wait Time before Executing Next Command (ms)](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [Optional - Please Specify the Wait Time for the Appliaction to Exist (sec)](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Application or Application Name
+### Please Specify the Application Path or Application Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Path</dd>
+<dt>What to input</dt><dd>Enter or Select the Application Path or Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -273,6 +274,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
+### Optional - Please Specify the Wait Time for the Appliaction to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -288,7 +320,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -297,7 +329,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: StartApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/19/25 05:55 PM
+This page was generated on 02/02/25 06:16 PM
 
 
 ## Help
