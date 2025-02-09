@@ -20,10 +20,10 @@ Use this command to create a folder in a specific location.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Name of the New Folder](#param_0)
-- [Please Specify the Location where you want to Create the Folder](#param_1)
+- [Please Specify the Folder Path](#param_1)
 - [Optional - Please Select the Delete Folder When it already Exists](#param_2)
 - [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_3)
-- [Optional - Please Select the Variable Name to Store Created Folder Path](#param_4)
+- [Optional - Please Select the Variable Name to Store Folder Path](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Location where you want to Create the Folder
+### Please Specify the Folder Path
 
 
 <dl>
@@ -147,14 +147,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Created Folder Path
+### Optional - Please Select the Variable Name to Store Folder Path
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -164,8 +164,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+| <strong>vPath</strong> | Specify Variable Name **vPath** |
+| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -202,7 +202,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/02/25 06:16 PM
+This page was generated on 02/09/25 05:04 PM
 
 
 ## Help

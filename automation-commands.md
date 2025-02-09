@@ -225,6 +225,7 @@
 | ---                | ---           | ---                   |
 ||[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
 ||[Copy File](/file-operation-commands/copy-file-command.md)|This command copies a file to a specified destination|
+||[Copy File To Same Folder](/file-operation-commands/copy-file-to-same-folder-command.md)|This command allows to copy a file to same folder.|
 ||[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 ||[Extract Zip File](/file-operation-commands/extract-zip-file-command.md)|This command extracts files from a compressed file|
 ||[Extraction File Path](/file-operation-commands/extraction-file-path-command.md)|This command allows you to extract from file path.|
@@ -240,7 +241,9 @@
 | ---                | ---           | ---                   |
 ||[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existence of folder paths from a specified location|
 ||[Copy Folder](/folder-operation-commands/copy-folder-command.md)|This command copies a folder to a specified destination|
+||[Copy Folder In Same Location](/folder-operation-commands/copy-folder-in-same-location-command.md)|This command Copy Folder in Same Location Path.|
 ||[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
+||[Create Folder By Path](/folder-operation-commands/create-folder-by-path-command.md)|This command creates a folder specified by Path|
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
 ||[Get Folders Path As List](/folder-operation-commands/get-folders-path-as-list-command.md)|This command returns a list of folder directories from a specified location|
@@ -595,4 +598,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/02/25 06:16 PM
+This page was generated on 02/09/25 05:04 PM
