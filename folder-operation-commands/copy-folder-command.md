@@ -24,7 +24,7 @@ Use this command to copy a folder to a new destination.
 - [Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_2)
 - [Optional - Please Select the When Description Folder Path is Same as Target Folder Path](#param_3)
 - [Optional - Please Select the Copy SubFolders](#param_4)
-- [Optional - Please Select the Delete Folder when it already Exists](#param_5)
+- [Optional - Please Select the When Destination Folder Is Already Exists](#param_5)
 - [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_6)
 - [Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_7)
 - [Optional - Please Select the Variable Name to Store Folder Path After Process](#param_8)
@@ -174,17 +174,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Delete Folder when it already Exists
+### Optional - Please Select the When Destination Folder Is Already Exists
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Error</strong> | Rise an Error |
+| <strong>Ignore</strong> | Nothing to do |
+| <strong>Delete</strong> | Delete the Folder |
+| <strong>Delete To Recycle Bin</strong> | Delete the Folder to Recycle Bin |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -314,7 +323,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/09/25 05:04 PM
+This page was generated on 02/16/25 05:19 PM
 
 
 ## Help

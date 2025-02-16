@@ -321,9 +321,13 @@
 |List Actions|[Copy List](/list-commands/copy-list-command.md)|This command allows you to list to copy.|
 |List Actions|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
 |List Actions|[Filter List](/list-commands/filter-list-command.md)|This command allows you to filter List value.|
+|List Actions|[Get Common Values Of Lists](/list-commands/get-common-values-of-lists-command.md)|This command allows you to Get Common Valus of 2 Lists.|
+|List Actions|[Get List With Duplicate Items Removed](/list-commands/get-list-with-duplicate-items-removed-command.md)|This command allows you to Get List with Duplicate Items Removed.|
 |List Actions|[Replace List](/list-commands/replace-list-command.md)|This command allows you to relace List value.|
 |List Actions|[Reverse List](/list-commands/reverse-list-command.md)|This command allows you to reverse list.|
+|List Actions|[Slice List](/list-commands/slice-list-command.md)|This command allows you to Get a Part of the List.|
 |List Actions|[Sort List](/list-commands/sort-list-command.md)|This command allows you to sort list.|
+|List Index|[Check Valid List Index](/list-commands/check-valid-list-index-command.md)|This command allows you to Check Valid List Index.|
 |List Item|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to add list item.|
 |List Item|[Check List Item Exists](/list-commands/check-list-item-exists-command.md)|This command allows you want to check list has a value you specify|
 |List Item|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
@@ -395,6 +399,8 @@
 ### Numerical
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+||[Check Number](/numerical-commands/check-number-command.md)|This command allows you to Check Number Value.|
+||[Compare Number](/numerical-commands/compare-number-command.md)|This command allows you to Compare Number.|
 ||[Create Numerical Variable](/numerical-commands/create-numerical-variable-command.md)|This command allows you to create Number Variable.|
 ||[Decrease Numerical Variable](/numerical-commands/decrease-numerical-variable-command.md)|This command allows you to Decrease Value in Numerical Variable.|
 ||[Format Number](/numerical-commands/format-number-command.md)|This command allows you to Format Number.|
@@ -598,4 +604,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/09/25 05:04 PM
+This page was generated on 02/16/25 05:19 PM

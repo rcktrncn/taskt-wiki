@@ -23,10 +23,11 @@ This command Copy Folder in Same Location Path.
 - [Please Specify the New Folder Name](#param_1)
 - [Optional - Please Select the When Folder Name Same After the Change](#param_2)
 - [Optional - Please Select the Copy SubFolders](#param_3)
-- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_4)
-- [Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_5)
-- [Optional - Please Select the Variable Name to Store Folder Path After Process](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Select the When Destination Folder Is Already Exists](#param_4)
+- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_5)
+- [Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_6)
+- [Optional - Please Select the Variable Name to Store Folder Path After Process](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -148,6 +149,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the When Destination Folder Is Already Exists
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Error</strong> | Rise an Error |
+| <strong>Ignore</strong> | Nothing to do |
+| <strong>Delete</strong> | Delete the Folder |
+| <strong>Delete To Recycle Bin</strong> | Delete the Folder to Recycle Bin |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Wait Time for the Folder to Exist (sec)
 
 
@@ -172,37 +205,6 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
-
-
-</div>
-
-
-<a id="param_5"></a>
-### Optional - Please Select the Variable Name to Store Folder Path Before Process
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vPath</strong> | Specify Variable Name **vPath** |
-| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
 [prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
@@ -210,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Variable Name to Store Folder Path After Process
+### Optional - Please Select the Variable Name to Store Folder Path Before Process
 
 
 <dl>
@@ -241,6 +243,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
+### Optional - Please Select the Variable Name to Store Folder Path After Process
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vPath</strong> | Specify Variable Name **vPath** |
+| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -256,7 +289,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -265,7 +298,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyFolderInSamLocationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/09/25 05:04 PM
+This page was generated on 02/16/25 05:19 PM
 
 
 ## Help

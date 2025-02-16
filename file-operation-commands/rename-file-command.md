@@ -193,7 +193,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
@@ -206,6 +206,7 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>Ignore</strong> | Nothing to do |
 | <strong>Error</strong> | Rise a Error |
 | <strong>Delete</strong> | Delete File |
+| <strong>Delete To Recycle Bin</strong> | Delete the File to Recycle Bin and Copy |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -335,7 +336,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/09/25 05:04 PM
+This page was generated on 02/16/25 05:19 PM
 
 
 ## Help
