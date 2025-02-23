@@ -328,6 +328,7 @@
 |List Actions|[Slice List](/list-commands/slice-list-command.md)|This command allows you to Get a Part of the List.|
 |List Actions|[Sort List](/list-commands/sort-list-command.md)|This command allows you to sort list.|
 |List Index|[Check Valid List Index](/list-commands/check-valid-list-index-command.md)|This command allows you to Check Valid List Index.|
+|List Index|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |List Item|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to add list item.|
 |List Item|[Check List Item Exists](/list-commands/check-list-item-exists-command.md)|This command allows you want to check list has a value you specify|
 |List Item|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
@@ -341,7 +342,6 @@
 |Math|[Get Sum From List](/list-commands/get-sum-from-list-command.md)|This command allows you to get sum value from a list.|
 |Math|[Get Variance From List](/list-commands/get-variance-from-list-command.md)|This command allows you to get variance value from a list.|
 |Other|[Get List Index](/list-commands/get-list-index-command.md)|This command allows you to get List Index.|
-|Other|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |Other|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
 ### LocalListener
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -604,4 +604,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/16/25 05:19 PM
+This page was generated on 02/23/25 08:15 PM

@@ -20,7 +20,7 @@ Use this command when you want to Compare Number.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Numerical Value](#param_0)
-- [Please Specify the v_CompareMethod](#param_1)
+- [Please Select the Compare Method](#param_1)
 - [Please Specify the Numerical Value to be Compared](#param_2)
 - [Optional - Please Specify the Numerical Value to be Compared 2](#param_3)
 - [Please Select the Numerical Variable Name to Store Result](#param_4)
@@ -61,12 +61,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the v_CompareMethod
+### Please Select the Compare Method
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Is Equal To</strong> or  <strong>Is Not Equal To</strong> or  <strong>Is Greater Than</strong> or  <strong>Is Greater Than Or Equal To</strong> or  <strong>Is Less Than</strong> or  <strong>Is Less Than Or Equal To</strong> or  <strong>Is Between</strong> or  <strong>Is Not Between</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -204,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CompareNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/16/25 05:19 PM
+This page was generated on 02/23/25 08:15 PM
 
 
 ## Help

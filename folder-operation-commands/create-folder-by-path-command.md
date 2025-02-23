@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Delete And Create</strong> or  <strong>Error</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
@@ -75,7 +75,8 @@ prev / [list](#param_list) / [next](#param_1)
 | Value | Means |
 |---|---|
 | <strong>Ignore</strong> | Nothing to do |
-| <strong>Delete And Create</strong> | Delete Folder and Create Folder |
+| <strong>Delete</strong> | Delete Folder and Create Folder |
+| <strong>Delete To Recycle Bin</strong> | Delete Folder to Recycle Bin and Create Folder |
 | <strong>Error</strong> | Rise an Error |
 
 
@@ -113,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateFolderByPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/16/25 05:19 PM
+This page was generated on 02/23/25 08:15 PM
 
 
 ## Help

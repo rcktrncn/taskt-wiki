@@ -21,7 +21,7 @@ Use this command to create a folder in a specific location.
 ## Command Parameters
 - [Please Specify the Name of the New Folder](#param_0)
 - [Please Specify the Folder Path](#param_1)
-- [Optional - Please Select the Delete Folder When it already Exists](#param_2)
+- [Optional - Please Select the When Folder Exists](#param_2)
 - [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_3)
 - [Optional - Please Select the Variable Name to Store Folder Path](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
@@ -93,17 +93,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Delete Folder When it already Exists
+### Optional - Please Select the When Folder Exists
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing to do |
+| <strong>Delete</strong> | Delete Folder and Create Folder |
+| <strong>Delete To Recycle Bin</strong> | Delete Folder to Recycle Bin and Create Folder |
+| <strong>Error</strong> | Rise an Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -202,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/16/25 05:19 PM
+This page was generated on 02/23/25 08:15 PM
 
 
 ## Help

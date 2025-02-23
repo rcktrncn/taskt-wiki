@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-List &gt; Other &gt; Get List Index From Value
+List &gt; List Index &gt; Get List Index From Value
 
 
 # Get List Index From Value Command
@@ -160,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListIndexFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/16/25 05:19 PM
+This page was generated on 02/23/25 08:15 PM
 
 
 ## Help
