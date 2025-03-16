@@ -23,7 +23,8 @@ Use this command when you want to write data to text files.
 - [Please Specify the Text to be Written](#param_1)
 - [Optional - Please Select the Overwrite Option](#param_2)
 - [Optional - Please Select the Replace [crLF] to Line Break](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the Expand taskt Variables In Text](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -140,6 +141,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Expand taskt Variables In Text
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -155,7 +179,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -164,7 +188,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WriteTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/23/25 08:15 PM
+This page was generated on 03/16/25 10:43 PM
 
 
 ## Help

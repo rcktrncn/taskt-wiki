@@ -23,8 +23,9 @@ Use this command when you want to run a powershell script and wait for it to clo
 - [Optional - Please Specify the Arguments](#param_1)
 - [Optional - Please Select the Convert Variables before Execution](#param_2)
 - [Optional - Please Select the Variable Name to Receive the Output](#param_3)
-- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Select the Script Execution Method](#param_4)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
@@ -102,7 +103,8 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+<dt>Remarks</dt><dd>This parameter is enabled when Execution Method is Base64<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -149,6 +151,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Script Execution Method
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>EncodedCommand Base64</strong> or  <strong>ExecutionPolicy Unrestricted</strong> or  <strong>ExecutionPolicy Bypass</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>EncodedCommand Base64</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| EncodedCommand Base64 | Encode the Script to Base64 and execute it by -EncodedCommand parameters. Arguments are sent to PowerShell, they cannot be retrieved by the Script. But you can expand the value of the taskt Variables in the Script. |
+| ExecutionPolicy Unrestricted | '-ExecutionPolicy Unrestricted' is set up in PowerShell and a Script is specified and executed by the -File parameter. Arguments are sent to the Script. |
+| ExecutionPolicy Bypass | '-ExecutionPolicy Bypass' is set up in PowerShell and a Script is specified and executed by the -File parameter. Arguments are sent to the Script. |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
@@ -173,13 +206,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -195,7 +228,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -204,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/23/25 08:15 PM
+This page was generated on 03/16/25 10:43 PM
 
 
 ## Help

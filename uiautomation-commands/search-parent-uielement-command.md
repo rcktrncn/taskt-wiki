@@ -148,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchParentUIElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/23/25 08:15 PM
+This page was generated on 03/16/25 10:43 PM
 
 
 ## Help

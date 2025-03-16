@@ -16,9 +16,12 @@
 |taskt Script File|[Run Script File](/application-script-commands/run-script-file-command.md)|This command runs tasks.|
 |taskt Script File|[Stop Current Script File](/application-script-commands/stop-current-script-file-command.md)|This command stops the current task.|
 |taskt Script File|[Unload Script File](/application-script-commands/unload-script-file-command.md)|This command runs tasks.|
+|Windows Script File|[Run Batch Script By Code](/application-script-commands/run-batch-script-by-code-command.md)|This command allows you to run a batch script by code.|
 |Windows Script File|[Run Batch Script File](/application-script-commands/run-batch-script-file-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
 |Windows Script File|[Run CSharp Code](/application-script-commands/run-csharp-code-command.md)|This command allows you to run C# code from the input|
+|Windows Script File|[Run JavaScript By Code](/application-script-commands/run-javascript-by-code-command.md)|This command allows you to run a JavaScript by code.|
 |Windows Script File|[Run JavaScript File](/application-script-commands/run-javascript-file-command.md)|This command allows you to execute JavaScript.|
+|Windows Script File|[Run PowerShell Script By Code](/application-script-commands/run-powershell-script-by-code-command.md)|This command allows you to run a PowerShell Script by code.|
 |Windows Script File|[Run PowerShell Script File](/application-script-commands/run-powershell-script-file-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
 ### Color
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -233,6 +236,7 @@
 ||[Get Files Path As List](/file-operation-commands/get-files-path-as-list-command.md)|This command returns a list of file paths from a specified location|
 ||[Get Last Existent Numbered File Path](/file-operation-commands/get-last-existent-numbered-file-path-command.md)|This command allows you to get a last Numbered File Path that Exists.|
 ||[Get Non Existent File Path](/file-operation-commands/get-non-existent-file-path-command.md)|This command allows you to get a File Path that do not Exist.|
+||[Get Random File Path](/file-operation-commands/get-random-file-path-command.md)|This command allows you to get random file name path.|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
@@ -247,6 +251,7 @@
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
 ||[Get Folders Path As List](/folder-operation-commands/get-folders-path-as-list-command.md)|This command returns a list of folder directories from a specified location|
+||[Get Random Folder Path](/folder-operation-commands/get-random-folder-path-command.md)|This command allows you to get random folder name path.|
 ||[Get Special Folder Path](/folder-operation-commands/get-special-folder-path-command.md)|This command allows you to Get Special Folder Path, like Documents, etc.|
 ||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
@@ -451,10 +456,10 @@
 |Action|[Substring Text](/text-commands/substring-text-command.md)|This command allows you to trim a Text|
 |Check/Get|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a Text|
 |Check/Get|[Count Word In Text](/text-commands/count-word-in-text-command.md)|This command allows you to Count the Number of Words In Text|
-|Check/Get|[Get Index Of](/text-commands/get-index-of-command.md)|This command allows you to the First Position of the Specified Text|
-|Check/Get|[Get Last Index Of](/text-commands/get-last-index-of-command.md)|This command allows you to the Last Position of the Specified Text|
-|Check/Get|[Get Nth Index Of](/text-commands/get-nth-index-of-command.md)|This command allows you to the nth position of the Specified Text|
+|Check/Get|[Get Text Index Of](/text-commands/get-text-index-of-command.md)|This command allows you to the First Position of the Specified Text|
+|Check/Get|[Get Text Last Index Of](/text-commands/get-text-last-index-of-command.md)|This command allows you to the Last Position of the Specified Text|
 |Check/Get|[Get Text Length](/text-commands/get-text-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
+|Check/Get|[Get Text Nth Index Of](/text-commands/get-text-nth-index-of-command.md)|This command allows you to the nth position of the Specified Text|
 |Check/Get|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a Text or Variable.|
 |File|[Read Text File](/text-commands/read-text-file-command.md)|This command allows you to read text file into a variable|
 |File|[Write Text File](/text-commands/write-text-file-command.md)|This command writes specified data to a text file|
@@ -604,4 +609,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/23/25 08:15 PM
+This page was generated on 03/16/25 10:43 PM
