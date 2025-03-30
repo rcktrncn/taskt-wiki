@@ -21,9 +21,9 @@ Use this command when you want to run a powershell script and wait for it to clo
 ## Command Parameters
 - [Please Specify the Powershell Script File Path](#param_0)
 - [Optional - Please Specify the Arguments](#param_1)
-- [Optional - Please Select the Convert Variables before Execution](#param_2)
-- [Optional - Please Select the Variable Name to Receive the Output](#param_3)
-- [Optional - Please Select the Script Execution Method](#param_4)
+- [Optional - Please Select the Script Execution Method](#param_2)
+- [Optional - Please Select the Expand taskt Variables In Script File](#param_3)
+- [Optional - Please Select the Variable Name to Receive the Output](#param_4)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
@@ -96,61 +96,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Convert Variables before Execution
-
-
-<dl>
-<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>This parameter is enabled when Execution Method is Base64<br><br>
-<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
-### Optional - Please Select the Variable Name to Receive the Output
-
-
-<dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
 ### Optional - Please Select the Script Execution Method
 
 
@@ -170,6 +115,61 @@ prev / [list](#param_list) / [next](#param_1)
 | EncodedCommand Base64 | Encode the Script to Base64 and execute it by -EncodedCommand parameters. Arguments are sent to PowerShell, they cannot be retrieved by the Script. But you can expand the value of the taskt Variables in the Script. |
 | ExecutionPolicy Unrestricted | '-ExecutionPolicy Unrestricted' is set up in PowerShell and a Script is specified and executed by the -File parameter. Arguments are sent to the Script. |
 | ExecutionPolicy Bypass | '-ExecutionPolicy Bypass' is set up in PowerShell and a Script is specified and executed by the -File parameter. Arguments are sent to the Script. |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Select the Expand taskt Variables In Script File
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd>This parameter is enabled when Execution Method is Base64<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Select the Variable Name to Receive the Output
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -237,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM
 
 
 ## Help

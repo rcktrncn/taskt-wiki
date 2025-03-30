@@ -25,7 +25,9 @@ Use this command when you want to run a batch script by code.
 - [Optional - Please Select the Variable Name to Receive the Output](#param_3)
 - [Optional - Please Select the Script File Type](#param_4)
 - [Optional - Please Select the Delete Script File After Execute](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Optional - Please Select the Folder to Save Temporary Script File](#param_6)
+- [Optional - Please Select the Variable Name to Store Temporary Script File Path](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -34,6 +36,9 @@ Use this command when you want to run a batch script by code.
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd>dir or {vCode}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -189,6 +194,67 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
+### Optional - Please Select the Folder to Save Temporary Script File
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>taskt Temporary Folder</strong> or  <strong>User Temporary Folder</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>User Temporary Folder</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| taskt Temporary Folder | Generally **Document\taskt\Temporary** |
+| User Temporary Folder | Generally **C:\Users\UserName\AppData\Local\Temp\taskt** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Select the Variable Name to Store Temporary Script File Path
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -204,7 +270,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -213,7 +279,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunBatchScriptByCodeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM
 
 
 ## Help

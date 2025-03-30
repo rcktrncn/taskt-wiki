@@ -16,9 +16,12 @@
 |taskt Script File|[Run Script File](/application-script-commands/run-script-file-command.md)|This command runs tasks.|
 |taskt Script File|[Stop Current Script File](/application-script-commands/stop-current-script-file-command.md)|This command stops the current task.|
 |taskt Script File|[Unload Script File](/application-script-commands/unload-script-file-command.md)|This command runs tasks.|
+|Windows Script File|[Compile CSharp Code](/application-script-commands/compile-csharp-code-command.md)|This command allows you to compile C# code from the input|
+|Windows Script File|[Compile CSharp File](/application-script-commands/compile-csharp-file-command.md)|This command allows you to compile C# file (*.cs) from the input|
 |Windows Script File|[Run Batch Script By Code](/application-script-commands/run-batch-script-by-code-command.md)|This command allows you to run a batch script by code.|
 |Windows Script File|[Run Batch Script File](/application-script-commands/run-batch-script-file-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
 |Windows Script File|[Run CSharp Code](/application-script-commands/run-csharp-code-command.md)|This command allows you to run C# code from the input|
+|Windows Script File|[Run CSharp File](/application-script-commands/run-csharp-file-command.md)|This command allows you to run C# File|
 |Windows Script File|[Run JavaScript By Code](/application-script-commands/run-javascript-by-code-command.md)|This command allows you to run a JavaScript by code.|
 |Windows Script File|[Run JavaScript File](/application-script-commands/run-javascript-file-command.md)|This command allows you to execute JavaScript.|
 |Windows Script File|[Run PowerShell Script By Code](/application-script-commands/run-powershell-script-by-code-command.md)|This command allows you to run a PowerShell Script by code.|
@@ -405,7 +408,6 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check Number](/numerical-commands/check-number-command.md)|This command allows you to Check Number Value.|
-||[Compare Number](/numerical-commands/compare-number-command.md)|This command allows you to Compare Number.|
 ||[Create Numerical Variable](/numerical-commands/create-numerical-variable-command.md)|This command allows you to create Number Variable.|
 ||[Decrease Numerical Variable](/numerical-commands/decrease-numerical-variable-command.md)|This command allows you to Decrease Value in Numerical Variable.|
 ||[Format Number](/numerical-commands/format-number-command.md)|This command allows you to Format Number.|
@@ -609,4 +611,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM

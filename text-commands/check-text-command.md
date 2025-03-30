@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong> or  <strong>Not Contains</strong> or  <strong>Not Starts with</strong> or  <strong>Not Ends with</strong> or  <strong>Not Match</strong> or  <strong>Wildcard</strong> or  <strong>Not Wildcard</strong> or  <strong>Not Empty</strong> or  <strong>Is a Number</strong> or  <strong>Is a Boolean</strong> or  <strong>Is a Boolean Loose</strong> or  <strong>Is Empty</strong> or  <strong>Is Not a Number</strong> or  <strong>Is Not a Boolean</strong> or  <strong>Is Not a Boolean Loose</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong> or  <strong>Not Contains</strong> or  <strong>Not Starts with</strong> or  <strong>Not Ends with</strong> or  <strong>Not Match</strong> or  <strong>Wildcard</strong> or  <strong>Not Wildcard</strong> or  <strong>Not Empty</strong> or  <strong>Is Number</strong> or  <strong>Is Boolean</strong> or  <strong>Is Boolean Loose</strong> or  <strong>Is Empty</strong> or  <strong>Is Not Number</strong> or  <strong>Is Not Boolean</strong> or  <strong>Is Not Boolean Loose</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
@@ -87,13 +87,13 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>Not Empty</strong> | This determines not empty text. |
 | <strong>Wildcard</strong> | Check for Wildcard match. |
 | <strong>Not Wildcard</strong> | Check for Wildcard Not match. |
-| <strong>Is a Number</strong> | This determines whether a number. |
-| <strong>Is a Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
-| <strong>Is a Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
+| <strong>Is Number</strong> | This determines whether a number. |
+| <strong>Is Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
+| <strong>Is Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
 | <strong>Is Empty</strong> | This determines empty text. |
-| <strong>Is Not a Number</strong> | This determines whether it is **Not** a number. |
-| <strong>Is Not a Boolean</strong> | This determines whether it is **Not** a boolean, such as **True** or **False**. |
-| <strong>Is Not a Boolean Loose</strong> | This determines whether it is **Not** a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
+| <strong>Is Not Number</strong> | This determines whether it is **Not** a number. |
+| <strong>Is Not Boolean</strong> | This determines whether it is **Not** a boolean, such as **True** or **False**. |
+| <strong>Is Not Boolean Loose</strong> | This determines whether it is **Not** a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -257,7 +257,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM
 
 
 ## Help

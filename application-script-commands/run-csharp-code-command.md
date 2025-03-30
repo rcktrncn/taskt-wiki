@@ -24,9 +24,10 @@ Use this command when you want to run custom C# code commands.  The code in this
 - [Optional - Please Select the Variable Name to Receive the Output](#param_2)
 - [Optional - Please Select the Expand taskt Variables In C# Code](#param_3)
 - [Optional - Please Specify the Compiled Executable File Name](#param_4)
-- [Optional - Please Select the C# Language Version](#param_5)
-- [Optional - Please Select the Delete Executable File After Execute](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Select the Variable Name to Store Executable File Path](#param_5)
+- [Optional - Please Select the C# Language Version](#param_6)
+- [Optional - Please Select the Delete Executable File After Execute](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -162,6 +163,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Optional - Please Select the Variable Name to Store Executable File Path
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Select the C# Language Version
 
 
@@ -179,13 +211,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Select the Delete Executable File After Execute
 
 
@@ -202,13 +234,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -224,7 +256,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -233,7 +265,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunCSharpCodeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM
 
 
 ## Help

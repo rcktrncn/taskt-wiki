@@ -21,8 +21,10 @@ Use this command when you want to Check Number Value.
 ## Command Parameters
 - [Please Specify the Numerical Value](#param_0)
 - [Please Select the Check Method](#param_1)
-- [Please Select the Numerical Variable Name to Store Result](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Please Specify the Numerical Value to be Compared](#param_2)
+- [Optional - Please Specify the Numerical Value to be Compared 2](#param_3)
+- [Please Select the Numerical Variable Name to Store Result](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -68,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Is Number</strong> or  <strong>Is Not Number</strong> or  <strong>Is Odd Number</strong> or  <strong>Is Even Number</strong> or  <strong>Is Zero</strong> or  <strong>Is Not Zero</strong> or  <strong>Is Positive Value</strong> or  <strong>Is Negative Value</strong> or  <strong>Is Integer</strong> or  <strong>Is Not Integer</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Is Number</strong> or  <strong>Is Not Number</strong> or  <strong>Is Odd Number</strong> or  <strong>Is Even Number</strong> or  <strong>Is Zero</strong> or  <strong>Is Not Zero</strong> or  <strong>Is Positive Value</strong> or  <strong>Is Negative Value</strong> or  <strong>Is Integer</strong> or  <strong>Is Not Integer</strong> or  <strong>Is Equal To</strong> or  <strong>Is Not Equal To</strong> or  <strong>Is Greater Than</strong> or  <strong>Is Greater Than Or Equal To</strong> or  <strong>Is Less Than</strong> or  <strong>Is Less Than Or Equal To</strong> or  <strong>Is Between</strong> or  <strong>Is Not Between</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -85,6 +87,69 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Please Specify the Numerical Value to be Compared
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Specify the Numerical Value to be Compared 2
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Please Select the Numerical Variable Name to Store Result
 
 
@@ -112,13 +177,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -134,7 +199,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -143,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/25 10:43 PM
+This page was generated on 03/30/25 12:02 PM
 
 
 ## Help
