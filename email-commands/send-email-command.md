@@ -43,7 +43,7 @@ Use this command when you want to send an EMail and have access to SMTP server c
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>mail.example.com or {vHost} or smtp.example.com</dd>
+<dt>Sample Usage</dt><dd>smtp.example.com or mail.example.com or {vHost}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -53,9 +53,9 @@ Use this command when you want to send an EMail and have access to SMTP server c
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
+| <strong>smtp.example.com</strong> | Specify **smtp.example.com** for Host |
 | <strong>mail.example.com</strong> | Specify **mail.example.com** for Host Name |
 | <strong>{vHost}</strong> | Specify Value of Variable **vHost** for Host Name |
-| <strong>smtp.example.com</strong> | Specify **smtp.example.com** for Host |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -291,6 +291,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Subject</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Alert! or {vSubject}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -349,6 +350,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>C:	emp\myfile.txt or {vPath}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -420,7 +422,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

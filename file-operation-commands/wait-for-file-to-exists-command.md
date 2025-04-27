@@ -21,7 +21,7 @@ Use this command to wait for a file to exist before proceeding.
 ## Command Parameters
 - [Please Specify the File Path](#param_0)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_1)
-- [Optional - Please Select the Variable Name to Store File Path](#param_2)
+- [Please Select the Variable Name to Store File Path](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
@@ -91,15 +91,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Store File Path
+### Please Select the Variable Name to Store File Path
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -110,6 +110,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -146,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WaitForFileToExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

@@ -31,6 +31,7 @@ Use this command when you want to change the engine behavior.
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -56,6 +57,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Parameter Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -97,7 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetEnginePreferenceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

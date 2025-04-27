@@ -65,6 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the URL</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -98,6 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Please specify <strong>True</strong> or <strong>False</strong></dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>True</strong> or  <strong>False</strong></dd>
 <dt>Remarks</dt><dd>Choose if you want to use HTTP or HTTPS for navigation. If no protocol is specified in the URL above, taskt will resort to this choice.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>True</strong></dd>
@@ -147,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateToURLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

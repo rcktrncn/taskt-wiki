@@ -22,7 +22,7 @@ Use this command to return a existence of file paths from a specific location.
 - [Please Specify the File Path](#param_0)
 - [Please Select the Variable Name to Store Result](#param_1)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_2)
-- [Optional - Please Select the Variable Name to Store File Path](#param_3)
+- [Please Select the Variable Name to Store File Path](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -65,7 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Boolean Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -126,15 +126,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Variable Name to Store File Path
+### Please Select the Variable Name to Store File Path
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -145,6 +145,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -181,7 +183,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckFileExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

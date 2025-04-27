@@ -19,7 +19,7 @@ Use this command when you want to concatenate text to Text Variable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Text Variable Name](#param_0)
+- [Please Select the Text Variable Name to Store Result](#param_0)
 - [Please Specify the Text Value](#param_1)
 - [Optional - Please Select the Insert Line Break before Concatenate or Not](#param_2)
 - [Optional - Please Select the Concatenate Position](#param_3)
@@ -27,17 +27,17 @@ Use this command when you want to concatenate text to Text Variable.
 
 
 <a id="param_0"></a>
-### Please Select the Text Variable Name
+### Please Select the Text Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Text Variable Name</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vText or {vText}</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,8 +47,8 @@ Use this command when you want to concatenate text to Text Variable.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vText</strong> | Specify Variable Name **vText** |
-| <strong>{vText}</strong> | Specify Variable Name **vText** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -65,7 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>What to input</dt><dd>Enter or Select the Text</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -101,6 +101,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
@@ -124,6 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Before Variable Value</strong> or  <strong>After Variable Value</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>After Variable Value</strong></dd>
 </dl>
@@ -165,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

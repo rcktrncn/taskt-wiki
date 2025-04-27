@@ -131,6 +131,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -351,7 +352,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

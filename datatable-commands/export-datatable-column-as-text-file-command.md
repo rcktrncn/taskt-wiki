@@ -22,7 +22,7 @@ Use this command when you want to Export DataTable Column as Text File.
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
-- [Please Specify the Path to the File](#param_3)
+- [Please Specify the File Path](#param_3)
 - [Optional - Please Select the Export Header](#param_4)
 - [Optional - Please Select the Export Row Index](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
@@ -126,18 +126,18 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Path to the File
+### Please Specify the File Path
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Path of the File</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: txt</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd>C:\temp\myfile.txt or {vFilePath} or http://exmample.com/mytext.txt or {vURL}</dd>
-<dt>Remarks</dt><dd>If file does not contain extensin, supplement txt automatically.
-If file does not contain folder path, file will be opened in the same folder as script file.</dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.txt or {vFilePath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -146,10 +146,8 @@ If file does not contain folder path, file will be opened in the same folder as 
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for Path |
-| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Path |
-| <strong>http://exmample.com/mytext.txt</strong> | Specify **http://exmample.com/mytext.txt** for Path |
-| <strong>{vURL}</strong> | Specify Value of Variable **vURL** for Path |
+| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for File Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -232,7 +230,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExportDataTableColumnAsTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

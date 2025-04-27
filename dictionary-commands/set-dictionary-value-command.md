@@ -129,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Add</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Add</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
@@ -139,9 +139,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Error</strong> | Rise a Error |
 | <strong>Ignore</strong> | Don't Set the Dictionary Item |
 | <strong>Add</strong> | Add New Dictionary Item |
+| <strong>Error</strong> | Rise a Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -178,7 +178,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

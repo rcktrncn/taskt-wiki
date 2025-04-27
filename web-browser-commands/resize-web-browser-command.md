@@ -65,6 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Width</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>640 or {vWidth}</dd>
 <dt>Remarks</dt><dd>Empty means Current Width<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Empty and means Current Width</strong></dd>
@@ -95,6 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Height</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>480 or {vHeight}</dd>
 <dt>Remarks</dt><dd>Empty means Current Height<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Empty and means Current Height</strong></dd>
@@ -144,7 +146,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserResizeWebBrowserCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

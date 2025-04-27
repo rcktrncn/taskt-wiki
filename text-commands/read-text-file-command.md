@@ -19,7 +19,7 @@ Use this command when you want to read data from text files.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the File](#param_0)
+- [Please Specify the File Path](#param_0)
 - [Optional - Please Select the Read Type](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_3)
@@ -27,18 +27,18 @@ Use this command when you want to read data from text files.
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the File
+### Please Specify the File Path
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Path of the File</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: Yes</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: txt,log,json</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd>C:\temp\myfile.txt or {vFilePath} or http://exmample.com/mytext.txt or {vURL}</dd>
-<dt>Remarks</dt><dd>If file does not contain extensin, supplement txt automatically.
-If file does not contain folder path, file will be opened in the same folder as script file.</dd>
+<dt>Sample Usage</dt><dd>http://exmample.com/mytext.txt or {vURL} or C:\temp\myfile.txt or {vFilePath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -47,10 +47,10 @@ If file does not contain folder path, file will be opened in the same folder as 
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for Path |
-| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Path |
 | <strong>http://exmample.com/mytext.txt</strong> | Specify **http://exmample.com/mytext.txt** for Path |
 | <strong>{vURL}</strong> | Specify Value of Variable **vURL** for Path |
+| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for File Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,6 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Content</strong> or  <strong>Line Count</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Content</strong></dd>
 </dl>
@@ -90,7 +91,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -175,7 +176,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReadTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

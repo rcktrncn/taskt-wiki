@@ -25,8 +25,8 @@ Use this command to move a file to a new destination.
 - [Optional - Please Select the When Description File Path is Same as Target File Path](#param_3)
 - [Optional - Please Select the When Destination File Is Already Exists](#param_4)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
-- [Optional - Please Select the Variable Name to Store File Path Before Command](#param_6)
-- [Optional - Please Select the Variable Name to Store File Path After Command](#param_7)
+- [Please Select the Variable Name to Store File Path Before Command](#param_6)
+- [Please Select the Variable Name to Store File Path After Command](#param_7)
 - [Optional - Please Specify the Wait Time For Destination Folder](#param_8)
 - [Optional - Please Specify the Comment Field](#param_9)
 
@@ -105,6 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>Specify whether the directory should be created if it does not already exist.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
@@ -129,6 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
@@ -159,6 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
@@ -216,15 +219,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Variable Name to Store File Path Before Command
+### Please Select the Variable Name to Store File Path Before Command
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -235,6 +238,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -247,15 +252,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store File Path After Command
+### Please Select the Variable Name to Store File Path After Command
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -266,6 +271,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -333,7 +340,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

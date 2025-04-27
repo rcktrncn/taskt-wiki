@@ -26,8 +26,8 @@ Use this command to rename an existing file.
 - [Optional - Please Select the When File Name Same After the Change](#param_4)
 - [Optional - Please Select the When New File Is Exists](#param_5)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_6)
-- [Optional - Please Select the Variable Name to Store File Path Before Command](#param_7)
-- [Optional - Please Select the Variable Name to Store File Path After Command](#param_8)
+- [Please Select the Variable Name to Store File Path Before Command](#param_7)
+- [Please Select the Variable Name to Store File Path After Command](#param_8)
 - [Optional - Please Specify the Comment Field](#param_9)
 
 
@@ -71,6 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the New File Name</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -104,6 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Auto</strong> or  <strong>Force Combine New Extension</strong> or  <strong>Contains New File Name</strong> or  <strong>Use Before Rename Path</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
 </dl>
@@ -133,6 +135,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the New File Extension</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>txt or {vExtension}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -163,6 +166,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
@@ -193,6 +197,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Delete</strong> or  <strong>Delete To Recycle Bin</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
@@ -250,15 +255,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store File Path Before Command
+### Please Select the Variable Name to Store File Path Before Command
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -269,6 +274,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -281,15 +288,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Select the Variable Name to Store File Path After Command
+### Please Select the Variable Name to Store File Path After Command
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -300,6 +307,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -336,7 +345,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

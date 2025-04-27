@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
-<dt>Sample Usage</dt><dd>$.id or $..id or {vPath} or $.names[0]</dd>
+<dt>Sample Usage</dt><dd>$.names[0] or $.id or $..id or {vPath}</dd>
 <dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
 <strong>Optional</strong><br>Default Value is <strong>$</strong></dd>
 </dl>
@@ -77,10 +77,10 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
+| <strong>$.names[0]</strong> | Specify the First item in the Array of **names** Property |
 | <strong>$.id</strong> | Specify **id** for Root child node |
 | <strong>$..id</strong> | Specify Anywhere **id** |
 | <strong>{vPath}</strong> | Specify Value of Variable **vPath** for JSON Extractor |
-| <strong>$.names[0]</strong> | Specify the First item in the Array of **names** Property |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -183,7 +183,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetJSONValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

@@ -32,6 +32,7 @@ Use this command when you want to present or display a value on screen to the us
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Message</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Hello World or {vText}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -61,6 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 0 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how many seconds to display on screen.After the amount of seconds passes, the message box will be automatically closed and script will resume execution. <strong>0</strong> to remain open indefinitely or <strong>5</strong> to stay open for 5 seconds.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
@@ -92,6 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>MS Gothic</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -120,6 +123,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>12 or {vFont}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -168,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

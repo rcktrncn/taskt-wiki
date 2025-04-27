@@ -34,6 +34,7 @@ Use this command when you want to select file to save or open.
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Open</strong> or  <strong>Save</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Open</strong></dd>
 </dl>
@@ -56,6 +57,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Filter</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>All Files (<em>.</em>)|<em>.</em></strong></dd>
 </dl>
@@ -78,6 +80,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the FilterIndex</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 2 or {vIndex}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>1</strong></dd>
 </dl>
@@ -109,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the InitialDirectory</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>C:\temp or {vFilePath} or C:\Users\myUser\Documents or {vFolderPath}</dd>
+<dt>Sample Usage</dt><dd>C:\Users\myUser\Documents or {vFolderPath} or C:\temp or {vFilePath}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Documents</strong></dd>
 </dl>
 
@@ -119,10 +122,10 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
-| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 | <strong>C:\Users\myUser\Documents</strong> | Specify **C:\Users\myUser\Documents** for InitialDirectory |
 | <strong>{vFolderPath}</strong> | Specify Value of Variable **vFolderPath** for InitialDirectory |
+| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -139,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -193,7 +196,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowFileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

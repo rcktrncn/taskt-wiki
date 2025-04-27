@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>List</strong> or  <strong>Comma Separated</strong> or  <strong>Space Separated</strong> or  <strong>Tab Separated</strong> or  <strong>NewLine Separated</strong> or  <strong>Column Prefix</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Column Prefix</strong> or  <strong>List</strong> or  <strong>Comma Separated</strong> or  <strong>Space Separated</strong> or  <strong>Tab Separated</strong> or  <strong>NewLine Separated</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Column Prefix</strong></dd>
 </dl>
 
@@ -79,11 +79,11 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
+| <strong>col</strong> | When Select **Column Prefix** and Enter **col**, Column Name is col0, col1, col2, ... |
 | <strong>List</strong> | Specify the List Variable Name |
 | <strong>Comman Separated</strong> | Enter like **A,B,C** |
 | <strong>Space Separated</strong> | Enter like **A B C** |
 | <strong>Tab Separated</strong> | Enter like **A	B	C** |
-| <strong>col</strong> | When Select **Column Prefix** and Enter **col**, Column Name is col0, col1, col2, ... |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,6 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>{vColumns} or A,B,C</dd>
 <dt>Remarks</dt><dd>When Columns is empty, DataTable column is column0, column1, ...<br><br>
 <strong>Optional</strong><br></dd>
@@ -133,7 +134,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Try Create Columns</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Try Create Columns</strong> or  <strong>Ignore</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
@@ -231,7 +232,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

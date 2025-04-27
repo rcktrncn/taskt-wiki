@@ -74,6 +74,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Edge</strong> or  <strong>Chrome</strong> or  <strong>Firefox</strong> or  <strong>IE</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Chrome</strong></dd>
 </dl>
@@ -97,6 +98,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Specify if taskt should remember this instance name after the script has finished executing.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Forget Instance</strong> or  <strong>Keep Instance Alive</strong></dd>
 <dt>Remarks</dt><dd>Calling the <strong>Close Browser</strong> command or ending the browser session will end the instance.  This command only works during the lifetime of the application.  If the application is closed, the references will be forgetten automatically.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Forget Instance</strong></dd>
@@ -128,6 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select the window state that the browser should start up with.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Normal</strong> or  <strong>Maximize</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Normal</strong></dd>
 </dl>
@@ -157,6 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Command Line Options</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -211,6 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Web Browser Binary Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>C:\temp\BrowserPath.exe or {vBrowserPath}</dd>
 <dt>Remarks</dt><dd>When path is Empty, taskt try open default path.
 Edge and IE is not supported.
@@ -243,6 +248,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Web Driver Binary Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>C:\temp\WebDriverPath.exe or {vBrowserPath}</dd>
 <dt>Remarks</dt><dd>When path is Empty, taskt uses default WebDriver.
 IE is not supported.
@@ -318,7 +324,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:22 PM
 
 
 ## Help

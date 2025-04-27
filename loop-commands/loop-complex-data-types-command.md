@@ -29,6 +29,7 @@ Use this command when you want to iterate over each item in a list, or a series 
 
 <dl>
 <dt>What to input</dt><dd>Enter a variable which contains a list of items</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -80,7 +81,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForComplexDataTypesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

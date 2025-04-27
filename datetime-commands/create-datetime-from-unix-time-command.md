@@ -19,23 +19,23 @@ Use this command when you want to create DateTime from Unix Time.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DateTime Variable Name](#param_0)
+- [Please Select the Variable Name to Store DateTime](#param_0)
 - [Please Specify the Unix Time](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the DateTime Variable Name
+### Please Select the Variable Name to Store DateTime
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>DateTime Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDateTime or {vDateTime}</dd>
+<dt>Sample Usage</dt><dd>vDateTime or {vDateTime} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,6 +47,8 @@ Use this command when you want to create DateTime from Unix Time.
 |---|---|
 | <strong>vDateTime</strong> | Specify Variable Name **vDateTime** |
 | <strong>{vDateTime}</strong> | Specify Variable Name **vDateTime** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -63,7 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Unix Time</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -116,7 +118,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromUnixTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help

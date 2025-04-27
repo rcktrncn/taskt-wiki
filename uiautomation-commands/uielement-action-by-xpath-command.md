@@ -74,6 +74,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Click UIElement</strong> or  <strong>Expand Collapse Items In UIElement</strong> or  <strong>Scroll UIElement</strong> or  <strong>Select UIElement</strong> or  <strong>Select Item In UIElement</strong> or  <strong>Set Text To UIElement</strong> or  <strong>Get Property Value From UIElement</strong> or  <strong>Check UIElement Exists</strong> or  <strong>Get Text From UIElement</strong> or  <strong>Get Selected State From UIElement</strong> or  <strong>Get Text From Table UIElement</strong> or  <strong>Get UIElement Position</strong> or  <strong>Get UIElement Size</strong> or  <strong>Wait For UIElement To Exists</strong> or  <strong>Wait For UIElement To Exists</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -379,7 +380,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationUIElementActionByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/30/25 12:02 PM
+This page was generated on 04/27/25 09:21 PM
 
 
 ## Help
