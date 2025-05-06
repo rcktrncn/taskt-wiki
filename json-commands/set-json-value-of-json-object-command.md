@@ -32,13 +32,13 @@ Use this command when you want to Set Value in JSON Object
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the JSON <strong>Variable Name</strong></dd>
+<dt>What to input</dt><dd>JSON <strong>Variable Name</strong></dd>
 <dt>Value</dt><dd>JSON Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vJSON or {vJSON}</dd>
+<dt>Sample Usage</dt><dd>{vJSON} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -48,8 +48,9 @@ Use this command when you want to Set Value in JSON Object
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
-| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Value of Variable **vJSON** for JSON |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -66,7 +67,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
+<dt>What to input</dt><dd>JSONPath</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>$.id or $..id or {vPath}</dd>
 <dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
 <strong>Optional</strong><br>Default Value is <strong>$</strong></dd>
@@ -97,7 +99,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Property Name</dd>
+<dt>What to input</dt><dd>Property Name Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -129,7 +132,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Value</dd>
+<dt>What to input</dt><dd>JSON Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Hello or 1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -163,6 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Auto</strong> or  <strong>Text</strong> or  <strong>Number</strong> or  <strong>null</strong> or  <strong>bool</strong> or  <strong>Object</strong> or  <strong>Array</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
 </dl>
@@ -215,7 +220,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetJSONValueOfJSONObjectCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

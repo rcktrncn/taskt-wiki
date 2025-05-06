@@ -23,7 +23,7 @@ Use this command when you want to send advanced keystroke inputs to a window.
 - [Please Specify the Keys and Action Type](#param_1)
 - [Optional - Please Select the Return all keys to 'UP' position after execution](#param_2)
 - [Optional - Please Select the Compare Method for the Window Name](#param_3)
-- [Optional - Please Specify the Wait Time after Keys Enter (ms)](#param_4)
+- [Optional - Please Specify the Wait Time for *** (sec)](#param_4)
 - [Optional - Please Select the Match Method for the Window Name](#param_5)
 - [Optional - Please Specify the Window Index](#param_6)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
@@ -136,16 +136,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Wait Time after Keys Enter (ms)
+### Optional - Please Specify the Wait Time for *** (sec)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>500 or {vWaitTime}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
 <strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -156,7 +156,7 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>500</strong> | Specify **500** for Wait Time |
+| <strong>10</strong> | Specify **10** for Wait Time |
 | <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
 
 
@@ -373,7 +373,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:22 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

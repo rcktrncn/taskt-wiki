@@ -36,12 +36,12 @@ Use this command when you want to set Column values from Dictionary.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
-<dt>Instance Type</dt><dd>Excel</dd>
+<dt>Value</dt><dd>Excel Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -53,6 +53,8 @@ Use this command when you want to set Column values from Dictionary.
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,8 +71,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Range</strong> or  <strong>RC</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Range</strong></dd>
 </dl>
@@ -99,7 +102,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
@@ -134,7 +138,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Start Row</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>1</strong></dd>
 </dl>
@@ -164,7 +169,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the End Row</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd>When End Row Index is Empty, Automatically specifies the Last Row where values are entered consecutively<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Last Row</strong></dd>
@@ -176,9 +182,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>1</strong> | Specify the First Row Index for Start Row |
-| <strong>2</strong> | Specify **2** for Start Row |
-| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for Start Row |
+| <strong>1</strong> | Specify the First Row Index for End Row |
+| <strong>2</strong> | Specify **2** for End Row |
+| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for End Row |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -196,12 +202,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
-<dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -211,8 +217,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
-| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -231,6 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Format</strong> or  <strong>Font Color</strong> or  <strong>Back Color</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
 </dl>
@@ -264,6 +271,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
@@ -274,8 +282,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Ignore</strong> | Don't Set the Value |
-| <strong>Error</strong> | Rise a Error |
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -312,7 +320,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetColumnValuesFromDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

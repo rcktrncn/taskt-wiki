@@ -33,12 +33,12 @@ Use this command when you want to filter List value.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
-<dt>Instance Type</dt><dd>List</dd>
+<dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -50,6 +50,8 @@ Use this command when you want to filter List value.
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -201,7 +203,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

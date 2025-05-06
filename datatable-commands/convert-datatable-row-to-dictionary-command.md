@@ -21,7 +21,7 @@ Use this command when you want to convert DataTable Row to Dictionary.
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Specify the Index of the Row](#param_1)
-- [Please Select the Dictionary Variable Name](#param_2)
+- [Please Select the Variable Name to Store Dictionary](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
@@ -31,11 +31,12 @@ Use this command when you want to convert DataTable Row to Dictionary.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,6 +48,8 @@ Use this command when you want to convert DataTable Row to Dictionary.
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -63,7 +66,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Index of the Row</dd>
+<dt>What to input</dt><dd>Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
 <dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
@@ -91,17 +95,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Dictionary Variable Name
+### Please Select the Variable Name to Store Dictionary
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vDictionary or {vDictionary} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -113,6 +117,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
 | <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -149,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableRowToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

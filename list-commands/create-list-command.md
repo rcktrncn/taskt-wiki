@@ -19,13 +19,13 @@ Use this command when you want to create new List.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
+- [Please Select the Variable Name to Store List](#param_0)
 - [Please Specify the List Values](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name
+### Please Select the Variable Name to Store List
 
 
 <dl>
@@ -35,7 +35,7 @@ Use this command when you want to create new List.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,6 +47,8 @@ Use this command when you want to create new List.
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -113,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

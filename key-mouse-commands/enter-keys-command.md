@@ -27,7 +27,7 @@ Use this command when you want to send keystroke inputs to a window.
 - [Optional - Please Select the Match Method for the Window Name](#param_5)
 - [Optional - Please Specify the Window Index](#param_6)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [Optional - Please Specify the Wait Time after Keys Enter (ms)](#param_8)
+- [Optional - Please Specify the Wait Time for *** (sec)](#param_8)
 - [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_9)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
@@ -265,16 +265,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Specify the Wait Time after Keys Enter (ms)
+### Optional - Please Specify the Wait Time for *** (sec)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>500 or {vWaitTime}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
 <strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -285,7 +285,7 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>500</strong> | Specify **500** for Wait Time |
+| <strong>10</strong> | Specify **10** for Wait Time |
 | <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
 
 
@@ -433,7 +433,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:22 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

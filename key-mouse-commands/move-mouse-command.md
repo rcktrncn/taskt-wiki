@@ -102,6 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Left Click</strong> or  <strong>Middle Click</strong> or  <strong>Right Click</strong> or  <strong>Left Down</strong> or  <strong>Middle Down</strong> or  <strong>Right Down</strong> or  <strong>Left Up</strong> or  <strong>Middle Up</strong> or  <strong>Right Up</strong> or  <strong>Double Left Click</strong> or  <strong>None</strong></dd>
 <dt>Remarks</dt><dd>You can simulate custom click by using multiple mouse click commands in succession, adding <strong>Pause Command</strong> in between where required.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>None</strong></dd>
@@ -124,12 +125,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>500 or {vWaitTime}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
 <strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -140,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>500</strong> | Specify **500** for Wait Time |
+| <strong>10</strong> | Specify **10** for Wait Time |
 | <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
 
 
@@ -201,7 +202,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveMouseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:22 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

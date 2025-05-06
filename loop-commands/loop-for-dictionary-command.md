@@ -34,12 +34,12 @@ This command allows you to Repeat actions on the values held by Dictionary. This
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
-<dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -49,8 +49,8 @@ This command allows you to Repeat actions on the values held by Dictionary. This
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
-| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -234,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

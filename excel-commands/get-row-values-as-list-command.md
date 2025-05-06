@@ -24,7 +24,7 @@ Use this command when you want to get a Row values as List.
 - [Optional - Please Select the Column Type](#param_2)
 - [Please Specify the Start Column Location or Index](#param_3)
 - [Optional - Please Specify the End Column Location or Index](#param_4)
-- [Please Select the List Variable Name](#param_5)
+- [Please Select the Variable Name to Store List](#param_5)
 - [Optional - Please Select the Value Type](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
@@ -35,12 +35,12 @@ Use this command when you want to get a Row values as List.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
-<dt>Instance Type</dt><dd>Excel</dd>
+<dt>Value</dt><dd>Excel Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -52,6 +52,8 @@ Use this command when you want to get a Row values as List.
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -68,7 +70,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Row Location</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
@@ -103,8 +106,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Range</strong> or  <strong>RC</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Range</strong></dd>
 </dl>
@@ -133,7 +137,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
@@ -168,7 +173,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Column</strong></dd>
 </dl>
@@ -194,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Select the List Variable Name
+### Please Select the Variable Name to Store List
 
 
 <dl>
@@ -204,7 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -216,6 +227,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -234,6 +247,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Format</strong> or  <strong>Font Color</strong> or  <strong>Back Color</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
 </dl>
@@ -285,7 +299,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRowValuesAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

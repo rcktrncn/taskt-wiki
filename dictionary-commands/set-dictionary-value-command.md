@@ -32,12 +32,12 @@ Use this command when you want to set value in Dictionary.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
-<dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,8 +47,8 @@ Use this command when you want to set value in Dictionary.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
-| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -65,7 +65,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Key Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Key Name Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -97,7 +98,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Dictionary Value</dd>
+<dt>What to input</dt><dd>Enter or Select the Dictionary Value. Text or Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Hello or 1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -129,6 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Add</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
@@ -141,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>Ignore</strong> | Don't Set the Dictionary Item |
 | <strong>Add</strong> | Add New Dictionary Item |
-| <strong>Error</strong> | Rise a Error |
+| <strong>Error</strong> | Rise an Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -178,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

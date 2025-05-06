@@ -23,7 +23,7 @@ Use this command when you want to convert DataTable Column to Dictionary.
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
 - [Optional - Please Specify the Dictionary Key prefix](#param_3)
-- [Please Select the Dictionary Variable Name](#param_4)
+- [Please Select the Variable Name to Store Dictionary](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -33,11 +33,12 @@ Use this command when you want to convert DataTable Column to Dictionary.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -49,6 +50,8 @@ Use this command when you want to convert DataTable Column to Dictionary.
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -67,6 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Column Name</strong> or  <strong>Index</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Column Name</strong></dd>
 </dl>
@@ -95,7 +99,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Number or Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -155,17 +160,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select the Dictionary Variable Name
+### Please Select the Variable Name to Store Dictionary
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vDictionary or {vDictionary} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -177,6 +182,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
 | <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -213,7 +220,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

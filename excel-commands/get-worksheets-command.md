@@ -22,7 +22,7 @@ Use this command when you want to switch to a specific worksheet
 - [Please Select the Excel Instance Name](#param_0)
 - [Optional - Please Specify the Worksheet Name](#param_1)
 - [Optional - Please Select the Compare Method](#param_2)
-- [Please Select the List Variable Name](#param_3)
+- [Please Select the Variable Name to Store List](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -32,12 +32,12 @@ Use this command when you want to switch to a specific worksheet
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
-<dt>Instance Type</dt><dd>Excel</dd>
+<dt>Value</dt><dd>Excel Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -49,6 +49,8 @@ Use this command when you want to switch to a specific worksheet
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -66,6 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Worksheet Name</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>mySheet or {vSheet} or {Excel.CurrentWorksheet}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -114,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the List Variable Name
+### Please Select the Variable Name to Store List
 
 
 <dl>
@@ -124,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -136,6 +139,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -172,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetWorksheetsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

@@ -31,11 +31,12 @@ Use this command when you want to get specific rows of a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Enter the DataTable name you would like to filter through.</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,6 +48,8 @@ Use this command when you want to get specific rows of a DataTable.
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -63,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the New DataTable Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -139,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:22 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

@@ -25,7 +25,7 @@ Use this command when you want to get Range values as DataTable.
 - [Optional - Please Specify the End Column Location or Index](#param_3)
 - [Please Specify the Start Row Index](#param_4)
 - [Optional - Please Specify the End Row Index](#param_5)
-- [Please Select the DataTable Variable Name](#param_6)
+- [Please Select the Variable Name to Store DataTable](#param_6)
 - [Optional - Please Select the Value Type](#param_7)
 - [Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_8)
 - [Optional - Please Specify the Comment Field](#param_9)
@@ -37,12 +37,12 @@ Use this command when you want to get Range values as DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
-<dt>Instance Type</dt><dd>Excel</dd>
+<dt>Value</dt><dd>Excel Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -54,6 +54,8 @@ Use this command when you want to get Range values as DataTable.
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -70,8 +72,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Range</strong> or  <strong>RC</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Range</strong></dd>
 </dl>
@@ -100,7 +103,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
@@ -135,7 +139,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Column</strong></dd>
 </dl>
@@ -165,7 +175,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Start Row</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -195,7 +206,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the End Row</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd>When End Row Index is Empty, Automatically specifies the Last Row where values are entered consecutively<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Last Row</strong></dd>
@@ -207,9 +219,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>1</strong> | Specify the First Row Index for Start Row |
-| <strong>2</strong> | Specify **2** for Start Row |
-| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for Start Row |
+| <strong>1</strong> | Specify the First Row Index for End Row |
+| <strong>2</strong> | Specify **2** for End Row |
+| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for End Row |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -222,17 +234,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Select the DataTable Variable Name
+### Please Select the Variable Name to Store DataTable
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -244,6 +256,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -262,6 +276,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Format</strong> or  <strong>Font Color</strong> or  <strong>Back Color</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
 </dl>
@@ -336,7 +351,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRangeValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help

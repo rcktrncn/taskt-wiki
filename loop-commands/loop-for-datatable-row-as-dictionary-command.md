@@ -20,7 +20,7 @@ This command allows you to Repeat actions on the values held by DataTable. This 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Select the Dictionary Variable Name](#param_1)
+- [Optional - Please Select the Variable Name to Store Dictionary](#param_1)
 - [Optional - Please Select the Variable Name to Store Row Index (Readonly)](#param_2)
 - [Optional - Please Select the Reverse Loop](#param_3)
 - [Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')](#param_4)
@@ -34,11 +34,12 @@ This command allows you to Repeat actions on the values held by DataTable. This 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -50,6 +51,8 @@ This command allows you to Repeat actions on the values held by DataTable. This 
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+| <strong>vValue</strong> | Specify Variable Name **vValue** |
+| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -62,14 +65,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Dictionary Variable Name
+### Optional - Please Select the Variable Name to Store Dictionary
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
+<dt>What to input</dt><dd>Variable Name</dd>
 <dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
+<dt>Sample Usage</dt><dd>vDictionary or {vDictionary} or vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -81,6 +84,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
 | <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -233,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForDataTableRowAsDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/27/25 09:21 PM
+This page was generated on 05/06/25 04:03 PM
 
 
 ## Help
