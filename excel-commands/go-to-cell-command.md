@@ -35,7 +35,7 @@ Use this command when you want to move to a new cell from your currently selecte
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -47,8 +47,6 @@ Use this command when you want to move to a new cell from your currently selecte
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -65,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Cell Location like A1</dd>
+<dt>What to input</dt><dd>Enter or Select the Cell Location like <strong>A1</strong></dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -119,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGoToCellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

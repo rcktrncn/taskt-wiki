@@ -28,13 +28,13 @@ Use this command when you want to pause your script for a specific amount of tim
 
 
 <dl>
-<dt>What to input</dt><dd>NLG Instance Name</dd>
+<dt>What to input</dt><dd>Enter or Select the NLG Instance Name</dd>
 <dt>Value</dt><dd>NLG Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>nlgInstance or {vInstance} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>nlgInstance or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create NLG Instance</strong> command will cause an error</dd>
 </dl>
 
@@ -46,8 +46,6 @@ Use this command when you want to pause your script for a specific amount of tim
 |---|---|
 | <strong>nlgInstance</strong> | Specify **nlgInstance** for Instance |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Instance |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -84,7 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: NLGCreateNLGInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

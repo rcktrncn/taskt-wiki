@@ -32,13 +32,13 @@ Use this command when you want to create Color.
 
 
 <dl>
-<dt>What to input</dt><dd>Color Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Color Variable Name</dd>
 <dt>Value</dt><dd>Color Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vColor or {vColor} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>vColor or {vColor}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -50,8 +50,6 @@ Use this command when you want to create Color.
 |---|---|
 | <strong>vColor</strong> | Specify Value of Variable **vColor** |
 | <strong>{vColor}</strong> | Specify Value of Variable **vColor** |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -68,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Values range from 0 to 255</dd>
+<dt>What to input</dt><dd>Enter or Select the Values range from 0 to 255</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -103,7 +101,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Values range from 0 to 255</dd>
+<dt>What to input</dt><dd>Enter or Select the Values range from 0 to 255</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -138,7 +136,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Values range from 0 to 255</dd>
+<dt>What to input</dt><dd>Enter or Select the Values range from 0 to 255</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -173,7 +171,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Values range from 0 to 255</dd>
+<dt>What to input</dt><dd>Enter or Select the Values range from 0 to 255</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li><strong>Not</strong> Between 0 to 255</li>
@@ -227,7 +225,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

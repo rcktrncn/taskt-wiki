@@ -20,7 +20,7 @@ Use this command when you want to get Random Number.
 <a id="param_list"></a>
 ## Command Parameters
 - [Optional - Please Select the Random Type](#param_0)
-- [Please Select the Numerical Variable Name to Store Result](#param_1)
+- [Please Specify the Numerical Variable Name to Store Result](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
@@ -49,17 +49,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Numerical Variable Name to Store Result
+### Please Specify the Numerical Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vNum or {vNum}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -107,7 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RandomNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

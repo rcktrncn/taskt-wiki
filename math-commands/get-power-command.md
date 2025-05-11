@@ -21,7 +21,7 @@ Use this command when you want to get power.
 ## Command Parameters
 - [Please Specify the Base](#param_0)
 - [Please Specify the Power](#param_1)
-- [Please Select the Numerical Variable Name to Store Result](#param_2)
+- [Please Specify the Numerical Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
@@ -32,9 +32,6 @@ Use this command when you want to get power.
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Base</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd>1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -65,9 +62,6 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Power</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd>1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -92,17 +86,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Numerical Variable Name to Store Result
+### Please Specify the Numerical Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vNum or {vNum}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -150,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetPowerCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

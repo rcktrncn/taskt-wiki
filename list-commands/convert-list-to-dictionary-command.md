@@ -39,7 +39,7 @@ This command convert a List to Dictionary.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -51,8 +51,6 @@ This command convert a List to Dictionary.
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -197,13 +195,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDictionary or {vDictionary} or vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -215,8 +213,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
 | <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -253,7 +249,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

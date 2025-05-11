@@ -102,6 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
@@ -155,7 +156,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vList or {vList} or vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -167,8 +168,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -239,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExtractZipFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

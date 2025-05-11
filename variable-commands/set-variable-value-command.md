@@ -95,6 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>If <strong>{vNum}</strong> has <strong>'1'</strong> and You select <strong>'Yes'</strong>, Variable will be Assigned <strong>'1'</strong>. If You Select <strong>'No'</strong>, Variable will be assigned <strong>'{vNum}'</strong>.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
@@ -119,6 +120,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>This command ignores the 'Create Missing Variable During Execution' value in the Settings<br><br>
 <strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
@@ -161,7 +163,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetVariableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

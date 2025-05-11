@@ -36,7 +36,7 @@ Use this command when you want to delete a column to a DataTable.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -48,8 +48,6 @@ Use this command when you want to delete a column to a DataTable.
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -97,7 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Number or Text</dd>
+<dt>What to input</dt><dd>Enter or Select the Number or Text</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -152,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DeleteDataTableColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

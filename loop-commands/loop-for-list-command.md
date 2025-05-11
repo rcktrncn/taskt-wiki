@@ -39,7 +39,7 @@ This command allows you to Repeat actions on the values held by List. This comma
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -51,8 +51,6 @@ This command allows you to Repeat actions on the values held by List. This comma
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
 | <strong>{vList}</strong> | Specify Variable Name **vList** |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
@@ -100,7 +98,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
@@ -133,6 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
@@ -154,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
@@ -185,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
@@ -236,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

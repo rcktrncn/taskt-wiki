@@ -39,7 +39,7 @@ Use this command when you want to Filter Columns by reference to Row values.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -51,8 +51,6 @@ Use this command when you want to Filter Columns by reference to Row values.
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Number</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>0 or -1 or 1 or {vRowIndex}</dd>
 <dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
@@ -237,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableColumnByRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

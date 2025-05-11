@@ -31,13 +31,13 @@ This command allows you to set value in JSON.
 
 
 <dl>
-<dt>What to input</dt><dd>JSON <strong>Variable Name</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the JSON <strong>Variable Name</strong></dd>
 <dt>Value</dt><dd>JSON Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>{vJSON} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>{vJSON}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -48,8 +48,6 @@ This command allows you to set value in JSON.
 | Value | Means |
 |---|---|
 | <strong>{vJSON}</strong> | Specify Value of Variable **vJSON** for JSON |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -66,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>JSONPath</dd>
+<dt>What to input</dt><dd>Enter or Select the JSONPath</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>$.names[0] or $.id or $..id or {vPath}</dd>
 <dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath<br><br>
@@ -99,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>JSON Value</dd>
+<dt>What to input</dt><dd>Enter or Select the JSON Value</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Hello or 1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
@@ -187,7 +185,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetJSONValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

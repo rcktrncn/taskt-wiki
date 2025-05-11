@@ -29,7 +29,7 @@ Use this command when you want to Decrease Value in Numerical Variable.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Numerical <strong>Variable Name</strong></dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DecreaseNumericalVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

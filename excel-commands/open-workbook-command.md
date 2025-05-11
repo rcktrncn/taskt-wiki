@@ -38,7 +38,7 @@ Use this command when you want to open an existing Excel Workbook.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>RPAExcel or {vInstance} or vValue or {vValue}</dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -50,8 +50,6 @@ Use this command when you want to open an existing Excel Workbook.
 |---|---|
 | <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
 | <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
-| <strong>vValue</strong> | Specify Variable Name **vValue** |
-| <strong>{vValue}</strong> | Specify Variable Name **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -219,7 +217,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

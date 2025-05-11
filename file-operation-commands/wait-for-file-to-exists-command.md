@@ -101,7 +101,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vPath or {vPath} or vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vPath or {vPath}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -113,8 +113,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vPath</strong> | Specify Variable Name **vPath** |
 | <strong>{vPath}</strong> | Specify Variable Name **vPath** |
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -151,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WaitForFileToExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

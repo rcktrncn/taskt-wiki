@@ -31,7 +31,7 @@ This command allows you to get Parent UIElement from UIElement.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the UIElement Variable Name</dd>
-<dt>Instance Type</dt><dd>UIElement</dd>
+<dt>Value</dt><dd>UIElement Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -98,8 +98,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd>10 or {vTime}</dd>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the UIElement is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -111,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 | Value | Means |
 |---|---|
 | <strong>10</strong> | Specify **10** for Wait Time |
-| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -148,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchParentUIElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

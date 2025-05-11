@@ -30,7 +30,7 @@ Use this command when you want to Get Handle, Title, and URL of Windows and Tabs
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
-<dt>Instance Type</dt><dd>WebBrowser</dd>
+<dt>Value</dt><dd>WebBrowser Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vDataTable or {vDataTable} or vResult or {vResult}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -81,8 +81,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
 | <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -119,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWindowAndTabInformationsAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help

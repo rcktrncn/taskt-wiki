@@ -39,7 +39,7 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
-<dt>Instance Type</dt><dd>WebBrowser</dd>
+<dt>Value</dt><dd>WebBrowser Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -282,6 +282,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>Headless mode does not show WebBrowser window<br><br>
 <strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
@@ -324,7 +325,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/06/25 04:03 PM
+This page was generated on 05/11/25 08:36 PM
 
 
 ## Help
