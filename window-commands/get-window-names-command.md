@@ -160,8 +160,8 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
 <li>Less than Zero</li>
-<li>Equals Zero</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
@@ -276,7 +276,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowNamesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/11/25 08:36 PM
+This page was generated on 05/18/25 09:21 PM
 
 
 ## Help
