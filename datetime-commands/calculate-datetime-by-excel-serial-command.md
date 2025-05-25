@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DateTime &gt; Calculate DateTime By Excel Serial
+DateTime &gt; Calculate &gt; Calculate DateTime By Excel Serial
 
 
 # Calculate DateTime By Excel Serial Command
@@ -176,7 +176,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CalculateDateTimeByExcelSerialCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/18/25 09:21 PM
+This page was generated on 05/25/25 10:10 PM
 
 
 ## Help

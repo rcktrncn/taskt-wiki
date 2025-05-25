@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DateTime &gt; Get DateTime Differences
+DateTime &gt; Calculate &gt; Get DateTime Differences
 
 
 # Get DateTime Differences Command
@@ -177,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDateTimeDifferencesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/18/25 09:21 PM
+This page was generated on 05/25/25 10:10 PM
 
 
 ## Help

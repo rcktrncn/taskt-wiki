@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DateTime &gt; Format DateTime By Text
+DateTime &gt; Format &gt; Format DateTime By Text
 
 
 # Format DateTime By Text Command
@@ -63,7 +63,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the DateTime Format Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -150,7 +151,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatDateTimeByTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/18/25 09:21 PM
+This page was generated on 05/25/25 10:10 PM
 
 
 ## Help

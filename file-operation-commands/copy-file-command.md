@@ -342,7 +342,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/18/25 09:21 PM
+This page was generated on 05/25/25 10:10 PM
 
 
 ## Help

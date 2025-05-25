@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Arguments</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>1</dd>
+<dt>Sample Usage</dt><dd>1 or Hello or 1 2 3 or {vArgs}</dd>
 <dt>Remarks</dt><dd>Arguments are sent to the Script<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -81,6 +81,9 @@ prev / [list](#param_list) / [next](#param_1)
 | Value | Means |
 |---|---|
 | <strong>1</strong> | Specify **1** for Arguments |
+| <strong>Hello</strong> | Specify **Hello** for Arguments |
+| <strong>1 2 3</strong> | Specify **1 2 3** for Arguments |
+| <strong>{vArgs}</strong> | Specify Value of Variable **vArgs** for Arguments |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -258,7 +261,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptByCodeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/18/25 09:21 PM
+This page was generated on 05/25/25 10:10 PM
 
 
 ## Help
