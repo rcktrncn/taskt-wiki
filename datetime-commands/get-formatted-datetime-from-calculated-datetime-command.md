@@ -21,7 +21,7 @@ Use this command when you want to Get Formatted DateTime Text From Calculated Da
 ## Command Parameters
 - [Please Select the DateTime Variable Name](#param_0)
 - [Please Select the Calculation Method](#param_1)
-- [Please Specify the Value to Add or Substruct](#param_2)
+- [Please Specify the Value to Add or Subtruct](#param_2)
 - [Please Specify the DateTime Format](#param_3)
 - [Please Select the Variable Name to Store Result](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Add Years</strong> or  <strong>Add Months</strong> or  <strong>Add Days</strong> or  <strong>Add Hours</strong> or  <strong>Add Minutes</strong> or  <strong>Add Seconds</strong> or  <strong>Substract Years</strong> or  <strong>Substract Months</strong> or  <strong>Substract Days</strong> or  <strong>Substract Hours</strong> or  <strong>Substract Minutes</strong> or  <strong>Substract Seconds</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Add Years</strong> or  <strong>Add Months</strong> or  <strong>Add Days</strong> or  <strong>Add Hours</strong> or  <strong>Add Minutes</strong> or  <strong>Add Seconds</strong> or  <strong>Subtract Years</strong> or  <strong>Subtract Months</strong> or  <strong>Subtract Days</strong> or  <strong>Subtract Hours</strong> or  <strong>Subtract Minutes</strong> or  <strong>Subtract Seconds</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -87,7 +87,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Value to Add or Substruct
+### Please Specify the Value to Add or Subtruct
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>5 or {vValue}</dd>
-<dt>Remarks</dt><dd>Adding <strong>-5</strong> is same as Substructing <strong>5</strong></dd>
+<dt>Remarks</dt><dd>Adding <strong>-5</strong> is same as Subtracting <strong>5</strong></dd>
 </dl>
 
 
@@ -105,8 +105,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>5</strong> | Add or Substruct **5** |
-| <strong>{vValue}</strong> | Add or Substruct Value of Variable **vValue** |
+| <strong>5</strong> | Add or Subtract **5** |
+| <strong>{vValue}</strong> | Add or Subtract Value of Variable **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFormattedDateTimeFromCalculatedDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/25/25 10:10 PM
+This page was generated on 06/01/25 09:36 PM
 
 
 ## Help

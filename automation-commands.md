@@ -37,8 +37,6 @@
 ### Data
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-||[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
-||[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
 ||[Get HTML Text By XPath](/data-commands/get-html-text-by-xpath-command.md)|This command processes an HTML source object|
 ||[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
 ||[PDF Extraction](/data-commands/pdf-extraction-command.md)||
@@ -97,9 +95,9 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Calculate|[Calculate DateTime](/datetime-commands/calculate-datetime-command.md)|This command allows you to Calculate DateTime. Add Day, Minute, etc.|
-|Calculate|[Calculate DateTime By Excel Serial](/datetime-commands/calculate-datetime-by-excel-serial-command.md)|This command allows you to Calculate DateTime By Excel Serial. Add Day, Minute, etc.|
-|Calculate|[Calculate DateTime By Text](/datetime-commands/calculate-datetime-by-text-command.md)|This command allows you to Calculate DateTime By Text. Add Day, Minute, etc.|
-|Calculate|[Calculate DateTime By Unix Time](/datetime-commands/calculate-datetime-by-unix-time-command.md)|This command allows you to Calculate DateTime By Unix Time. Add Day, Minute, etc.|
+|Calculate|[Calculate DateTime From Excel Serial](/datetime-commands/calculate-datetime-from-excel-serial-command.md)|This command allows you to Calculate DateTime From Excel Serial. Add Day, Minute, etc.|
+|Calculate|[Calculate DateTime From Text](/datetime-commands/calculate-datetime-from-text-command.md)|This command allows you to Calculate DateTime From Text. Add Day, Minute, etc.|
+|Calculate|[Calculate DateTime From Unix Time](/datetime-commands/calculate-datetime-from-unix-time-command.md)|This command allows you to Calculate DateTime From Unix Time. Add Day, Minute, etc.|
 |Calculate|[Get DateTime Differences](/datetime-commands/get-datetime-differences-command.md)|This command allows you to Get 2 DateTime Differences.|
 |Calculate|[Get Formatted DateTime From Calculated DateTime](/datetime-commands/get-formatted-datetime-from-calculated-datetime-command.md)|This command allows you to Get Formatted DateTime Text From Calculated DateTime Value.|
 |Calculate|[Get Formatted DateTime From Calculated Excel Serial DateTime](/datetime-commands/get-formatted-datetime-from-calculated-excel-serial-datetime-command.md)|This command allows you to Get Formatted DateTime Text From Calculated Excel Serial DateTime Value.|
@@ -615,4 +613,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 05/25/25 10:10 PM
+This page was generated on 06/01/25 09:36 PM
