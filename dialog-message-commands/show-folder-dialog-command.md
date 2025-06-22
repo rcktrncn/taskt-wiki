@@ -23,7 +23,8 @@ Use this command when you want to select folder.
 - [Optional - Please Specify the Initial Folder Path](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Select the When Dialog Result Is Cancel](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Please Select the Variable Name To Store Dislog Result](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -151,6 +152,40 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Please Select the Variable Name To Store Dislog Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>Value is <strong>OK</strong> or <strong>Cancel</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -166,7 +201,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -175,7 +210,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowFolderDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/25 09:36 PM
+This page was generated on 06/22/25 05:40 PM
 
 
 ## Help

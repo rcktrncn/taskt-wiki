@@ -276,7 +276,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ActivateWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/25 09:36 PM
+This page was generated on 06/22/25 05:40 PM
 
 
 ## Help

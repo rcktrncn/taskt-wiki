@@ -19,23 +19,31 @@ Use this command when you want to log custom data to a file for debugging or ana
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
-- [Please enter the text to log.](#param_1)
+- [Optional - Please Specify the Custom Log Name](#param_0)
+- [Please Specify the Text to Log](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
+### Optional - Please Specify the Custom Log Name
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate the file name where logs should be appended to</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Engine Logs</strong></dd>
-<dt>Remarks</dt><dd>Date and Time will be automatically appended to the file name.  Logs are all saved in taskt Root\Logs folder</dd>
+<dt>What to input</dt><dd>Enter or Select the File Name</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>myLog or {vLogName}</dd>
+<dt>Remarks</dt><dd>Date and Time will be automatically appended to the file name. Logs are all saved in 'Documents\taskt\Logs folder'. If 'myLog' is specified, the log file name will be 'taskt <strong>myLog</strong> Logs'.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Engine Logs</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| myLog | Specify myLog |
+| {vLogName} | Specify Value of Variable vLogName |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -48,17 +56,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please enter the text to log.
+### Please Specify the Text to Log
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate the value of the text to be saved.</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>Hello or {vLogValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| Hello | Specify Hello |
+| {vLogValue} | Specify Value of Variable vLogValue |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -95,7 +110,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: LogDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/25 09:36 PM
+This page was generated on 06/22/25 05:40 PM
 
 
 ## Help

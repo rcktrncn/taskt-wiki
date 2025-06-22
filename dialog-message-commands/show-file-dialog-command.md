@@ -25,7 +25,8 @@ Use this command when you want to select file to save or open.
 - [Optional - Please Specify the Initial Folder Path](#param_3)
 - [Please Select the Variable Name to Store Result](#param_4)
 - [Optional - Please Select the When Dialog Result Is Cancel](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Please Select the Variable Name To Store Dislog Result](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -208,6 +209,40 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
+### Please Select the Variable Name To Store Dislog Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>Value is <strong>OK</strong> or <strong>Cancel</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -223,7 +258,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -232,7 +267,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowFileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/25 09:36 PM
+This page was generated on 06/22/25 05:40 PM
 
 
 ## Help

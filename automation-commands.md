@@ -186,6 +186,7 @@
 |Cell|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
 |Cell|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
 |Cell|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
+|Cell|[Go To Cell RC](/excel-commands/go-to-cell-rc-command.md)|This command moves to a specific cell.|
 |Cell|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
 |Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
 |Column|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
@@ -613,4 +614,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 06/01/25 09:36 PM
+This page was generated on 06/22/25 05:40 PM
