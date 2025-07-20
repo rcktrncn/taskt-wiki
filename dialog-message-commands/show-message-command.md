@@ -23,7 +23,11 @@ Use this command when you want to present or display a value on screen to the us
 - [Optional - Please Specify the Close After X (Seconds) - 0 to Bypass](#param_1)
 - [Optional - Please Specify the Font Name](#param_2)
 - [Optional - Please Specify the Font Size](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the Dialog Type](#param_4)
+- [Optional - Please Specify the Dialog Title](#param_5)
+- [Optional - Please Select the Wait for answer](#param_6)
+- [Optional - Please Select the Variable Name to Store Dialog Result](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -148,6 +152,108 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Dialog Type
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>OkOnly</strong> or  <strong>YesNo</strong> or  <strong>OkCancel</strong> or  <strong>Close</strong> or  <strong>Nothing</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>OkOnly</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Specify the Dialog Title
+
+
+<dl>
+<dt>What to input</dt><dd>Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>ShowMessage Command</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Select the Wait for answer
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Select the Variable Name to Store Dialog Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -163,7 +269,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -172,7 +278,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/22/25 05:40 PM
+This page was generated on 07/20/25 09:48 PM
 
 
 ## Help
