@@ -20,9 +20,12 @@ Use this command when you want to send keystroke inputs to a window.
 <a id="param_list"></a>
 ## Command Parameters
 - [Optional - Please Specify the Dialog Title](#param_0)
-- [Optional - Please Input Directions](#param_1)
+- [Optional - Please Specify the Message](#param_1)
 - [Please Specify the User Input Parameters](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Select the Dialog Buttons](#param_3)
+- [Optional - Please Select the When Dialog Result Is Cancel](#param_4)
+- [Please Select the Variable Name To Store Dislog Result](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
@@ -32,11 +35,18 @@ Use this command when you want to send keystroke inputs to a window.
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Title</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>Please Provide Input</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Sample Usage</dt><dd>Title or {vTitle}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Please Provide Input</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Title</strong> | Specify **Title** |
+| <strong>{vTitle}</strong> | Specify Value of Variable **vTitle** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -49,11 +59,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Input Directions
+### Optional - Please Specify the Message
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Input Directions</dd>
+<dt>What to input</dt><dd>Enter or Select the Message</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Please fill in the following fields</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
@@ -94,6 +104,95 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Dialog Buttons
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>OKCancel</strong> or  <strong>OKOnly</strong> or  <strong>AcceptCancel</strong> or  <strong>AcceptOnly</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>OKCancel</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Select the When Dialog Result Is Cancel
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Set Empty</strong> or  <strong>Show Dialog Again</strong> or  <strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Show Dialog Again</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing to do. The Result Variable is not Changed. |
+| <strong>Set Empty</strong> | Result Variable value is Empty |
+| **Show Dialog Again | Show Dialog Again |
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Please Select the Variable Name To Store Dislog Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>Value is <strong>OK</strong> or <strong>Cancel</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -109,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -118,7 +217,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowUserInputDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/20/25 09:48 PM
+This page was generated on 08/16/25 03:40 PM
 
 
 ## Help

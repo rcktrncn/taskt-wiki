@@ -26,7 +26,7 @@ Use this command when you want to present or display a value on screen to the us
 - [Optional - Please Select the Dialog Type](#param_4)
 - [Optional - Please Specify the Dialog Title](#param_5)
 - [Optional - Please Select the Wait for answer](#param_6)
-- [Optional - Please Select the Variable Name to Store Dialog Result](#param_7)
+- [Please Select the Variable Name To Store Dislog Result](#param_7)
 - [Optional - Please Specify the Comment Field](#param_8)
 
 
@@ -180,13 +180,20 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Text</dd>
+<dt>What to input</dt><dd>Enter or Select the Title</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>Title or {vTitle}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>ShowMessage Command</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Title</strong> | Specify **Title** |
+| <strong>{vTitle}</strong> | Specify Value of Variable **vTitle** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -223,7 +230,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store Dialog Result
+### Please Select the Variable Name To Store Dislog Result
 
 
 <dl>
@@ -231,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>Remarks</dt><dd>Value is <strong>OK</strong> or <strong>Cancel</strong></dd>
 </dl>
 
 
@@ -278,7 +285,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/20/25 09:48 PM
+This page was generated on 08/16/25 03:40 PM
 
 
 ## Help
