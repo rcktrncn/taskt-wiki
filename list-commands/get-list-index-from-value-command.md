@@ -162,7 +162,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListIndexFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/25 03:40 PM
+This page was generated on 08/31/25 06:59 PM
 
 
 ## Help

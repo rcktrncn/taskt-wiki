@@ -244,11 +244,11 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 <dl>
 <dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Less than Zero</li>
-<li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -361,7 +361,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/25 03:40 PM
+This page was generated on 08/31/25 06:59 PM
 
 
 ## Help

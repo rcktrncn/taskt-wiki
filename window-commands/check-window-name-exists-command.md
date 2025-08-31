@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Window &gt; Window State &gt; Check Window Name Exists
+Window &gt; Get From Window Name &gt; Check Window Name Exists
 
 
 # Check Window Name Exists Command
@@ -23,8 +23,8 @@ Use this command when you want to check a existence of window name.
 - [Optional - Please Select the Compare Method for the Window Name](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_4)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
+- [Optional - Please Select the Variable Name to Store Window Names List](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Handles List](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
@@ -127,11 +127,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -156,12 +157,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Window Name Result
+### Optional - Please Select the Variable Name to Store Window Names List
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vWin or {vWin}</dd>
 <dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
@@ -188,12 +189,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Variable Name to Store Window Handle Result
+### Optional - Please Select the Variable Name to Store Window Handles List
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
 <dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
@@ -244,7 +245,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckWindowNameExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/25 03:40 PM
+This page was generated on 08/31/25 06:59 PM
 
 
 ## Help

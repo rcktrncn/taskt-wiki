@@ -573,24 +573,29 @@
 |Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
 |Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
 |Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
-|Window Actions|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
-|Window Actions|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
-|Window Actions|[Get Process Name From Window Name](/window-commands/get-process-name-from-window-name-command.md)|This command allows you to Get Process Name from Window Name.|
-|Window Actions|[Get Window Handle From Window Name](/window-commands/get-window-handle-from-window-name-command.md)|This command allows you to Get Window Handle from Window Name.|
-|Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
-|Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
-|Window Actions|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
-|Window Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
+|Get From Window Name|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
+|Get From Window Name|[Get One Process Name From One Window Name](/window-commands/get-one-process-name-from-one-window-name-command.md)|This command returns one window process name.|
+|Get From Window Name|[Get One Window Handle From One Window Name](/window-commands/get-one-window-handle-from-one-window-name-command.md)|This command returns one window handle.|
+|Get From Window Name|[Get One Window Position](/window-commands/get-one-window-position-command.md)|This command returns one window position.|
+|Get From Window Name|[Get One Window Size](/window-commands/get-one-window-size-command.md)|This command returns one window size.|
+|Get From Window Name|[Get One Window State](/window-commands/get-one-window-state-command.md)|This command returns one window state.|
+|Get From Window Name|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
+|One Window Name Actions|[Activate One Window](/window-commands/activate-one-window-command.md)|This command Activate one Window.|
+|One Window Name Actions|[Close One Window](/window-commands/close-one-window-command.md)|This command Close one Window.|
+|One Window Name Actions|[Move One Window](/window-commands/move-one-window-command.md)|This command Move one Window.|
+|One Window Name Actions|[Resize One Window](/window-commands/resize-one-window-command.md)|This command Resize one Window.|
+|One Window Name Actions|[Set One Window State](/window-commands/set-one-window-state-command.md)|This command Set State one Window.|
+|One Window Name Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
+|Window Actions|[Activate Windows](/window-commands/activate-windows-command.md)|This command activates windows|
+|Window Actions|[Close Windows](/window-commands/close-windows-command.md)|This command closes windows.|
+|Window Actions|[Move Windows](/window-commands/move-windows-command.md)|This command Move windows.|
+|Window Actions|[Resize Windows](/window-commands/resize-windows-command.md)|This command resizes windows.|
+|Window Actions|[Set Windows State](/window-commands/set-windows-state-command.md)|This command sets a target windows state.|
 |Window Handle Actions|[Activate Window By Window Handle](/window-commands/activate-window-by-window-handle-command.md)|This command activates a window and brings it to the front.|
 |Window Handle Actions|[Close Window By Window Handle](/window-commands/close-window-by-window-handle-command.md)|This command closes an open window.|
 |Window Handle Actions|[Move Window By Window Handle](/window-commands/move-window-by-window-handle-command.md)|This command moves a window to a specified location on screen.|
 |Window Handle Actions|[Resize Window By Window Handle](/window-commands/resize-window-by-window-handle-command.md)|This command resizes a window to a specified size.|
 |Window Handle Actions|[Set Window State By Window Handle](/window-commands/set-window-state-by-window-handle-command.md)|This command sets a target window's state.|
-|Window State|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
-|Window State|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
-|Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
-|Window State|[Get Window Size](/window-commands/get-window-size-command.md)|This command returns window size.|
-|Window State|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
 ### Word
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -614,4 +619,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/16/25 03:40 PM
+This page was generated on 08/31/25 06:59 PM

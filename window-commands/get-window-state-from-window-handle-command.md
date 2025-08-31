@@ -20,9 +20,11 @@ Use this command when you want to get a window state.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Window Handle Variable Name](#param_0)
-- [Please Select the Variable Name to Store Result](#param_1)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Select the Variable Name to Store Window State Text](#param_1)
+- [Optional - Please Select the Variable Name to Store Window State Text](#param_2)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
+- [Optional - Please Select the Variable Name to Store Window Name](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -60,18 +62,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Variable Name to Store Result
+### Optional - Please Select the Variable Name to Store Window State Text
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd>Restore is <strong>1</strong>, Minimize is <strong>2</strong>, Maximize is <strong>3</strong></dd>
+<dt>Remarks</dt><dd>Restore is <strong>1</strong>, Minimize is <strong>2</strong>, Maximize is <strong>3</strong><br><br>
+<strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -94,16 +94,47 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Select the Variable Name to Store Window State Text
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
 <dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Less than Zero</li>
-<li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -121,13 +152,44 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_4"></a>
+### Optional - Please Select the Variable Name to Store Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -143,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -152,7 +214,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowStateFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/25 03:40 PM
+This page was generated on 08/31/25 06:59 PM
 
 
 ## Help
