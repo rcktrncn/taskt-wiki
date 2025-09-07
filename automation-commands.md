@@ -579,7 +579,17 @@
 |Get From Window Name|[Get One Window Position](/window-commands/get-one-window-position-command.md)|This command returns one window position.|
 |Get From Window Name|[Get One Window Size](/window-commands/get-one-window-size-command.md)|This command returns one window size.|
 |Get From Window Name|[Get One Window State](/window-commands/get-one-window-state-command.md)|This command returns one window state.|
+|Get From Window Name|[Get Process Names From Window Names As DataTable](/window-commands/get-process-names-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Window Name|[Get Process Names From Window Names As List](/window-commands/get-process-names-from-window-names-as-list-command.md)|This command returns window process names.|
+|Get From Window Name|[Get Window Handles From Window Names As DataTable](/window-commands/get-window-handles-from-window-names-as-datatable-command.md)|This command returns window handles.|
+|Get From Window Name|[Get Window Handles From Window Names As List](/window-commands/get-window-handles-from-window-names-as-list-command.md)|This command returns window handles.|
 |Get From Window Name|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
+|Get From Window Name|[Get Window Positions From Window Names As DataTable](/window-commands/get-window-positions-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Window Name|[Get Window Positions From Window Names As List](/window-commands/get-window-positions-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From Window Name|[Get Window Sizes From Window Names As DataTable](/window-commands/get-window-sizes-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Window Name|[Get Window Sizes From Window Names As List](/window-commands/get-window-sizes-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From Window Name|[Get Window States From Window Names As DataTable](/window-commands/get-window-states-from-window-names-as-datatable-command.md)|This command returns window process states.|
+|Get From Window Name|[Get Window States From Window States As List](/window-commands/get-window-states-from-window-states-as-list-command.md)|This command returns window handles.|
 |One Window Name Actions|[Activate One Window](/window-commands/activate-one-window-command.md)|This command Activate one Window.|
 |One Window Name Actions|[Close One Window](/window-commands/close-one-window-command.md)|This command Close one Window.|
 |One Window Name Actions|[Move One Window](/window-commands/move-one-window-command.md)|This command Move one Window.|
@@ -619,4 +629,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/31/25 06:59 PM
+This page was generated on 09/07/25 06:35 PM

@@ -29,7 +29,8 @@ Use this command when you want to take and save a screenshot.
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
-- [Optional - Please Specify the Comment Field](#param_10)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_10)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
@@ -134,6 +135,10 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -337,6 +342,39 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 
 <a id="param_10"></a>
+### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
+
+
+</div>
+
+
+<a id="param_11"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -352,7 +390,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_10) / [list](#param_list) / next
+[prev](#param_11) / [list](#param_list) / next
 
 
 </div>
@@ -361,7 +399,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/31/25 06:59 PM
+This page was generated on 09/07/25 06:35 PM
 
 
 ## Help

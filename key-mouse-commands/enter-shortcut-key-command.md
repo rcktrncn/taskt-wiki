@@ -25,7 +25,7 @@ Use this command when you want to send keystroke inputs to a window.
 - [Optional - Please Select the Match Method for the Window Name](#param_3)
 - [Optional - Please Specify the Window Index](#param_4)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
-- [Optional - Please Specify the Wait Time for *** (sec)](#param_6)
+- [Optional - Please Specify the Wait Time for After Key Enter](#param_6)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_7)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_8)
 - [Optional - Please Specify the Comment Field](#param_9)
@@ -237,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Wait Time for *** (sec)
+### Optional - Please Specify the Wait Time for After Key Enter
 
 
 <dl>
@@ -359,7 +359,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterShortcutKeyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/31/25 06:59 PM
+This page was generated on 09/07/25 06:35 PM
 
 
 ## Help

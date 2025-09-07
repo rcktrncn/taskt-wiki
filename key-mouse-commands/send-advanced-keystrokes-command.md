@@ -23,14 +23,15 @@ Use this command when you want to send advanced keystroke inputs to a window.
 - [Please Specify the Keys and Action Type](#param_1)
 - [Optional - Please Select the Return all keys to 'UP' position after execution](#param_2)
 - [Optional - Please Select the Compare Method for the Window Name](#param_3)
-- [Optional - Please Specify the Wait Time for *** (sec)](#param_4)
-- [Optional - Please Select the Match Method for the Window Name](#param_5)
-- [Optional - Please Specify the Window Index](#param_6)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [Optional - Please Select the Match Method for the Window Name](#param_4)
+- [Optional - Please Specify the Window Index](#param_5)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_6)
+- [Optional - Please Specify the Wait Time for After Key Enter](#param_7)
 - [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_8)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
-- [Optional - Please Specify the Comment Field](#param_11)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_11)
+- [Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
@@ -139,40 +140,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Wait Time for *** (sec)
-
-
-<dl>
-<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Less than Zero</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
-<dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
-<strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>10</strong> | Specify **10** for Wait Time |
-| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
-
-
-</div>
-
-
-<a id="param_5"></a>
 ### Optional - Please Select the Match Method for the Window Name
 
 
@@ -199,13 +166,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Window Index
 
 
@@ -230,13 +197,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
@@ -249,6 +216,40 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Specify the Wait Time for After Key Enter
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
+<strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
 
 
@@ -359,6 +360,39 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
+### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
+
+
+</div>
+
+
+<a id="param_12"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -374,7 +408,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_11) / [list](#param_list) / next
+[prev](#param_12) / [list](#param_list) / next
 
 
 </div>
@@ -383,7 +417,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/31/25 06:59 PM
+This page was generated on 09/07/25 06:35 PM
 
 
 ## Help
