@@ -259,7 +259,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateDictionaryFromExcelFile
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/07/25 06:35 PM
+This page was generated on 09/14/25 07:28 PM
 
 
 ## Help

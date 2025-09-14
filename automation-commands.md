@@ -12,6 +12,8 @@
 | ---                | ---           | ---                   |
 |Application|[Start Application](/application-script-commands/start-application-command.md)|This command allows you to start a program or a process.|
 |Application|[Stop Application](/application-script-commands/stop-application-command.md)|This command allows you to Stop a Application.|
+|File/Folder|[Open File](/application-script-commands/open-file-command.md)|This command opens the specified file|
+|File/Folder|[Open Folder](/application-script-commands/open-folder-command.md)|This command opens the specified folder|
 |taskt Script File|[Load Script File](/application-script-commands/load-script-file-command.md)|This command pre-loads tasks for future execution.|
 |taskt Script File|[Run Script File](/application-script-commands/run-script-file-command.md)|This command runs tasks.|
 |taskt Script File|[Stop Current Script File](/application-script-commands/stop-current-script-file-command.md)|This command stops the current task.|
@@ -590,17 +592,17 @@
 |Get From Window Name|[Get Window Sizes From Window Names As List](/window-commands/get-window-sizes-from-window-names-as-list-command.md)|This command returns window handles.|
 |Get From Window Name|[Get Window States From Window Names As DataTable](/window-commands/get-window-states-from-window-names-as-datatable-command.md)|This command returns window process states.|
 |Get From Window Name|[Get Window States From Window States As List](/window-commands/get-window-states-from-window-states-as-list-command.md)|This command returns window handles.|
+|Multi Window Actions|[Activate Windows](/window-commands/activate-windows-command.md)|This command activates windows|
+|Multi Window Actions|[Close Windows](/window-commands/close-windows-command.md)|This command closes windows.|
+|Multi Window Actions|[Move Windows](/window-commands/move-windows-command.md)|This command Move windows.|
+|Multi Window Actions|[Resize Windows](/window-commands/resize-windows-command.md)|This command resizes windows.|
+|Multi Window Actions|[Set Windows State](/window-commands/set-windows-state-command.md)|This command sets a target windows state.|
 |One Window Name Actions|[Activate One Window](/window-commands/activate-one-window-command.md)|This command Activate one Window.|
 |One Window Name Actions|[Close One Window](/window-commands/close-one-window-command.md)|This command Close one Window.|
 |One Window Name Actions|[Move One Window](/window-commands/move-one-window-command.md)|This command Move one Window.|
 |One Window Name Actions|[Resize One Window](/window-commands/resize-one-window-command.md)|This command Resize one Window.|
 |One Window Name Actions|[Set One Window State](/window-commands/set-one-window-state-command.md)|This command Set State one Window.|
 |One Window Name Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
-|Window Actions|[Activate Windows](/window-commands/activate-windows-command.md)|This command activates windows|
-|Window Actions|[Close Windows](/window-commands/close-windows-command.md)|This command closes windows.|
-|Window Actions|[Move Windows](/window-commands/move-windows-command.md)|This command Move windows.|
-|Window Actions|[Resize Windows](/window-commands/resize-windows-command.md)|This command resizes windows.|
-|Window Actions|[Set Windows State](/window-commands/set-windows-state-command.md)|This command sets a target windows state.|
 |Window Handle Actions|[Activate Window By Window Handle](/window-commands/activate-window-by-window-handle-command.md)|This command activates a window and brings it to the front.|
 |Window Handle Actions|[Close Window By Window Handle](/window-commands/close-window-by-window-handle-command.md)|This command closes an open window.|
 |Window Handle Actions|[Move Window By Window Handle](/window-commands/move-window-by-window-handle-command.md)|This command moves a window to a specified location on screen.|
@@ -629,4 +631,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 09/07/25 06:35 PM
+This page was generated on 09/14/25 07:28 PM
