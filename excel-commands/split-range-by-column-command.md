@@ -19,18 +19,18 @@ Use this command when you want to split a range into separate ranges.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Excel Instance Name](#param_0)
-- [Please Enter the First Cell Location (ex. A1 or B2)](#param_1)
-- [Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)](#param_2)
-- [Please Enter the Column Name](#param_3)
-- [Please indicate the output directory](#param_4)
-- [Please Indicate the File Type to save as](#param_5)
-- [Please Specify the Assign DataTable List to Variable](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Select the Excel Instance Name](#param_0)
+- [[6000,0x00001770] Please Enter the First Cell Location (ex. A1 or B2)](#param_1)
+- [[6001,0x00001771] Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)](#param_2)
+- [[6003,0x00001773] Please Enter the Column Name](#param_3)
+- [[6004,0x00001774] Please indicate the output directory](#param_4)
+- [[6005,0x00001775] Please Indicate the File Type to save as](#param_5)
+- [[6006,0x00001776] Please Specify the Assign DataTable List to Variable](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Select the Excel Instance Name
+### [5000,0x00001388] Please Select the Excel Instance Name
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Enter the First Cell Location (ex. A1 or B2)
+### [6000,0x00001770] Please Enter the First Cell Location (ex. A1 or B2)
 
 
 <dl>
@@ -86,7 +86,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)
+### [6001,0x00001771] Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)
 
 
 <dl>
@@ -108,7 +108,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Enter the Column Name
+### [6003,0x00001773] Please Enter the Column Name
 
 
 <dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please indicate the output directory
+### [6004,0x00001774] Please indicate the output directory
 
 
 <dl>
@@ -152,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Indicate the File Type to save as
+### [6005,0x00001775] Please Indicate the File Type to save as
 
 
 <dl>
@@ -175,7 +175,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Specify the Assign DataTable List to Variable
+### [6006,0x00001776] Please Specify the Assign DataTable List to Variable
 
 
 <dl>
@@ -197,7 +197,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -221,7 +221,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSplitRangeByColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

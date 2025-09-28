@@ -19,15 +19,15 @@ This command allows you to add item to JSON Array.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the JSON Variable Name](#param_0)
-- [Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
-- [Please Specify the Value to Add](#param_2)
-- [Optional - Please Select the Value Type to Add](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [[5000,0x00001388] Please Select the JSON Variable Name](#param_0)
+- [[6000,0x00001770] Optional - Please Specify the JSON Extractor (JSONPath)](#param_1)
+- [[10000,0x00002710] Please Specify the Value to Add](#param_2)
+- [[11000,0x00002AF8] Optional - Please Select the Value Type to Add](#param_3)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the JSON Variable Name
+### [5000,0x00001388] Please Select the JSON Variable Name
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the JSON Extractor (JSONPath)
+### [6000,0x00001770] Optional - Please Specify the JSON Extractor (JSONPath)
 
 
 <dl>
@@ -92,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Value to Add
+### [10000,0x00002710] Please Specify the Value to Add
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Value Type to Add
+### [11000,0x00002AF8] Optional - Please Select the Value Type to Add
 
 
 <dl>
@@ -160,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -184,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

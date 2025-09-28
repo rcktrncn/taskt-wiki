@@ -19,17 +19,17 @@ This command convert a List to a DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
-- [Optional - Please Select the DataTable Columns Type](#param_1)
-- [Optional - Please Select the DataTable Columns Name List or Column Names](#param_2)
-- [Optional - Please Select the When the number of items in the List is greater than the number of Columns](#param_3)
-- [Optional - Please Select the When the number of Columns is greater than the number of items in the List](#param_4)
-- [Please Select the Variable Name to Store DataTable](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Please Select the List Variable Name](#param_0)
+- [[6000,0x00001770] Optional - Please Select the DataTable Columns Type](#param_1)
+- [[6001,0x00001771] Optional - Please Select the DataTable Columns Name List or Column Names](#param_2)
+- [[6002,0x00001772] Optional - Please Select the When the number of items in the List is greater than the number of Columns](#param_3)
+- [[6003,0x00001773] Optional - Please Select the When the number of Columns is greater than the number of items in the List](#param_4)
+- [[10000,0x00002710] Please Select the Variable Name to Store DataTable](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name
+### [5000,0x00001388] Please Select the List Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the DataTable Columns Type
+### [6000,0x00001770] Optional - Please Select the DataTable Columns Type
 
 
 <dl>
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the DataTable Columns Name List or Column Names
+### [6001,0x00001771] Optional - Please Select the DataTable Columns Name List or Column Names
 
 
 <dl>
@@ -129,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the When the number of items in the List is greater than the number of Columns
+### [6002,0x00001772] Optional - Please Select the When the number of items in the List is greater than the number of Columns
 
 
 <dl>
@@ -160,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the When the number of Columns is greater than the number of items in the List
+### [6003,0x00001773] Optional - Please Select the When the number of Columns is greater than the number of items in the List
 
 
 <dl>
@@ -191,7 +191,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Select the Variable Name to Store DataTable
+### [10000,0x00002710] Please Select the Variable Name to Store DataTable
 
 
 <dl>
@@ -225,7 +225,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -249,7 +249,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

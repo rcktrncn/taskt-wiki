@@ -19,17 +19,17 @@ Use this command will take in a comma seprerated value and append it to the end 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Value to Set](#param_1)
-- [Optional - Please Specify the Text Separator](#param_2)
-- [Optional - Please Select the Column Type](#param_3)
-- [Optional - Please Specify the Column Location or Index](#param_4)
-- [Optional - Please Select the Value Type](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Please Select the Excel Instance Name](#param_0)
+- [[6000,0x00001770] Please Specify the Value to Set](#param_1)
+- [[6500,0x00001964] Optional - Please Specify the Text Separator](#param_2)
+- [[7000,0x00001B58] Optional - Please Select the Column Type](#param_3)
+- [[8000,0x00001F40] Optional - Please Specify the Column Location or Index](#param_4)
+- [[9000,0x00002328] Optional - Please Select the Value Type](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Select the Excel Instance Name
+### [5000,0x00001388] Please Select the Excel Instance Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Value to Set
+### [6000,0x00001770] Please Specify the Value to Set
 
 
 <dl>
@@ -93,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Text Separator
+### [6500,0x00001964] Optional - Please Specify the Text Separator
 
 
 <dl>
@@ -122,7 +122,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Column Type
+### [7000,0x00001B58] Optional - Please Select the Column Type
 
 
 <dl>
@@ -153,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Column Location or Index
+### [8000,0x00001F40] Optional - Please Specify the Column Location or Index
 
 
 <dl>
@@ -184,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Value Type
+### [9000,0x00002328] Optional - Please Select the Value Type
 
 
 <dl>
@@ -218,7 +218,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -242,7 +242,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelAppendRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

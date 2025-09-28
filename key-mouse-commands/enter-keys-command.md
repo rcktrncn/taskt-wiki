@@ -19,25 +19,26 @@ Use this command when you want to send keystroke inputs to a window.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Window Name](#param_0)
-- [Please Specify the Text or Keys to Send.](#param_1)
-- [Optional - Please Select the Text is Encrypted or Not](#param_2)
-- [Optional - Please Select the Use Paste from Clipboard](#param_3)
-- [Optional - Please Select the Compare Method for the Window Name](#param_4)
-- [Optional - Please Select the Match Method for the Window Name](#param_5)
-- [Optional - Please Specify the Window Index](#param_6)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [Optional - Please Specify the Wait Time for After Key Enter](#param_8)
-- [Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable](#param_9)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
-- [Optional - Please Select the Clear Clipboard After Paste](#param_12)
-- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_13)
-- [Optional - Please Specify the Comment Field](#param_14)
+- [[5000,0x00001388] Please Select the Window Name](#param_0)
+- [[5100,0x000013EC] Please Specify the Text or Keys to Send](#param_1)
+- [[5200,0x00001450] Optional - Please Select the Text is Encrypted](#param_2)
+- [[5300,0x000014B4] Optional - Please Select the Use Paste from Clipboard](#param_3)
+- [[6000,0x00001770] Optional - Please Select the Compare Method for the Window Name](#param_4)
+- [[7000,0x00001B58] Optional - Please Select the Match Method for the Window Name](#param_5)
+- [[7100,0x00001BBC] Optional - Please Specify the Window Index](#param_6)
+- [[8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [[8010,0x00001F4A] Optional - Please Specify the Wait Time for After Keys Enter](#param_8)
+- [[8020,0x00001F54] Optional - Please Select the Try Activate Window, when Specified Current Window Variable](#param_9)
+- [[8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
+- [[8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
+- [[9000,0x00002328] Optional - Please Select the Clear Clipboard After Paste](#param_12)
+- [[10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_13)
+- [[10010,0x0000271A] Optional - Please Select the Activate Window Before Action](#param_14)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_15)
 
 
 <a id="param_0"></a>
-### Please Select the Window Name
+### [5000,0x00001388] Please Select the Window Name
 
 
 <dl>
@@ -72,11 +73,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Text or Keys to Send.
+### [5100,0x000013EC] Please Specify the Text or Keys to Send
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Text to Send</dd>
+<dt>What to input</dt><dd>Enter or Select the Text</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Hello, World! or {vText} or ^s or {WIN_KEY} or {WIN_KEY+R}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -104,15 +106,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Text is Encrypted or Not
+### [5200,0x00001450] Optional - Please Select the Text is Encrypted
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Not Encrypted</strong> or  <strong>Encrypted</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Not Encrypted</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -128,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Use Paste from Clipboard
+### [5300,0x000014B4] Optional - Please Select the Use Paste from Clipboard
 
 
 <dl>
@@ -153,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Compare Method for the Window Name
+### [6000,0x00001770] Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -177,7 +179,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Match Method for the Window Name
+### [7000,0x00001B58] Optional - Please Select the Match Method for the Window Name
 
 
 <dl>
@@ -210,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Window Index
+### [7100,0x00001BBC] Optional - Please Specify the Window Index
 
 
 <dl>
@@ -241,7 +243,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### [8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -275,7 +277,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Specify the Wait Time for After Key Enter
+### [8010,0x00001F4A] Optional - Please Specify the Wait Time for After Keys Enter
 
 
 <dl>
@@ -309,7 +311,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### Optional - Please Select the Try Activate Window, when Specifiy Current Window Variable
+### [8020,0x00001F54] Optional - Please Select the Try Activate Window, when Specified Current Window Variable
 
 
 <dl>
@@ -333,7 +335,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### Optional - Please Select the Variable Name to Store Window Name Result
+### [8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Name Result
 
 
 <dl>
@@ -365,7 +367,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### Optional - Please Select the Variable Name to Store Window Handle Result
+### [8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handle Result
 
 
 <dl>
@@ -397,7 +399,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_12"></a>
-### Optional - Please Select the Clear Clipboard After Paste
+### [9000,0x00002328] Optional - Please Select the Clear Clipboard After Paste
 
 
 <dl>
@@ -421,7 +423,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_13"></a>
-### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+### [10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
 <dl>
@@ -454,7 +456,31 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_14"></a>
-### Optional - Please Specify the Comment Field
+### [10010,0x0000271A] Optional - Please Select the Activate Window Before Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_14) / [list](#param_list) / [next](#param_15)
+
+
+</div>
+
+
+<a id="param_15"></a>
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -469,7 +495,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_14) / [list](#param_list) / next
+[prev](#param_15) / [list](#param_list) / next
 
 
 </div>
@@ -478,7 +504,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

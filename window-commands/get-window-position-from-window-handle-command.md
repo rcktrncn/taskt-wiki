@@ -19,19 +19,19 @@ Use this command when you want window position.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Window Handle Variable Name](#param_0)
-- [Optional - Please Select the Variable Name to Recieve the Window Position X](#param_1)
-- [Optional - Please Select the Variable Name to Recieve the Window Position Y](#param_2)
-- [Optional - Please Select the Base Position](#param_3)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_4)
-- [Optional - Please Select the When Window Is Minimized](#param_5)
-- [Optional - Please Select the When Window Is Maximized](#param_6)
-- [Optional - Please Select the Variable Name to Store Window Name](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [[5000,0x00001388] Please Select the Window Handle Variable Name](#param_0)
+- [[5001,0x00001389] Optional - Please Select the Variable Name to Recieve the Window Position X](#param_1)
+- [[5002,0x0000138A] Optional - Please Select the Variable Name to Recieve the Window Position Y](#param_2)
+- [[5003,0x0000138B] Optional - Please Select the Base Position](#param_3)
+- [[6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_4)
+- [[9000,0x00002328] Optional - Please Select the When Window Is Minimized](#param_5)
+- [[9001,0x00002329] Optional - Please Select the When Window Is Maximized](#param_6)
+- [[10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name](#param_7)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
-### Please Select the Window Handle Variable Name
+### [5000,0x00001388] Please Select the Window Handle Variable Name
 
 
 <dl>
@@ -65,7 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Variable Name to Recieve the Window Position X
+### [5001,0x00001389] Optional - Please Select the Variable Name to Recieve the Window Position X
 
 
 <dl>
@@ -99,7 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Recieve the Window Position Y
+### [5002,0x0000138A] Optional - Please Select the Variable Name to Recieve the Window Position Y
 
 
 <dl>
@@ -133,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Base Position
+### [5003,0x0000138B] Optional - Please Select the Base Position
 
 
 <dl>
@@ -157,7 +157,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### [6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -191,7 +191,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the When Window Is Minimized
+### [9000,0x00002328] Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -222,7 +222,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the When Window Is Maximized
+### [9001,0x00002329] Optional - Please Select the When Window Is Maximized
 
 
 <dl>
@@ -253,7 +253,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store Window Name
+### [10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name
 
 
 <dl>
@@ -284,7 +284,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -308,7 +308,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowPositionFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

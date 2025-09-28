@@ -19,20 +19,20 @@ Use this command when you want to get Range values as DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Excel Instance Name](#param_0)
-- [Optional - Please Select the Column Type](#param_1)
-- [Please Specify the Start Column Location or Index](#param_2)
-- [Optional - Please Specify the End Column Location or Index](#param_3)
-- [Please Specify the Start Row Index](#param_4)
-- [Optional - Please Specify the End Row Index](#param_5)
-- [Please Select the Variable Name to Store DataTable](#param_6)
-- [Optional - Please Select the Value Type](#param_7)
-- [Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_8)
-- [Optional - Please Specify the Comment Field](#param_9)
+- [[5000,0x00001388] Please Select the Excel Instance Name](#param_0)
+- [[6000,0x00001770] Optional - Please Select the Column Type](#param_1)
+- [[7000,0x00001B58] Please Specify the Start Column Location or Index](#param_2)
+- [[8000,0x00001F40] Optional - Please Specify the End Column Location or Index](#param_3)
+- [[9000,0x00002328] Please Specify the Start Row Index](#param_4)
+- [[10000,0x00002710] Optional - Please Specify the End Row Index](#param_5)
+- [[11000,0x00002AF8] Please Select the Variable Name to Store DataTable](#param_6)
+- [[12000,0x00002EE0] Optional - Please Select the Value Type](#param_7)
+- [[13000,0x000032C8] Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_8)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### Please Select the Excel Instance Name
+### [5000,0x00001388] Please Select the Excel Instance Name
 
 
 <dl>
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Column Type
+### [6000,0x00001770] Optional - Please Select the Column Type
 
 
 <dl>
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Start Column Location or Index
+### [7000,0x00001B58] Please Specify the Start Column Location or Index
 
 
 <dl>
@@ -133,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the End Column Location or Index
+### [8000,0x00001F40] Optional - Please Specify the End Column Location or Index
 
 
 <dl>
@@ -169,7 +169,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the Start Row Index
+### [9000,0x00002328] Please Specify the Start Row Index
 
 
 <dl>
@@ -200,7 +200,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the End Row Index
+### [10000,0x00002710] Optional - Please Specify the End Row Index
 
 
 <dl>
@@ -232,7 +232,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Select the Variable Name to Store DataTable
+### [11000,0x00002AF8] Please Select the Variable Name to Store DataTable
 
 
 <dl>
@@ -266,7 +266,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Value Type
+### [12000,0x00002EE0] Optional - Please Select the Value Type
 
 
 <dl>
@@ -300,7 +300,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)
+### [13000,0x000032C8] Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)
 
 
 <dl>
@@ -324,7 +324,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -348,7 +348,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRangeValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

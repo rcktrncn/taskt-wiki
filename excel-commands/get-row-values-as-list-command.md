@@ -19,18 +19,18 @@ Use this command when you want to get a Row values as List.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Row Location](#param_1)
-- [Optional - Please Select the Column Type](#param_2)
-- [Please Specify the Start Column Location or Index](#param_3)
-- [Optional - Please Specify the End Column Location or Index](#param_4)
-- [Please Select the Variable Name to Store List](#param_5)
-- [Optional - Please Select the Value Type](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Select the Excel Instance Name](#param_0)
+- [[6000,0x00001770] Please Specify the Row Location](#param_1)
+- [[7000,0x00001B58] Optional - Please Select the Column Type](#param_2)
+- [[8000,0x00001F40] Please Specify the Start Column Location or Index](#param_3)
+- [[9000,0x00002328] Optional - Please Specify the End Column Location or Index](#param_4)
+- [[10000,0x00002710] Please Select the Variable Name to Store List](#param_5)
+- [[11000,0x00002AF8] Optional - Please Select the Value Type](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Select the Excel Instance Name
+### [5000,0x00001388] Please Select the Excel Instance Name
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Row Location
+### [6000,0x00001770] Please Specify the Row Location
 
 
 <dl>
@@ -100,7 +100,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Column Type
+### [7000,0x00001B58] Optional - Please Select the Column Type
 
 
 <dl>
@@ -131,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Start Column Location or Index
+### [8000,0x00001F40] Please Specify the Start Column Location or Index
 
 
 <dl>
@@ -167,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the End Column Location or Index
+### [9000,0x00002328] Optional - Please Specify the End Column Location or Index
 
 
 <dl>
@@ -203,7 +203,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Select the Variable Name to Store List
+### [10000,0x00002710] Please Select the Variable Name to Store List
 
 
 <dl>
@@ -237,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Value Type
+### [11000,0x00002AF8] Optional - Please Select the Value Type
 
 
 <dl>
@@ -271,7 +271,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -295,7 +295,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRowValuesAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

@@ -19,17 +19,17 @@ Use this command when you want to Export DataTable Column as Text File.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Select the Column type](#param_1)
-- [Please Specify the Name or Index of the Column](#param_2)
-- [Please Specify the File Path](#param_3)
-- [Optional - Please Select the Export Header](#param_4)
-- [Optional - Please Select the Export Row Index](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Please Select the DataTable Variable Name](#param_0)
+- [[6000,0x00001770] Optional - Please Select the Column type](#param_1)
+- [[7000,0x00001B58] Please Specify the Name or Index of the Column](#param_2)
+- [[8000,0x00001F40] Please Specify the File Path](#param_3)
+- [[9000,0x00002328] Optional - Please Select the Export Header](#param_4)
+- [[9001,0x00002329] Optional - Please Select the Export Row Index](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name
+### [5000,0x00001388] Please Select the DataTable Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Column type
+### [6000,0x00001770] Optional - Please Select the Column type
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Name or Index of the Column
+### [7000,0x00001B58] Please Specify the Name or Index of the Column
 
 
 <dl>
@@ -129,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the File Path
+### [8000,0x00001F40] Please Specify the File Path
 
 
 <dl>
@@ -163,7 +163,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Export Header
+### [9000,0x00002328] Optional - Please Select the Export Header
 
 
 <dl>
@@ -187,7 +187,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Export Row Index
+### [9001,0x00002329] Optional - Please Select the Export Row Index
 
 
 <dl>
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -235,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExportDataTableColumnAsTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

@@ -19,18 +19,18 @@ This command allows you to run C# File
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the C# File Path](#param_0)
-- [Optional - Please Specify the Arguments](#param_1)
-- [Optional - Please Select the Variable Name to Receive the Output](#param_2)
-- [Optional - Please Specify the Compiled Executable File Name](#param_3)
-- [Optional - Please Select the Variable Name to Store Executable File Path](#param_4)
-- [Optional - Please Select the C# Language Version](#param_5)
-- [Optional - Please Select the Delete Executable File After Execute](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Specify the C# File Path](#param_0)
+- [[6000,0x00001770] Optional - Please Specify the Arguments](#param_1)
+- [[7000,0x00001B58] Optional - Please Select the Variable Name to Receive the Output](#param_2)
+- [[8000,0x00001F40] Optional - Please Specify the Compiled Executable File Name](#param_3)
+- [[9000,0x00002328] Optional - Please Select the Variable Name to Store Executable File Path](#param_4)
+- [[10000,0x00002710] Optional - Please Select the C# Language Version](#param_5)
+- [[11000,0x00002AF8] Optional - Please Select the Delete Executable File After Execute](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Specify the C# File Path
+### [5000,0x00001388] Please Specify the C# File Path
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Arguments
+### [6000,0x00001770] Optional - Please Specify the Arguments
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Receive the Output
+### [7000,0x00001B58] Optional - Please Select the Variable Name to Receive the Output
 
 
 <dl>
@@ -127,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Compiled Executable File Name
+### [8000,0x00001F40] Optional - Please Specify the Compiled Executable File Name
 
 
 <dl>
@@ -150,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Executable File Path
+### [9000,0x00002328] Optional - Please Select the Variable Name to Store Executable File Path
 
 
 <dl>
@@ -181,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the C# Language Version
+### [10000,0x00002710] Optional - Please Select the C# Language Version
 
 
 <dl>
@@ -206,7 +206,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Delete Executable File After Execute
+### [11000,0x00002AF8] Optional - Please Select the Delete Executable File After Execute
 
 
 <dl>
@@ -230,7 +230,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -254,7 +254,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunCSharpFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

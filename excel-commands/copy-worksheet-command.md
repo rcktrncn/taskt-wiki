@@ -19,14 +19,14 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Sheet Name to Copy](#param_1)
-- [Optional - Please Specify the New Sheet Name](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [[5000,0x00001388] Please Select the Excel Instance Name](#param_0)
+- [[6000,0x00001770] Please Specify the Sheet Name to Copy](#param_1)
+- [[7000,0x00001B58] Optional - Please Specify the New Sheet Name](#param_2)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Excel Instance Name
+### [5000,0x00001388] Please Select the Excel Instance Name
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Sheet Name to Copy
+### [6000,0x00001770] Please Specify the Sheet Name to Copy
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the New Sheet Name
+### [7000,0x00001B58] Optional - Please Specify the New Sheet Name
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCopyWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

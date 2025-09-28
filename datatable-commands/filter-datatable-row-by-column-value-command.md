@@ -19,18 +19,18 @@ Use this command when you want to Filter Rows by reference to Column values.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name to Filter](#param_0)
-- [Optional - Please Select the Column type](#param_1)
-- [Please Specify the Name or Index of the Column](#param_2)
-- [Please Select the Type of Values to be Filterd](#param_3)
-- [Please Select the Filter Action](#param_4)
-- [Please Specify the Additional Parameters](#param_5)
-- [Please Select the New DataTable Variable Name](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Select the DataTable Variable Name to Filter](#param_0)
+- [[6000,0x00001770] Optional - Please Select the Column type](#param_1)
+- [[6001,0x00001771] Please Specify the Name or Index of the Column](#param_2)
+- [[6002,0x00001772] Please Select the Type of Values to be Filterd](#param_3)
+- [[6003,0x00001773] Please Select the Filter Action](#param_4)
+- [[6004,0x00001774] Please Specify the Additional Parameters](#param_5)
+- [[10000,0x00002710] Please Select the New DataTable Variable Name](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name to Filter
+### [5000,0x00001388] Please Select the DataTable Variable Name to Filter
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Column type
+### [6000,0x00001770] Optional - Please Select the Column type
 
 
 <dl>
@@ -95,7 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Name or Index of the Column
+### [6001,0x00001771] Please Specify the Name or Index of the Column
 
 
 <dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Type of Values to be Filterd
+### [6002,0x00001772] Please Select the Type of Values to be Filterd
 
 
 <dl>
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select the Filter Action
+### [6003,0x00001773] Please Select the Filter Action
 
 
 <dl>
@@ -189,7 +189,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Specify the Additional Parameters
+### [6004,0x00001774] Please Specify the Additional Parameters
 
 
 <dl>
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Select the New DataTable Variable Name
+### [10000,0x00002710] Please Select the New DataTable Variable Name
 
 
 <dl>
@@ -245,7 +245,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -269,7 +269,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableRowByColumnValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

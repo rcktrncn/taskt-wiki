@@ -316,8 +316,11 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Key|[Enter Keys](/key-mouse-commands/enter-keys-command.md)|Sends keystrokes to a targeted window|
+|Key|[Enter Keys From Window Handle](/key-mouse-commands/enter-keys-from-window-handle-command.md)|Sends keystrokes to a targeted window|
 |Key|[Enter Shortcut Key](/key-mouse-commands/enter-shortcut-key-command.md)|Sends keystrokes to a targeted window|
+|Key|[Enter Shortcut Key From Window Handle](/key-mouse-commands/enter-shortcut-key-from-window-handle-command.md)|Sends keystrokes to a targeted window|
 |Key|[Send Advanced Keystrokes](/key-mouse-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
+|Key|[Send Advanced Keystrokes From Window Handle](/key-mouse-commands/send-advanced-keystrokes-from-window-handle-command.md)|Sends advanced keystrokes to a targeted window|
 |Mouse|[Click Mouse](/key-mouse-commands/click-mouse-command.md)|Simulates mouse clicks.|
 |Mouse|[Move Mouse](/key-mouse-commands/move-mouse-command.md)|Simulates mouse movements|
 ### List
@@ -631,4 +634,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM

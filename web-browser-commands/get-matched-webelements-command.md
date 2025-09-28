@@ -19,16 +19,16 @@ Use this command when you want to get Matched WebElements HTML.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the WebBrowser Instance Name](#param_0)
-- [Please Select the Element Search Method](#param_1)
-- [Please Specify the Element Search Parameter](#param_2)
-- [Please Select the Variable Name to Store List](#param_3)
-- [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [[5000,0x00001388] Please Select the WebBrowser Instance Name](#param_0)
+- [[5000,0x00001388] Please Select the Element Search Method](#param_1)
+- [[5000,0x00001388] Please Specify the Element Search Parameter](#param_2)
+- [[5000,0x00001388] Please Select the Variable Name to Store List](#param_3)
+- [[5000,0x00001388] Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_4)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the WebBrowser Instance Name
+### [5000,0x00001388] Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Element Search Method
+### [5000,0x00001388] Please Select the Element Search Method
 
 
 <dl>
@@ -89,7 +89,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Element Search Parameter
+### [5000,0x00001388] Please Specify the Element Search Parameter
 
 
 <dl>
@@ -115,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Variable Name to Store List
+### [5000,0x00001388] Please Select the Variable Name to Store List
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Wait Time for the WebElement to Exist (sec)
+### [5000,0x00001388] Optional - Please Specify the Wait Time for the WebElement to Exist (sec)
 
 
 <dl>
@@ -183,7 +183,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -207,7 +207,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetMatchedWebElementsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

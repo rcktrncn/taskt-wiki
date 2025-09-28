@@ -19,17 +19,17 @@ This command extracts files from a compressed file
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the File Path](#param_0)
-- [Please Specify the Extraction Folder](#param_1)
-- [Optional - Please Select the Create Folder When Destination Does not Exist](#param_2)
+- [[5000,0x00001388] Please Specify the File Path](#param_0)
+- [[5000,0x00001388] Please Specify the Extraction Folder](#param_1)
+- [[5000,0x00001388] Optional - Please Select the Create Folder When Destination Does not Exist](#param_2)
 - [Optional - Please Specify the Archive Password](#param_3)
-- [Optional - Please Select the List Variable Name to Receive a List of Extracted File Names](#param_4)
-- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Optional - Please Select the List Variable Name to Receive a List of Extracted File Names](#param_4)
+- [[5000,0x00001388] Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Specify the File Path
+### [5000,0x00001388] Please Specify the File Path
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Extraction Folder
+### [5000,0x00001388] Please Specify the Extraction Folder
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Create Folder When Destination Does not Exist
+### [5000,0x00001388] Optional - Please Select the Create Folder When Destination Does not Exist
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the List Variable Name to Receive a List of Extracted File Names
+### [5000,0x00001388] Optional - Please Select the List Variable Name to Receive a List of Extracted File Names
 
 
 <dl>
@@ -180,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Wait Time for the File to Exist (sec)
+### [5000,0x00001388] Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
 <dl>
@@ -214,7 +214,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -238,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExtractZipFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

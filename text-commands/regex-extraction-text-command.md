@@ -19,15 +19,15 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Text Value](#param_0)
-- [Please Specify the RegEx Extractor Pattern](#param_1)
-- [Please Specify the Matching Group Index](#param_2)
-- [Please Select the Variable Name to Store Result](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [[5000,0x00001388] Please Specify the Text Value](#param_0)
+- [[5000,0x00001388] Please Specify the RegEx Extractor Pattern](#param_1)
+- [[5000,0x00001388] Please Specify the Matching Group Index](#param_2)
+- [[5000,0x00001388] Please Select the Variable Name to Store Result](#param_3)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Text Value
+### [5000,0x00001388] Please Specify the Text Value
 
 
 <dl>
@@ -58,7 +58,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the RegEx Extractor Pattern
+### [5000,0x00001388] Please Specify the RegEx Extractor Pattern
 
 
 <dl>
@@ -84,7 +84,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Matching Group Index
+### [5000,0x00001388] Please Specify the Matching Group Index
 
 
 <dl>
@@ -119,7 +119,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Variable Name to Store Result
+### [5000,0x00001388] Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -153,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -177,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

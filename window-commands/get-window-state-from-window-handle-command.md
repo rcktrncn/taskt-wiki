@@ -19,16 +19,16 @@ Use this command when you want to get a window state.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Window Handle Variable Name](#param_0)
-- [Optional - Please Select the Variable Name to Store Window State Text](#param_1)
-- [Optional - Please Select the Variable Name to Store Window State Text](#param_2)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
-- [Optional - Please Select the Variable Name to Store Window Name](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [[5000,0x00001388] Please Select the Window Handle Variable Name](#param_0)
+- [[5500,0x0000157C] Optional - Please Select the Variable Name to Store Window State Text](#param_1)
+- [[5501,0x0000157D] Optional - Please Select the Variable Name to Store Window State Text](#param_2)
+- [[6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
+- [[10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name](#param_4)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the Window Handle Variable Name
+### [5000,0x00001388] Please Select the Window Handle Variable Name
 
 
 <dl>
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Variable Name to Store Window State Text
+### [5500,0x0000157C] Optional - Please Select the Variable Name to Store Window State Text
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Store Window State Text
+### [5501,0x0000157D] Optional - Please Select the Variable Name to Store Window State Text
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### [6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -159,7 +159,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Window Name
+### [10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name
 
 
 <dl>
@@ -190,7 +190,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -214,7 +214,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowStateFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

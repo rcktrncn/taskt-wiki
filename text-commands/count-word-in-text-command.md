@@ -19,16 +19,16 @@ Use this command when you want to Count the Number of Words In Text
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Text Value](#param_0)
-- [Please Specify the Search Text](#param_1)
-- [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Select the Case Sensitive](#param_3)
-- [Optional - Please Select the Greedly Match](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [[5000,0x00001388] Please Specify the Text Value](#param_0)
+- [[5000,0x00001388] Please Specify the Search Text](#param_1)
+- [[5000,0x00001388] Please Select the Variable Name to Store Result](#param_2)
+- [[5000,0x00001388] Optional - Please Select the Case Sensitive](#param_3)
+- [[5000,0x00001388] Optional - Please Select the Greedly Match](#param_4)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Specify the Text Value
+### [5000,0x00001388] Please Specify the Text Value
 
 
 <dl>
@@ -59,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Search Text
+### [5000,0x00001388] Please Specify the Search Text
 
 
 <dl>
@@ -92,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Variable Name to Store Result
+### [5000,0x00001388] Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -126,7 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Case Sensitive
+### [5000,0x00001388] Optional - Please Select the Case Sensitive
 
 
 <dl>
@@ -157,7 +157,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Greedly Match
+### [5000,0x00001388] Optional - Please Select the Greedly Match
 
 
 <dl>
@@ -181,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -205,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CountWordInTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

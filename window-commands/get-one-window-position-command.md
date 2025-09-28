@@ -19,23 +19,23 @@ Use this command when you want one window position.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Window Name](#param_0)
-- [Optional - Please Select the Compare Method for the Window Name](#param_1)
-- [Optional - Please Select the Variable Name to Recieve the Window Position X](#param_2)
-- [Optional - Please Select the Variable Name to Recieve the Window Position Y](#param_3)
-- [Optional - Please Select the Base Position](#param_4)
-- [Optional - Please Select the Match Method for the Window Name](#param_5)
-- [Optional - Please Specify the Window Index](#param_6)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
-- [Optional - Please Select the When Window Is Minimized](#param_10)
-- [Optional - Please Select the When Window Is Maximized](#param_11)
-- [Optional - Please Specify the Comment Field](#param_12)
+- [[5000,0x00001388] Please Select the Window Name](#param_0)
+- [[6000,0x00001770] Optional - Please Select the Compare Method for the Window Name](#param_1)
+- [[6500,0x00001964] Optional - Please Select the Variable Name to Recieve the Window Position X](#param_2)
+- [[6500,0x00001964] Optional - Please Select the Variable Name to Recieve the Window Position Y](#param_3)
+- [[6500,0x00001964] Optional - Please Select the Base Position](#param_4)
+- [[7000,0x00001B58] Optional - Please Select the Match Method for the Window Name](#param_5)
+- [[7100,0x00001BBC] Optional - Please Specify the Window Index](#param_6)
+- [[8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [[8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
+- [[8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
+- [[9000,0x00002328] Optional - Please Select the When Window Is Minimized](#param_10)
+- [[9001,0x00002329] Optional - Please Select the When Window Is Maximized](#param_11)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
-### Please Select the Window Name
+### [5000,0x00001388] Please Select the Window Name
 
 
 <dl>
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Compare Method for the Window Name
+### [6000,0x00001770] Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Variable Name to Recieve the Window Position X
+### [6500,0x00001964] Optional - Please Select the Variable Name to Recieve the Window Position X
 
 
 <dl>
@@ -128,7 +128,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Variable Name to Recieve the Window Position Y
+### [6500,0x00001964] Optional - Please Select the Variable Name to Recieve the Window Position Y
 
 
 <dl>
@@ -162,7 +162,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Base Position
+### [6500,0x00001964] Optional - Please Select the Base Position
 
 
 <dl>
@@ -186,7 +186,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Match Method for the Window Name
+### [7000,0x00001B58] Optional - Please Select the Match Method for the Window Name
 
 
 <dl>
@@ -219,7 +219,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Window Index
+### [7100,0x00001BBC] Optional - Please Specify the Window Index
 
 
 <dl>
@@ -250,7 +250,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### [8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -284,7 +284,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Select the Variable Name to Store Window Name Result
+### [8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Name Result
 
 
 <dl>
@@ -316,7 +316,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### Optional - Please Select the Variable Name to Store Window Handle Result
+### [8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handle Result
 
 
 <dl>
@@ -348,7 +348,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### Optional - Please Select the When Window Is Minimized
+### [9000,0x00002328] Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -379,7 +379,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### Optional - Please Select the When Window Is Maximized
+### [9001,0x00002329] Optional - Please Select the When Window Is Maximized
 
 
 <dl>
@@ -410,7 +410,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_12"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -434,7 +434,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetOneWindowPositionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

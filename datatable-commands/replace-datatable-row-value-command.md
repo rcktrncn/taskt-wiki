@@ -19,17 +19,17 @@ Use this command when you want to Replace Row values.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Specify the Index of the Row](#param_1)
-- [Please Select the Type of Values to be Replaced](#param_2)
-- [Please Select the Replace Action](#param_3)
-- [Please Specify the Additional Parameters](#param_4)
-- [Optional - Please Specify the Replace Value](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Please Select the DataTable Variable Name](#param_0)
+- [[6000,0x00001770] Optional - Please Specify the Index of the Row](#param_1)
+- [[8000,0x00001F40] Please Select the Type of Values to be Replaced](#param_2)
+- [[8001,0x00001F41] Please Select the Replace Action](#param_3)
+- [[8002,0x00001F42] Please Specify the Additional Parameters](#param_4)
+- [[8003,0x00001F43] Optional - Please Specify the Replace Value](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name
+### [5000,0x00001388] Please Select the DataTable Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Index of the Row
+### [6000,0x00001770] Optional - Please Specify the Index of the Row
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Type of Values to be Replaced
+### [8000,0x00001F40] Please Select the Type of Values to be Replaced
 
 
 <dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Replace Action
+### [8001,0x00001F41] Please Select the Replace Action
 
 
 <dl>
@@ -155,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the Additional Parameters
+### [8002,0x00001F42] Please Specify the Additional Parameters
 
 
 <dl>
@@ -177,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Replace Value
+### [8003,0x00001F43] Optional - Please Specify the Replace Value
 
 
 <dl>
@@ -207,7 +207,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -231,7 +231,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDataTableRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

@@ -19,19 +19,20 @@ Use this command when you want to reize a window by name to a specific size on s
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Window Handle Variable Name](#param_0)
-- [Please Specify the Window Width (Pixcel)](#param_1)
-- [Please Specify the Window Height (Pixcel)](#param_2)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
-- [Optional - Please Select the When Window Is Minimized](#param_4)
-- [Optional - Please Select the When Window Is Minimized](#param_5)
-- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
-- [Optional - Please Select the Variable Name to Store Window Name](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [[5000,0x00001388] Please Select the Window Handle Variable Name](#param_0)
+- [[5500,0x0000157C] Please Specify the Window Width (Pixcel)](#param_1)
+- [[5500,0x0000157C] Please Specify the Window Height (Pixcel)](#param_2)
+- [[6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
+- [[9000,0x00002328] Optional - Please Select the When Window Is Minimized](#param_4)
+- [[9001,0x00002329] Optional - Please Select the When Window Is Minimized](#param_5)
+- [[10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
+- [[10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name](#param_7)
+- [[10010,0x0000271A] Optional - Please Select the Activate Window Before Action](#param_8)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### Please Select the Window Handle Variable Name
+### [5000,0x00001388] Please Select the Window Handle Variable Name
 
 
 <dl>
@@ -65,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Window Width (Pixcel)
+### [5500,0x0000157C] Please Specify the Window Width (Pixcel)
 
 
 <dl>
@@ -102,7 +103,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Window Height (Pixcel)
+### [5500,0x0000157C] Please Specify the Window Height (Pixcel)
 
 
 <dl>
@@ -139,7 +140,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### [6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -173,7 +174,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the When Window Is Minimized
+### [9000,0x00002328] Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -204,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the When Window Is Minimized
+### [9001,0x00002329] Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -235,7 +236,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+### [10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
 <dl>
@@ -268,7 +269,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Select the Variable Name to Store Window Name
+### [10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name
 
 
 <dl>
@@ -299,7 +300,31 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please Specify the Comment Field
+### [10010,0x0000271A] Optional - Please Select the Activate Window Before Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -314,7 +339,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -323,7 +348,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ResizeWindowByWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

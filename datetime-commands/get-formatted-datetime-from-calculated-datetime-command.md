@@ -19,16 +19,16 @@ Use this command when you want to Get Formatted DateTime Text From Calculated Da
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DateTime Variable Name](#param_0)
-- [Please Select the Calculation Method](#param_1)
-- [Please Specify the Value to Add or Subtruct](#param_2)
-- [Please Specify the DateTime Format](#param_3)
-- [Please Select the Variable Name to Store Result](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [[5000,0x00001388] Please Select the DateTime Variable Name](#param_0)
+- [[6000,0x00001770] Please Select the Calculation Method](#param_1)
+- [[6001,0x00001771] Please Specify the Value to Add or Subtruct](#param_2)
+- [[6500,0x00001964] Please Specify the DateTime Format](#param_3)
+- [[7000,0x00001B58] Please Select the Variable Name to Store Result](#param_4)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the DateTime Variable Name
+### [5000,0x00001388] Please Select the DateTime Variable Name
 
 
 <dl>
@@ -61,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Calculation Method
+### [6000,0x00001770] Please Select the Calculation Method
 
 
 <dl>
@@ -87,7 +87,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Value to Add or Subtruct
+### [6001,0x00001771] Please Specify the Value to Add or Subtruct
 
 
 <dl>
@@ -119,7 +119,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the DateTime Format
+### [6500,0x00001964] Please Specify the DateTime Format
 
 
 <dl>
@@ -153,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select the Variable Name to Store Result
+### [7000,0x00001B58] Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -187,7 +187,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFormattedDateTimeFromCalculatedDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

@@ -19,18 +19,18 @@ Use this command when you want to Click to WebElement.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the WebElement Variable Name](#param_0)
-- [Please Select the Mouse Click Type](#param_1)
-- [Optional - Please Select the WebBrowser Instance Name](#param_2)
-- [Optional - Please Specify the Offset X Coordinate](#param_3)
-- [Optional - Please Specify the Offset Y Coordinate](#param_4)
-- [Optional - Please Select the When Fail Click](#param_5)
-- [Optional - Please Select the Scroll to WebElement](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Select the WebElement Variable Name](#param_0)
+- [[5000,0x00001388] Please Select the Mouse Click Type](#param_1)
+- [[5000,0x00001388] Optional - Please Select the WebBrowser Instance Name](#param_2)
+- [[5000,0x00001388] Optional - Please Specify the Offset X Coordinate](#param_3)
+- [[5000,0x00001388] Optional - Please Specify the Offset Y Coordinate](#param_4)
+- [[5000,0x00001388] Optional - Please Select the When Fail Click](#param_5)
+- [[5000,0x00001388] Optional - Please Select the Scroll to WebElement](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Select the WebElement Variable Name
+### [5000,0x00001388] Please Select the WebElement Variable Name
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Mouse Click Type
+### [5000,0x00001388] Please Select the Mouse Click Type
 
 
 <dl>
@@ -91,7 +91,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the WebBrowser Instance Name
+### [5000,0x00001388] Optional - Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -126,7 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Offset X Coordinate
+### [5000,0x00001388] Optional - Please Specify the Offset X Coordinate
 
 
 <dl>
@@ -158,7 +158,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Offset Y Coordinate
+### [5000,0x00001388] Optional - Please Specify the Offset Y Coordinate
 
 
 <dl>
@@ -190,7 +190,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the When Fail Click
+### [5000,0x00001388] Optional - Please Select the When Fail Click
 
 
 <dl>
@@ -214,7 +214,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Scroll to WebElement
+### [5000,0x00001388] Optional - Please Select the Scroll to WebElement
 
 
 <dl>
@@ -238,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -262,7 +262,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserClickWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

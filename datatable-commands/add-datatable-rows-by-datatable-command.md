@@ -19,14 +19,14 @@ Use this command when you want to add a DataTable Row to a DataTable by a DataTa
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name to be added a row](#param_0)
-- [Please Select the DataTable Variable Name to add to the DataTable](#param_1)
-- [Optional - Please Select the When DataTable (to add) Column does not Exists](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [[5000,0x00001388] Please Select the DataTable Variable Name to be added a row](#param_0)
+- [[6000,0x00001770] Please Select the DataTable Variable Name to add to the DataTable](#param_1)
+- [[7000,0x00001B58] Optional - Please Select the When DataTable (to add) Column does not Exists](#param_2)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name to be added a row
+### [5000,0x00001388] Please Select the DataTable Variable Name to be added a row
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the DataTable Variable Name to add to the DataTable
+### [6000,0x00001770] Please Select the DataTable Variable Name to add to the DataTable
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the When DataTable (to add) Column does not Exists
+### [7000,0x00001B58] Optional - Please Select the When DataTable (to add) Column does not Exists
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddDataTableRowsByDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

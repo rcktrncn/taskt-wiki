@@ -19,14 +19,14 @@ Use this command when you want to create a browser that will eventually perform 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the WebBrowser Instance Name](#param_0)
-- [Please Select the Frame Type](#param_1)
-- [Optional - Please Specify the Frame Search Parameter](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [[5000,0x00001388] Please Select the WebBrowser Instance Name](#param_0)
+- [[5000,0x00001388] Please Select the Frame Type](#param_1)
+- [[5000,0x00001388] Optional - Please Specify the Frame Search Parameter](#param_2)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the WebBrowser Instance Name
+### [5000,0x00001388] Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Frame Type
+### [5000,0x00001388] Please Select the Frame Type
 
 
 <dl>
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Frame Search Parameter
+### [5000,0x00001388] Optional - Please Specify the Frame Search Parameter
 
 
 <dl>
@@ -121,7 +121,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -145,7 +145,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWebBrowserFrameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

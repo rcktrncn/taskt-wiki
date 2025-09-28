@@ -19,15 +19,15 @@ Use this command when you want to Export List as Text File.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
-- [Please Specify the File Path](#param_1)
-- [Optional - Please Select the Export Header](#param_2)
-- [Optional - Please Select the Export Index](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [[5000,0x00001388] Please Select the List Variable Name](#param_0)
+- [[6000,0x00001770] Please Specify the File Path](#param_1)
+- [[7000,0x00001B58] Optional - Please Select the Export Header](#param_2)
+- [[7001,0x00001B59] Optional - Please Select the Export Index](#param_3)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name
+### [5000,0x00001388] Please Select the List Variable Name
 
 
 <dl>
@@ -61,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the File Path
+### [6000,0x00001770] Please Specify the File Path
 
 
 <dl>
@@ -95,7 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Export Header
+### [7000,0x00001B58] Optional - Please Select the Export Header
 
 
 <dl>
@@ -119,7 +119,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Export Index
+### [7001,0x00001B59] Optional - Please Select the Export Index
 
 
 <dl>
@@ -143,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -167,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExportListAsTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

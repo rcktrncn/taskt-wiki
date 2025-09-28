@@ -19,14 +19,14 @@ Use this command to simulate multiple types of mouse clicks.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Mouse Click Type](#param_0)
-- [Optional - Please Specify the Wait Time after Mouse Click (ms)](#param_1)
-- [Optional - Please Select the Ignore Wait Time When Click Type is 'None'](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [[5000,0x00001388] Please Select the Mouse Click Type](#param_0)
+- [[5000,0x00001388] Optional - Please Specify the Wait Time after Mouse Click (ms)](#param_1)
+- [[5000,0x00001388] Optional - Please Select the Ignore Wait Time When Click Type is 'None'](#param_2)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Mouse Click Type
+### [5000,0x00001388] Please Select the Mouse Click Type
 
 
 <dl>
@@ -53,7 +53,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Wait Time after Mouse Click (ms)
+### [5000,0x00001388] Optional - Please Specify the Wait Time after Mouse Click (ms)
 
 
 <dl>
@@ -87,7 +87,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Ignore Wait Time When Click Type is 'None'
+### [5000,0x00001388] Optional - Please Select the Ignore Wait Time When Click Type is 'None'
 
 
 <dl>
@@ -111,7 +111,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -135,7 +135,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ClickMouseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

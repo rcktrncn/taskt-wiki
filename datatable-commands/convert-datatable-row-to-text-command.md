@@ -19,17 +19,17 @@ Use this command when you want to convert DataTable Row to Text.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the DataTable Variable Name](#param_0)
-- [Optional - Please Specify the Index of the Row](#param_1)
-- [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Select the Export Header](#param_3)
-- [Optional - Please Select the Export Row Index](#param_4)
-- [Optional - Please Select the When Exporting Row Index, Export the Actual Row Index](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [[5000,0x00001388] Please Select the DataTable Variable Name](#param_0)
+- [[6000,0x00001770] Optional - Please Specify the Index of the Row](#param_1)
+- [[7000,0x00001B58] Please Select the Variable Name to Store Result](#param_2)
+- [[9000,0x00002328] Optional - Please Select the Export Header](#param_3)
+- [[9001,0x00002329] Optional - Please Select the Export Row Index](#param_4)
+- [[10000,0x00002710] Optional - Please Select the When Exporting Row Index, Export the Actual Row Index](#param_5)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Select the DataTable Variable Name
+### [5000,0x00001388] Please Select the DataTable Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Index of the Row
+### [6000,0x00001770] Optional - Please Specify the Index of the Row
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Variable Name to Store Result
+### [7000,0x00001B58] Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Export Header
+### [9000,0x00002328] Optional - Please Select the Export Header
 
 
 <dl>
@@ -154,7 +154,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Export Row Index
+### [9001,0x00002329] Optional - Please Select the Export Row Index
 
 
 <dl>
@@ -178,7 +178,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the When Exporting Row Index, Export the Actual Row Index
+### [10000,0x00002710] Optional - Please Select the When Exporting Row Index, Export the Actual Row Index
 
 
 <dl>
@@ -202,7 +202,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -226,7 +226,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableRowToTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help

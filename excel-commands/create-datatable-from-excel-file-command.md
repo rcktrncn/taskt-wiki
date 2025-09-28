@@ -19,18 +19,18 @@ Use this command when you want to Open a File and Get Cell Values as a DataTable
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Variable Name to Store DataTable](#param_0)
-- [Please Specify the Workbook (Excel File) Path](#param_1)
-- [Please Specify the Worksheet Name](#param_2)
-- [Optional - Please Select the Column Type](#param_3)
-- [Please Specify the Column Location or Index](#param_4)
-- [Optional - Please Specify the Row Location](#param_5)
-- [Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [[5000,0x00001388] Please Select the Variable Name to Store DataTable](#param_0)
+- [[5000,0x00001388] Please Specify the Workbook (Excel File) Path](#param_1)
+- [[5000,0x00001388] Please Specify the Worksheet Name](#param_2)
+- [[5000,0x00001388] Optional - Please Select the Column Type](#param_3)
+- [[5000,0x00001388] Please Specify the Column Location or Index](#param_4)
+- [[5000,0x00001388] Optional - Please Specify the Row Location](#param_5)
+- [[5000,0x00001388] Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)](#param_6)
+- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Select the Variable Name to Store DataTable
+### [5000,0x00001388] Please Select the Variable Name to Store DataTable
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Workbook (Excel File) Path
+### [5000,0x00001388] Please Specify the Workbook (Excel File) Path
 
 
 <dl>
@@ -99,7 +99,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_2"></a>
-### Please Specify the Worksheet Name
+### [5000,0x00001388] Please Specify the Worksheet Name
 
 
 <dl>
@@ -133,7 +133,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Column Type
+### [5000,0x00001388] Optional - Please Select the Column Type
 
 
 <dl>
@@ -164,7 +164,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_4"></a>
-### Please Specify the Column Location or Index
+### [5000,0x00001388] Please Specify the Column Location or Index
 
 
 <dl>
@@ -195,7 +195,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_5"></a>
-### Optional - Please Specify the Row Location
+### [5000,0x00001388] Optional - Please Specify the Row Location
 
 
 <dl>
@@ -226,7 +226,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_6"></a>
-### Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)
+### [5000,0x00001388] Optional - Please Select the Use the First Row as the Column Names (Value Type is Cell only)
 
 
 <dl>
@@ -250,7 +250,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_7"></a>
-### Optional - Please Specify the Comment Field
+### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -274,7 +274,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateDataTableFromExcelFile
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/14/25 07:28 PM
+This page was generated on 09/28/25 08:36 PM
 
 
 ## Help
