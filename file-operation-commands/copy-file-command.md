@@ -19,20 +19,20 @@ Use this command to copy a file to a new destination.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the File Path](#param_0)
-- [[6000,0x00001770] Please Specify the Destination Folder Path to Copy](#param_1)
-- [[6100,0x000017D4] Optional - Please Select the Create Folder When Destination Folder does not Exist](#param_2)
-- [[6200,0x00001838] Optional - Please Select the When Description File Path is Same as Target File Path](#param_3)
-- [[6300,0x0000189C] Optional - Please Select the When Destination File Is Already Exists](#param_4)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
-- [[20000,0x00004E20] Please Select the Variable Name to Store File Path Before Command](#param_6)
-- [[21000,0x00005208] Please Select the Variable Name to Store File Path After Command](#param_7)
-- [[30000,0x00007530] Optional - Please Specify the Wait Time For Destination Folder](#param_8)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
+- [Please Specify the File Path](#param_0)
+- [Please Specify the Destination Folder Path to Copy](#param_1)
+- [Optional - Please Select the Create Folder When Destination Folder does not Exist](#param_2)
+- [Optional - Please Select the When Description File Path is Same as Target File Path](#param_3)
+- [Optional - Please Select the When Destination File Is Already Exists](#param_4)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
+- [Please Select the Variable Name to Store File Path Before Command](#param_6)
+- [Please Select the Variable Name to Store File Path After Command](#param_7)
+- [Optional - Please Specify the Wait Time For Destination Folder](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the File Path
+### Please Specify the File Path
 
 
 <dl>
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Please Specify the Destination Folder Path to Copy
+### Please Specify the Destination Folder Path to Copy
 
 
 <dl>
@@ -99,7 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [6100,0x000017D4] Optional - Please Select the Create Folder When Destination Folder does not Exist
+### Optional - Please Select the Create Folder When Destination Folder does not Exist
 
 
 <dl>
@@ -124,7 +124,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6200,0x00001838] Optional - Please Select the When Description File Path is Same as Target File Path
+### Optional - Please Select the When Description File Path is Same as Target File Path
 
 
 <dl>
@@ -155,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [6300,0x0000189C] Optional - Please Select the When Destination File Is Already Exists
+### Optional - Please Select the When Destination File Is Already Exists
 
 
 <dl>
@@ -188,7 +188,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time for the File to Exist (sec)
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
 <dl>
@@ -222,7 +222,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [20000,0x00004E20] Please Select the Variable Name to Store File Path Before Command
+### Please Select the Variable Name to Store File Path Before Command
 
 
 <dl>
@@ -253,7 +253,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [21000,0x00005208] Please Select the Variable Name to Store File Path After Command
+### Please Select the Variable Name to Store File Path After Command
 
 
 <dl>
@@ -284,7 +284,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [30000,0x00007530] Optional - Please Specify the Wait Time For Destination Folder
+### Optional - Please Specify the Wait Time For Destination Folder
 
 
 <dl>
@@ -318,7 +318,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -342,7 +342,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

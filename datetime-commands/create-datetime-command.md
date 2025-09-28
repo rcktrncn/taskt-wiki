@@ -19,18 +19,18 @@ Use this command when you want to create DateTime.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Variable Name to Store DateTime](#param_0)
-- [[6000,0x00001770] Optional - Please Specify the Year to set](#param_1)
-- [[6001,0x00001771] Optional - Please Specify the Month to set](#param_2)
-- [[6002,0x00001772] Optional - Please Specify the Day to set](#param_3)
-- [[6003,0x00001773] Optional - Please Specify the Hour to set](#param_4)
-- [[6004,0x00001774] Optional - Please Specify the Minute to set](#param_5)
-- [[6005,0x00001775] Optional - Please Specify the Second to set](#param_6)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
+- [Please Select the Variable Name to Store DateTime](#param_0)
+- [Optional - Please Specify the Year to set](#param_1)
+- [Optional - Please Specify the Month to set](#param_2)
+- [Optional - Please Specify the Day to set](#param_3)
+- [Optional - Please Specify the Hour to set](#param_4)
+- [Optional - Please Specify the Minute to set](#param_5)
+- [Optional - Please Specify the Second to set](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Variable Name to Store DateTime
+### Please Select the Variable Name to Store DateTime
 
 
 <dl>
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Optional - Please Specify the Year to set
+### Optional - Please Specify the Year to set
 
 
 <dl>
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [6001,0x00001771] Optional - Please Specify the Month to set
+### Optional - Please Specify the Month to set
 
 
 <dl>
@@ -131,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6002,0x00001772] Optional - Please Specify the Day to set
+### Optional - Please Specify the Day to set
 
 
 <dl>
@@ -165,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [6003,0x00001773] Optional - Please Specify the Hour to set
+### Optional - Please Specify the Hour to set
 
 
 <dl>
@@ -198,7 +198,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [6004,0x00001774] Optional - Please Specify the Minute to set
+### Optional - Please Specify the Minute to set
 
 
 <dl>
@@ -231,7 +231,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [6005,0x00001775] Optional - Please Specify the Second to set
+### Optional - Please Specify the Second to set
 
 
 <dl>
@@ -264,7 +264,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -288,7 +288,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

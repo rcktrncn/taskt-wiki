@@ -19,17 +19,17 @@ Use this command when you want to Open a File and Get Cell Values as a Dictionar
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Variable Name to Store Dictionary](#param_0)
-- [[5000,0x00001388] Please Specify the Workbook (Excel File) Path](#param_1)
-- [[5000,0x00001388] Please Specify the Worksheet Name](#param_2)
-- [[5000,0x00001388] Optional - Please Select the Column Type](#param_3)
-- [[5000,0x00001388] Please Specify the Key Column](#param_4)
-- [[5000,0x00001388] Please Specify the Value Column](#param_5)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
+- [Please Select the Variable Name to Store Dictionary](#param_0)
+- [Please Specify the Workbook (Excel File) Path](#param_1)
+- [Please Specify the Worksheet Name](#param_2)
+- [Optional - Please Select the Column Type](#param_3)
+- [Please Specify the Key Column](#param_4)
+- [Please Specify the Value Column](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Variable Name to Store Dictionary
+### Please Select the Variable Name to Store Dictionary
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Specify the Workbook (Excel File) Path
+### Please Specify the Workbook (Excel File) Path
 
 
 <dl>
@@ -98,7 +98,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Please Specify the Worksheet Name
+### Please Specify the Worksheet Name
 
 
 <dl>
@@ -132,7 +132,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_3"></a>
-### [5000,0x00001388] Optional - Please Select the Column Type
+### Optional - Please Select the Column Type
 
 
 <dl>
@@ -163,7 +163,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Please Specify the Key Column
+### Please Specify the Key Column
 
 
 <dl>
@@ -199,7 +199,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Please Specify the Value Column
+### Please Specify the Value Column
 
 
 <dl>
@@ -235,7 +235,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_6"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -259,7 +259,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateDictionaryFromExcelFile
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

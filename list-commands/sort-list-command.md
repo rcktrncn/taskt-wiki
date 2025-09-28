@@ -19,15 +19,15 @@ Use this command when you want to sort list.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the List Variable Name to Sort](#param_0)
-- [[6000,0x00001770] Optional - Please Select the Sort Order](#param_1)
-- [[7000,0x00001B58] Optional - Please Select the Sort Target Value Type](#param_2)
-- [[10000,0x00002710] Please Select the New List Variable Name](#param_3)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
+- [Please Select the List Variable Name to Sort](#param_0)
+- [Optional - Please Select the Sort Order](#param_1)
+- [Optional - Please Select the Sort Target Value Type](#param_2)
+- [Please Select the New List Variable Name](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the List Variable Name to Sort
+### Please Select the List Variable Name to Sort
 
 
 <dl>
@@ -61,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Optional - Please Select the Sort Order
+### Optional - Please Select the Sort Order
 
 
 <dl>
@@ -84,7 +84,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [7000,0x00001B58] Optional - Please Select the Sort Target Value Type
+### Optional - Please Select the Sort Target Value Type
 
 
 <dl>
@@ -107,7 +107,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [10000,0x00002710] Please Select the New List Variable Name
+### Please Select the New List Variable Name
 
 
 <dl>
@@ -141,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -165,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SortListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

@@ -19,17 +19,17 @@ Use this command when you want to Select an Option for WebElement.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the WebElement Variable Name](#param_0)
-- [[5000,0x00001388] Please Selection Type](#param_1)
-- [[5000,0x00001388] Please Specify the Option Value to Select](#param_2)
-- [[5000,0x00001388] Optional - Please Select the When Fail Select Action](#param_3)
-- [[5000,0x00001388] Optional - Please Select the Scroll to WebElement](#param_4)
-- [[5000,0x00001388] Optional - Please Select the WebBrowser Instance Name](#param_5)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
+- [Please Select the WebElement Variable Name](#param_0)
+- [Please Selection Type](#param_1)
+- [Please Specify the Option Value to Select](#param_2)
+- [Optional - Please Select the When Fail Select Action](#param_3)
+- [Optional - Please Select the Scroll to WebElement](#param_4)
+- [Optional - Please Select the WebBrowser Instance Name](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the WebElement Variable Name
+### Please Select the WebElement Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Selection Type
+### Please Selection Type
 
 
 <dl>
@@ -90,7 +90,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Please Specify the Option Value to Select
+### Please Specify the Option Value to Select
 
 
 <dl>
@@ -120,7 +120,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5000,0x00001388] Optional - Please Select the When Fail Select Action
+### Optional - Please Select the When Fail Select Action
 
 
 <dl>
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Optional - Please Select the Scroll to WebElement
+### Optional - Please Select the Scroll to WebElement
 
 
 <dl>
@@ -168,7 +168,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Optional - Please Select the WebBrowser Instance Name
+### Optional - Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -203,7 +203,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -227,7 +227,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSelectOptionForWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

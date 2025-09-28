@@ -19,20 +19,20 @@ Use this command when you want to send advanced keystroke inputs to a window.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Window Handle Variable Name](#param_0)
-- [[5010,0x00001392] Please Specify the Keys and Action Type](#param_1)
-- [[5020,0x0000139C] Optional - Please Select the Return all keys to 'UP' position after execution](#param_2)
-- [[6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
-- [[8010,0x00001F4A] Optional - Please Specify the Wait Time for After Keys Enter](#param_4)
-- [[8020,0x00001F54] Optional - Please Select the Try Activate Window, when Specified Current Window Variable](#param_5)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
-- [[10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name](#param_7)
-- [[10010,0x0000271A] Optional - Please Select the Activate Window Before Action](#param_8)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
+- [Please Select the Window Handle Variable Name](#param_0)
+- [Please Specify the Keys and Action Type](#param_1)
+- [Optional - Please Select the Return all keys to 'UP' position after execution](#param_2)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
+- [Optional - Please Specify the Wait Time for After Keys Enter](#param_4)
+- [Optional - Please Select the Try Activate Window, when Specified Current Window Variable](#param_5)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Name](#param_7)
+- [Optional - Please Select the Activate Window Before Action](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Window Handle Variable Name
+### Please Select the Window Handle Variable Name
 
 
 <dl>
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5010,0x00001392] Please Specify the Keys and Action Type
+### Please Specify the Keys and Action Type
 
 
 <dl>
@@ -88,7 +88,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5020,0x0000139C] Optional - Please Select the Return all keys to 'UP' position after execution
+### Optional - Please Select the Return all keys to 'UP' position after execution
 
 
 <dl>
@@ -112,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -146,7 +146,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [8010,0x00001F4A] Optional - Please Specify the Wait Time for After Keys Enter
+### Optional - Please Specify the Wait Time for After Keys Enter
 
 
 <dl>
@@ -180,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [8020,0x00001F54] Optional - Please Select the Try Activate Window, when Specified Current Window Variable
+### Optional - Please Select the Try Activate Window, when Specified Current Window Variable
 
 
 <dl>
@@ -204,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
 <dl>
@@ -237,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name
+### Optional - Please Select the Variable Name to Store Window Name
 
 
 <dl>
@@ -268,7 +268,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [10010,0x0000271A] Optional - Please Select the Activate Window Before Action
+### Optional - Please Select the Activate Window Before Action
 
 
 <dl>
@@ -292,7 +292,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -316,7 +316,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

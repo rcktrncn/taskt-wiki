@@ -19,22 +19,22 @@ Use this command when you want to reize windows.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Window Name](#param_0)
-- [[5500,0x0000157C] Please Specify the Window Width (Pixcel)](#param_1)
-- [[5500,0x0000157C] Please Specify the Window Height (Pixcel)](#param_2)
-- [[6000,0x00001770] Optional - Please Select the Compare Method for the Window Name](#param_3)
-- [[8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_4)
-- [[8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Names List](#param_5)
-- [[8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handles List](#param_6)
-- [[9000,0x00002328] Optional - Please Select the When Window Is Minimized](#param_7)
-- [[9001,0x00002329] Optional - Please Select the When Window Is Minimized](#param_8)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_9)
-- [[10010,0x0000271A] Optional - Please Select the Activate Window Before Action](#param_10)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_11)
+- [Please Select the Window Name](#param_0)
+- [Please Specify the Window Width (Pixcel)](#param_1)
+- [Please Specify the Window Height (Pixcel)](#param_2)
+- [Optional - Please Select the Compare Method for the Window Name](#param_3)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Names List](#param_5)
+- [Optional - Please Select the Variable Name to Store Window Handles List](#param_6)
+- [Optional - Please Select the When Window Is Minimized](#param_7)
+- [Optional - Please Select the When Window Is Minimized](#param_8)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_9)
+- [Optional - Please Select the Activate Window Before Action](#param_10)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Window Name
+### Please Select the Window Name
 
 
 <dl>
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5500,0x0000157C] Please Specify the Window Width (Pixcel)
+### Please Specify the Window Width (Pixcel)
 
 
 <dl>
@@ -106,7 +106,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5500,0x0000157C] Please Specify the Window Height (Pixcel)
+### Please Specify the Window Height (Pixcel)
 
 
 <dl>
@@ -143,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6000,0x00001770] Optional - Please Select the Compare Method for the Window Name
+### Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -167,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [8000,0x00001F40] Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -201,7 +201,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [8100,0x00001FA4] Optional - Please Select the Variable Name to Store Window Names List
+### Optional - Please Select the Variable Name to Store Window Names List
 
 
 <dl>
@@ -233,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [8200,0x00002008] Optional - Please Select the Variable Name to Store Window Handles List
+### Optional - Please Select the Variable Name to Store Window Handles List
 
 
 <dl>
@@ -265,7 +265,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [9000,0x00002328] Optional - Please Select the When Window Is Minimized
+### Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -296,7 +296,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [9001,0x00002329] Optional - Please Select the When Window Is Minimized
+### Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -327,7 +327,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
 <dl>
@@ -360,7 +360,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### [10010,0x0000271A] Optional - Please Select the Activate Window Before Action
+### Optional - Please Select the Activate Window Before Action
 
 
 <dl>
@@ -384,7 +384,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -408,7 +408,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ResizeWindowsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

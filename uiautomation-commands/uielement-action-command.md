@@ -19,22 +19,22 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Window Name](#param_0)
-- [[5000,0x00001388] Please Select the UIElement Action](#param_1)
-- [[5000,0x00001388] Please Specify the Search Parameters](#param_2)
+- [Please Select the Window Name](#param_0)
+- [Please Select the UIElement Action](#param_1)
+- [Please Specify the Search Parameters](#param_2)
 - [Please Specify the Action Parameters](#param_3)
-- [[5000,0x00001388] Optional - Please Select the Compare Method for the Window Name](#param_4)
-- [[5000,0x00001388] Optional - Please Select the Match Method for the Window Name](#param_5)
-- [[5000,0x00001388] Optional - Please Specify the Window Index](#param_6)
-- [[5000,0x00001388] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [[5000,0x00001388] Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_8)
-- [[5000,0x00001388] Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
-- [[5000,0x00001388] Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_11)
+- [Optional - Please Select the Compare Method for the Window Name](#param_4)
+- [Optional - Please Select the Match Method for the Window Name](#param_5)
+- [Optional - Please Specify the Window Index](#param_6)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_8)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Window Name
+### Please Select the Window Name
 
 
 <dl>
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Select the UIElement Action
+### Please Select the UIElement Action
 
 
 <dl>
@@ -93,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Please Specify the Search Parameters
+### Please Specify the Search Parameters
 
 
 <dl>
@@ -137,7 +137,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Optional - Please Select the Compare Method for the Window Name
+### Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -161,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Optional - Please Select the Match Method for the Window Name
+### Optional - Please Select the Match Method for the Window Name
 
 
 <dl>
@@ -194,7 +194,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [5000,0x00001388] Optional - Please Specify the Window Index
+### Optional - Please Specify the Window Index
 
 
 <dl>
@@ -225,7 +225,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [5000,0x00001388] Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -259,7 +259,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [5000,0x00001388] Optional - Please Specify the Wait Time for the UIElement to Exist (sec)
+### Optional - Please Specify the Wait Time for the UIElement to Exist (sec)
 
 
 <dl>
@@ -293,7 +293,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [5000,0x00001388] Optional - Please Select the Variable Name to Store Window Name Result
+### Optional - Please Select the Variable Name to Store Window Name Result
 
 
 <dl>
@@ -325,7 +325,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### [5000,0x00001388] Optional - Please Select the Variable Name to Store Window Handle Result
+### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
 <dl>
@@ -357,7 +357,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -381,7 +381,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationUIElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

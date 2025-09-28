@@ -19,18 +19,18 @@ Use this command to rename an existing folder.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the Folder Path](#param_0)
-- [[5100,0x000013EC] Please Specify the New Folder Name](#param_1)
-- [[5200,0x00001450] Optional - Please Select the When Folder Name Same After the Change](#param_2)
-- [[5400,0x00001518] Optional - Please Select the When Destination Folder Is Already Exists](#param_3)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_4)
-- [[20000,0x00004E20] Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_5)
-- [[21000,0x00005208] Optional - Please Select the Variable Name to Store Folder Path After Process](#param_6)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
+- [Please Specify the Folder Path](#param_0)
+- [Please Specify the New Folder Name](#param_1)
+- [Optional - Please Select the When Folder Name Same After the Change](#param_2)
+- [Optional - Please Select the When Destination Folder Is Already Exists](#param_3)
+- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_4)
+- [Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_5)
+- [Optional - Please Select the Variable Name to Store Folder Path After Process](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the Folder Path
+### Please Specify the Folder Path
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5100,0x000013EC] Please Specify the New Folder Name
+### Please Specify the New Folder Name
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5200,0x00001450] Optional - Please Select the When Folder Name Same After the Change
+### Optional - Please Select the When Folder Name Same After the Change
 
 
 <dl>
@@ -127,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5400,0x00001518] Optional - Please Select the When Destination Folder Is Already Exists
+### Optional - Please Select the When Destination Folder Is Already Exists
 
 
 <dl>
@@ -160,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time for the Folder to Exist (sec)
+### Optional - Please Specify the Wait Time for the Folder to Exist (sec)
 
 
 <dl>
@@ -194,7 +194,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [20000,0x00004E20] Optional - Please Select the Variable Name to Store Folder Path Before Process
+### Optional - Please Select the Variable Name to Store Folder Path Before Process
 
 
 <dl>
@@ -225,7 +225,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [21000,0x00005208] Optional - Please Select the Variable Name to Store Folder Path After Process
+### Optional - Please Select the Variable Name to Store Folder Path After Process
 
 
 <dl>
@@ -256,7 +256,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -280,7 +280,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

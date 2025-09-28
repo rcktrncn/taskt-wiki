@@ -19,17 +19,17 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the Host Name](#param_0)
-- [[5000,0x00001388] Please Specify the Port](#param_1)
-- [[5000,0x00001388] Please Specify the Username](#param_2)
-- [[5000,0x00001388] Please Specify the Password](#param_3)
-- [[5000,0x00001388] Optional - Please Select the Secure Option](#param_4)
-- [[5000,0x00001388] Please Select the EMailList Variable Name](#param_5)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
+- [Please Specify the Host Name](#param_0)
+- [Please Specify the Port](#param_1)
+- [Please Specify the Username](#param_2)
+- [Please Specify the Password](#param_3)
+- [Optional - Please Select the Secure Option](#param_4)
+- [Please Select the EMailList Variable Name](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the Host Name
+### Please Specify the Host Name
 
 
 <dl>
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Specify the Port
+### Please Specify the Port
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Please Specify the Username
+### Please Specify the Username
 
 
 <dl>
@@ -126,7 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5000,0x00001388] Please Specify the Password
+### Please Specify the Password
 
 
 <dl>
@@ -158,7 +158,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Optional - Please Select the Secure Option
+### Optional - Please Select the Secure Option
 
 
 <dl>
@@ -181,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Please Select the EMailList Variable Name
+### Please Select the EMailList Variable Name
 
 
 <dl>
@@ -215,7 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -239,7 +239,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitRecieveEMailListUsingIMAPCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

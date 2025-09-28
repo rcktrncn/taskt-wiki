@@ -23,7 +23,7 @@ This command allows you to manipulate (get or set) elements within the HTML docu
 - [Please enter or capture element search parameters](#param_1)
 - [Please Select the IE Element Action](#param_2)
 - [Please Specify the Action Parameters](#param_3)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -141,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

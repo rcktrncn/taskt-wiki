@@ -30,7 +30,7 @@ Use this command when you want to send an email and have access to SMTP server c
 - [Please Specify the Optional - Attachment Path (ex. C:\temp\file.txt, {vPath})](#param_8)
 - [Please Indicate if SSL should be used](#param_9)
 - [Please Select the SSL Validation](#param_10)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_11)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
@@ -278,7 +278,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -302,7 +302,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SMTPSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

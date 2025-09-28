@@ -19,23 +19,23 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the SMTP Host Name](#param_0)
-- [[5000,0x00001388] Please Specify the SMTP Port](#param_1)
-- [[5000,0x00001388] Please Specify the SMTP User Name](#param_2)
-- [[5000,0x00001388] Please Specify the SMTP Password](#param_3)
-- [[5000,0x00001388] Please Specify the From EMail Address](#param_4)
-- [[5000,0x00001388] Please Specify the To EMail Address](#param_5)
-- [[5000,0x00001388] Optional - Please Specify the CC EMail Address](#param_6)
-- [[5000,0x00001388] Optional - Please Specify the BCC EMail Address](#param_7)
-- [[5000,0x00001388] Optional - Please Specify the Email Subject](#param_8)
+- [Please Specify the SMTP Host Name](#param_0)
+- [Please Specify the SMTP Port](#param_1)
+- [Please Specify the SMTP User Name](#param_2)
+- [Please Specify the SMTP Password](#param_3)
+- [Please Specify the From EMail Address](#param_4)
+- [Please Specify the To EMail Address](#param_5)
+- [Optional - Please Specify the CC EMail Address](#param_6)
+- [Optional - Please Specify the BCC EMail Address](#param_7)
+- [Optional - Please Specify the Email Subject](#param_8)
 - [Optional - Please Specify the Email Message](#param_9)
-- [[5000,0x00001388] Optional - Please Specify the Email Attachment File Path](#param_10)
-- [[5000,0x00001388] Optional - Please Select the Secure Option](#param_11)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_12)
+- [Optional - Please Specify the Email Attachment File Path](#param_10)
+- [Optional - Please Select the Secure Option](#param_11)
+- [Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the SMTP Host Name
+### Please Specify the SMTP Host Name
 
 
 <dl>
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Specify the SMTP Port
+### Please Specify the SMTP Port
 
 
 <dl>
@@ -102,7 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Please Specify the SMTP User Name
+### Please Specify the SMTP User Name
 
 
 <dl>
@@ -132,7 +132,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5000,0x00001388] Please Specify the SMTP Password
+### Please Specify the SMTP Password
 
 
 <dl>
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Please Specify the From EMail Address
+### Please Specify the From EMail Address
 
 
 <dl>
@@ -196,7 +196,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Please Specify the To EMail Address
+### Please Specify the To EMail Address
 
 
 <dl>
@@ -228,7 +228,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [5000,0x00001388] Optional - Please Specify the CC EMail Address
+### Optional - Please Specify the CC EMail Address
 
 
 <dl>
@@ -257,7 +257,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [5000,0x00001388] Optional - Please Specify the BCC EMail Address
+### Optional - Please Specify the BCC EMail Address
 
 
 <dl>
@@ -286,7 +286,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [5000,0x00001388] Optional - Please Specify the Email Subject
+### Optional - Please Specify the Email Subject
 
 
 <dl>
@@ -345,7 +345,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### [5000,0x00001388] Optional - Please Specify the Email Attachment File Path
+### Optional - Please Specify the Email Attachment File Path
 
 
 <dl>
@@ -375,7 +375,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### [5000,0x00001388] Optional - Please Select the Secure Option
+### Optional - Please Select the Secure Option
 
 
 <dl>
@@ -398,7 +398,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_12"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -422,7 +422,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

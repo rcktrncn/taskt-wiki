@@ -19,20 +19,20 @@ Use this command to copy a folder to a new destination.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the Folder Path](#param_0)
-- [[5100,0x000013EC] Please Specify the Destination Folder for Action](#param_1)
-- [[5200,0x00001450] Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_2)
-- [[5300,0x000014B4] Optional - Please Select the When Description Folder Path is Same as Target Folder Path](#param_3)
-- [[5310,0x000014BE] Optional - Please Select the Copy SubFolders](#param_4)
-- [[5400,0x00001518] Optional - Please Select the When Destination Folder Is Already Exists](#param_5)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_6)
-- [[20000,0x00004E20] Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_7)
-- [[21000,0x00005208] Optional - Please Select the Variable Name to Store Folder Path After Process](#param_8)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
+- [Please Specify the Folder Path](#param_0)
+- [Please Specify the Destination Folder for Action](#param_1)
+- [Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_2)
+- [Optional - Please Select the When Description Folder Path is Same as Target Folder Path](#param_3)
+- [Optional - Please Select the Copy SubFolders](#param_4)
+- [Optional - Please Select the When Destination Folder Is Already Exists](#param_5)
+- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_6)
+- [Optional - Please Select the Variable Name to Store Folder Path Before Process](#param_7)
+- [Optional - Please Select the Variable Name to Store Folder Path After Process](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the Folder Path
+### Please Specify the Folder Path
 
 
 <dl>
@@ -65,7 +65,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5100,0x000013EC] Please Specify the Destination Folder for Action
+### Please Specify the Destination Folder for Action
 
 
 <dl>
@@ -98,7 +98,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5200,0x00001450] Optional - Please Select the Create Folder when the Destination Folder does not Exists
+### Optional - Please Select the Create Folder when the Destination Folder does not Exists
 
 
 <dl>
@@ -122,7 +122,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5300,0x000014B4] Optional - Please Select the When Description Folder Path is Same as Target Folder Path
+### Optional - Please Select the When Description Folder Path is Same as Target Folder Path
 
 
 <dl>
@@ -153,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5310,0x000014BE] Optional - Please Select the Copy SubFolders
+### Optional - Please Select the Copy SubFolders
 
 
 <dl>
@@ -177,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5400,0x00001518] Optional - Please Select the When Destination Folder Is Already Exists
+### Optional - Please Select the When Destination Folder Is Already Exists
 
 
 <dl>
@@ -210,7 +210,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time for the Folder to Exist (sec)
+### Optional - Please Specify the Wait Time for the Folder to Exist (sec)
 
 
 <dl>
@@ -244,7 +244,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [20000,0x00004E20] Optional - Please Select the Variable Name to Store Folder Path Before Process
+### Optional - Please Select the Variable Name to Store Folder Path Before Process
 
 
 <dl>
@@ -275,7 +275,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [21000,0x00005208] Optional - Please Select the Variable Name to Store Folder Path After Process
+### Optional - Please Select the Variable Name to Store Folder Path After Process
 
 
 <dl>
@@ -306,7 +306,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -330,7 +330,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

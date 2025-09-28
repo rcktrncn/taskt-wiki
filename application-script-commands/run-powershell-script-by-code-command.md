@@ -19,18 +19,18 @@ Use this command when you want to run a PowerShell Script by code.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the Script Code](#param_0)
-- [[7000,0x00001B58] Optional - Please Specify the Arguments](#param_1)
-- [[7000,0x00001B58] Optional - Please Select the Expand taskt Variables In Code](#param_2)
-- [[8000,0x00001F40] Optional - Please Select the Variable Name to Receive the Output](#param_3)
-- [[10000,0x00002710] Optional - Please Select the Delete Script File After Execute](#param_4)
-- [[11000,0x00002AF8] Optional - Please Select the Folder to Save Temporary Script File](#param_5)
-- [[12000,0x00002EE0] Optional - Please Select the Variable Name to Store Temporary Script File Path](#param_6)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
+- [Please Specify the Script Code](#param_0)
+- [Optional - Please Specify the Arguments](#param_1)
+- [Optional - Please Select the Expand taskt Variables In Code](#param_2)
+- [Optional - Please Select the Variable Name to Receive the Output](#param_3)
+- [Optional - Please Select the Delete Script File After Execute](#param_4)
+- [Optional - Please Select the Folder to Save Temporary Script File](#param_5)
+- [Optional - Please Select the Variable Name to Store Temporary Script File Path](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the Script Code
+### Please Specify the Script Code
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [7000,0x00001B58] Optional - Please Specify the Arguments
+### Optional - Please Specify the Arguments
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [7000,0x00001B58] Optional - Please Select the Expand taskt Variables In Code
+### Optional - Please Select the Expand taskt Variables In Code
 
 
 <dl>
@@ -120,7 +120,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [8000,0x00001F40] Optional - Please Select the Variable Name to Receive the Output
+### Optional - Please Select the Variable Name to Receive the Output
 
 
 <dl>
@@ -151,7 +151,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [10000,0x00002710] Optional - Please Select the Delete Script File After Execute
+### Optional - Please Select the Delete Script File After Execute
 
 
 <dl>
@@ -175,7 +175,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [11000,0x00002AF8] Optional - Please Select the Folder to Save Temporary Script File
+### Optional - Please Select the Folder to Save Temporary Script File
 
 
 <dl>
@@ -206,7 +206,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [12000,0x00002EE0] Optional - Please Select the Variable Name to Store Temporary Script File Path
+### Optional - Please Select the Variable Name to Store Temporary Script File Path
 
 
 <dl>
@@ -237,7 +237,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -261,7 +261,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptByCodeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

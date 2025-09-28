@@ -19,13 +19,13 @@ This command allows you to Select a Item in UIElement.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the UIElement Variable Name](#param_0)
-- [[5000,0x00001388] Please Specify the Item Value to Select](#param_1)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_2)
+- [Please Select the UIElement Variable Name](#param_0)
+- [Please Specify the Item Value to Select](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the UIElement Variable Name
+### Please Select the UIElement Variable Name
 
 
 <dl>
@@ -59,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Specify the Item Value to Select
+### Please Specify the Item Value to Select
 
 
 <dl>
@@ -90,7 +90,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -114,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSelectItemInUIElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

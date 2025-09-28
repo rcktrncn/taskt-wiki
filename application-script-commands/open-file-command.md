@@ -19,17 +19,17 @@ Use this command to open the specified file
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the File Path](#param_0)
-- [[7000,0x00001B58] Optional - Please Specify the Wait Time until Folder Opens](#param_1)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_2)
-- [[20000,0x00004E20] Please Select the Variable Name to Store File Path](#param_3)
-- [[20100,0x00004E84] Optional - Please Select the Variable Name to Store Window Name Result](#param_4)
-- [[20200,0x00004EE8] Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
+- [Please Specify the File Path](#param_0)
+- [Optional - Please Specify the Wait Time until Folder Opens](#param_1)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_2)
+- [Please Select the Variable Name to Store File Path](#param_3)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the File Path
+### Please Specify the File Path
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [7000,0x00001B58] Optional - Please Specify the Wait Time until Folder Opens
+### Optional - Please Specify the Wait Time until Folder Opens
 
 
 <dl>
@@ -93,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time for the File to Exist (sec)
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
 <dl>
@@ -127,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [20000,0x00004E20] Please Select the Variable Name to Store File Path
+### Please Select the Variable Name to Store File Path
 
 
 <dl>
@@ -158,7 +158,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [20100,0x00004E84] Optional - Please Select the Variable Name to Store Window Name Result
+### Optional - Please Select the Variable Name to Store Window Name Result
 
 
 <dl>
@@ -190,7 +190,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [20200,0x00004EE8] Optional - Please Select the Variable Name to Store Window Handle Result
+### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
 <dl>
@@ -222,7 +222,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -246,7 +246,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: OpenFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

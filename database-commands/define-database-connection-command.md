@@ -23,7 +23,7 @@ Use this command to create a new connection to a database.
 - [Please Specify the Define Connection String](#param_1)
 - [Please Specify the Define Connection String Password](#param_2)
 - [Please Select the Test Connection Before Proceeding](#param_3)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -118,7 +118,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -142,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DatabaseDefineConnectionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

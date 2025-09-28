@@ -19,18 +19,18 @@ Use this command when you want to select file to save or open.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Optional - Please Select the Dialog Type](#param_0)
-- [[6000,0x00001770] Optional - Please Specify the Value of the Filter Property](#param_1)
-- [[7000,0x00001B58] Optional - Please Specify the Value of the FilterIndex Property](#param_2)
-- [[10000,0x00002710] Optional - Please Specify the Initial Folder Path](#param_3)
-- [[11000,0x00002AF8] Please Select the Variable Name to Store Result](#param_4)
-- [[12000,0x00002EE0] Optional - Please Select the When Dialog Result Is Cancel](#param_5)
-- [[13000,0x000032C8] Please Select the Variable Name To Store Dislog Result](#param_6)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Select the Dialog Type](#param_0)
+- [Optional - Please Specify the Value of the Filter Property](#param_1)
+- [Optional - Please Specify the Value of the FilterIndex Property](#param_2)
+- [Optional - Please Specify the Initial Folder Path](#param_3)
+- [Please Select the Variable Name to Store Result](#param_4)
+- [Optional - Please Select the When Dialog Result Is Cancel](#param_5)
+- [Please Select the Variable Name To Store Dislog Result](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Optional - Please Select the Dialog Type
+### Optional - Please Select the Dialog Type
 
 
 <dl>
@@ -54,7 +54,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Optional - Please Specify the Value of the Filter Property
+### Optional - Please Specify the Value of the Filter Property
 
 
 <dl>
@@ -78,7 +78,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [7000,0x00001B58] Optional - Please Specify the Value of the FilterIndex Property
+### Optional - Please Specify the Value of the FilterIndex Property
 
 
 <dl>
@@ -109,7 +109,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [10000,0x00002710] Optional - Please Specify the Initial Folder Path
+### Optional - Please Specify the Initial Folder Path
 
 
 <dl>
@@ -141,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [11000,0x00002AF8] Please Select the Variable Name to Store Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -175,7 +175,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [12000,0x00002EE0] Optional - Please Select the When Dialog Result Is Cancel
+### Optional - Please Select the When Dialog Result Is Cancel
 
 
 <dl>
@@ -209,7 +209,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [13000,0x000032C8] Please Select the Variable Name To Store Dislog Result
+### Please Select the Variable Name To Store Dislog Result
 
 
 <dl>
@@ -240,7 +240,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -264,7 +264,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowFileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

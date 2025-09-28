@@ -24,7 +24,7 @@ Use this command to select data from a database.
 - [Please Specify the Define Query to Execute](#param_2)
 - [Please Specify the Define Query Parameters](#param_3)
 - [Please Specify the Apply Result To Variable](#param_4)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -140,7 +140,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DatabaseExecuteQueryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

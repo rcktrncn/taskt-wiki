@@ -19,11 +19,11 @@ Use this command when you want to copy the data from the clipboard and apply it 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_0)
+- [Optional - Please Specify the Comment Field](#param_0)
 
 
 <a id="param_0"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -47,7 +47,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ClearClipboardTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

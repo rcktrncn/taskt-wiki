@@ -19,17 +19,17 @@ This command allows you to Repeat actions on the values held by List. This comma
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the List Variable Name](#param_0)
-- [[6000,0x00001770] Optional - Please Select the Variable Name to Store List Value (Readonly)](#param_1)
-- [[6001,0x00001771] Optional - Please Select the Variable Name to Store List Index (Readonly)](#param_2)
-- [[6003,0x00001773] Optional - Please Select the Reverse Loop](#param_3)
-- [[6004,0x00001774] Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')](#param_4)
-- [[6005,0x00001775] Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_5)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_6)
+- [Please Select the List Variable Name](#param_0)
+- [Optional - Please Select the Variable Name to Store List Value (Readonly)](#param_1)
+- [Optional - Please Select the Variable Name to Store List Index (Readonly)](#param_2)
+- [Optional - Please Select the Reverse Loop](#param_3)
+- [Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')](#param_4)
+- [Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the List Variable Name
+### Please Select the List Variable Name
 
 
 <dl>
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Optional - Please Select the Variable Name to Store List Value (Readonly)
+### Optional - Please Select the Variable Name to Store List Value (Readonly)
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [6001,0x00001771] Optional - Please Select the Variable Name to Store List Index (Readonly)
+### Optional - Please Select the Variable Name to Store List Index (Readonly)
 
 
 <dl>
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6003,0x00001773] Optional - Please Select the Reverse Loop
+### Optional - Please Select the Reverse Loop
 
 
 <dl>
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [6004,0x00001774] Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')
+### Optional - Please Select the Variable Name to Store Current Loop Times (First Time Value is '1')
 
 
 <dl>
@@ -180,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [6005,0x00001775] Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)
+### Optional - Please Select the Variable Name to Store the Number of Loops (First Time Value is 0)
 
 
 <dl>
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -235,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopForListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

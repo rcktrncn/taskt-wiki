@@ -19,15 +19,15 @@ Use this command when you want to convert DataTable Column to List.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the DataTable Variable Name](#param_0)
-- [[6000,0x00001770] Optional - Please Select the Column type](#param_1)
-- [[7000,0x00001B58] Please Specify the Name or Index of the Column](#param_2)
-- [[10000,0x00002710] Please Select the Variable Name to Store List](#param_3)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_4)
+- [Please Select the DataTable Variable Name](#param_0)
+- [Optional - Please Select the Column type](#param_1)
+- [Please Specify the Name or Index of the Column](#param_2)
+- [Please Select the Variable Name to Store List](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the DataTable Variable Name
+### Please Select the DataTable Variable Name
 
 
 <dl>
@@ -61,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [6000,0x00001770] Optional - Please Select the Column type
+### Optional - Please Select the Column type
 
 
 <dl>
@@ -92,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [7000,0x00001B58] Please Specify the Name or Index of the Column
+### Please Specify the Name or Index of the Column
 
 
 <dl>
@@ -127,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [10000,0x00002710] Please Select the Variable Name to Store List
+### Please Select the Variable Name to Store List
 
 
 <dl>
@@ -161,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -185,7 +185,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

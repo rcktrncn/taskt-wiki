@@ -19,14 +19,14 @@ Use this command when you want to read data from JSON files.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Specify the File Path](#param_0)
-- [[5000,0x00001388] Please Select the JSON Variable Name](#param_1)
-- [[5000,0x00001388] Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_2)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_3)
+- [Please Specify the File Path](#param_0)
+- [Please Select the JSON Variable Name](#param_1)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Specify the File Path
+### Please Specify the File Path
 
 
 <dl>
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Please Select the JSON Variable Name
+### Please Select the JSON Variable Name
 
 
 <dl>
@@ -96,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Optional - Please Specify the Wait Time for the File to Exist (sec)
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
 
 
 <dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -154,7 +154,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReadJSONFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

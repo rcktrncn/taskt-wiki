@@ -19,20 +19,20 @@ Use this command when you want to move an existing window by name to a certain p
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the Window Handle Variable Name](#param_0)
-- [[5500,0x0000157C] Please Specify the X horizontal coordinate (pixel) for the Window's Location](#param_1)
-- [[5500,0x0000157C] Please Specify the Y vertical coordinate (pixel) for the Window's Location](#param_2)
-- [[6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
-- [[9000,0x00002328] Optional - Please Select the When Window Is Minimized](#param_4)
-- [[9001,0x00002329] Optional - Please Select the When Window Is Maximized](#param_5)
-- [[10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
-- [[10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name](#param_7)
-- [[10010,0x0000271A] Optional - Please Select the Activate Window Before Action](#param_8)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
+- [Please Select the Window Handle Variable Name](#param_0)
+- [Please Specify the X horizontal coordinate (pixel) for the Window's Location](#param_1)
+- [Please Specify the Y vertical coordinate (pixel) for the Window's Location](#param_2)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
+- [Optional - Please Select the When Window Is Minimized](#param_4)
+- [Optional - Please Select the When Window Is Maximized](#param_5)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Name](#param_7)
+- [Optional - Please Select the Activate Window Before Action](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the Window Handle Variable Name
+### Please Select the Window Handle Variable Name
 
 
 <dl>
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5500,0x0000157C] Please Specify the X horizontal coordinate (pixel) for the Window's Location
+### Please Specify the X horizontal coordinate (pixel) for the Window's Location
 
 
 <dl>
@@ -103,7 +103,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5500,0x0000157C] Please Specify the Y vertical coordinate (pixel) for the Window's Location
+### Please Specify the Y vertical coordinate (pixel) for the Window's Location
 
 
 <dl>
@@ -140,7 +140,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [6000,0x00001770] Optional - Please Specify the Wait Time for the Window to Exist (sec)
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
@@ -174,7 +174,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [9000,0x00002328] Optional - Please Select the When Window Is Minimized
+### Optional - Please Select the When Window Is Minimized
 
 
 <dl>
@@ -205,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [9001,0x00002329] Optional - Please Select the When Window Is Maximized
+### Optional - Please Select the When Window Is Maximized
 
 
 <dl>
@@ -236,7 +236,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [10000,0x00002710] Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
+### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
 <dl>
@@ -269,7 +269,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### [10000,0x00002710] Optional - Please Select the Variable Name to Store Window Name
+### Optional - Please Select the Variable Name to Store Window Name
 
 
 <dl>
@@ -300,7 +300,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### [10010,0x0000271A] Optional - Please Select the Activate Window Before Action
+### Optional - Please Select the Activate Window Before Action
 
 
 <dl>
@@ -324,7 +324,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -348,7 +348,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowByWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help

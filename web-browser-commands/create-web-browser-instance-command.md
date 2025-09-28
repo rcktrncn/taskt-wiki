@@ -21,20 +21,20 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [[5000,0x00001388] Please Select the WebBrowser Instance Name](#param_0)
-- [[5000,0x00001388] Optional - Please Select the Web Browser Type](#param_1)
-- [[5000,0x00001388] Optional - Please Select the Instance Tracking (After task ends)](#param_2)
-- [[5000,0x00001388] Optional - Please Select the Window State](#param_3)
-- [[5000,0x00001388] Optional - Please Specify the Web Browser Command Line Options](#param_4)
-- [[5000,0x00001388] Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
-- [[5000,0x00001388] Optional - Please Specify the Web Browser Binary Path](#param_6)
-- [[5000,0x00001388] Optional - Please Specify the Web Driver Binary Path](#param_7)
-- [[5000,0x00001388] Optional - Please Select the Use Headless](#param_8)
-- [[2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field](#param_9)
+- [Please Select the WebBrowser Instance Name](#param_0)
+- [Optional - Please Select the Web Browser Type](#param_1)
+- [Optional - Please Select the Instance Tracking (After task ends)](#param_2)
+- [Optional - Please Select the Window State](#param_3)
+- [Optional - Please Specify the Web Browser Command Line Options](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
+- [Optional - Please Specify the Web Browser Binary Path](#param_6)
+- [Optional - Please Specify the Web Driver Binary Path](#param_7)
+- [Optional - Please Select the Use Headless](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
-### [5000,0x00001388] Please Select the WebBrowser Instance Name
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### [5000,0x00001388] Optional - Please Select the Web Browser Type
+### Optional - Please Select the Web Browser Type
 
 
 <dl>
@@ -92,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### [5000,0x00001388] Optional - Please Select the Instance Tracking (After task ends)
+### Optional - Please Select the Instance Tracking (After task ends)
 
 
 <dl>
@@ -124,7 +124,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### [5000,0x00001388] Optional - Please Select the Window State
+### Optional - Please Select the Window State
 
 
 <dl>
@@ -155,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### [5000,0x00001388] Optional - Please Specify the Web Browser Command Line Options
+### Optional - Please Specify the Web Browser Command Line Options
 
 
 <dl>
@@ -178,7 +178,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### [5000,0x00001388] Optional - Please Select the Variable Name to Store Window Handle Result
+### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
 <dl>
@@ -210,7 +210,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### [5000,0x00001388] Optional - Please Specify the Web Browser Binary Path
+### Optional - Please Specify the Web Browser Binary Path
 
 
 <dl>
@@ -243,7 +243,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_7"></a>
-### [5000,0x00001388] Optional - Please Specify the Web Driver Binary Path
+### Optional - Please Specify the Web Driver Binary Path
 
 
 <dl>
@@ -276,7 +276,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_8"></a>
-### [5000,0x00001388] Optional - Please Select the Use Headless
+### Optional - Please Select the Use Headless
 
 
 <dl>
@@ -301,7 +301,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_9"></a>
-### [2147483647,0x7FFFFFFF] Optional - Please Specify the Comment Field
+### Optional - Please Specify the Comment Field
 
 
 <dl>
@@ -325,7 +325,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:36 PM
+This page was generated on 09/28/25 08:39 PM
 
 
 ## Help
