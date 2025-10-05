@@ -20,14 +20,16 @@ Use this command when you want to get one window process name.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
-- [Optional - Please Select the Compare Method for the Window Name](#param_1)
+- [Optional - Please Select the Check Method for the Window Name](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Select the Match Method for the Window Name](#param_3)
+- [Optional - Please Selection Method for the Window Name](#param_3)
 - [Optional - Please Specify the Window Index](#param_4)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_6)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_8)
+- [Optional - Please Select the Trim before Check Window Names](#param_9)
+- [Optional - Please Specify the Comment Field](#param_10)
 
 
 <a id="param_0"></a>
@@ -66,18 +68,41 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Compare Method for the Window Name
+### Optional - Please Select the Check Method for the Window Name
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong> or  <strong>Not Contains</strong> or  <strong>Not Starts with</strong> or  <strong>Not Ends with</strong> or  <strong>Not Match</strong> or  <strong>Wildcard</strong> or  <strong>Not Wildcard</strong> or  <strong>Not Empty</strong> or  <strong>Is Number</strong> or  <strong>Is Boolean</strong> or  <strong>Is Boolean Loose</strong> or  <strong>Is Empty</strong> or  <strong>Is Not Number</strong> or  <strong>Is Not Boolean</strong> or  <strong>Is Not Boolean Loose</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Contains</strong> | It's like Comparing whether to Contains **hello**. |
+| <strong>Starts with</strong> | It's like Comparing whether to Starts With **hello**. |
+| <strong>Ends with</strong> | It's like Comparing whether to Ends With **hello**. |
+| <strong>Exact match</strong> | It's like Comparing whether an Exact match to **hello**. |
+| <strong>Not Contains</strong> | It's like Comparing whether to Not Contains **hello**. |
+| <strong>Not Starts with</strong> | It's like Comparing whether to Not Starts With **hello**. |
+| <strong>Not Ends with</strong> | It's like Comparing whether to Not Ends With **hello**. |
+| <strong>Not Match</strong> | It's like Comparing whether an Not Matche to **hello**. |
+| <strong>Not Empty</strong> | This determines not empty text. |
+| <strong>Wildcard</strong> | Check for Wildcard match. |
+| <strong>Not Wildcard</strong> | Check for Wildcard Not match. |
+| <strong>Is Number</strong> | This determines whether a number. |
+| <strong>Is Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
+| <strong>Is Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
+| <strong>Is Empty</strong> | This determines empty text. |
+| <strong>Is Not Number</strong> | This determines whether it is **Not** a number. |
+| <strong>Is Not Boolean</strong> | This determines whether it is **Not** a boolean, such as **True** or **False**. |
+| <strong>Is Not Boolean Loose</strong> | This determines whether it is **Not** a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -124,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Match Method for the Window Name
+### Optional - Please Selection Method for the Window Name
 
 
 <dl>
@@ -286,6 +311,70 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
+### Optional - Please Select the Case Sensitive Checking for Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
+### Optional - Please Select the Trim before Check Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Trim</strong> or  <strong>Trim Start</strong> or  <strong>Trim End</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Trim</strong> | Remove White Space at the Start and End of Text |
+| <strong>Trim Start</strong> | Remove White Space at the Start of Text |
+| <strong>Trim End</strong> | Remove White Space at the End of Text |
+| <strong>No</strong> | Not Trim |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
+
+
+</div>
+
+
+<a id="param_10"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -301,7 +390,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_10) / [list](#param_list) / next
 
 
 </div>
@@ -310,7 +399,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetOneProcessNameFromOneWindowNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:39 PM
+This page was generated on 10/05/25 07:44 PM
 
 
 ## Help

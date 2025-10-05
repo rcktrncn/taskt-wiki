@@ -20,11 +20,11 @@ Use this command when you want to check a Text
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Text to be Checked](#param_0)
-- [Optional - Please Select the Compare Method](#param_1)
+- [Optional - Please Select the Check Method](#param_1)
 - [Please Specify the Text to Check or Search](#param_2)
 - [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Select the Case Sensitive](#param_4)
-- [Optional - Please Select the Trim Before Compare](#param_5)
+- [Optional - Please Select the Trim Before Check](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Compare Method
+### Optional - Please Select the Check Method
 
 
 <dl>
@@ -189,8 +189,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Yes</strong> | Comparison Method is Case Sensitive |
-| <strong>No</strong> | Comparison Method is NOT Case Sensitive |
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -203,7 +203,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Trim Before Compare
+### Optional - Please Select the Trim Before Check
 
 
 <dl>
@@ -260,7 +260,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:39 PM
+This page was generated on 10/05/25 07:44 PM
 
 
 ## Help

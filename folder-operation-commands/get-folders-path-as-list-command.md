@@ -21,9 +21,9 @@ Use this command to return a list of folder directories from a specific location
 ## Command Parameters
 - [Please Specify the Folder Path](#param_0)
 - [Optional - Please Specify the Folder Name to Filter](#param_1)
-- [Optional - Please Select the Folder Name Compare Method](#param_2)
+- [Optional - Please Select the Folder Name Check Method](#param_2)
 - [Optional - Please Select the Case Sensitive](#param_3)
-- [Optional - Please Select the Trim Before Compare](#param_4)
+- [Optional - Please Select the Trim Before Check](#param_4)
 - [Please Select the Variable Name to Store List](#param_5)
 - [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
@@ -93,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Folder Name Compare Method
+### Optional - Please Select the Folder Name Check Method
 
 
 <dl>
@@ -157,8 +157,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Yes</strong> | Comparison Method is Case Sensitive |
-| <strong>No</strong> | Comparison Method is NOT Case Sensitive |
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -171,7 +171,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Trim Before Compare
+### Optional - Please Select the Trim Before Check
 
 
 <dl>
@@ -296,7 +296,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFoldersPathAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:39 PM
+This page was generated on 10/05/25 07:44 PM
 
 
 ## Help

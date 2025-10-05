@@ -22,17 +22,19 @@ Use this command when you want to send advanced keystroke inputs to a window.
 - [Please Select the Window Name](#param_0)
 - [Please Specify the Keys and Action Type](#param_1)
 - [Optional - Please Select the Return all keys to 'UP' position after execution](#param_2)
-- [Optional - Please Select the Compare Method for the Window Name](#param_3)
-- [Optional - Please Select the Match Method for the Window Name](#param_4)
+- [Optional - Please Select the Check Method for the Window Name](#param_3)
+- [Optional - Please Selection Method for the Window Name](#param_4)
 - [Optional - Please Specify the Window Index](#param_5)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_6)
 - [Optional - Please Specify the Wait Time for After Keys Enter](#param_7)
 - [Optional - Please Select the Try Activate Window, when Specified Current Window Variable](#param_8)
 - [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
 - [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
-- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_11)
-- [Optional - Please Select the Activate Window Before Action](#param_12)
-- [Optional - Please Specify the Comment Field](#param_13)
+- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_11)
+- [Optional - Please Select the Trim before Check Window Names](#param_12)
+- [Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)](#param_13)
+- [Optional - Please Select the Activate Window Before Action](#param_14)
+- [Optional - Please Specify the Comment Field](#param_15)
 
 
 <a id="param_0"></a>
@@ -117,18 +119,41 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Compare Method for the Window Name
+### Optional - Please Select the Check Method for the Window Name
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong> or  <strong>Not Contains</strong> or  <strong>Not Starts with</strong> or  <strong>Not Ends with</strong> or  <strong>Not Match</strong> or  <strong>Wildcard</strong> or  <strong>Not Wildcard</strong> or  <strong>Not Empty</strong> or  <strong>Is Number</strong> or  <strong>Is Boolean</strong> or  <strong>Is Boolean Loose</strong> or  <strong>Is Empty</strong> or  <strong>Is Not Number</strong> or  <strong>Is Not Boolean</strong> or  <strong>Is Not Boolean Loose</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Contains</strong> | It's like Comparing whether to Contains **hello**. |
+| <strong>Starts with</strong> | It's like Comparing whether to Starts With **hello**. |
+| <strong>Ends with</strong> | It's like Comparing whether to Ends With **hello**. |
+| <strong>Exact match</strong> | It's like Comparing whether an Exact match to **hello**. |
+| <strong>Not Contains</strong> | It's like Comparing whether to Not Contains **hello**. |
+| <strong>Not Starts with</strong> | It's like Comparing whether to Not Starts With **hello**. |
+| <strong>Not Ends with</strong> | It's like Comparing whether to Not Ends With **hello**. |
+| <strong>Not Match</strong> | It's like Comparing whether an Not Matche to **hello**. |
+| <strong>Not Empty</strong> | This determines not empty text. |
+| <strong>Wildcard</strong> | Check for Wildcard match. |
+| <strong>Not Wildcard</strong> | Check for Wildcard Not match. |
+| <strong>Is Number</strong> | This determines whether a number. |
+| <strong>Is Boolean</strong> | This determines whether a boolean, such as **True** or **False**. |
+| <strong>Is Boolean Loose</strong> | This determines whether it is a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
+| <strong>Is Empty</strong> | This determines empty text. |
+| <strong>Is Not Number</strong> | This determines whether it is **Not** a number. |
+| <strong>Is Not Boolean</strong> | This determines whether it is **Not** a boolean, such as **True** or **False**. |
+| <strong>Is Not Boolean Loose</strong> | This determines whether it is **Not** a loose boolean, such as **True**, **False**, **Yes**, **No**, **1**, or **0**. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -141,7 +166,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Match Method for the Window Name
+### Optional - Please Selection Method for the Window Name
 
 
 <dl>
@@ -361,6 +386,70 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
+### Optional - Please Select the Case Sensitive Checking for Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
+
+
+</div>
+
+
+<a id="param_12"></a>
+### Optional - Please Select the Trim before Check Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Trim</strong> or  <strong>Trim Start</strong> or  <strong>Trim End</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Trim</strong> | Remove White Space at the Start and End of Text |
+| <strong>Trim Start</strong> | Remove White Space at the Start of Text |
+| <strong>Trim End</strong> | Remove White Space at the End of Text |
+| <strong>No</strong> | Not Trim |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_12) / [list](#param_list) / [next](#param_13)
+
+
+</div>
+
+
+<a id="param_13"></a>
 ### Optional - Please Specify the Wait Time between Finding the Window and Executing Action (sec)
 
 
@@ -387,13 +476,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_11) / [list](#param_list) / [next](#param_12)
+[prev](#param_13) / [list](#param_list) / [next](#param_14)
 
 
 </div>
 
 
-<a id="param_12"></a>
+<a id="param_14"></a>
 ### Optional - Please Select the Activate Window Before Action
 
 
@@ -411,13 +500,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_12) / [list](#param_list) / [next](#param_13)
+[prev](#param_14) / [list](#param_list) / [next](#param_15)
 
 
 </div>
 
 
-<a id="param_13"></a>
+<a id="param_15"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -433,7 +522,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_13) / [list](#param_list) / next
+[prev](#param_15) / [list](#param_list) / next
 
 
 </div>
@@ -442,7 +531,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:39 PM
+This page was generated on 10/05/25 07:44 PM
 
 
 ## Help

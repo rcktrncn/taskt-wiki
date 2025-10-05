@@ -143,8 +143,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Yes</strong> | Comparison Method is Case Sensitive |
-| <strong>No</strong> | Comparison Method is NOT Case Sensitive |
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -205,7 +205,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CountWordInTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/25 08:39 PM
+This page was generated on 10/05/25 07:44 PM
 
 
 ## Help
