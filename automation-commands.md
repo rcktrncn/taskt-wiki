@@ -477,34 +477,36 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From UIElement|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
+|Get From UIElement|[Get Parent UIElement](/uiautomation-commands/get-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
 |Get From UIElement|[Get Property Value From UIElement](/uiautomation-commands/get-property-value-from-uielement-command.md)|This command allows you to get Property Value from UIElement.|
 |Get From UIElement|[Get Selected State From UIElement](/uiautomation-commands/get-selected-state-from-uielement-command.md)|This command allows you to get Selected State from UIElement.|
-|Get From UIElement|[Get Selection Items From UIElement](/uiautomation-commands/get-selection-items-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
+|Get From UIElement|[Get Selection Items Value From UIElement](/uiautomation-commands/get-selection-items-value-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
 |Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
 |Get From UIElement|[Get Text From UIElement](/uiautomation-commands/get-text-from-uielement-command.md)|This command allows you to get Text Value from UIElement.|
+|Get From UIElement|[Get UIElement From Table UIElement](/uiautomation-commands/get-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
 |Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
 |Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
 |Search UIElement|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
-|Search UIElement|[Search Parent UIElement](/uiautomation-commands/search-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
-|Search UIElement|[Search UIElement From Table UIElement](/uiautomation-commands/search-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
 |Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
 |Search UIElement|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
 |Search UIElement & Window|[Search UIElement And Window](/uiautomation-commands/search-uielement-and-window-command.md)|This command allows you to get UIElement from Window Name.|
 |Search UIElement & Window|[Search UIElement And Window By XPath](/uiautomation-commands/search-uielement-and-window-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
-|Search Window|[Search UIElement From Window](/uiautomation-commands/search-uielement-from-window-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
 |UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
 |UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
 |UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
 |UIElement Action|[Select Item In UIElement](/uiautomation-commands/select-item-in-uielement-command.md)|This command allows you to Select a Item in UIElement.|
 |UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
+|UIElement Action|[Set Selection State To UIElement](/uiautomation-commands/set-selection-state-to-uielement-command.md)|This command allows you to set Selection State from UIElement.|
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
 |UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 |UIElement Action|[UIElement Action By XPath](/uiautomation-commands/uielement-action-by-xpath-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
+|Window UIElement|[Get Window UIElement](/uiautomation-commands/get-window-uielement-command.md)|This command allows you to get UIElement from Window Name|
+|Window UIElement|[Get Window UIElement From Window Handle](/uiautomation-commands/get-window-uielement-from-window-handle-command.md)|This command allows you to get UIElement from Window Handle|
 ### Variable
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -634,4 +636,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 10/05/25 07:44 PM
+This page was generated on 10/19/25 05:27 PM
