@@ -460,7 +460,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/25 05:27 PM
+This page was generated on 11/02/25 04:56 PM
 
 
 ## Help

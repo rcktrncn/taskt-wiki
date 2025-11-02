@@ -476,7 +476,6 @@
 ### UIAutomation
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Get From UIElement|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
 |Get From UIElement|[Get Parent UIElement](/uiautomation-commands/get-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
 |Get From UIElement|[Get Property Value From UIElement](/uiautomation-commands/get-property-value-from-uielement-command.md)|This command allows you to get Property Value from UIElement.|
 |Get From UIElement|[Get Selected State From UIElement](/uiautomation-commands/get-selected-state-from-uielement-command.md)|This command allows you to get Selected State from UIElement.|
@@ -490,6 +489,7 @@
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
 |Search UIElement|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
+|Search UIElement|[Search Children UIElements Information](/uiautomation-commands/search-children-uielements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
 |Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
@@ -501,7 +501,7 @@
 |UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
 |UIElement Action|[Select Item In UIElement](/uiautomation-commands/select-item-in-uielement-command.md)|This command allows you to Select a Item in UIElement.|
 |UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
-|UIElement Action|[Set Selection State To UIElement](/uiautomation-commands/set-selection-state-to-uielement-command.md)|This command allows you to set Selection State from UIElement.|
+|UIElement Action|[Set Selected State To UIElement](/uiautomation-commands/set-selected-state-to-uielement-command.md)|This command allows you to set Selected State from UIElement.|
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
 |UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 |UIElement Action|[UIElement Action By XPath](/uiautomation-commands/uielement-action-by-xpath-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
@@ -636,4 +636,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 10/19/25 05:27 PM
+This page was generated on 11/02/25 04:56 PM

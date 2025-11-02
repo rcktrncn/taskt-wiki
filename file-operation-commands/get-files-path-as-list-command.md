@@ -327,7 +327,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFilesPathAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/25 05:27 PM
+This page was generated on 11/02/25 04:56 PM
 
 
 ## Help
