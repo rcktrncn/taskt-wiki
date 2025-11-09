@@ -21,7 +21,7 @@ This command allows you to get Child Element from UIElement.
 ## Command Parameters
 - [Please Select the UIElement Variable Name](#param_0)
 - [Please Specify the Search Parameters](#param_1)
-- [Please Specify the Child UIElement Index](#param_2)
+- [Optional - Please Specify the UIElement Index](#param_2)
 - [Please Select the UIElement Variable Name to Store Child UIElement](#param_3)
 - [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_4)
 - [Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements](#param_5)
@@ -89,18 +89,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Child UIElement Index
+### Optional - Please Specify the UIElement Index
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Number</dd>
+<dt>What to input</dt><dd>Enter or Select the UIElement Index</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-<li>Less than Zero</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
@@ -109,9 +105,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specfity the First UIElement |
-| <strong>1</strong> | Specify **1** for Index |
-| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
+| <strong>0</strong> | Specify the First Window |
+| <strong>1</strong> | Specify **1** for UIElement Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for UIElement Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -372,7 +368,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchChildUIElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/02/25 04:56 PM
+This page was generated on 11/09/25 04:34 PM
 
 
 ## Help

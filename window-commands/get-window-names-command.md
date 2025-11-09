@@ -21,14 +21,13 @@ Use this command when you want window names.
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
 - [Optional - Please Select the Check Method for the Window Name](#param_1)
-- [Please Select the Variable Name to Store List](#param_2)
+- [Please Select the Variable Name to Store Window Names List](#param_2)
 - [Optional - Please Select the When Window Not Found](#param_3)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_4)
-- [Optional - Please Select the Variable Name to Store Window Names List](#param_5)
-- [Optional - Please Select the Variable Name to Store Window Handles List](#param_6)
-- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_7)
-- [Optional - Please Select the Trim before Check Window Names](#param_8)
-- [Optional - Please Specify the Comment Field](#param_9)
+- [Optional - Please Select the Variable Name to Store Window Handles List](#param_5)
+- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_6)
+- [Optional - Please Select the Trim before Check Window Names](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -114,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Variable Name to Store List
+### Please Select the Variable Name to Store Window Names List
 
 
 <dl>
@@ -214,38 +213,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the Variable Name to Store Window Names List
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>List Variable</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vWin or {vWin}</dd>
-<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
-<strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vWin</strong> | Specify Variable Name **vWin** |
-| <strong>{vWin}</strong> | Specify Variable Name **vWin** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
-
-
-</div>
-
-
-<a id="param_6"></a>
 ### Optional - Please Select the Variable Name to Store Window Handles List
 
 
@@ -271,13 +238,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_6"></a>
 ### Optional - Please Select the Case Sensitive Checking for Window Names
 
 
@@ -302,13 +269,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_8"></a>
+<a id="param_7"></a>
 ### Optional - Please Select the Trim before Check Window Names
 
 
@@ -335,13 +302,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_9"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -357,7 +324,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -366,7 +333,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowNamesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/02/25 04:56 PM
+This page was generated on 11/09/25 04:34 PM
 
 
 ## Help

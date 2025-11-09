@@ -22,8 +22,7 @@ Use this command when you want window names.
 - [Please Select the Window Handle Variable Name](#param_0)
 - [Please Select the Variable Name to Store Window Name](#param_1)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_2)
-- [Optional - Please Select the Variable Name to Store Window Name](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
@@ -129,37 +128,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Variable Name to Store Window Name
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -175,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
@@ -184,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowNameFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/02/25 04:56 PM
+This page was generated on 11/09/25 04:34 PM
 
 
 ## Help

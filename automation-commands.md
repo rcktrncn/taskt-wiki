@@ -486,16 +486,20 @@
 |Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
 |Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
+|Get From UIElement|[Get Window Handle From UIElement](/uiautomation-commands/get-window-handle-from-uielement-command.md)|This command allows you to get Window Handle from UIElement.|
+|Get From UIElement|[Get Window Name From UIElement](/uiautomation-commands/get-window-name-from-uielement-command.md)|This command allows you to get Window Name from UIElement.|
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
 |Search UIElement|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
 |Search UIElement|[Search Children UIElements Information](/uiautomation-commands/search-children-uielements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
 |Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
+|Search UIElement|[Search UIElements Information From UIElement](/uiautomation-commands/search-uielements-information-from-uielement-command.md)|This command allows you to get UIElements Information from UIElement.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
 |Search UIElement|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
-|Search UIElement & Window|[Search UIElement And Window](/uiautomation-commands/search-uielement-and-window-command.md)|This command allows you to get UIElement from Window Name.|
-|Search UIElement & Window|[Search UIElement And Window By XPath](/uiautomation-commands/search-uielement-and-window-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
+|Search UIElement From Window|[Search UIElement From Window Name](/uiautomation-commands/search-uielement-from-window-name-command.md)|This command allows you to get UIElement from Window Name.|
+|Search UIElement From Window|[Search UIElement From Window Name By XPath](/uiautomation-commands/search-uielement-from-window-name-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
+|Search UIElement From Window|[Search UIElements Information From Window Name](/uiautomation-commands/search-uielements-information-from-window-name-command.md)|This command allows you to get UIElements Information from Window Name.|
 |UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
 |UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
 |UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
@@ -636,4 +640,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/02/25 04:56 PM
+This page was generated on 11/09/25 04:34 PM
