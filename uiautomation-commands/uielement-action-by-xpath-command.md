@@ -23,14 +23,19 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 - [Please Select the UIElement Action](#param_1)
 - [Please Specify the Search XPath](#param_2)
 - [Please Specify the Action Parameters](#param_3)
-- [Optional - Please Select the Check Method for the Window Name](#param_4)
-- [Optional - Please Selection Method for the Window Name](#param_5)
-- [Optional - Please Specify the Window Index](#param_6)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
-- [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_8)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
-- [Optional - Please Specify the Comment Field](#param_11)
+- [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_4)
+- [Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements](#param_5)
+- [Optional - Please Specify the Maxinum Depth for Search UIElements](#param_6)
+- [Optional - Please Select the Check Method for the Window Name](#param_7)
+- [Optional - Please Selection Method for the Window Name](#param_8)
+- [Optional - Please Specify the Window Index](#param_9)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_10)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_11)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_12)
+- [Optional - Please Select the Variable Name to Store Window UIElement](#param_13)
+- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_14)
+- [Optional - Please Select the Trim before Check Window Names](#param_15)
+- [Optional - Please Specify the Comment Field](#param_16)
 
 
 <a id="param_0"></a>
@@ -149,6 +154,108 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Specify the Wait Time for the UIElement to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the UIElement is Not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vMax} or 0</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>64</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Max Siblings |
+| <strong>{vMax}</strong> | Specify Value of Variable **vMax** for Max Siblings |
+| <strong>0</strong> | Search All Sibling |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Specify the Maxinum Depth for Search UIElements
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>10 or {vMax} or 0</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>16</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Max Depth |
+| <strong>{vMax}</strong> | Specify Value of Variable **vMax** for Max Depth |
+| <strong>0</strong> | Search to All Depth |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Select the Check Method for the Window Name
 
 
@@ -189,13 +296,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_8"></a>
 ### Optional - Please Selection Method for the Window Name
 
 
@@ -222,13 +329,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_9"></a>
 ### Optional - Please Specify the Window Index
 
 
@@ -253,13 +360,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_10"></a>
 ### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
@@ -287,47 +394,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
 
 
 </div>
 
 
-<a id="param_8"></a>
-### Optional - Please Specify the Wait Time for the UIElement to Exist (sec)
-
-
-<dl>
-<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Less than Zero</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
-<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the UIElement is Not Found.<br><br>
-<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>10</strong> | Specify **10** for Wait Time |
-| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
-
-
-</div>
-
-
-<a id="param_9"></a>
+<a id="param_11"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -353,13 +426,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / [next](#param_10)
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
 
 
 </div>
 
 
-<a id="param_10"></a>
+<a id="param_12"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -385,13 +458,108 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_10) / [list](#param_list) / [next](#param_11)
+[prev](#param_12) / [list](#param_list) / [next](#param_13)
 
 
 </div>
 
 
-<a id="param_11"></a>
+<a id="param_13"></a>
+### Optional - Please Select the Variable Name to Store Window UIElement
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Window UIElement Variable Name</dd>
+<dt>Value</dt><dd>UIElement Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_13) / [list](#param_list) / [next](#param_14)
+
+
+</div>
+
+
+<a id="param_14"></a>
+### Optional - Please Select the Case Sensitive Checking for Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Yes</strong> | Check Method is Case Sensitive |
+| <strong>No</strong> | Check Method is NOT Case Sensitive |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_14) / [list](#param_list) / [next](#param_15)
+
+
+</div>
+
+
+<a id="param_15"></a>
+### Optional - Please Select the Trim before Check Window Names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Trim</strong> or  <strong>Trim Start</strong> or  <strong>Trim End</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Trim</strong> | Remove White Space at the Start and End of Text |
+| <strong>Trim Start</strong> | Remove White Space at the Start of Text |
+| <strong>Trim End</strong> | Remove White Space at the End of Text |
+| <strong>No</strong> | Not Trim |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_15) / [list](#param_list) / [next](#param_16)
+
+
+</div>
+
+
+<a id="param_16"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -407,7 +575,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_11) / [list](#param_list) / next
+[prev](#param_16) / [list](#param_list) / next
 
 
 </div>
@@ -416,7 +584,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationUIElementActionByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/09/25 04:34 PM
+This page was generated on 11/24/25 02:09 PM
 
 
 ## Help

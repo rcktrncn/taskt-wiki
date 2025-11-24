@@ -485,7 +485,6 @@
 |Get From UIElement|[Get UIElement From Table UIElement](/uiautomation-commands/get-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
 |Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
-|Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
 |Get From UIElement|[Get Window Handle From UIElement](/uiautomation-commands/get-window-handle-from-uielement-command.md)|This command allows you to get Window Handle from UIElement.|
 |Get From UIElement|[Get Window Name From UIElement](/uiautomation-commands/get-window-name-from-uielement-command.md)|This command allows you to get Window Name from UIElement.|
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
@@ -495,6 +494,7 @@
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
 |Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
 |Search UIElement|[Search UIElements Information From UIElement](/uiautomation-commands/search-uielements-information-from-uielement-command.md)|This command allows you to get UIElements Information from UIElement.|
+|Search UIElement|[Search UIElements Tree XML From UIElement](/uiautomation-commands/search-uielements-tree-xml-from-uielement-command.md)|This command allows you to Search UIElements Tree XML from UIElement.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
 |Search UIElement|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
 |Search UIElement From Window|[Search UIElement From Window Name](/uiautomation-commands/search-uielement-from-window-name-command.md)|This command allows you to get UIElement from Window Name.|
@@ -640,4 +640,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/09/25 04:34 PM
+This page was generated on 11/24/25 02:09 PM
