@@ -30,12 +30,13 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 - [Optional - Please Selection Method for the Window Name](#param_8)
 - [Optional - Please Specify the Window Index](#param_9)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_10)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_11)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_12)
+- [Optional - Please Select the Variable Name to Store UIElement](#param_11)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_12)
 - [Optional - Please Select the Variable Name to Store Window UIElement](#param_13)
-- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_14)
-- [Optional - Please Select the Trim before Check Window Names](#param_15)
-- [Optional - Please Specify the Comment Field](#param_16)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_14)
+- [Optional - Please Select the Case Sensitive Checking for Window Names](#param_15)
+- [Optional - Please Select the Trim before Check Window Names](#param_16)
+- [Optional - Please Specify the Comment Field](#param_17)
 
 
 <a id="param_0"></a>
@@ -81,7 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Click UIElement</strong> or  <strong>Expand Collapse Items In UIElement</strong> or  <strong>Scroll UIElement</strong> or  <strong>Select UIElement</strong> or  <strong>Select Item In UIElement</strong> or  <strong>Set Text To UIElement</strong> or  <strong>Get Property Value From UIElement</strong> or  <strong>Check UIElement Exists</strong> or  <strong>Get Text From UIElement</strong> or  <strong>Get Selected State From UIElement</strong> or  <strong>Get Text From Table UIElement</strong> or  <strong>Get UIElement Position</strong> or  <strong>Get UIElement Size</strong> or  <strong>Wait For UIElement To Exists</strong> or  <strong>Wait For UIElement To Exists</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Click UIElement</strong> or  <strong>Expand Collapse Items In UIElement</strong> or  <strong>Scroll UIElement</strong> or  <strong>Select Item In UIElement</strong> or  <strong>Select UIElement</strong> or  <strong>Set Selected State To UIElement</strong> or  <strong>Set Text To UIElement</strong> or  <strong>Get Parent UIElement</strong> or  <strong>Get Property Value From UIElement</strong> or  <strong>Get Selected State From UIElement</strong> or  <strong>Get Selection Items Value From UIElement</strong> or  <strong>Get Text From Table UIElement</strong> or  <strong>Get Text From UIElement</strong> or  <strong>Get UIElement From Table UIElement</strong> or  <strong>Get UIElement Position</strong> or  <strong>Get UIElement Size</strong> or  <strong>Get Window Handle From UIElement</strong> or  <strong>Get Window Name From UIElement</strong> or  <strong>Check UIElement Exists</strong> or  <strong>Wait For UIElement To Exists</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -232,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>10 or {vMax} or 0</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>16</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>32</strong></dd>
 </dl>
 
 
@@ -401,6 +402,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
+### Optional - Please Select the Variable Name to Store UIElement
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the UIElement Variable Name</dd>
+<dt>Value</dt><dd>UIElement Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
+
+
+</div>
+
+
+<a id="param_12"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -421,38 +453,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>vWin</strong> | Specify Variable Name **vWin** |
 | <strong>{vWin}</strong> | Specify Variable Name **vWin** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_11) / [list](#param_list) / [next](#param_12)
-
-
-</div>
-
-
-<a id="param_12"></a>
-### Optional - Please Select the Variable Name to Store Window Handle Result
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>WindowHandle Variable</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
-<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
-<strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
-| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -496,6 +496,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_14"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_14) / [list](#param_list) / [next](#param_15)
+
+
+</div>
+
+
+<a id="param_15"></a>
 ### Optional - Please Select the Case Sensitive Checking for Window Names
 
 
@@ -520,13 +552,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_14) / [list](#param_list) / [next](#param_15)
+[prev](#param_15) / [list](#param_list) / [next](#param_16)
 
 
 </div>
 
 
-<a id="param_15"></a>
+<a id="param_16"></a>
 ### Optional - Please Select the Trim before Check Window Names
 
 
@@ -553,13 +585,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_15) / [list](#param_list) / [next](#param_16)
+[prev](#param_16) / [list](#param_list) / [next](#param_17)
 
 
 </div>
 
 
-<a id="param_16"></a>
+<a id="param_17"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -575,7 +607,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_16) / [list](#param_list) / next
+[prev](#param_17) / [list](#param_list) / next
 
 
 </div>
@@ -584,7 +616,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationUIElementActionByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/25 02:09 PM
+This page was generated on 11/30/25 08:46 PM
 
 
 ## Help

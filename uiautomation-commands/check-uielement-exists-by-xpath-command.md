@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation &gt; Search UIElement &gt; Check UIElement Exists By XPath
+UIAutomation &gt; Search UIElement By XPath &gt; Check UIElement Exists By XPath
 
 
 # Check UIElement Exists By XPath Command
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>10 or {vMax} or 0</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>16</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>32</strong></dd>
 </dl>
 
 
@@ -323,7 +323,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationCheckUIElementExistsByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/24/25 02:09 PM
+This page was generated on 11/30/25 08:46 PM
 
 
 ## Help

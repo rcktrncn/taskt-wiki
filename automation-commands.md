@@ -203,6 +203,7 @@
 |File/Book|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
 |File/Book|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
 |File/Book|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
+|Instance|[Attach Excel Instance](/excel-commands/attach-excel-instance-command.md)|This command Attach the Excel Instance.|
 |Instance|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
 |Instance|[Close Excel Instance](/excel-commands/close-excel-instance-command.md)|This command allows you to close Excel instance.|
 |Instance|[Create Excel Instance](/excel-commands/create-excel-instance-command.md)|This command opens the Excel Instance.|
@@ -488,15 +489,15 @@
 |Get From UIElement|[Get Window Handle From UIElement](/uiautomation-commands/get-window-handle-from-uielement-command.md)|This command allows you to get Window Handle from UIElement.|
 |Get From UIElement|[Get Window Name From UIElement](/uiautomation-commands/get-window-name-from-uielement-command.md)|This command allows you to get Window Name from UIElement.|
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
-|Search UIElement|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
 |Search UIElement|[Search Children UIElements Information](/uiautomation-commands/search-children-uielements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
-|Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
 |Search UIElement|[Search UIElements Information From UIElement](/uiautomation-commands/search-uielements-information-from-uielement-command.md)|This command allows you to get UIElements Information from UIElement.|
-|Search UIElement|[Search UIElements Tree XML From UIElement](/uiautomation-commands/search-uielements-tree-xml-from-uielement-command.md)|This command allows you to Search UIElements Tree XML from UIElement.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
-|Search UIElement|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
+|Search UIElement By XPath|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
+|Search UIElement By XPath|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
+|Search UIElement By XPath|[Search UIElements Tree XML From UIElement](/uiautomation-commands/search-uielements-tree-xml-from-uielement-command.md)|This command allows you to Search UIElements Tree XML from UIElement.|
+|Search UIElement By XPath|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
 |Search UIElement From Window|[Search UIElement From Window Name](/uiautomation-commands/search-uielement-from-window-name-command.md)|This command allows you to get UIElement from Window Name.|
 |Search UIElement From Window|[Search UIElement From Window Name By XPath](/uiautomation-commands/search-uielement-from-window-name-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
 |Search UIElement From Window|[Search UIElements Information From Window Name](/uiautomation-commands/search-uielements-information-from-window-name-command.md)|This command allows you to get UIElements Information from Window Name.|
@@ -529,6 +530,7 @@
 |Get From WebElement|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
 |Get From WebElement|[Get WebElement Position](/web-browser-commands/get-webelement-position-command.md)|This command allows you to Get WebElement Position.|
 |Get From WebElement|[Get WebElement Size](/web-browser-commands/get-webelement-size-command.md)|This command allows you to Get WebElement Size.|
+|Instance|[Attach Web Browser Instance](/web-browser-commands/attach-web-browser-instance-command.md)|This command allows you to Attach to the running WebBrowser and Create an Instance.|
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
@@ -640,4 +642,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/24/25 02:09 PM
+This page was generated on 11/30/25 08:46 PM
