@@ -495,11 +495,16 @@
 |Search UIElement|[Search UIElements Information From UIElement](/uiautomation-commands/search-uielements-information-from-uielement-command.md)|This command allows you to get UIElements Information from UIElement.|
 |Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
 |Search UIElement By XPath|[Check UIElement Exists By XPath](/uiautomation-commands/check-uielement-exists-by-xpath-command.md)|This command allows you to check UIElement existence.|
+|Search UIElement By XPath|[Search Child UIElement From UIElement By XPath](/uiautomation-commands/search-child-uielement-from-uielement-by-xpath-command.md)|This command allows you to get Child UIElement from UIElement using by XPath.|
+|Search UIElement By XPath|[Search Children UIElements Tree XML From UIElement](/uiautomation-commands/search-children-uielements-tree-xml-from-uielement-command.md)|This command allows you to Search Children UIElements Tree XML from UIElement.|
 |Search UIElement By XPath|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
 |Search UIElement By XPath|[Search UIElements Tree XML From UIElement](/uiautomation-commands/search-uielements-tree-xml-from-uielement-command.md)|This command allows you to Search UIElements Tree XML from UIElement.|
 |Search UIElement By XPath|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
+|Search UIElement From Window|[Search UIElement From Window Handle](/uiautomation-commands/search-uielement-from-window-handle-command.md)|This command allows you to get UIElement from Window Handle.|
+|Search UIElement From Window|[Search UIElement From Window Handle By XPath](/uiautomation-commands/search-uielement-from-window-handle-by-xpath-command.md)|This command allows you to get UIElement from Window Handle using by XPath.|
 |Search UIElement From Window|[Search UIElement From Window Name](/uiautomation-commands/search-uielement-from-window-name-command.md)|This command allows you to get UIElement from Window Name.|
 |Search UIElement From Window|[Search UIElement From Window Name By XPath](/uiautomation-commands/search-uielement-from-window-name-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
+|Search UIElement From Window|[Search UIElements Information From Window Handle](/uiautomation-commands/search-uielements-information-from-window-handle-command.md)|This command allows you to get UIElements Information from Window Handle.|
 |Search UIElement From Window|[Search UIElements Information From Window Name](/uiautomation-commands/search-uielements-information-from-window-name-command.md)|This command allows you to get UIElements Information from Window Name.|
 |UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
 |UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
@@ -642,4 +647,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/30/25 08:46 PM
+This page was generated on 12/14/25 09:16 PM

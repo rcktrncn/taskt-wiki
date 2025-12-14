@@ -19,44 +19,14 @@ Use this command when you want to Attach an Existing Excelas Excel Instance.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Optional - Please Specify the Wait Time for Excel](#param_0)
-- [Please Select the Excel Instance Name](#param_1)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_2)
-- [Optional - Please Select the Reference Style](#param_3)
+- [Please Select the Excel Instance Name](#param_0)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_1)
+- [Optional - Please Select the Reference Style](#param_2)
+- [Optional - Please Specify the Wait Time for Excel](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Optional - Please Specify the Wait Time for Excel
-
-
-<dl>
-<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>10</strong> | Specify **10** for Wait Time |
-| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-prev / [list](#param_list) / [next](#param_1)
-
-
-</div>
-
-
-<a id="param_1"></a>
 ### Please Select the Excel Instance Name
 
 
@@ -84,13 +54,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+prev / [list](#param_list) / [next](#param_1)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_1"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -116,13 +86,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_2"></a>
 ### Optional - Please Select the Reference Style
 
 
@@ -136,6 +106,36 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Optional - Please Specify the Wait Time for Excel
+
+
+<dl>
+<dt>What to input</dt><dd>Number Greater than or Equal 0</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -172,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelAttachExcelInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/30/25 08:46 PM
+This page was generated on 12/14/25 09:16 PM
 
 
 ## Help
