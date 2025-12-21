@@ -300,7 +300,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowHandlesFromWindowNamesAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/14/25 09:16 PM
+This page was generated on 12/21/25 06:37 PM
 
 
 ## Help

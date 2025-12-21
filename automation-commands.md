@@ -197,6 +197,7 @@
 |Column|[Set Column Values From DataTable](/excel-commands/set-column-values-from-datatable-command.md)|This command set Column values from DataTable.|
 |Column|[Set Column Values From Dictionary](/excel-commands/set-column-values-from-dictionary-command.md)|This command set Column values from Ditionary.|
 |Column|[Set Column Values From List](/excel-commands/set-column-values-from-list-command.md)|This command set Column values from List.|
+|Column|[Set Column Width](/excel-commands/set-column-width-command.md)|This command set Column Width|
 |File/Book|[Add Workbook](/excel-commands/add-workbook-command.md)|This command adds a new Excel Workbook.|
 |File/Book|[Create DataTable From Excel File](/excel-commands/create-datatable-from-excel-file-command.md)|This command Open a File and Get Cell Values as a DataTable|
 |File/Book|[Create Dictionary From Excel File](/excel-commands/create-dictionary-from-excel-file-command.md)|This command Open a File and Get Cell Values as a Dictionary|
@@ -488,6 +489,10 @@
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
 |Get From UIElement|[Get Window Handle From UIElement](/uiautomation-commands/get-window-handle-from-uielement-command.md)|This command allows you to get Window Handle from UIElement.|
 |Get From UIElement|[Get Window Name From UIElement](/uiautomation-commands/get-window-name-from-uielement-command.md)|This command allows you to get Window Name from UIElement.|
+|Search And Action|[UIElement Action After Search UIElement By XPath From Window Handle](/uiautomation-commands/uielement-action-after-search-uielement-by-xpath-from-window-handle-command.md)|This command searches for the UIElement in the specified Window Handle and then takes action on that UIElement.|
+|Search And Action|[UIElement Action After Search UIElement By XPath From Window Name](/uiautomation-commands/uielement-action-after-search-uielement-by-xpath-from-window-name-command.md)|This command searches for the UIElement in the specified Window Name and then takes action on that UIElement.|
+|Search And Action|[UIElement Action After Search UIElement From Window Handle](/uiautomation-commands/uielement-action-after-search-uielement-from-window-handle-command.md)|This command searches for the UIElement in the specified Window Handle and then takes action on that UIElement.|
+|Search And Action|[UIElement Action After Search UIElement From Window Name](/uiautomation-commands/uielement-action-after-search-uielement-from-window-name-command.md)|This command searches for the UIElement in the specified Window Name and then takes action on that UIElement.|
 |Search UIElement|[Check UIElement Exists](/uiautomation-commands/check-uielement-exists-command.md)|This command allows you to to check UIElement existence.|
 |Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
 |Search UIElement|[Search Children UIElements Information](/uiautomation-commands/search-children-uielements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
@@ -506,6 +511,8 @@
 |Search UIElement From Window|[Search UIElement From Window Name By XPath](/uiautomation-commands/search-uielement-from-window-name-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
 |Search UIElement From Window|[Search UIElements Information From Window Handle](/uiautomation-commands/search-uielements-information-from-window-handle-command.md)|This command allows you to get UIElements Information from Window Handle.|
 |Search UIElement From Window|[Search UIElements Information From Window Name](/uiautomation-commands/search-uielements-information-from-window-name-command.md)|This command allows you to get UIElements Information from Window Name.|
+|Search UIElement From Window|[Search UIElements Tree XML From Window Handle](/uiautomation-commands/search-uielements-tree-xml-from-window-handle-command.md)|This command allows you to Search UIElements Tree XML from Window Handle.|
+|Search UIElement From Window|[Search UIElements Tree XML From Window Name](/uiautomation-commands/search-uielements-tree-xml-from-window-name-command.md)|This command allows you to Search UIElements Tree XML from Window Name.|
 |UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
 |UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
 |UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
@@ -513,8 +520,6 @@
 |UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
 |UIElement Action|[Set Selected State To UIElement](/uiautomation-commands/set-selected-state-to-uielement-command.md)|This command allows you to set Selected State from UIElement.|
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
-|UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
-|UIElement Action|[UIElement Action By XPath](/uiautomation-commands/uielement-action-by-xpath-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 |Window UIElement|[Get Window UIElement](/uiautomation-commands/get-window-uielement-command.md)|This command allows you to get UIElement from Window Name|
 |Window UIElement|[Get Window UIElement From Window Handle](/uiautomation-commands/get-window-uielement-from-window-handle-command.md)|This command allows you to get UIElement from Window Handle|
 ### Variable
@@ -647,4 +652,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/14/25 09:16 PM
+This page was generated on 12/21/25 06:37 PM
