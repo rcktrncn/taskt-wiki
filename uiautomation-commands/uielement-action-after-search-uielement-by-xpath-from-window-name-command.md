@@ -82,7 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Click UIElement</strong> or  <strong>Expand Collapse Items In UIElement</strong> or  <strong>Scroll UIElement</strong> or  <strong>Select Item In UIElement</strong> or  <strong>Select UIElement</strong> or  <strong>Set Selected State To UIElement</strong> or  <strong>Set Text To UIElement</strong> or  <strong>Get Parent UIElement</strong> or  <strong>Get Property Value From UIElement</strong> or  <strong>Get Selected State From UIElement</strong> or  <strong>Get Selection Items Value From UIElement</strong> or  <strong>Get Text From Table UIElement</strong> or  <strong>Get Text From UIElement</strong> or  <strong>Get UIElement From Table UIElement</strong> or  <strong>Get UIElement Position</strong> or  <strong>Get UIElement Size</strong> or  <strong>Get Window Handle From UIElement</strong> or  <strong>Get Window Name From UIElement</strong> or  <strong>Check UIElement Exists</strong> or  <strong>Wait For UIElement To Exists</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Click UIElement</strong> or  <strong>Expand Collapse Items In UIElement</strong> or  <strong>Scroll UIElement</strong> or  <strong>Scroll Percent UIElement</strong> or  <strong>Select Item In UIElement</strong> or  <strong>Select UIElement</strong> or  <strong>Set Selected State To UIElement</strong> or  <strong>Set Text To UIElement</strong> or  <strong>Get Parent UIElement</strong> or  <strong>Get Property Value From UIElement</strong> or  <strong>Get ScrollBar Information From UIElement</strong> or  <strong>Get Selected State From UIElement</strong> or  <strong>Get Selection Items Value From UIElement</strong> or  <strong>Get Table Information From UIElement</strong> or  <strong>Get Text From Table UIElement</strong> or  <strong>Get Text From UIElement</strong> or  <strong>Get UIElement From Table UIElement</strong> or  <strong>Get UIElement Position</strong> or  <strong>Get UIElement Size</strong> or  <strong>Get Window Handle From UIElement</strong> or  <strong>Get Window Name From UIElement</strong> or  <strong>Check UIElement Exists</strong> or  <strong>Wait For UIElement To Exists</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -616,7 +616,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationUIElementActionAfterSearchUIElementByXPathFromWindowNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/29/25 09:24 PM
+This page was generated on 01/04/26 06:33 PM
 
 
 ## Help

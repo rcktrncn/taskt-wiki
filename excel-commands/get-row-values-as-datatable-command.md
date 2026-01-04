@@ -295,7 +295,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRowValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/29/25 09:24 PM
+This page was generated on 01/04/26 06:33 PM
 
 
 ## Help

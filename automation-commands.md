@@ -480,8 +480,10 @@
 | ---                | ---           | ---                   |
 |Get From UIElement|[Get Parent UIElement](/uiautomation-commands/get-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
 |Get From UIElement|[Get Property Value From UIElement](/uiautomation-commands/get-property-value-from-uielement-command.md)|This command allows you to get Property Value from UIElement.|
+|Get From UIElement|[Get ScrollBar Information From UIElement](/uiautomation-commands/get-scrollbar-information-from-uielement-command.md)|This command allows you to get ScrollBar Information from UIElement.|
 |Get From UIElement|[Get Selected State From UIElement](/uiautomation-commands/get-selected-state-from-uielement-command.md)|This command allows you to get Selected State from UIElement.|
 |Get From UIElement|[Get Selection Items Value From UIElement](/uiautomation-commands/get-selection-items-value-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
+|Get From UIElement|[Get Table Information From UIElement](/uiautomation-commands/get-table-information-from-uielement-command.md)|This command allows you to get Table Information from UIElement.|
 |Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
 |Get From UIElement|[Get Text From UIElement](/uiautomation-commands/get-text-from-uielement-command.md)|This command allows you to get Text Value from UIElement.|
 |Get From UIElement|[Get UIElement From Table UIElement](/uiautomation-commands/get-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
@@ -515,13 +517,15 @@
 |Search UIElement From Window|[Search UIElements Tree XML From Window Name](/uiautomation-commands/search-uielements-tree-xml-from-window-name-command.md)|This command allows you to Search UIElements Tree XML from Window Name.|
 |UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
 |UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
+|UIElement Action|[Scroll Percent UIElement](/uiautomation-commands/scroll-percent-uielement-command.md)|This command allows you to Scroll UIElement.|
 |UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
 |UIElement Action|[Select Item In UIElement](/uiautomation-commands/select-item-in-uielement-command.md)|This command allows you to Select a Item in UIElement.|
 |UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
 |UIElement Action|[Set Selected State To UIElement](/uiautomation-commands/set-selected-state-to-uielement-command.md)|This command allows you to set Selected State from UIElement.|
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
-|Window UIElement|[Get Window UIElement](/uiautomation-commands/get-window-uielement-command.md)|This command allows you to get UIElement from Window Name|
+|Window UIElement|[Get Window UIElement From UIElement](/uiautomation-commands/get-window-uielement-from-uielement-command.md)|This command allows you to get Window UIElement from UIElement.|
 |Window UIElement|[Get Window UIElement From Window Handle](/uiautomation-commands/get-window-uielement-from-window-handle-command.md)|This command allows you to get UIElement from Window Handle|
+|Window UIElement|[Get Window UIElement From Window Name](/uiautomation-commands/get-window-uielement-from-window-name-command.md)|This command allows you to get UIElement from Window Name|
 ### Variable
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -652,4 +656,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/29/25 09:24 PM
+This page was generated on 01/04/26 06:33 PM
