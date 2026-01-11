@@ -486,6 +486,7 @@
 |Get From UIElement|[Get Table Information From UIElement](/uiautomation-commands/get-table-information-from-uielement-command.md)|This command allows you to get Table Information from UIElement.|
 |Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
 |Get From UIElement|[Get Text From UIElement](/uiautomation-commands/get-text-from-uielement-command.md)|This command allows you to get Text Value from UIElement.|
+|Get From UIElement|[Get Texts From Table UIElement As DataTable](/uiautomation-commands/get-texts-from-table-uielement-as-datatable-command.md)|This command allows you to get Texts from Table UIElement as DataTable.|
 |Get From UIElement|[Get UIElement From Table UIElement](/uiautomation-commands/get-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
 |Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
 |Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
@@ -656,4 +657,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 01/04/26 06:33 PM
+This page was generated on 01/11/26 08:43 PM

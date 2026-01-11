@@ -217,7 +217,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/04/26 06:33 PM
+This page was generated on 01/11/26 08:43 PM
 
 
 ## Help

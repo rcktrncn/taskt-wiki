@@ -1,16 +1,16 @@
-<!--TITLE: Get Text From Table UIElement Command -->
+<!--TITLE: Get Texts From Table UIElement As DataTable Command -->
 <!-- SUBTITLE: a command in the UIAutomation group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation &gt; Get From UIElement &gt; Get Text From Table UIElement
+UIAutomation &gt; Get From UIElement &gt; Get Texts From Table UIElement As DataTable
 
 
-# Get Text From Table UIElement Command
+# Get Texts From Table UIElement As DataTable Command
 
 
 ## What does this command do?
-This command allows you to get Text Value from Table UIElement.
+This command allows you to get Texts from Table UIElement as DataTable.
 
 
 ## When would I want to use this command?
@@ -20,13 +20,11 @@ This command allows you to get Text Value from Table UIElement.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the UIElement Variable Name](#param_0)
-- [Please Specify the Row Index](#param_1)
-- [Please Specify the Column Index](#param_2)
-- [Please Select the Variable Name to Store Result](#param_3)
-- [Optional - Please Select the When the Value(s) can not Retrieved](#param_4)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_5)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Please Select the Variable Name to Store DataTable](#param_1)
+- [Optional - Please Select the When the Value(s) can not Retrieved](#param_2)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_3)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -64,16 +62,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Row Index
+### Please Select the Variable Name to Store DataTable
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Row Index</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>0 or 1 or {vRow}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -83,9 +82,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specify the First Row Index |
-| <strong>1</strong> | Specify **1** for Row Index |
-| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for Row Index |
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,74 +96,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Column Index
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Column Index</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>0 or 1 or {vColumn}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>0</strong> | Specify the First Column Index |
-| <strong>1</strong> | Specify **1** for Column Index |
-| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Index |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
-### Please Select the Variable Name to Store Result
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
 ### Optional - Please Select the When the Value(s) can not Retrieved
 
 
@@ -191,13 +121,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_3"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -223,13 +153,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_4"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -255,13 +185,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -277,14 +207,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: UIAutomationGetTextFromTableUIElementCommand
+Automation Class Name: UIAutomationGetTextsFromTableUIElementAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 01/11/26 08:43 PM
 
