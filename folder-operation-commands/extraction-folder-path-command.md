@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Folder</strong> or  <strong>DriveName</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Folder Name</strong> or  <strong>Parent Folder</strong> or  <strong>Drive Name</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExtractionFolderPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/11/26 08:43 PM
+This page was generated on 01/18/26 05:01 PM
 
 
 ## Help
