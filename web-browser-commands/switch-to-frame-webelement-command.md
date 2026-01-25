@@ -1,42 +1,42 @@
-<!--TITLE: Get Sum From List Command -->
-<!-- SUBTITLE: a command in the List group. -->
+<!--TITLE: Switch To Frame WebElement Command -->
+<!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-List &gt; Math &gt; Get Sum From List
+Web Browser &gt; WebElement Action &gt; Switch To Frame WebElement
 
 
-# Get Sum From List Command
+# Switch To Frame WebElement Command
 
 
 ## What does this command do?
-This command allows you to get sum value from a list.
+This command allows you to Switch to Frame WebElement.
 
 
 ## When would I want to use this command?
-Use this command when you want to get sum value from a list.
+Use this command when you want to Switch to Frame WebElement.
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
-- [Please Select the Variable Name to Store Result](#param_1)
-- [Optional - Please Select the Action When List Value is Not Numeric](#param_2)
+- [Please Select the WebElement Variable Name](#param_0)
+- [Optional - Please Select the When Fail Action](#param_1)
+- [Optional - Please Select the Scroll to WebElement](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name
+### Please Select the WebElement Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
-<dt>Value</dt><dd>List Variable</dd>
+<dt>What to input</dt><dd>Enter or Select the WebElement Variable Name</dd>
+<dt>Value</dt><dd>WebElement Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -46,8 +46,8 @@ Use this command when you want to get sum value from a list.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vList</strong> | Specify Variable Name **vList** |
-| <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vElement</strong> | Specify Value of Variable **vElement** |
+| <strong>{vElement}</strong> | Specify Value of Variable **vElement** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -60,18 +60,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Variable Name to Store Result
+### Optional - Please Select the When Fail Action
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Ignore</strong> or  <strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
 
@@ -80,8 +77,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -94,25 +91,18 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Action When List Value is Not Numeric
+### Optional - Please Select the Scroll to WebElement
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| Ignore | Ignore not numeric value |
-| <strong>Error</strong> | Rise an Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -147,7 +137,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: GetSumFromListCommand
+Automation Class Name: SeleniumBrowserSwitchToFrameWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 01/25/26 08:01 PM
 

@@ -579,7 +579,7 @@
 |WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
 |WebElement Action|[Send Special Keystrokes To WebElement](/web-browser-commands/send-special-keystrokes-to-webelement-command.md)|This command allows you to Send Special Keystrokes in WebElement.|
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
-|WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
+|WebElement Action|[Switch To Frame WebElement](/web-browser-commands/switch-to-frame-webelement-command.md)|This command allows you to Switch to Frame WebElement.|
 |WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
 |Window/Tab|[Get Window And Tab Count](/web-browser-commands/get-window-and-tab-count-command.md)|This command allows you to Get Number of Windows and Tabs.|
 |Window/Tab|[Get Window And Tab Handles As JSON](/web-browser-commands/get-window-and-tab-handles-as-json-command.md)|This command allows you to Get Web Browser Handles of Windows and Tabs.|
@@ -657,4 +657,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 01/18/26 05:01 PM
+This page was generated on 01/25/26 08:01 PM

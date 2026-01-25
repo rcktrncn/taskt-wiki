@@ -25,12 +25,14 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 - [Optional - Please Select the Web Browser Type](#param_1)
 - [Optional - Please Select the Instance Tracking (After task ends)](#param_2)
 - [Optional - Please Select the Window State](#param_3)
-- [Optional - Please Specify the Web Browser Command Line Options](#param_4)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
-- [Optional - Please Specify the Web Browser Binary Path](#param_6)
-- [Optional - Please Specify the Web Driver Binary Path](#param_7)
-- [Optional - Please Select the Use Headless](#param_8)
-- [Optional - Please Specify the Comment Field](#param_9)
+- [Optional - Please Specify the Profile Folder Path](#param_4)
+- [Optional - Please Select the Use Headless](#param_5)
+- [Optional - Please Specify the Web Browser Command Line Options (one option per line)](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_7)
+- [Optional - Please Specify the Web Browser Binary Path](#param_8)
+- [Optional - Please Specify the Web Driver Binary Path](#param_9)
+- [Optional - Please Select the Hide Terminal Window](#param_10)
+- [Optional - Please Specify the Comment Field](#param_11)
 
 
 <a id="param_0"></a>
@@ -155,13 +157,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Web Browser Command Line Options
+### Optional - Please Specify the Profile Folder Path
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Command Line Options</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -178,6 +180,54 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Optional - Please Select the Use Headless
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd>Headless mode does not show WebBrowser window<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Specify the Web Browser Command Line Options (one option per line)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Command Line Options</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -203,13 +253,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Web Browser Binary Path
 
 
@@ -236,13 +286,13 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_9"></a>
 ### Optional - Please Specify the Web Driver Binary Path
 
 
@@ -269,14 +319,14 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
 
 
 </div>
 
 
-<a id="param_8"></a>
-### Optional - Please Select the Use Headless
+<a id="param_10"></a>
+### Optional - Please Select the Hide Terminal Window
 
 
 <dl>
@@ -284,8 +334,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>Headless mode does not show WebBrowser window<br><br>
-<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -294,13 +343,13 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
 
 
 </div>
 
 
-<a id="param_9"></a>
+<a id="param_11"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -316,7 +365,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / next
+[prev](#param_11) / [list](#param_list) / next
 
 
 </div>
@@ -325,7 +374,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/18/26 05:01 PM
+This page was generated on 01/25/26 08:01 PM
 
 
 ## Help

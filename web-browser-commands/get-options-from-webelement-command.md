@@ -238,7 +238,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetOptionsFromWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/18/26 05:01 PM
+This page was generated on 01/25/26 08:01 PM
 
 
 ## Help
