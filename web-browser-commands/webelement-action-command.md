@@ -20,14 +20,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
-- [Please Select the Element Search Method](#param_1)
-- [Please Specify the Element Search Parameter](#param_2)
-- [Please Specify the Element Index](#param_3)
+- [Please Select the WebElement Search Method](#param_1)
+- [Please Specify the WebElement Search Parameter](#param_2)
+- [Please Specify the WebElement Index](#param_3)
 - [Please Select the WebElement Action](#param_4)
 - [Please Specify the Additional Parameters](#param_5)
 - [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_6)
-- [Optional - Please Select the Scroll to WebElement](#param_7)
-- [Optional - Please Specify the Comment Field](#param_8)
+- [Please Select the When Fail Action](#param_7)
+- [Optional - Please Select the Scroll to WebElement](#param_8)
+- [Optional - Please Specify the Comment Field](#param_9)
 
 
 <a id="param_0"></a>
@@ -65,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Element Search Method
+### Please Select the WebElement Search Method
 
 
 <dl>
@@ -76,7 +77,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>Find Element By XPath</strong> or  <strong>Find Element By ID</strong> or  <strong>Find Element By Name</strong> or  <strong>Find Element By Tag Name</strong> or  <strong>Find Element By Class Name</strong> or  <strong>Find Element By CSS Selector</strong> or  <strong>Find Element By Link Text</strong> or  <strong>Find Elements By XPath</strong> or  <strong>Find Elements By ID</strong> or  <strong>Find Elements By Name</strong> or  <strong>Find Elements By Tag Name</strong> or  <strong>Find Elements By Class Name</strong> or  <strong>Find Elements By CSS Selector</strong> or  <strong>Find Elements By Link Text</strong></dd>
-<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
+<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the WebElement in the web page.</dd>
 </dl>
 
 
@@ -92,11 +93,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Element Search Parameter
+### Please Specify the WebElement Search Parameter
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Element Search Parameter</dd>
+<dt>What to input</dt><dd>Enter or Select the WebElement Search Parameter</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -118,11 +119,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Element Index
+### Please Specify the WebElement Index
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Element Index</dd>
+<dt>What to input</dt><dd>Enter or Select the Number</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
@@ -134,9 +135,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specify the First Element Index |
-| <strong>1</strong> | Specify **1** for Element Index |
-| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Element Index |
+| <strong>0</strong> | Specify the First WebElement Index |
+| <strong>1</strong> | Specify **1** for WebElement Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for WebElement Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -232,6 +233,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
+### Please Select the When Fail Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Select the Scroll to WebElement
 
 
@@ -249,13 +281,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
 
 
 </div>
 
 
-<a id="param_8"></a>
+<a id="param_9"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -271,7 +303,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / next
+[prev](#param_9) / [list](#param_list) / next
 
 
 </div>
@@ -280,7 +312,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserWebElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help

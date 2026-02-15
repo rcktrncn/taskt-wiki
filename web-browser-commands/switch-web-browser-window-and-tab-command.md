@@ -24,7 +24,8 @@ Use this command when you want to create a browser that will eventually perform 
 - [Optional - Please Select the Match Specification](#param_2)
 - [Optional - Please Select the Search is Case-Sensitive](#param_3)
 - [Please Specify the Parameter to Match](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Please Select the When Fail Action](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
@@ -172,6 +173,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Please Select the When Fail Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -187,7 +219,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -196,7 +228,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWebBrowserWindowAndTabCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help

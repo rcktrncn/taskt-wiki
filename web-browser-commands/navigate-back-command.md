@@ -20,7 +20,8 @@ Use this command when you want to simulate a back click in the web browser sessi
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
-- [Optional - Please Specify the Comment Field](#param_1)
+- [Please Select the When Fail Action](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
@@ -58,6 +59,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Please Select the When Fail Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -73,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / next
+[prev](#param_2) / [list](#param_list) / next
 
 
 </div>
@@ -82,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateBackCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help

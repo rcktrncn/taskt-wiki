@@ -542,6 +542,7 @@
 |Get From WebElement|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
 |Get From WebElement|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
 |Get From WebElement|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
+|Get From WebElement|[Get Special Value From WebElement](/web-browser-commands/get-special-value-from-webelement-command.md)|This command allows you to Get Special Value Value from WebElement.|
 |Get From WebElement|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
 |Get From WebElement|[Get WebElement Position](/web-browser-commands/get-webelement-position-command.md)|This command allows you to Get WebElement Position.|
 |Get From WebElement|[Get WebElement Size](/web-browser-commands/get-webelement-size-command.md)|This command allows you to Get WebElement Size.|
@@ -657,4 +658,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM

@@ -20,9 +20,9 @@ Use this command when you want to get Attributes value for WegElements As DataTa
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
-- [Please Select the Element Search Method](#param_1)
-- [Please Specify the Element Search Parameter](#param_2)
-- [Please Specify the Attributes Name to Get](#param_3)
+- [Please Select the WebElement Search Method](#param_1)
+- [Please Specify the WebElement Search Parameter](#param_2)
+- [Please Specify the Attribute Names](#param_3)
 - [Please Select the Variable Name to Store DataTable](#param_4)
 - [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Element Search Method
+### Please Select the WebElement Search Method
 
 
 <dl>
@@ -74,7 +74,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>Find Element By XPath</strong> or  <strong>Find Element By ID</strong> or  <strong>Find Element By Name</strong> or  <strong>Find Element By Tag Name</strong> or  <strong>Find Element By Class Name</strong> or  <strong>Find Element By CSS Selector</strong> or  <strong>Find Element By Link Text</strong> or  <strong>Find Elements By XPath</strong> or  <strong>Find Elements By ID</strong> or  <strong>Find Elements By Name</strong> or  <strong>Find Elements By Tag Name</strong> or  <strong>Find Elements By Class Name</strong> or  <strong>Find Elements By CSS Selector</strong> or  <strong>Find Elements By Link Text</strong></dd>
-<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
+<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the WebElement in the web page.</dd>
 </dl>
 
 
@@ -90,11 +90,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Element Search Parameter
+### Please Specify the WebElement Search Parameter
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Element Search Parameter</dd>
+<dt>What to input</dt><dd>Enter or Select the WebElement Search Parameter</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -116,12 +116,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Attributes Name to Get
+### Please Specify the Attribute Names
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Attributes Name</dd>
-<dt>Sample Usage</dt><dd>id or title or textContent or {vAttribute}</dd>
+<dt>What to input</dt><dd>Enter or Select the Attribute Names</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>textContent or value or {vAttribute} or @tag</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -131,17 +135,10 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>id</strong> | Specify **id** for Attribute |
-| <strong>title</strong> | Specify **title** for Attribute |
-| <strong>textContent</strong> | Specify the Element **Text Content** Value |
+| <strong>textContent</strong> | Specify **textContent** for Attribute |
+| <strong>value</strong> | Specify **value** for Attribute |
 | <strong>{vAttribute}</strong> | Specify Value of Variable **vAttribute** for Attribute |
-| <strong>Displayed</strong> | Get the Specified Element is Displayed or Not |
-| <strong>Enabled</strong> | Get the Specified Element is Enabled or Not |
-| <strong>Location</strong> | Get the Specified Element Location. like **X,Y**, comma separated. |
-| <strong>Selected</strong> | Get the Specified Element is Selected or Not |
-| <strong>Size</strong> | Get the Specified Element Size. like **W,H**, comma separated. |
-| <strong>TagName</strong> | Get the Specified Element Tag Name. |
-| <strong>Text</strong> | Get the Specified Element innerText. |
+| <strong>@tag</strong> | Get Tab name from WebElement. Use Get Special Value From WebElement command. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -246,7 +243,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebElementsValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help

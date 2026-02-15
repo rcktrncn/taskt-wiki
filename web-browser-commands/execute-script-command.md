@@ -25,7 +25,8 @@ This command allows you to execute a script in a Selenium web browser session.
 - [Optional - Please Specify the Timeout in Seconds](#param_3)
 - [Optional - Please Specify the Argument](#param_4)
 - [Optional - Please Select the Variable Name to Recieve Result Value](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Please Select the When Fail Action](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -222,6 +223,37 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 
 
 <a id="param_6"></a>
+### Please Select the When Fail Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -237,7 +269,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -246,7 +278,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserExecuteScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help

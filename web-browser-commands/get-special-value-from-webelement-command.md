@@ -1,27 +1,27 @@
-<!--TITLE: Get Options From WebElement Command -->
+<!--TITLE: Get Special Value From WebElement Command -->
 <!-- SUBTITLE: a command in the Web Browser group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser &gt; Get From WebElement &gt; Get Options From WebElement
+Web Browser &gt; Get From WebElement &gt; Get Special Value From WebElement
 
 
-# Get Options From WebElement Command
+# Get Special Value From WebElement Command
 
 
 ## What does this command do?
-This command allows you to Get Options Value from WebElement.
+This command allows you to Get Special Value Value from WebElement.
 
 
 ## When would I want to use this command?
-Use this command when you want to Get Options Value from WebElement.
+Use this command when you want to Get Special Value from WebElement. Enabled, Displayed, Selected, Tag, Size, etc.
 
 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebElement Variable Name](#param_0)
-- [Please Specify the Attribute Name](#param_1)
-- [Please Select the Variable Name to Store List](#param_2)
+- [Please Select the Value Type](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Select the When Fail Action](#param_3)
 - [Optional - Please Select the Scroll to WebElement](#param_4)
 - [Optional - Please Select the When the Value(s) can not Retrieved](#param_5)
@@ -63,29 +63,21 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Attribute Name
+### Please Select the Value Type
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>textContent or value or {vAttribute} or @tag</dd>
+<dt>Sample Usage</dt><dd><strong>Enabled</strong> or  <strong>Displayed</strong> or  <strong>Selected</strong> or  <strong>Text</strong> or  <strong>Tag</strong> or  <strong>X Position</strong> or  <strong>Y Position</strong> or  <strong>Width</strong> or  <strong>Height</strong> or  <strong>Location</strong> or  <strong>Size</strong> or  <strong>TagName</strong> or  <strong>Tag Name</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>textContent</strong> | Specify **textContent** for Attribute |
-| <strong>value</strong> | Specify **value** for Attribute |
-| <strong>{vAttribute}</strong> | Specify Value of Variable **vAttribute** for Attribute |
-| <strong>@tag</strong> | Get Tab name from WebElement. Use Get Special Value From WebElement command. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,17 +90,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Variable Name to Store List
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
-<dt>Value</dt><dd>List Variable</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vList or {vList}</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -118,8 +110,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vList</strong> | Specify Variable Name **vList** |
-| <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -241,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: SeleniumBrowserGetOptionsFromWebElementCommand
+Automation Class Name: SeleniumBrowserGetSpecialValueFromWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 02/15/26 05:48 PM
 

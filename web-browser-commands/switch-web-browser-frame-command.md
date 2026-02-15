@@ -22,7 +22,8 @@ Use this command when you want to create a browser that will eventually perform 
 - [Please Select the WebBrowser Instance Name](#param_0)
 - [Please Select the Frame Type](#param_1)
 - [Optional - Please Specify the Frame Search Parameter](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Please Select the When Fail Action](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -121,6 +122,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Please Select the When Fail Action
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Nothing To Do |
+| <strong>Error</strong> | Rise an Error |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -136,7 +168,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -145,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWebBrowserFrameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/25/26 08:01 PM
+This page was generated on 02/15/26 05:48 PM
 
 
 ## Help
