@@ -21,10 +21,10 @@ Use this command when you want to Attach to the running WebBrowser and Create an
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
 - [Optional - Please Select the Web Browser Type](#param_1)
-- [Optional - Please Specify the Debugger Address](#param_2)
-- [Optional - Please Specify the Debugger Port](#param_3)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_4)
-- [Optional - Please Specify the Web Driver Binary Path](#param_5)
+- [Optional - Please Specify the Debugger Address (Edge/Chrome only)](#param_2)
+- [Optional - Please Specify the Debugger Port (Edge/Chrome only)](#param_3)
+- [Optional - Please Specify the Web Driver Binary Path](#param_4)
+- [Optional - Please Select the Hide Terminal Window](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>Edge</strong> or  <strong>Chrome</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Edge</strong> or  <strong>Chrome</strong> or  <strong>Firefox</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Chrome</strong></dd>
 </dl>
 
@@ -87,7 +87,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Debugger Address
+### Optional - Please Specify the Debugger Address (Edge/Chrome only)
 
 
 <dl>
@@ -110,7 +110,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Debugger Port
+### Optional - Please Specify the Debugger Port (Edge/Chrome only)
 
 
 <dl>
@@ -133,38 +133,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Variable Name to Store Window Handle Result
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
-<dt>Value</dt><dd>WindowHandle Variable</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
-<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
-<strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
-| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
-
-
-</div>
-
-
-<a id="param_5"></a>
 ### Optional - Please Specify the Web Driver Binary Path
 
 
@@ -186,6 +154,30 @@ If you use a fixed web browser version, use this parameter.<br><br>
 |---|---|
 | <strong>C:\temp\WebDriverPath.exe</strong> | Specify **C:\temp\WebDriverPath.exe** for WebDriver Path |
 | <strong>{vBrowserPath}</strong> | Specify Value of Variable **vBrowserPath** for WebDriver Path |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Select the Hide Terminal Window
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
 
 
 <div style="font-size: 90%; text-align: center">
@@ -220,9 +212,9 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 ## Developer/Additional Reference
-Automation Class Name: SeleniumAttachCreateWebBrowserInstanceCommand
+Automation Class Name: SeleniumBrowserAttachCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/15/26 05:48 PM
+This page was generated on 02/23/26 01:45 PM
 
 
 ## Help

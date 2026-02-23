@@ -365,7 +365,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowSizesFromWindowNamesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/15/26 05:48 PM
+This page was generated on 02/23/26 01:45 PM
 
 
 ## Help

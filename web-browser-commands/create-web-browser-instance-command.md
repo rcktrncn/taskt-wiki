@@ -31,7 +31,7 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 - [Optional - Please Specify the Web Browser Binary Path](#param_7)
 - [Optional - Please Specify the Web Driver Binary Path](#param_8)
 - [Optional - Please Select the Hide Terminal Window](#param_9)
-- [Optional - Please Select the Temporary Folder when does not specified](#param_10)
+- [Optional - Please Select the Temporary Profile Folder when does not specified](#param_10)
 - [Optional - Please Specify the Comment Field](#param_11)
 
 
@@ -318,7 +318,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_10"></a>
-### Optional - Please Select the Temporary Folder when does not specified
+### Optional - Please Select the Temporary Profile Folder when does not specified
 
 
 <dl>
@@ -366,7 +366,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/15/26 05:48 PM
+This page was generated on 02/23/26 01:45 PM
 
 
 ## Help

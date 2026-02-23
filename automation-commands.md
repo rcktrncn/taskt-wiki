@@ -568,7 +568,7 @@
 |Search WebElement|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
 |Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
-|Web Browser Actions|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
+|Web Browser Actions|[Execute JavaScript](/web-browser-commands/execute-javascript-command.md)|This command allows you to execute a script in a Selenium web browser session.|
 |Web Browser Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
 |Web Browser Actions|[Resize Web Browser](/web-browser-commands/resize-web-browser-command.md)|This command allows you to change web browser window size.|
 |Web Browser Actions|[Switch Web Browser Frame](/web-browser-commands/switch-web-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
@@ -658,4 +658,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/15/26 05:48 PM
+This page was generated on 02/23/26 01:45 PM
