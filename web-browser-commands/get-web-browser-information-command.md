@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser &gt; Instance &gt; Get Web Browser Information
+Web Browser &gt; Get From Web Browser &gt; Get Web Browser Information
 
 
 # Get Web Browser Information Command
@@ -145,7 +145,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebBrowserInformationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/23/26 01:45 PM
+This page was generated on 03/01/26 08:53 PM
 
 
 ## Help

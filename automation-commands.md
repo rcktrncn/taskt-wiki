@@ -539,6 +539,9 @@
 ### Web Browser
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Get From Web Browser|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to Get Web Browser Information.|
+|Get From Web Browser|[Get Web Browser Position](/web-browser-commands/get-web-browser-position-command.md)|This command allows you to Get Web Browser Position.|
+|Get From Web Browser|[Get Web Browser Size](/web-browser-commands/get-web-browser-size-command.md)|This command allows you to Get Web Browser Size.|
 |Get From WebElement|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
 |Get From WebElement|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
 |Get From WebElement|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
@@ -550,7 +553,6 @@
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Instance|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to Get Web Browser Information.|
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Navigate|[Navigate To URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
@@ -569,11 +571,12 @@
 |Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
 |Web Browser Actions|[Execute JavaScript](/web-browser-commands/execute-javascript-command.md)|This command allows you to execute a script in a Selenium web browser session.|
-|Web Browser Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
+|Web Browser Actions|[Execute JavaScript From File](/web-browser-commands/execute-javascript-from-file-command.md)|This command allows you to execute a JavaScript from File.|
+|Web Browser Actions|[Refresh Web Browser](/web-browser-commands/refresh-web-browser-command.md)|This command allows you to refresh a Selenium web browser session.|
 |Web Browser Actions|[Resize Web Browser](/web-browser-commands/resize-web-browser-command.md)|This command allows you to change web browser window size.|
 |Web Browser Actions|[Switch Web Browser Frame](/web-browser-commands/switch-web-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Actions|[Switch Web Browser Window And Tab](/web-browser-commands/switch-web-browser-window-and-tab-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Web Browser Actions|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
+|Web Browser Actions|[Take Screenshot Of Web Browser](/web-browser-commands/take-screenshot-of-web-browser-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
 |WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
 |WebElement Action|[Scroll To WebElement](/web-browser-commands/scroll-to-webelement-command.md)|This command allows you to Scroll to WebElement.|
@@ -658,4 +661,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/23/26 01:45 PM
+This page was generated on 03/01/26 08:53 PM
