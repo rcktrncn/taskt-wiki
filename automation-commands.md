@@ -539,6 +539,7 @@
 ### Web Browser
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Get From Web Browser|[Get Web Browser HTML Source](/web-browser-commands/get-web-browser-html-source-command.md)|This command allows you to Get HTML Source from Web Browser.|
 |Get From Web Browser|[Get Web Browser Information](/web-browser-commands/get-web-browser-information-command.md)|This command allows you to Get Web Browser Information.|
 |Get From Web Browser|[Get Web Browser Position](/web-browser-commands/get-web-browser-position-command.md)|This command allows you to Get Web Browser Position.|
 |Get From Web Browser|[Get Web Browser Size](/web-browser-commands/get-web-browser-size-command.md)|This command allows you to Get Web Browser Size.|
@@ -556,21 +557,21 @@
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Navigate|[Navigate To URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
-|Scraping|[Get A WebElement Values As DataTable](/web-browser-commands/get-a-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for a WebElement As DataTable.|
-|Scraping|[Get A WebElement Values As Dictionary](/web-browser-commands/get-a-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for a WebElement As Dictionary.|
-|Scraping|[Get A WebElement Values As List](/web-browser-commands/get-a-webelement-values-as-list-command.md)|This command allows you to get Attributes value for a WebElement As List.|
-|Scraping|[Get Table Value As DataTable](/web-browser-commands/get-table-value-as-datatable-command.md)|This command allows you to get a Table Values As DataTable.|
+|Scraping|[Get One WebElement Values As DataTable](/web-browser-commands/get-one-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for One WebElement As DataTable.|
+|Scraping|[Get One WebElement Values As Dictionary](/web-browser-commands/get-one-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for One WebElement As Dictionary.|
+|Scraping|[Get One WebElement Values As List](/web-browser-commands/get-one-webelement-values-as-list-command.md)|This command allows you to get Attributes value for One WebElement As List.|
+|Scraping|[Get Table Values As DataTable](/web-browser-commands/get-table-values-as-datatable-command.md)|This command allows you to get a Table Values As DataTable.|
 |Scraping|[Get WebElements Value As DataTable](/web-browser-commands/get-webelements-value-as-datatable-command.md)|This command allows you to get a Attribute value for WegElements As DataTable.|
 |Scraping|[Get WebElements Value As Dictionary](/web-browser-commands/get-webelements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for WegElements As Dictionary.|
 |Scraping|[Get WebElements Value As List](/web-browser-commands/get-webelements-value-as-list-command.md)|This command allows you to get a Attribute value for WegElements As List.|
 |Scraping|[Get WebElements Values As DataTable](/web-browser-commands/get-webelements-values-as-datatable-command.md)|This command allows you to get Attributes value for WegElements As DataTable.|
 |Search WebElement|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
-|Search WebElement|[Get Matched WebElements](/web-browser-commands/get-matched-webelements-command.md)|This command allows you to get Matched WebElements HTML.|
+|Search WebElement|[Get Matched WebElements HTML As List](/web-browser-commands/get-matched-webelements-html-as-list-command.md)|This command allows you to get Matched WebElements HTML.|
 |Search WebElement|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
 |Search WebElement|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
 |Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
-|Web Browser Actions|[Execute JavaScript](/web-browser-commands/execute-javascript-command.md)|This command allows you to execute a script in a Selenium web browser session.|
+|Web Browser Actions|[Execute JavaScript From Code](/web-browser-commands/execute-javascript-from-code-command.md)|This command allows you to execute a script in a Selenium web browser session.|
 |Web Browser Actions|[Execute JavaScript From File](/web-browser-commands/execute-javascript-from-file-command.md)|This command allows you to execute a JavaScript from File.|
 |Web Browser Actions|[Refresh Web Browser](/web-browser-commands/refresh-web-browser-command.md)|This command allows you to refresh a Selenium web browser session.|
 |Web Browser Actions|[Resize Web Browser](/web-browser-commands/resize-web-browser-command.md)|This command allows you to change web browser window size.|
@@ -661,4 +662,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/01/26 08:53 PM
+This page was generated on 03/22/26 08:50 PM

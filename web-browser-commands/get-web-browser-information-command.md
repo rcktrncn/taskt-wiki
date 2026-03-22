@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Window Title</strong> or  <strong>Window URL</strong> or  <strong>Current Handle</strong> or  <strong>HTML Page Source</strong> or  <strong>Handles JSON Array</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Window Title</strong> or  <strong>Window URL</strong> or  <strong>Current Handle</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -145,7 +145,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebBrowserInformationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/01/26 08:53 PM
+This page was generated on 03/22/26 08:50 PM
 
 
 ## Help

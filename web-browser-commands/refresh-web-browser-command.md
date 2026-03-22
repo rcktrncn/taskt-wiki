@@ -20,7 +20,7 @@ Use this command when you want to simulate a browser refresh click in the web br
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
-- [Please Select the When Fail Action](#param_1)
+- [Optional - Please Select the When Fail Action](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
@@ -59,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the When Fail Action
+### Optional - Please Select the When Fail Action
 
 
 <dl>
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
 
@@ -114,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserRefreshWebBrowserCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/01/26 08:53 PM
+This page was generated on 03/22/26 08:50 PM
 
 
 ## Help

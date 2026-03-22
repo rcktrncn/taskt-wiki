@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Number</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>0 or 100 or {vXOffset}</dd>
-<dt>Remarks</dt><dd>It is strongly recommended to Enter a value between <strong>10</strong> and <strong>20</strong> depending on your WebBrowser.<br><br>
+<dt>Remarks</dt><dd>This will move the mouse X pixels to the right of the location of the target<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
@@ -129,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Number</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>0 or 100 or {vYOffset}</dd>
-<dt>Remarks</dt><dd>It is strongly recommended to Enter a value between <strong>100</strong> and <strong>200</strong> depending on your WebBrowser.<br><br>
+<dt>Remarks</dt><dd>This will move the mouse Y pixels down from the top of the location of the target<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
@@ -233,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserClickWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/01/26 08:53 PM
+This page was generated on 03/22/26 08:50 PM
 
 
 ## Help
