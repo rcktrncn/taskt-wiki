@@ -544,12 +544,14 @@
 |Get From Web Browser|[Get Web Browser Position](/web-browser-commands/get-web-browser-position-command.md)|This command allows you to Get Web Browser Position.|
 |Get From Web Browser|[Get Web Browser Size](/web-browser-commands/get-web-browser-size-command.md)|This command allows you to Get Web Browser Size.|
 |Get From WebElement|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
+|Get From WebElement|[Get CSS Selector From WebElement](/web-browser-commands/get-css-selector-from-webelement-command.md)|This command allows you to Get CSS Selector from WebElement.|
 |Get From WebElement|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
 |Get From WebElement|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
 |Get From WebElement|[Get Special Value From WebElement](/web-browser-commands/get-special-value-from-webelement-command.md)|This command allows you to Get Special Value Value from WebElement.|
 |Get From WebElement|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
 |Get From WebElement|[Get WebElement Position](/web-browser-commands/get-webelement-position-command.md)|This command allows you to Get WebElement Position.|
 |Get From WebElement|[Get WebElement Size](/web-browser-commands/get-webelement-size-command.md)|This command allows you to Get WebElement Size.|
+|Get From WebElement|[Get XPath From WebElement](/web-browser-commands/get-xpath-from-webelement-command.md)|This command allows you to Get XPath from WebElement.|
 |Instance|[Attach Web Browser Instance](/web-browser-commands/attach-web-browser-instance-command.md)|This command allows you to Attach to the running WebBrowser and Create an Instance.|
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
@@ -662,4 +664,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/22/26 08:50 PM
+This page was generated on 04/19/26 07:02 PM
