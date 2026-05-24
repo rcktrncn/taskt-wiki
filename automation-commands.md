@@ -567,9 +567,11 @@
 |Scraping|[Get WebElements Value As Dictionary](/web-browser-commands/get-webelements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for WegElements As Dictionary.|
 |Scraping|[Get WebElements Value As List](/web-browser-commands/get-webelements-value-as-list-command.md)|This command allows you to get a Attribute value for WegElements As List.|
 |Scraping|[Get WebElements Values As DataTable](/web-browser-commands/get-webelements-values-as-datatable-command.md)|This command allows you to get Attributes value for WegElements As DataTable.|
+|Search And Action|[WebElement Action After Search WebElement](/web-browser-commands/webelement-action-after-search-webelement-command.md)|This command allows you to close a Selenium web browser session.|
 |Search WebElement|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
 |Search WebElement|[Get Matched WebElements HTML As List](/web-browser-commands/get-matched-webelements-html-as-list-command.md)|This command allows you to get Matched WebElements HTML.|
 |Search WebElement|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
+|Search WebElement|[Search Shadow DOM WebElement From WebElement](/web-browser-commands/search-shadow-dom-webelement-from-webelement-command.md)|This command allows you to search Shadow DOM WebElement from WebElement.|
 |Search WebElement|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
 |Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
@@ -582,12 +584,12 @@
 |Web Browser Actions|[Take Screenshot Of Web Browser](/web-browser-commands/take-screenshot-of-web-browser-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
 |WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
+|WebElement Action|[Remove WebElement](/web-browser-commands/remove-webelement-command.md)|This command allows you to Remove WebElement.|
 |WebElement Action|[Scroll To WebElement](/web-browser-commands/scroll-to-webelement-command.md)|This command allows you to Scroll to WebElement.|
 |WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
 |WebElement Action|[Send Special Keystrokes To WebElement](/web-browser-commands/send-special-keystrokes-to-webelement-command.md)|This command allows you to Send Special Keystrokes in WebElement.|
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch To Frame WebElement](/web-browser-commands/switch-to-frame-webelement-command.md)|This command allows you to Switch to Frame WebElement.|
-|WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
 |Window/Tab|[Get Window And Tab Count](/web-browser-commands/get-window-and-tab-count-command.md)|This command allows you to Get Number of Windows and Tabs.|
 |Window/Tab|[Get Window And Tab Handles As JSON](/web-browser-commands/get-window-and-tab-handles-as-json-command.md)|This command allows you to Get Web Browser Handles of Windows and Tabs.|
 |Window/Tab|[Get Window And Tab Handles As List](/web-browser-commands/get-window-and-tab-handles-as-list-command.md)|This command allows you to Get Web Browser Handles of Windows and Tabs As List.|
@@ -664,4 +666,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 04/19/26 07:02 PM
+This page was generated on 05/24/26 08:23 PM

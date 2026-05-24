@@ -22,10 +22,11 @@ Use this command when you want to check WebElement existance.
 - [Please Select the WebBrowser Instance Name](#param_0)
 - [Please Select the WebElement Search Method](#param_1)
 - [Please Specify the WebElement Search Parameter](#param_2)
-- [Please Specify the WebElement Index](#param_3)
-- [Please Select the Variable Name to Store Result](#param_4)
-- [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Optional - Please Selection Method for the WebElement](#param_3)
+- [Please Specify the WebElement Index](#param_4)
+- [Please Select the Variable Name to Store Result](#param_5)
+- [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -116,6 +117,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Selection Method for the WebElement
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>First</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>First</strong> | Specify the First WebElement |
+| <strong>Last</strong> | Specify the Last WebElement |
+| <strong>Index</strong> | the Window specifed by Index. **0** means WebElement |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Please Specify the WebElement Index
 
 
@@ -140,13 +173,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_5"></a>
 ### Please Select the Variable Name to Store Result
 
 
@@ -174,13 +207,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Wait Time for the WebElement to Exist (sec)
 
 
@@ -209,13 +242,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -231,7 +264,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -240,7 +273,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCheckWebElementExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/19/26 07:02 PM
+This page was generated on 05/24/26 08:23 PM
 
 
 ## Help

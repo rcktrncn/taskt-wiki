@@ -23,10 +23,11 @@ This command allows you to get UIElement Position.
 - [Optional - Please Select the Variable Name to Store X Position](#param_1)
 - [Optional - Please Select the Variable Name to Store Y Position](#param_2)
 - [Optional - Please Select the Base position](#param_3)
-- [Optional - Please Select the When the Value(s) can not Retrieved](#param_4)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_5)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Select the Coordinate Reference](#param_4)
+- [Optional - Please Select the When the Value(s) can not Retrieved](#param_5)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -150,6 +151,30 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Coordinate Reference
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Desktop</strong> or  <strong>Application</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Desktop</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Select the When the Value(s) can not Retrieved
 
 
@@ -175,13 +200,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -207,13 +232,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -239,13 +264,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -261,7 +286,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -270,7 +295,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetUIElementPositionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/19/26 07:02 PM
+This page was generated on 05/24/26 08:23 PM
 
 
 ## Help

@@ -21,16 +21,17 @@ This command allows you to to check UIElement existence.
 ## Command Parameters
 - [Please Select the UIElement Variable Name](#param_0)
 - [Please Specify the Search Parameters](#param_1)
-- [Optional - Please Specify the UIElement Index](#param_2)
-- [Please Select the Variable Name to Store Result](#param_3)
-- [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_4)
-- [Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements](#param_5)
-- [Optional - Please Specify the Maxinum Depth for Search UIElements](#param_6)
-- [Optional - Please Specify the Maxinum Number of UIElements to Search](#param_7)
-- [Optional - Please Select the Search Siblings Direction](#param_8)
-- [Optional - Please Select the Variable Name to Store Window Name Result](#param_9)
-- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_10)
-- [Optional - Please Specify the Comment Field](#param_11)
+- [Optional - Please Selection Method for the UIElement](#param_2)
+- [Optional - Please Specify the UIElement Index](#param_3)
+- [Please Select the Variable Name to Store Result](#param_4)
+- [Optional - Please Specify the Wait Time for the UIElement to Exist (sec)](#param_5)
+- [Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements](#param_6)
+- [Optional - Please Specify the Maxinum Depth for Search UIElements](#param_7)
+- [Optional - Please Specify the Maxinum Number of UIElements to Search](#param_8)
+- [Optional - Please Select the Search Siblings Direction](#param_9)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_10)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_11)
+- [Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
@@ -90,6 +91,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Selection Method for the UIElement
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>First</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>First</strong> | Specify the First UIElement |
+| <strong>Last</strong> | Specify the Last UIElement |
+| <strong>Index</strong> | the Window specifed by Index. **0** means UIElement |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the UIElement Index
 
 
@@ -114,13 +147,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
 </div>
 
 
-<a id="param_3"></a>
+<a id="param_4"></a>
 ### Please Select the Variable Name to Store Result
 
 
@@ -148,13 +181,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_5"></a>
 ### Optional - Please Specify the Wait Time for the UIElement to Exist (sec)
 
 
@@ -182,13 +215,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Maxinum number of Sibling Nodes for Search UIElements
 
 
@@ -216,13 +249,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Maxinum Depth for Search UIElements
 
 
@@ -250,13 +283,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Maxinum Number of UIElements to Search
 
 
@@ -284,13 +317,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / [next](#param_8)
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
 
 
 </div>
 
 
-<a id="param_8"></a>
+<a id="param_9"></a>
 ### Optional - Please Select the Search Siblings Direction
 
 
@@ -308,13 +341,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_8) / [list](#param_list) / [next](#param_9)
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
 
 
 </div>
 
 
-<a id="param_9"></a>
+<a id="param_10"></a>
 ### Optional - Please Select the Variable Name to Store Window Name Result
 
 
@@ -340,13 +373,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_9) / [list](#param_list) / [next](#param_10)
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
 
 
 </div>
 
 
-<a id="param_10"></a>
+<a id="param_11"></a>
 ### Optional - Please Select the Variable Name to Store Window Handle Result
 
 
@@ -372,13 +405,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_10) / [list](#param_list) / [next](#param_11)
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
 
 
 </div>
 
 
-<a id="param_11"></a>
+<a id="param_12"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -394,7 +427,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_11) / [list](#param_list) / next
+[prev](#param_12) / [list](#param_list) / next
 
 
 </div>
@@ -403,7 +436,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationCheckUIElementExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/19/26 07:02 PM
+This page was generated on 05/24/26 08:23 PM
 
 
 ## Help

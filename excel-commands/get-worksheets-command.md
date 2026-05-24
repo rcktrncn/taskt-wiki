@@ -173,7 +173,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetWorksheetsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/19/26 07:02 PM
+This page was generated on 05/24/26 08:23 PM
 
 
 ## Help
