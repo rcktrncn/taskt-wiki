@@ -553,7 +553,7 @@
 |Get From WebElement|[Get WebElement Size](/web-browser-commands/get-webelement-size-command.md)|This command allows you to Get WebElement Size.|
 |Get From WebElement|[Get XPath From WebElement](/web-browser-commands/get-xpath-from-webelement-command.md)|This command allows you to Get XPath from WebElement.|
 |Instance|[Attach Web Browser Instance](/web-browser-commands/attach-web-browser-instance-command.md)|This command allows you to Attach to the running WebBrowser and Create an Instance.|
-|Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
+|Instance|[Check Web Browser Instance Exists](/web-browser-commands/check-web-browser-instance-exists-command.md)|This command returns existance of Web Browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
@@ -575,6 +575,7 @@
 |Search WebElement|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
 |Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
+|Search WebElement|[Wait For WebElement To Exists From WebElement](/web-browser-commands/wait-for-webelement-to-exists-from-webelement-command.md)|This command allows you to Wait for WebElement exists from WebElement.|
 |Web Browser Actions|[Execute JavaScript From Code](/web-browser-commands/execute-javascript-from-code-command.md)|This command allows you to execute a script in a Selenium web browser session.|
 |Web Browser Actions|[Execute JavaScript From File](/web-browser-commands/execute-javascript-from-file-command.md)|This command allows you to execute a JavaScript from File.|
 |Web Browser Actions|[Refresh Web Browser](/web-browser-commands/refresh-web-browser-command.md)|This command allows you to refresh a Selenium web browser session.|
@@ -666,4 +667,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 05/24/26 08:23 PM
+This page was generated on 06/07/26 07:39 PM

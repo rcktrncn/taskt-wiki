@@ -274,7 +274,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateDataTableFromExcelFile
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/24/26 08:23 PM
+This page was generated on 06/07/26 07:39 PM
 
 
 ## Help
