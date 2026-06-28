@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetMinFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/07/26 07:39 PM
+This page was generated on 06/28/26 08:39 PM
 
 
 ## Help
