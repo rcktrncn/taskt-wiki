@@ -191,6 +191,15 @@
 |Cell|[Go To Cell RC](/excel-commands/go-to-cell-rc-command.md)|This command moves to a specific cell.|
 |Cell|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
 |Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
+|Chart|[Check Chart Exists By Name](/excel-commands/check-chart-exists-by-name-command.md)|This command allows you to Check Chart Exists by Name|
+|Chart|[Get Chart Names As List](/excel-commands/get-chart-names-as-list-command.md)|This command allows you to Get Chart Names from Current Worksheet As List|
+|Chart|[Get Chart Position By Name](/excel-commands/get-chart-position-by-name-command.md)|This command allows you to get Chart position by Name|
+|Chart|[Get Chart Size By Name](/excel-commands/get-chart-size-by-name-command.md)|This command allows you to get Chart size by Name|
+|Chart|[Get Charts Count](/excel-commands/get-charts-count-command.md)|This command allows you to Get Charts count from Current Worksheet.|
+|Chart|[Move Chart By Name](/excel-commands/move-chart-by-name-command.md)|This command allows you to move Chart by Name|
+|Chart|[Remove Chart By Name](/excel-commands/remove-chart-by-name-command.md)|This command allows you to remove Chart by Name|
+|Chart|[Rename Chart By Name](/excel-commands/rename-chart-by-name-command.md)|This command allows you to rename Chart by Name|
+|Chart|[Resize Chart By Name](/excel-commands/resize-chart-by-name-command.md)|This command allows you to resize Chart by Name|
 |Column|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
 |Column|[Get Column Values As Dictionary](/excel-commands/get-column-values-as-dictionary-command.md)|This command get Column values as Dictionary.|
 |Column|[Get Column Values As List](/excel-commands/get-column-values-as-list-command.md)|This command get Column values as List.|
@@ -224,6 +233,11 @@
 |Row|[Set Row Values From DataTable](/excel-commands/set-row-values-from-datatable-command.md)|This command set Row values from DataTable.|
 |Row|[Set Row Values From Dictionary](/excel-commands/set-row-values-from-dictionary-command.md)|This command set Row values from Dictionary.|
 |Row|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
+|Shape|[Check Shape Exists By Name](/excel-commands/check-shape-exists-by-name-command.md)|This command allows you to Check Shape Exists by Name|
+|Shape|[Get Shape Names As List](/excel-commands/get-shape-names-as-list-command.md)|This command allows you to Get Shape Names from Current Worksheet As List|
+|Shape|[Get Shape Position By Name](/excel-commands/get-shape-position-by-name-command.md)|This command allows you to get Shape position by Name|
+|Shape|[Get Shape Size By Name](/excel-commands/get-shape-size-by-name-command.md)|This command allows you to get Shape size by Name|
+|Shape|[Get Shapes Count](/excel-commands/get-shapes-count-command.md)|This command allows you to Get Shapes count from Current Worksheet.|
 |Worksheet|[Activate Worksheet](/excel-commands/activate-worksheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
 |Worksheet|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Worksheet|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
@@ -233,6 +247,7 @@
 |Worksheet|[Get Worksheet Information](/excel-commands/get-worksheet-information-command.md)|This command allows you to get a sheet info.|
 |Worksheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
 |Worksheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
+|Worksheet|[Save Worksheet To New File](/excel-commands/save-worksheet-to-new-file-command.md)|This command allows you to Save Worksheet to New File|
 ### File Operation
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -248,6 +263,7 @@
 ||[Get Non Existent File Path](/file-operation-commands/get-non-existent-file-path-command.md)|This command allows you to get a File Path that do not Exist.|
 ||[Get Random File Path](/file-operation-commands/get-random-file-path-command.md)|This command allows you to get random file name path.|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
+||[Remove Invalid File Name Charactors](/file-operation-commands/remove-invalid-file-name-charactors-command.md)|This command removes Invalid File name charactors from specified text|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
 ### Folder Operation
@@ -264,6 +280,7 @@
 ||[Get Random Folder Path](/folder-operation-commands/get-random-folder-path-command.md)|This command allows you to get random folder name path.|
 ||[Get Special Folder Path](/folder-operation-commands/get-special-folder-path-command.md)|This command allows you to Get Special Folder Path, like Documents, etc.|
 ||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
+||[Remove Invalid Folder Name Charactors](/folder-operation-commands/remove-invalid-folder-name-charactors-command.md)|This command removes Invalid Folder name charactors from specified text|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
 ||[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
 ### IE Browser
@@ -671,4 +688,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 06/28/26 08:39 PM
+This page was generated on 08/02/26 06:44 PM
