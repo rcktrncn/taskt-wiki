@@ -192,6 +192,7 @@
 |Cell|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
 |Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
 |Chart|[Check Chart Exists By Name](/excel-commands/check-chart-exists-by-name-command.md)|This command allows you to Check Chart Exists by Name|
+|Chart|[Copy Chart By Name](/excel-commands/copy-chart-by-name-command.md)|This command allows you to copy Chart by Name|
 |Chart|[Get Chart Names As List](/excel-commands/get-chart-names-as-list-command.md)|This command allows you to Get Chart Names from Current Worksheet As List|
 |Chart|[Get Chart Position By Name](/excel-commands/get-chart-position-by-name-command.md)|This command allows you to get Chart position by Name|
 |Chart|[Get Chart Size By Name](/excel-commands/get-chart-size-by-name-command.md)|This command allows you to get Chart size by Name|
@@ -234,10 +235,15 @@
 |Row|[Set Row Values From Dictionary](/excel-commands/set-row-values-from-dictionary-command.md)|This command set Row values from Dictionary.|
 |Row|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
 |Shape|[Check Shape Exists By Name](/excel-commands/check-shape-exists-by-name-command.md)|This command allows you to Check Shape Exists by Name|
+|Shape|[Copy Shape By Name](/excel-commands/copy-shape-by-name-command.md)|This command allows you to copy Shape by Name|
 |Shape|[Get Shape Names As List](/excel-commands/get-shape-names-as-list-command.md)|This command allows you to Get Shape Names from Current Worksheet As List|
 |Shape|[Get Shape Position By Name](/excel-commands/get-shape-position-by-name-command.md)|This command allows you to get Shape position by Name|
 |Shape|[Get Shape Size By Name](/excel-commands/get-shape-size-by-name-command.md)|This command allows you to get Shape size by Name|
 |Shape|[Get Shapes Count](/excel-commands/get-shapes-count-command.md)|This command allows you to Get Shapes count from Current Worksheet.|
+|Shape|[Move Shape By Name](/excel-commands/move-shape-by-name-command.md)|This command allows you to move Shape by Name|
+|Shape|[Remove Shape By Name](/excel-commands/remove-shape-by-name-command.md)|This command allows you to remove Shape by Name|
+|Shape|[Rename Shape By Name](/excel-commands/rename-shape-by-name-command.md)|This command allows you to rename Shape by Name|
+|Shape|[Resize Shape By Name](/excel-commands/resize-shape-by-name-command.md)|This command allows you to resize Shape by Name|
 |Worksheet|[Activate Worksheet](/excel-commands/activate-worksheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
 |Worksheet|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Worksheet|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
@@ -245,7 +251,7 @@
 |Worksheet|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
 |Worksheet|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
 |Worksheet|[Get Worksheet Information](/excel-commands/get-worksheet-information-command.md)|This command allows you to get a sheet info.|
-|Worksheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
+|Worksheet|[Get Worksheet Names As List](/excel-commands/get-worksheet-names-as-list-command.md)|This command allows you to get a specific worksheet names as List|
 |Worksheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
 |Worksheet|[Save Worksheet To New File](/excel-commands/save-worksheet-to-new-file-command.md)|This command allows you to Save Worksheet to New File|
 ### File Operation
@@ -688,4 +694,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/02/26 06:44 PM
+This page was generated on 08/09/26 07:41 PM
