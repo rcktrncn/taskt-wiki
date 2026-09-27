@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetMultiJSONValueListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/09/26 07:41 PM
+This page was generated on 09/27/26 12:03 PM
 
 
 ## Help

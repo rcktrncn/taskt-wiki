@@ -129,8 +129,8 @@
 |Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
 |Convert|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
 |Convert|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
-|Convert|[Covnert Dictionary To Text](/dictionary-commands/covnert-dictionary-to-text-command.md)|This command allows you to Covnert Dictionary to Text.|
-|Convert|[Covnert Dictionary To Visualized Text](/dictionary-commands/covnert-dictionary-to-visualized-text-command.md)|This command allows you to Covnert Dictionary to Visualized Text.|
+|Convert|[Convert Dictionary To Text](/dictionary-commands/convert-dictionary-to-text-command.md)|This command allows you to Convert Dictionary to Text.|
+|Convert|[Convert Dictionary To Visualized Text](/dictionary-commands/convert-dictionary-to-visualized-text-command.md)|This command allows you to Convert Dictionary to Visualized Text.|
 |Dictionary Action|[Concatenate Dictionary](/dictionary-commands/concatenate-dictionary-command.md)|This command allows you to concatenate two Dictionaries.|
 |Dictionary Action|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
 |Dictionary Action|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
@@ -193,14 +193,15 @@
 |Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
 |Chart|[Check Chart Exists By Name](/excel-commands/check-chart-exists-by-name-command.md)|This command allows you to Check Chart Exists by Name|
 |Chart|[Copy Chart By Name](/excel-commands/copy-chart-by-name-command.md)|This command allows you to copy Chart by Name|
+|Chart|[Delete Chart By Name](/excel-commands/delete-chart-by-name-command.md)|This command allows you to delete Chart by Name|
 |Chart|[Get Chart Names As List](/excel-commands/get-chart-names-as-list-command.md)|This command allows you to Get Chart Names from Current Worksheet As List|
 |Chart|[Get Chart Position By Name](/excel-commands/get-chart-position-by-name-command.md)|This command allows you to get Chart position by Name|
 |Chart|[Get Chart Size By Name](/excel-commands/get-chart-size-by-name-command.md)|This command allows you to get Chart size by Name|
 |Chart|[Get Charts Count](/excel-commands/get-charts-count-command.md)|This command allows you to Get Charts count from Current Worksheet.|
 |Chart|[Move Chart By Name](/excel-commands/move-chart-by-name-command.md)|This command allows you to move Chart by Name|
-|Chart|[Remove Chart By Name](/excel-commands/remove-chart-by-name-command.md)|This command allows you to remove Chart by Name|
 |Chart|[Rename Chart By Name](/excel-commands/rename-chart-by-name-command.md)|This command allows you to rename Chart by Name|
 |Chart|[Resize Chart By Name](/excel-commands/resize-chart-by-name-command.md)|This command allows you to resize Chart by Name|
+|Chart|[Select Chart By Name](/excel-commands/select-chart-by-name-command.md)|This command allows you to select Chart by Name|
 |Column|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
 |Column|[Get Column Values As Dictionary](/excel-commands/get-column-values-as-dictionary-command.md)|This command get Column values as Dictionary.|
 |Column|[Get Column Values As List](/excel-commands/get-column-values-as-list-command.md)|This command get Column values as List.|
@@ -236,14 +237,15 @@
 |Row|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
 |Shape|[Check Shape Exists By Name](/excel-commands/check-shape-exists-by-name-command.md)|This command allows you to Check Shape Exists by Name|
 |Shape|[Copy Shape By Name](/excel-commands/copy-shape-by-name-command.md)|This command allows you to copy Shape by Name|
+|Shape|[Delete Shape By Name](/excel-commands/delete-shape-by-name-command.md)|This command allows you to delete Shape by Name|
 |Shape|[Get Shape Names As List](/excel-commands/get-shape-names-as-list-command.md)|This command allows you to Get Shape Names from Current Worksheet As List|
 |Shape|[Get Shape Position By Name](/excel-commands/get-shape-position-by-name-command.md)|This command allows you to get Shape position by Name|
 |Shape|[Get Shape Size By Name](/excel-commands/get-shape-size-by-name-command.md)|This command allows you to get Shape size by Name|
 |Shape|[Get Shapes Count](/excel-commands/get-shapes-count-command.md)|This command allows you to Get Shapes count from Current Worksheet.|
 |Shape|[Move Shape By Name](/excel-commands/move-shape-by-name-command.md)|This command allows you to move Shape by Name|
-|Shape|[Remove Shape By Name](/excel-commands/remove-shape-by-name-command.md)|This command allows you to remove Shape by Name|
 |Shape|[Rename Shape By Name](/excel-commands/rename-shape-by-name-command.md)|This command allows you to rename Shape by Name|
 |Shape|[Resize Shape By Name](/excel-commands/resize-shape-by-name-command.md)|This command allows you to resize Shape by Name|
+|Shape|[Select Shape By Name](/excel-commands/select-shape-by-name-command.md)|This command allows you to select Shape by Name|
 |Worksheet|[Activate Worksheet](/excel-commands/activate-worksheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
 |Worksheet|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Worksheet|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
@@ -694,4 +696,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/09/26 07:41 PM
+This page was generated on 09/27/26 12:03 PM
